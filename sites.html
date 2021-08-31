@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title> Javid Ismayil - Portfolio Website </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/font-awesome.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="img/home_logo.ico">
+  <link rel="stylesheet" href="https://rawcdn.githack.com/rafaelbotazini/floating-whatsapp/3d18b26d5c7d430a1ab0b664f8ca6b69014aed68/floating-wpp.min.css">
+  <link rel="stylesheet" href="css/project.css">
+</head>
+<body data-page="sites-section">
+
+<!--Page Loader Start-->
+<div class="page-loader">
+  <div></div>
+  <div></div>
+  <div></div>
+</div>
+<!--Page Loader End-->
+
+<!--Background Cricle Start-->
+<div id="bir" class="hidden"></div>
+<!--Background Cricle End-->
+
+<!--Overlay Start-->
+<div class="overlay">
+</div>
+<!--Overlay End-->
+
+<!--Main Start-->
+<div class="main hidden">
+  <div id="WAButton" class="hidden wpa"></div>
+<!--Header Start-->
+<header class="header">
+  <div class="container">
+    <div class="btns">
+      <a href="index" class="btnC link-item btnall">Home</a>
+      <a href="about" class="btnC link-item btnall">About me</a>
+      <a href="contact" class="btnC link-item btnall">Contact</a>
+  </div>
+    <div class="row flex-end">
+      <button type="button" class="nav-toggler">
+        <span></span>
+      </button>
+      <nav class="nav">
+        <div class="nav-inner">
+          <ul>
+            <li><a href="index" class="nav-item link-item">Home</a></li>
+            <li><a href="about" class="nav-item link-item">About Me</a></li>
+            <li><a href="project" class="nav-item link-item">Projects</a></li>
+            <li><a href="contact" class="nav-item link-item">Contact</a></li>
+            <li><a href="https://www.youtube.com/channel/UCOTV7-_mmIV-uuiSy4wJwAQ" target="_blank" class="nav-item link-item">Youtube</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<!--Header End-->
+<!--Portfilo Section Start-->
+<section class="sites-section sec-padding" id="portfilo" >
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2>SİTES</h2>
+          <input id="searchbar" onkeyup="search_project()" type="text"
+          name="search" placeholder="search project..">
+        </div>
+      </div>
+      <div class="row">
+        <div class="portfilo-filter rowB">
+          <a type="button" href="project" class="portfilo-filter-btn">Projects</a>
+          <button type="button" tabindex="front end" class="portfilo-filter-btn active" data-filter="site-aa">1-9</button>
+          <button type="button" tabindex="front end" class="portfilo-filter-btn " data-filter="site-ab">10-18</button>
+        </div>
+    </div>
+<div class="row rowA">
+<!--Siteler 12--><div class="portfilo-item center" data-category="site-aa" data-include="s12"></div>
+<!--Siteler 1--><div class="portfilo-item center" data-category="site-aa" data-include="s1"></div>
+<!--Siteler 2--><div class="portfilo-item center" data-category="site-aa" data-include="s2"></div>
+<!--Siteler 3--><div class="portfilo-item center" data-category="site-aa" data-include="s3"></div>
+<!--Siteler 4--><div class="portfilo-item center" data-category="site-aa" data-include="s4"></div>
+<!--Siteler 5--><div class="portfilo-item center" data-category="site-aa" data-include="s5"></div>
+<!--Siteler 6--><div class="portfilo-item center" data-category="site-aa" data-include="s6"></div>
+<!--Siteler 7--><div class="portfilo-item center" data-category="site-aa" data-include="s7"></div>
+<!--Siteler 8--><div class="portfilo-item center" data-category="site-aa" data-include="s8"></div>
+<!--Siteler 9--><div class="portfilo-item center" data-category="site-ab" data-include="s9"></div>
+<!--Siteler 10--><div class="portfilo-item center" data-category="site-ab" data-include="s10"></div>
+<!--Siteler 11--><div class="portfilo-item center" data-category="site-ab" data-include="s11"></div>
+</div>
+</div>
+</section>
+<!--Portfilo Section End-->
+
+</div>
+<!--Main end-->
+
+<!--Portfilo Item Detalis Popup Start-->
+<div class="portfilo-popup center">
+ <div class="pp-inner">
+   <div class="pp-content">
+     <div class="pp-header">
+       <button type="button" class="btn pp-close"><i class="fas fa-times"></i></button>
+       <div class="pp-thumbnail">
+         <img class="lozad" data-src="img/portfolio/photoA/site/site01.jpg" alt="project-1">
+       </div>
+       <h3></h3>
+     </div>
+     <div class="pp-body">
+     </div>
+   </div>
+ </div>
+</div>
+<!--Portfilo Item Detalis Popup End-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<!--Floating WhatsApp css-->
+<script src="scripts/js/lozad.js"></script>
+<script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.js"></script>
+<script type="text/javascript" src="https://rawcdn.githack.com/rafaelbotazini/floating-whatsapp/3d18b26d5c7d430a1ab0b664f8ca6b69014aed68/floating-wpp.min.js"></script>
+<script src="scripts/js/script.js"></script>
+</body>
+</html>
