@@ -775,6 +775,9 @@ input[type=text] {
         visibility: visible;
         transition: visibility .5s ease-in-out;
     }
+     .home-section .home-text h1 a span{
+        font-size: 2.5rem;
+    }
 }
 @media (max-width:767px){
     .contact-form,
@@ -803,6 +806,9 @@ input[type=text] {
     .header .nav-toggler{
         visibility: visible;
         transition: visibility .5s ease-in-out;
+    }
+    .home-section .home-text h1 a span{
+        font-size: 2rem;
     }
 }
 @media (max-width:575px){
@@ -839,5 +845,8 @@ input[type=text] {
     .toggle-theme{
         left: 10px;
         top: calc(12% - 20px);
+    }
+    .home-section .home-text h1 a span{
+        font-size: 1.5rem;
     }
 }
