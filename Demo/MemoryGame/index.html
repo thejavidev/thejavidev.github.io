@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+</head>
+<body>
+<div class="container">
+    <header class="header">
+        <h1>Hafiza oyunu</h1>
+        <h2>WebJavid Edition</h2>
+    </header>
+    <section class="score-panel">
+        <h3>Puan Tablosu</h3>
+        <ul id="star-rating" class="star-rating">
+            <li class="star"><i class="fa fa-star"></i></li>
+            <li class="star"><i class="fa fa-star"></i></li>
+            <li class="star"><i class="fa fa-star"></i></li>
+        </ul>
+        <span class="moves-counter">0</span>Eşleşme 
+        <div class="timer-container">
+            <span class="timer"><i class="fa fa-hourglass-start"></i>Zaman - 00:00 </span>
+        </div>
+        <div class="reset">
+            <button class="btn reset-btn">Yeniden Başla <i class="fa fa-repeat"></i></button>
+        </div>
+    </section>
+    <section class="win-game-modal">
+        <div id="modal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>Tebrikler!</h2>
+                <p>Siz oyunu kazandınız ve 8 karakteride doğru buldunuz</p>
+                <img class="modal-img" src="img/main.jpg" alt="nophoto">
+                <button class="btn play-again-btn">Tekrar Oyna?</button>
+            </div>
+        </div>
+    </section>
+    <ul class="deck"></ul>
+</div>
+<script src="script.js"></script>    
+</body>
+</html>
