@@ -162,6 +162,9 @@
     width: 100%;
     opacity: .8;
 }
+.home-section .home-text h1 a .typed-cursor{
+    opacity: .5;
+}
 .home-section{
     padding: 120px 0;
     position: relative;
