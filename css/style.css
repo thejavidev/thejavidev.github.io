@@ -146,8 +146,25 @@
     color: var(--red-color);
 }
 /* HOME SETTINGS*/
+.home-section::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+.home-section #particles-js{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: .8;
+}
 .home-section{
     padding: 120px 0;
+    position: relative;
 }
 .home-section.active{
     display: flex; 
