@@ -238,16 +238,19 @@
 }
 .home-img .img-box{
     max-width: 360px;
+    padding: .05rem;
     background-color: var(--white-alpha-25);
     border-radius: 50%;
     border: 8px solid var(--white-alpha-40);
     margin: auto;
     box-shadow: 2px 2px 2px 2px rgba(97, 94, 94, 0.25),
     -3px -3px 40px rgba(80, 79, 79,.40);
-    animation: bounceTop 7s ease infinite;
+      animation: morph 7s ease-in-out infinite;
+    -webkit-animation: morph 7s ease-in-out infinite;
 }
 .home-img .img-box img{
-  
+    animation: morph 7s ease-in-out infinite;
+    -webkit-animation: morph 7s ease-in-out infinite;
     width: 100%;
     border-radius: 50%;
 }
