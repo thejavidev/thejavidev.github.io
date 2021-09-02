@@ -446,16 +446,26 @@
     opacity: 1;
 }
 .portfilo-item-thumbnail{
+    position: relative;
+    overflow: hidden;
     padding: 10px;
     background-color: var(--white-alpha-25);
     border: 1px solid var(--white-alpha-40);
     border-radius: 10px;
 }
 .portfilo-item-thumbnail .box{
-    transition:.3s;
+    transition:.4s ease-in;
+    -webkit-transition:.4s ease-in;
+    -moz-transition:.4s ease-in;
+    -ms-transition:.4s ease-in;
+    -o-transition:.4s ease-in;
 }
 .portfilo-item-thumbnail .box:hover{
-   transform:scale(1.10);
+   transform:scale(1.20);
+   -webkit-transform:scale(1.20);
+   -moz-transform:scale(1.20);
+   -ms-transform:scale(1.20);
+   -o-transform:scale(1.20);
 }
 #text{
     font-size: 30px;
