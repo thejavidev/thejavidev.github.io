@@ -454,11 +454,11 @@
     border-radius: 10px;
 }
 .portfilo-item-thumbnail .box{
-    transition:.4s ease-in;
-    -webkit-transition:.4s ease-in;
-    -moz-transition:.4s ease-in;
-    -ms-transition:.4s ease-in;
-    -o-transition:.4s ease-in;
+    transition:.3s ease-in;
+    -webkit-transition:.3s ease-in;
+    -moz-transition:.3s ease-in;
+    -ms-transition:.3s ease-in;
+    -o-transition:.3s ease-in;
 }
 .portfilo-item-thumbnail .box:hover{
    transform:scale(1.20);
