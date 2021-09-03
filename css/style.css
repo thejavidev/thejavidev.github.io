@@ -180,6 +180,7 @@
 .home-section .home-text h1 a span{
     color: var(--orange);
     font-size: 3rem;
+    cursor:defaulf;
 }
 .home-section .home-img {
     position: relative;
