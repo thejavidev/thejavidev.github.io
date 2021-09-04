@@ -169,6 +169,12 @@
   width: 50%;
   padding: 10px;
 }
+.home-section .home-text h1{
+  cursor: defaulf;
+}
+.home-section .home-text h1 a{
+  cursor: defaulf;
+}
 .home-section .home-text h1 a span {
   color: var(--orange);
   font-size: 3rem;
