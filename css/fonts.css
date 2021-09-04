@@ -18,7 +18,7 @@
   --white: #ffffff;
   --white-alpha-40: rgba(255, 255, 255, 0.4);
   --white-alpha-25: rgba(255, 255, 255, 0.25);
-  --backdrop-filter-blur: blur(5px);
+  
 
   --bg-dark: #2b2c2f;
 }
@@ -105,9 +105,14 @@ section {
   background-color: var(--white-alpha-25);
   border: 1px solid var(--white-alpha-40);
   min-height: calc(100vh - 70px);
-  border-radius: 30px;
+  border-radius:1rem;
   backdrop-filter: var(--backdrop-filter-blur);
   display: none;
+  -webkit-border-radius:1rem;
+  -moz-border-radius:1rem;
+  -ms-border-radius:1rem;
+  -o-border-radius:1rem;
+  opacity:.7;
 }
 section.active {
   display: block;
@@ -260,27 +265,10 @@ button {
   letter-spacing: 0.2rem;
 }
 /*toggle theme*/
-.toggle-theme {
-  position: fixed;
-  right: 30px;
-  top: calc(14% - 20px);
-  height: 40px;
-  width: 40px;
-  background-color: var(--dark-to-main-color);
-  z-index: 1200;
-  color: var(--cyan-light);
-  cursor: pointer;
-  border-radius: 50%;
-  box-shadow: var(--orange-2);
-  font-size: 26px;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
+.toggle-theme{
+  cursor:pointer;
 }
-.toggle-theme i {
-  line-height: 40px;
-  transform: translate(-5%, -5%);
-}
+
 
 /*OVERLAY*/
 .overlay {
@@ -345,5 +333,6 @@ button {
   left: 0;
   height: 100%;
   width: 100%;
-  opacity: 0.8;
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
