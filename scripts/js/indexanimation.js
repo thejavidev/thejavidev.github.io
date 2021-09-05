@@ -23,7 +23,7 @@ function animation(){
 animation();
 
 var typed = new Typed('.typing-text',{
-    strings:['Javid Ismayil','A Front-End Developer','A Web Developer','A Web Designer','Creative Developer'],
+    strings:['Javid Ismayil','A Front-End Developer','A Web Developer','A Web Designer','A Creative Developer'],
     loop:true,
     typeSpeed:150
 });
