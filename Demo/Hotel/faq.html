@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+  <!-- bootstrap css -->
+  <link rel="stylesheet" href="css/plugins/bootstrap.min.css">
+  <!-- swiper css -->
+  <link rel="stylesheet" href="css/plugins/swiper.min.css">
+  <!-- fancybox css -->
+  <link rel="stylesheet" href="css/plugins/fancybox.min.css">
+  <!-- font awesome css -->
+  <link rel="stylesheet" href="css/plugins/font-awesome.min.css">
+  <!-- nice select css -->
+  <link rel="stylesheet" href="css/plugins/nice-select.css">
+  <!-- datepicker css -->
+  <link rel="stylesheet" href="css/plugins/datepicker.css">
+  <!-- mapbox css -->
+  <link rel="stylesheet" href="css/plugins/mapbox-style.css">
+  <!-- kinsley css -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- page title -->
+  <title>Kinsley</title>
+</head>
+
+<body>
+
+  <!-- page wrapper -->
+  <div class="knsl-app">
+
+    <!-- preloader -->
+    <div class="knsl-preloader-frame">
+      <div class="knsl-preloader">
+        <img src="img/logo.svg" alt="Kinsley">
+        <div class="knsl-preloader-progress">
+          <div class="knsl-preloader-bar"></div>
+        </div>
+        <div><span class="knsl-preloader-number" data-count="101">0</span>%</div>
+      </div>
+    </div>
+    <!-- preloader end -->
+
+    <!-- datepicker frame -->
+    <div class="knsl-datepicker-place"></div>
+
+    <!-- top bar -->
+    <div class="knsl-top-bar">
+      <div class="container">
+        <div class="knsl-left-side">
+          <!-- logo -->
+          <a href="home-1.html" class="knsl-logo-frame">
+            <img src="img/logo.svg" alt="Kinsley">
+          </a>
+          <!-- logo end -->
+        </div>
+        <div class="knsl-right-side">
+          <!-- menu -->
+          <div class="knsl-menu">
+            <nav>
+              <ul>
+                <li class="menu-item-has-children">
+                  <a href="home-1.html">Home</a>
+                  <ul>
+                    <li><a href="home-1.html">Home type 1</a></li>
+                    <li><a href="home-2.html">Home type 2</a></li>
+                    <li><a href="home-3.html">Home type 3</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="about.html">About</a>
+                </li>
+                <li class="menu-item-has-children">
+                  <a href="rooms-1.html">Rooms</a>
+                  <ul>
+                    <li><a href="rooms-1.html">Rooms list 1</a></li>
+                    <li><a href="rooms-2.html">Rooms list 2</a></li>
+                    <li><a href="room.html">Room details</a></li>
+                  </ul>
+                </li>
+                <li class="menu-item-has-children">
+                  <a href="restaurant.html">Restaurant</a>
+                  <ul>
+                    <li><a href="restaurant.html">Restaurant page</a></li>
+                    <li><a href="menu-1.html">Menu type 1</a></li>
+                    <li><a href="menu-2.html">Menu type 2</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="contact.html">Contact</a>
+                </li>
+                <li class="menu-item-has-children current-item">
+                  <a href="blog.html">Pages</a>
+                  <ul>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="publication.html">Publication type 1</a></li>
+                    <li><a href="publication-2.html">Publication type 2</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="404.html">404</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <!-- menu end -->
+          <!-- action button -->
+          <a id="book-popup" class="knsl-btn"><img src="img/icons/bookmark.svg" alt="icon">Book now</a>
+          <!-- action button end -->
+        </div>
+        <!-- menu button -->
+        <div class="knsl-menu-btn"><span></span></div>
+        <!-- menu button end -->
+      </div>
+    </div>
+    <!-- top bar end -->
+
+    <!-- banner -->
+    <section class="knsl-banner-simple knsl-transition-bottom">
+      <img src="img/palm.svg" class="knsl-deco-left" alt="palm">
+      <img src="img/palm.svg" class="knsl-deco-right" alt="palm">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+
+            <div class="knsl-center knsl-title-frame">
+              <h1 class="knsl-mb-20 knsl-h1-inner">Frequently Asked Questions</h1>
+              <p class="knsl-mb-30">Consectetur adipisicing elit. Doloremque fuga tempora at esse sit sapiente adipisci, repellat ad numquam quam eaque soluta velit repellendus, impedit ullam inventore. Dicta, ad, veniam.</p>
+              <ul class="knsl-breadcrumbs">
+                <li><a href="home-1.html">Home</a></li>
+                <li><span>FAQ</span></li>
+              </ul>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- banner end -->
+
+    <!-- faq -->
+    <div class="container knsl-p-100-100">
+      <div class="row" data-sticky-container>
+
+        <div class="col-lg-3">
+
+          <!-- side form -->
+          <div class="knsl-sticky knsl-stycky-left" data-margin-top="110">
+
+            <h3 class="knsl-mb-30">Menu</h3>
+
+            <ul class="knsl-side-menu">
+              <li><a href="#faq-1" class="knsl-sm-link">About hotel</a></li>
+              <li><a href="#faq-2" class="knsl-sm-link knsl-active">About beach</a></li>
+              <li><a href="#faq-3" class="knsl-sm-link">Services</a></li>
+              <li><a href="#." class="knsl-sm-link">Payment</a></li>
+              <li><a href="#." class="knsl-sm-link">Terms and conditions</a></li>
+            </ul>
+
+          </div>
+          <!-- side form end -->
+
+        </div>
+        <div class="col-lg-9">
+          <section>
+
+            <div id="accordion">
+
+              <h3 class="knsl-mb-30">Hotel</h3>
+
+              <div class="knsl-faq knsl-mb-60" id="faq-1">
+
+                <div class="card">
+                  <div class="card-header" id="knsl-faqHeading-1">
+                    <div class="mb-0">
+                      <div class="knsl-faq-title" data-toggle="collapse" data-target="#knsl-faqCollapse-1" data-aria-expanded="true" data-aria-controls="knsl-faqCollapse-1">
+                        <span class="badge">1</span>What is Lorem Ipsum?
+                      </div>
+                    </div>
+                  </div>
+                  <div id="knsl-faqCollapse-1" class="collapse" aria-labelledby="knsl-faqHeading-1" data-parent="#accordion">
+                    <div class="knsl-card-body">
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
+                        make a
+                        type specimen book. </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card">
+                  <div class="card-header" id="knsl-faqHeading-2">
+                    <div class="mb-0">
+                      <div class="knsl-faq-title" data-toggle="collapse" data-target="#knsl-faqCollapse-2" data-aria-expanded="false" data-aria-controls="knsl-faqCollapse-2">
+                        <span class="badge">2</span> Where does it come from?
+                      </div>
+                    </div>
+                  </div>
+                  <div id="knsl-faqCollapse-2" class="collapse" aria-labelledby="knsl-faqHeading-2" data-parent="#accordion">
+                    <div class="knsl-card-body">
+                      <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card">
+                  <div class="card-header" id="knsl-faqHeading-3">
+                    <div class="mb-0">
+                      <div class="knsl-faq-title" data-toggle="collapse" data-target="#knsl-faqCollapse-3" data-aria-expanded="false" data-aria-controls="knsl-faqCollapse-3">
+                        <span class="badge">3</span>Why do we use it?
+                      </div>
+                    </div>
+                  </div>
+                  <div id="knsl-faqCollapse-3" class="collapse" aria-labelledby="knsl-faqHeading-3" data-parent="#accordion">
+                    <div class="knsl-card-body">
+                      <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as
+                        opposed to using 'Content here, content here.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card">
+                  <div class="card-header" id="knsl-faqHeading-4">
+                    <div class="mb-0">
+                      <div class="knsl-faq-title" data-toggle="collapse" data-target="#knsl-faqCollapse-4" data-aria-expanded="false" data-aria-controls="knsl-faqCollapse-4">
+                        <span class="badge">4</span> Where can I get some?
+                      </div>
+                    </div>
+                  </div>
+                  <div id="knsl-faqCollapse-4" class="collapse" aria-labelledby="knsl-faqHeading-4" data-parent="#accordion">
+                    <div class="knsl-card-body">
+                      <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+              <h3 class="knsl-mb-30">Beach</h3>
+
+              <div class="knsl-faq knsl-mb-60" id="faq-2">
+
+                <div class="card">
+                  <div class="card-header" id="knsl-faqHeading-5">
+                    <div class="mb-0">
+                      <div class="knsl-faq-title" data-toggle="collapse" data-target="#knsl-faqCollapse-5" data-aria-expanded="false" data-aria-controls="knsl-faqCollapse-5">
+                        <span class="badge">5</span> What is Lorem Ipsum?
+                      </div>
+                    </div>
+                  </div>
+                  <div id="knsl-faqCollapse-5" class="collapse" aria-labelledby="knsl-faqHeading-5" data-parent="#accordion">
+                    <div class="knsl-card-body">
+                      <p> It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card">
+                  <div class="card-header" id="knsl-faqHeading-6">
+                    <div class="mb-0">
+                      <div class="knsl-faq-title" data-toggle="collapse" data-target="#knsl-faqCollapse-6" data-aria-expanded="false" data-aria-controls="knsl-faqCollapse-6">
+                        <span class="badge">6</span> Where does it come from?
+                      </div>
+                    </div>
+                  </div>
+                  <div id="knsl-faqCollapse-6" class="collapse" aria-labelledby="knsl-faqHeading-6" data-parent="#accordion">
+                    <div class="knsl-card-body">
+                      <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original
+                        form,
+                        accompanied by English versions from the 1914 translation by H. Rackham.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card">
+                  <div class="card-header" id="knsl-faqHeading-7">
+                    <div class="mb-0">
+                      <div class="knsl-faq-title" data-toggle="collapse" data-target="#knsl-faqCollapse-7" data-aria-expanded="false" data-aria-controls="knsl-faqCollapse-7">
+                        <span class="badge">7</span> Why do we use it?
+                      </div>
+                    </div>
+                  </div>
+                  <div id="knsl-faqCollapse-7" class="collapse" aria-labelledby="knsl-faqHeading-7" data-parent="#accordion">
+                    <div class="knsl-card-body">
+                      <p>Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over
+                        the
+                        years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card">
+                  <div class="card-header" id="knsl-faqHeading-8">
+                    <div class="mb-0">
+                      <div class="knsl-faq-title" data-toggle="collapse" data-target="#knsl-faqCollapse-8" data-aria-expanded="false" data-aria-controls="knsl-faqCollapse-8">
+                        <span class="badge">8</span>Lorem ipsum dolor sit amet?
+                      </div>
+                    </div>
+                  </div>
+                  <div id="knsl-faqCollapse-8" class="collapse" aria-labelledby="knsl-faqHeading-8" data-parent="#accordion">
+                    <div class="knsl-card-body">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero hic pariatur temporibus doloribus a dicta cumque rerum sint quo officia.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card">
+                  <div class="card-header" id="knsl-faqHeading-9">
+                    <div class="mb-0">
+                      <div class="knsl-faq-title" data-toggle="collapse" data-target="#knsl-faqCollapse-9" data-aria-expanded="false" data-aria-controls="knsl-faqCollapse-9">
+                        <span class="badge">9</span> Where does it come from?
+                      </div>
+                    </div>
+                  </div>
+                  <div id="knsl-faqCollapse-9" class="collapse" aria-labelledby="knsl-faqHeading-9" data-parent="#accordion">
+                    <div class="knsl-card-body">
+                      <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original
+                        form,
+                        accompanied by English versions from the 1914 translation by H. Rackham.</p>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+              <h3 class="knsl-mb-30">Services</h3>
+
+              <div class="knsl-faq knsl-mb-60" id="faq-3">
+
+                <div class="card">
+                  <div class="card-header" id="knsl-faqHeading-10">
+                    <div class="mb-0">
+                      <div class="knsl-faq-title" data-toggle="collapse" data-target="#knsl-faqCollapse-10" data-aria-expanded="false" data-aria-controls="knsl-faqCollapse-10">
+                        <span class="badge">10</span> What is Lorem Ipsum?
+                      </div>
+                    </div>
+                  </div>
+                  <div id="knsl-faqCollapse-10" class="collapse" aria-labelledby="knsl-faqHeading-10" data-parent="#accordion">
+                    <div class="knsl-card-body">
+                      <p> It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card">
+                  <div class="card-header" id="knsl-faqHeading-11">
+                    <div class="mb-0">
+                      <div class="knsl-faq-title" data-toggle="collapse" data-target="#knsl-faqCollapse-11" data-aria-expanded="false" data-aria-controls="knsl-faqCollapse-11">
+                        <span class="badge">11</span> Where does it come from?
+                      </div>
+                    </div>
+                  </div>
+                  <div id="knsl-faqCollapse-11" class="collapse" aria-labelledby="knsl-faqHeading-11" data-parent="#accordion">
+                    <div class="knsl-card-body">
+                      <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original
+                        form,
+                        accompanied by English versions from the 1914 translation by H. Rackham.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card">
+                  <div class="card-header" id="knsl-faqHeading-12">
+                    <div class="mb-0">
+                      <div class="knsl-faq-title" data-toggle="collapse" data-target="#knsl-faqCollapse-12" data-aria-expanded="false" data-aria-controls="knsl-faqCollapse-12">
+                        <span class="badge">12</span> Why do we use it?
+                      </div>
+                    </div>
+                  </div>
+                  <div id="knsl-faqCollapse-12" class="collapse" aria-labelledby="knsl-faqHeading-12" data-parent="#accordion">
+                    <div class="knsl-card-body">
+                      <p>Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over
+                        the
+                        years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card">
+                  <div class="card-header" id="knsl-faqHeading-13">
+                    <div class="mb-0">
+                      <div class="knsl-faq-title" data-toggle="collapse" data-target="#knsl-faqCollapse-13" data-aria-expanded="false" data-aria-controls="knsl-faqCollapse-13">
+                        <span class="badge">13</span>Lorem ipsum dolor sit amet?
+                      </div>
+                    </div>
+                  </div>
+                  <div id="knsl-faqCollapse-13" class="collapse" aria-labelledby="knsl-faqHeading-13" data-parent="#accordion">
+                    <div class="knsl-card-body">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero hic pariatur temporibus doloribus a dicta cumque rerum sint quo officia.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card">
+                  <div class="card-header" id="knsl-faqHeading-14">
+                    <div class="mb-0">
+                      <div class="knsl-faq-title" data-toggle="collapse" data-target="#knsl-faqCollapse-14" data-aria-expanded="false" data-aria-controls="knsl-faqCollapse-14">
+                        <span class="badge">14</span> Where does it come from?
+                      </div>
+                    </div>
+                  </div>
+                  <div id="knsl-faqCollapse-14" class="collapse" aria-labelledby="knsl-faqHeading-14" data-parent="#accordion">
+                    <div class="knsl-card-body">
+                      <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original
+                        form,
+                        accompanied by English versions from the 1914 translation by H. Rackham.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card">
+                  <div class="card-header" id="knsl-faqHeading-15">
+                    <div class="mb-0">
+                      <div class="knsl-faq-title" data-toggle="collapse" data-target="#knsl-faqCollapse-15" data-aria-expanded="false" data-aria-controls="knsl-faqCollapse-15">
+                        <span class="badge">15</span> Why do we use it?
+                      </div>
+                    </div>
+                  </div>
+                  <div id="knsl-faqCollapse-15" class="collapse" aria-labelledby="knsl-faqHeading-15" data-parent="#accordion">
+                    <div class="knsl-card-body">
+                      <p>Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over
+                        the
+                        years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+
+            </div>
+          </section>
+
+          <section>
+            <div class="row">
+              <div class="col-lg-12">
+                <h3 class="knsl-mb-40 knsl-scroll-animation">Didn't find the answer?</h3>
+              </div>
+              <div class="col-lg-12">
+                <form class="knsl-scroll-animation">
+                  <div class="row">
+                    <div class="col-lg-6">
+                      <input type="text" placeholder="Name">
+                    </div>
+                    <div class="col-lg-6">
+                      <input type="email" placeholder="Email">
+                    </div>
+                    <div class="col-lg-12">
+                      <textarea name="name" rows="8" placeholder="Question"></textarea>
+                    </div>
+                    <div class="col-lg-12">
+                      <div class="knsl-form-submit-frame">
+                        <button class="knsl-btn">Send</button>
+                        <div class="knsl-text-sm">*We promise not to disclose your personal information to third parties.</div>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </section>
+
+        </div>
+      </div>
+    </div>
+    <!-- faq end -->
+
+    <!-- blog -->
+    <section class="knsl-transition-top knsl-p-0-80" style="background-color: #ECFAFB">
+      <img src="img/palm.svg" class="knsl-deco-right" alt="palm">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+
+            <div class="knsl-center knsl-title-frame knsl-scroll-animation knsl-mb-100">
+              <h2 class="knsl-mb-20">Our Newsletter</h2>
+              <p class="knsl-mb-30">Consectetur adipisicing elit. Nihil, illum voluptate eveniet ex fugit ea delectus, sed voluptatem. Laborum accusantium libero commodi id officiis itaque esse adipisci, necessitatibus asperiores, illo odio.</p>
+              <a href="blog.html" class="knsl-btn knsl-btn-md">All Publications</a>
+            </div>
+
+          </div>
+          <div class="col-lg-4">
+
+            <!-- blog card -->
+            <div class="knsl-blog-card knsl-scroll-animation">
+              <div class="knsl-cover-frame">
+                <a href="publication.html"><img src="img/blog/1.jpg" alt="cover"></a>
+              </div>
+              <div class="knsl-description-frame">
+                <div class="knsl-room-features">
+                  <div class="knsl-feature">
+                    <div class="knsl-icon-frame knsl-icon-author"><img src="img/faces/1.jpg" alt="icon"></div>
+                    <span>Paul Trueman</span>
+                  </div>
+                  <div class="knsl-feature">
+                    <div class="knsl-icon-frame"><img src="img/icons/time.svg" alt="icon"></div>
+                    <span>12.08.21 23:13</span>
+                  </div>
+                </div>
+                <a href="publication.html">
+                  <h4 class="knsl-mb-20">18 Easy Steps for Planning Your Next Trip</h4>
+                </a>
+                <div class="knsl-text-light knsl-text-sm">Libero non aut dignissimos optio hic laudantium.</div>
+              </div>
+            </div>
+            <!-- blog card end -->
+
+          </div>
+          <div class="col-lg-4">
+
+            <!-- blog card -->
+            <div class="knsl-blog-card knsl-scroll-animation">
+              <div class="knsl-cover-frame">
+                <a href="publication.html"><img src="img/blog/2.jpg" alt="cover"></a>
+              </div>
+              <div class="knsl-description-frame">
+                <div class="knsl-room-features">
+                  <div class="knsl-feature">
+                    <div class="knsl-icon-frame knsl-icon-author"><img src="img/faces/2.jpg" alt="icon"></div>
+                    <span>Paul Trueman</span>
+                  </div>
+                  <div class="knsl-feature">
+                    <div class="knsl-icon-frame"><img src="img/icons/time.svg" alt="icon"></div>
+                    <span>12.08.21 23:13</span>
+                  </div>
+                </div>
+                <a href="publication.html">
+                  <h4 class="knsl-mb-20">The Ultimate Guide to Traveling When You Have No Money</h4>
+                </a>
+                <div class="knsl-text-light knsl-text-sm">Libero non aut dignissimos optio hic laudantium.</div>
+              </div>
+            </div>
+            <!-- blog card end -->
+
+          </div>
+          <div class="col-lg-4">
+
+            <!-- blog card -->
+            <div class="knsl-blog-card knsl-scroll-animation">
+              <div class="knsl-cover-frame">
+                <a href="publication.html"><img src="img/blog/3.jpg" alt="cover"></a>
+              </div>
+              <div class="knsl-description-frame">
+                <div class="knsl-room-features">
+                  <div class="knsl-feature">
+                    <div class="knsl-icon-frame knsl-icon-author"><img src="img/faces/3.jpg" alt="icon"></div>
+                    <span>Paul Trueman</span>
+                  </div>
+                  <div class="knsl-feature">
+                    <div class="knsl-icon-frame"><img src="img/icons/time.svg" alt="icon"></div>
+                    <span>12.08.21 23:13</span>
+                  </div>
+                </div>
+                <a href="publication.html">
+                  <h4 class="knsl-mb-20">The Best Travel Insurance Companies for Seniors</h4>
+                </a>
+                <div class="knsl-text-light knsl-text-sm">Libero non aut dignissimos optio hic laudantium.</div>
+              </div>
+            </div>
+            <!-- blog card end -->
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- blog end -->
+
+    <!-- footer -->
+    <footer>
+      <div class="knsl-footer">
+        <div class="container knsl-p-100-100">
+          <div class="row">
+            <div class="col-md-6 col-lg-4">
+              <img class="knsl-footer-logo" src="img/logo-w.svg" alt="Kinsley">
+              <div class="knsl-footer-about">Sequi dolores ratione eos eveniet provident soluta. Omnis nesciunt sit eos at, eius voluptatum rem corporis. Doloremque labore assumenda
+                explicabo velit illo, soluta rem, inventore hic.</div>
+              <div class="knsl-footer-social">
+                <a href=""><i class="fas fa-circle"></i></a>
+                <a href=""><i class="fas fa-circle"></i></a>
+                <a href=""><i class="fas fa-circle"></i></a>
+                <a href=""><i class="fas fa-circle"></i></a>
+                <a href=""><i class="fas fa-circle"></i></a>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-2">
+              <h4>Menu</h4>
+              <ul class="knsl-footer-menu">
+                <li><a href="#.">Home</a></li>
+                <li><a href="#.">About us</a></li>
+                <li><a href="#.">Rooms</a></li>
+                <li><a href="#.">Our services</a></li>
+                <li><a href="#.">Contact info</a></li>
+              </ul>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <h4>Meet Kinsley</h4>
+              <ul class="knsl-footer-menu">
+                <li><a href="#.">Terms and conditions</a></li>
+                <li><a href="#.">Privacy policy</a></li>
+                <li><a href="#.">Help center</a></li>
+                <li><a href="#.">Work with us</a></li>
+                <li><a href="#.">Sitemap</a></li>
+              </ul>
+            </div>
+
+
+            <div class="col-md-6 col-lg-3">
+              <h4>Instagram</h4>
+              <div class="footer-insta">
+
+                <a href=""><img src="img/about/1.jpg" alt="Image"></a>
+                <a href=""><img src="img/about/2.jpg" alt="Image"></a>
+                <a href=""><img src="img/about/3.jpg" alt="Image"></a>
+                <a href=""><img src="img/about/4.jpg" alt="Image"></a>
+                <a href=""><img src="img/about/5.jpg" alt="Image"></a>
+                <a href=""><img src="img/about/6.jpg" alt="Image"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="knsl-copyright">
+          <div class="container">
+            <div class="copy-text">
+              <div>&copy; mid 2021 Kinsley. All Rights Reserved.</div>
+            </div>
+            <div class="copy-menu">
+              <div>Design by: <a href="https://themeforest.net/user/millerdigitaldesign/portfolio">Nazar Miller</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer end -->
+
+    <!-- popup -->
+    <div id="knsl-success" class="knsl-popup">
+      <img src="img/features/12.svg" alt="success" class="knsl-succes-icon">
+      <h2 class="knsl-mb-20">Success</h2>
+      <p>However, message not sent. <br>This pop-up exists for demonstration.</p>
+    </div>
+    <!-- popup end -->
+
+    <!-- popup -->
+    <div class="knsl-popup-frame">
+      <div class="knsl-book-form knsl-book-popup">
+        <span class="knsl-close-popup">+</span>
+        <h2 class="knsl-mb-40">Search your Room</h2>
+        <form>
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="knsl-input-frame">
+                <label>Check in</label>
+                <input type="text" class="datepicker-here" data-position="bottom left" placeholder="Select date" autocomplete="off" readonly="readonly">
+              </div>
+            </div>
+            <div class="col-lg-12">
+              <div class="knsl-input-frame">
+                <label class="knsl-add-icon">Check out</label>
+                <input type="text" class="datepicker-here" data-position="bottom left" placeholder="Select date" autocomplete="off" readonly="readonly">
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="knsl-select-frame">
+                <label>Person</label>
+                <select>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4" disabled>4</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="knsl-select-frame">
+                <label>Childrens</label>
+                <select>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4" disabled>4</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-lg-12 knsl-center">
+              <button type="submit" class="knsl-btn"><img src="img/icons/search.svg" class="knsl-zoom" alt="icon">Serch room</button>
+            </div>
+          </div>
+        </form>
+
+      </div>
+    </div>
+    <!-- popup end -->
+
+  </div>
+  <!-- page wrapper end -->
+
+  <!-- jquery js -->
+  <script src="js/plugins/jquery.min.js"></script>
+  <!-- bootstrap js -->
+  <script src="js/plugins/bootstrap.min.js"></script>
+  <!-- nice select js -->
+  <script src="js/plugins/jquery.nice-select.min.js"></script>
+  <!-- datepicker js -->
+  <script src="js/plugins/datepicker.js"></script>
+  <!-- smooth scroll js -->
+  <script src="js/plugins/smooth-scroll.js"></script>
+  <!-- isotope js -->
+  <script src="js/plugins/isotope.min.js"></script>
+  <!-- mapbox js -->
+  <script src="js/plugins/mapbox.min.js"></script>
+  <!-- fancybox js -->
+  <script src="js/plugins/fancybox.min.js"></script>
+  <!-- swiper js -->
+  <script src="js/plugins/swiper.min.js"></script>
+  <!-- sticky js -->
+  <script src="js/plugins/sticky.js"></script>
+  <!-- kinsley js -->
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>

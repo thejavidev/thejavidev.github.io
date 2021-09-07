@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+  <!-- bootstrap css -->
+  <link rel="stylesheet" href="css/plugins/bootstrap.min.css">
+  <!-- swiper css -->
+  <link rel="stylesheet" href="css/plugins/swiper.min.css">
+  <!-- fancybox css -->
+  <link rel="stylesheet" href="css/plugins/fancybox.min.css">
+  <!-- font awesome css -->
+  <link rel="stylesheet" href="css/plugins/font-awesome.min.css">
+  <!-- nice select css -->
+  <link rel="stylesheet" href="css/plugins/nice-select.css">
+  <!-- datepicker css -->
+  <link rel="stylesheet" href="css/plugins/datepicker.css">
+  <!-- mapbox css -->
+  <link rel="stylesheet" href="css/plugins/mapbox-style.css">
+  <!-- kinsley css -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- page title -->
+  <title>Kinsley</title>
+</head>
+
+<body>
+
+  <!-- page wrapper -->
+  <div class="knsl-app">
+
+    <!-- preloader -->
+    <div class="knsl-preloader-frame">
+      <div class="knsl-preloader">
+        <img src="img/hotellogo.png" alt="Kinsley">
+        <div class="knsl-preloader-progress">
+          <div class="knsl-preloader-bar"></div>
+        </div>
+        <div><span class="knsl-preloader-number" data-count="101">0</span>%</div>
+      </div>
+    </div>
+    <!-- preloader end -->
+
+    <!-- datepicker frame -->
+    <div class="knsl-datepicker-place"></div>
+
+    <!-- top bar -->
+    <div class="knsl-top-bar">
+      <div class="container">
+        <div class="knsl-left-side">
+          <!-- logo -->
+          <a href="index.html" class="knsl-logo-frame" style="width: 50px;">
+            <img src="img/hotellogo.png" alt="logo">
+          </a>
+          <!-- logo end -->
+        </div>
+        <div class="knsl-right-side">
+          <!-- menu -->
+          <div class="knsl-menu">
+            <nav>
+              <ul>
+                <li class="menu-item-has-children">
+                  <a href="index.html">Ana Səhifə</a>
+                </li>
+                <li>
+                  <a href="about.html">Haqqımızda</a>
+                </li>
+                <li class="menu-item-has-children  current-item">
+                  <a href="rooms.html">Otaqlar</a>
+                </li>
+                <li class="menu-item-has-children">
+                  <a href="menu.html">Restorant</a>
+                </li>
+                <li class="menu-item-has-children">
+                  <a href="service.html">Xidmətlərimiz</a>
+                </li>
+                <li>
+                  <a href="contact.html">Əlaqə</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <!-- menu end -->
+          <!-- action button -->
+          <a id="book-popup" class="knsl-btn"><img src="img/icons/bookmark.svg" alt="icon">Rezervasiya et</a>
+          <!-- action button end -->
+        </div>
+        <!-- menu button -->
+        <div class="knsl-menu-btn"><span></span></div>
+        <!-- menu button end -->
+      </div>
+    </div>
+    <!-- top bar end -->
+
+    <!-- banner -->
+    <section class="knsl-banner-simple knsl-transition-bottom">
+     
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+
+            <div class="knsl-center knsl-title-frame">
+              <h1 class="knsl-mb-20 knsl-h1-inner">Suite Otaq</h1>
+              <ul class="knsl-breadcrumbs">
+                <li><a href="index.html">Ana Səhifə</a></li>
+                <li><a href="rooms.html">Otaqlar</a></li>
+                <li><span>Suite Otaq</span></li>
+              </ul>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- banner end -->
+
+    <!-- room -->
+    <div class="knsl-p-100-100">
+      <div class="container">
+        <div class="row" data-sticky-container>
+          <div class="col-lg-8">
+
+            <div class="knsl-room-detail-slider-frame knsl-mb-60">
+              <div class="swiper-container knsl-rd-slider-2 knsl-mb-10">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <a data-fancybox="gallery" href="img/rooms/2.jpg" class="knsl-room-detail-photo-lg" data-swiper-parallax="-80" data-swiper-parallax-scale="1.2" data-swiper-parallax-duration="400">
+                      <img src="img/rooms/2.jpg" alt="room">
+                      <span class="knsl-zoom"><i class="fas fa-search-plus"></i></span>
+                    </a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a data-fancybox="gallery" href="img/rooms/3.jpg" class="knsl-room-detail-photo-lg" data-swiper-parallax="-80" data-swiper-parallax-scale="1.2" data-swiper-parallax-duration="400">
+                      <img src="img/rooms/3.jpg" alt="room">
+                      <span class="knsl-zoom"><i class="fas fa-search-plus"></i></span>
+                    </a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a data-fancybox="gallery" href="img/rooms/4.jpg" class="knsl-room-detail-photo-lg" data-swiper-parallax="-80" data-swiper-parallax-scale="1.2" data-swiper-parallax-duration="400">
+                      <img src="img/rooms/4.jpg" alt="room">
+                      <span class="knsl-zoom"><i class="fas fa-search-plus"></i></span>
+                    </a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a data-fancybox="gallery" href="img/rooms/5.jpg" class="knsl-room-detail-photo-lg" data-swiper-parallax="-80" data-swiper-parallax-scale="1.2" data-swiper-parallax-duration="400">
+                      <img src="img/rooms/5.jpg" alt="room">
+                      <span class="knsl-zoom"><i class="fas fa-search-plus"></i></span>
+                    </a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a data-fancybox="gallery" href="img/rooms/6.jpg" class="knsl-room-detail-photo-lg" data-swiper-parallax="-80" data-swiper-parallax-scale="1.2" data-swiper-parallax-duration="400">
+                      <img src="img/rooms/6.jpg" alt="room">
+                      <span class="knsl-zoom"><i class="fas fa-search-plus"></i></span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-container knsl-rd-slider-1">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="knsl-room-detail-photo-sm">
+                      <img src="img/rooms/2.jpg" alt="room">
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="knsl-room-detail-photo-sm">
+                      <img src="img/rooms/3.jpg" alt="room">
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="knsl-room-detail-photo-sm">
+                      <img src="img/rooms/4.jpg" alt="room">
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="knsl-room-detail-photo-sm">
+                      <img src="img/rooms/5.jpg" alt="room">
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="knsl-room-detail-photo-sm">
+                      <img src="img/rooms/6.jpg" alt="room">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- description -->
+            <section class="knsl-mb-60 knsl-scroll-animation">
+              <h3 class="knsl-mb-40">Lorem ipsum dolor sit amet consectetur.</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio veniam quibusdam fugit aspernatur ratione rerum necessitatibus ipsa eligendi? Laudantium beatae aut earum ab doloribus tempore veritatis repellat natus illo, veniam
+                quibusdam fugit aspernatur cumque harum quos esse libero nesciunt, molestiae saepe, possimus a suscipit! Minima aspernatur quod maxime quis facere facilis magnam, animi, quia id nihil reiciendis laboriosam, suscipit explicabo amet
+                quasi recusandae at</p>
+            </section>
+            <!-- description end -->
+
+         
+
+
+            <!-- features -->
+            <section class="knsl-mb-60">
+              <div class="row">
+                <div class="col-lg-12">
+                  <h3 class="knsl-mb-40 knsl-scroll-animation">Otağa daxildir</h3>
+                </div>
+                <div class="col-6 col-md-3">
+
+                  <!-- icon box -->
+                  <div class="knsl-icon-box knsl-icon-box-sm knsl-scroll-animation">
+                    <img src="img/features/1.svg" alt="icon" class="knsl-mb-10">
+                    <h5>Havalimanı tarnsferi</h5>
+                  </div>
+                  <!-- icon box end -->
+
+                </div>
+                <div class="col-6 col-md-3">
+
+                  <!-- icon box -->
+                  <div class="knsl-icon-box knsl-icon-box-sm knsl-scroll-animation">
+                    <img src="img/features/2.svg" alt="icon" class="knsl-mb-10">
+                    <h5>Hər şey daxildir</h5>
+                  </div>
+                  <!-- icon box end -->
+
+                </div>
+                <div class="col-6 col-md-3">
+
+                  <!-- icon box -->
+                  <div class="knsl-icon-box knsl-icon-box-sm knsl-scroll-animation">
+                    <img src="img/features/3.svg" alt="icon" class="knsl-mb-10">
+                    <h5>Kondisioner</h5>
+                  </div>
+                  <!-- icon box end -->
+
+                </div>
+                <div class="col-6 col-md-3">
+
+                  <!-- icon box -->
+                  <div class="knsl-icon-box knsl-icon-box-sm knsl-scroll-animation">
+                    <img src="img/features/4.svg" alt="icon" class="knsl-mb-10">
+                    <h5>Təhlükəsizlik</h5>
+                  </div>
+                  <!-- icon box end -->
+
+                </div>
+                <div class="col-6 col-md-3">
+
+                  <!-- icon box -->
+                  <div class="knsl-icon-box knsl-icon-box-sm knsl-scroll-animation">
+                    <img src="img/features/5.svg" alt="icon" class="knsl-mb-10">
+                    <h5>Qapalı Hovuz</h5>
+                  </div>
+                  <!-- icon box end -->
+
+                </div>
+                <div class="col-6 col-md-3">
+
+                  <!-- icon box -->
+                  <div class="knsl-icon-box knsl-icon-box-sm knsl-scroll-animation">
+                    <img src="img/features/6.svg" alt="icon" class="knsl-mb-10">
+                    <h5>Wi-fi</h5>
+                  </div>
+                  <!-- icon box end -->
+
+                </div>
+                <div class="col-6 col-md-3">
+
+                  <!-- icon box -->
+                  <div class="knsl-icon-box knsl-icon-box-sm knsl-scroll-animation">
+                    <img src="img/features/7.svg" alt="icon" class="knsl-mb-10">
+                    <h5>Smart TV</h5>
+                  </div>
+                  <!-- icon box end -->
+
+                </div>
+                <div class="col-6 col-md-3">
+
+                  <!-- icon box -->
+                  <div class="knsl-icon-box knsl-icon-box-sm knsl-scroll-animation">
+                    <img src="img/features/8.svg" alt="icon" class="knsl-mb-10">
+                    <h5>Çamaşırxana</h5>
+                  </div>
+                  <!-- icon box end -->
+
+                </div>
+              </div>
+            </section>
+            <!-- features end -->
+
+            <!-- services -->
+            <section class="knsl-mb-30">
+              <div class="row">
+                <div class="col-lg-12">
+                  <h3 class="knsl-mb-40 knsl-scroll-animation">Otağa Daxildir</h3>
+                </div>
+                <div class="col-lg-4">
+
+                  <!-- service card -->
+                  <div class="knsl-ath-card knsl-scroll-animation">
+                    <div class="knsl-cover-frame">
+                      <img src="img/services/4.jpg" alt="cover">
+                    </div>
+                    <div class="knsl-card-description">
+                      <h5>Oyun Otağı</h5>
+                    </div>
+                  </div>
+                  <!-- service card end -->
+
+                </div>
+                <div class="col-lg-4">
+
+                  <!-- service card -->
+                  <div class="knsl-ath-card knsl-scroll-animation">
+                    <div class="knsl-cover-frame">
+                      <img src="img/services/2.jpg" alt="cover">
+                    </div>
+                    <div class="knsl-card-description">
+                      <h5>Hovuz</h5>
+                    </div>
+                  </div>
+                  <!-- service card end -->
+
+                </div>
+                <div class="col-lg-4">
+
+                  <!-- service card -->
+                  <div class="knsl-ath-card knsl-scroll-animation">
+                    <div class="knsl-cover-frame">
+                      <img src="img/services/3.jpg" alt="cover">
+                    </div>
+                    <div class="knsl-card-description">
+                      <h5>Restorant</h5>
+                    </div>
+                  </div>
+                  <!-- service card end -->
+
+                </div>
+              </div>
+            </section>
+            <!-- services end -->
+
+            <!-- reviews -->
+            <section class="knsl-mb-30">
+              <div class="row">
+                <div class="col-lg-12">
+                  <h3 class="knsl-mb-40 knsl-scroll-animation">Rəylər</h3>
+                </div>
+                <div class="col-lg-12">
+
+                  <div class="knsl-review-card knsl-scroll-animation">
+                    <div class="knsl-card-header">
+                      <div class="knsl-name-and-photo">
+                        <div class="knsl-avatar-frame">
+                          <img src="img/faces/3.jpg" alt="Avatar">
+                        </div>
+                        <div>
+                          <h5>Anar İsmayilov</h5>
+                          <span>14.07.2021</span>
+                        </div>
+                      </div>
+                      <ul class="knsl-stars">
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                      </ul>
+                    </div>
+                    <blockquote>
+                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque magnam voluptatum tenetur iusto eaque.
+                    </blockquote>
+
+                  </div>
+
+                </div>
+                <div class="col-lg-12">
+
+                  <div class="knsl-review-card knsl-scroll-animation">
+                    <div class="knsl-card-header">
+                      <div class="knsl-name-and-photo">
+                        <div class="knsl-avatar-frame">
+                          <img src="img/faces/2.jpg" alt="Avatar">
+                        </div>
+                        <div>
+                          <h5>Fatime Ferzelizade</h5>
+                          <span>14.07.2021</span>
+                        </div>
+                      </div>
+                      <ul class="knsl-stars">
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li class="knsl-empty"><i class="fas fa-star"></i></li>
+                      </ul>
+                    </div>
+                    <blockquote>
+                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus fugiat molestiae impedit suscipit beatae deserunt minima aut corrupti quibusdam aperiam.
+                    </blockquote>
+
+                  </div>
+
+                </div>
+              </div>
+            </section>
+            <!-- reviews end -->
+
+            <section>
+              <div class="row">
+                <div class="col-lg-12">
+                  <h3 class="knsl-mb-40 knsl-scroll-animation">Rəy Bildirin</h3>
+                </div>
+                <div class="col-lg-12">
+                  <form class="knsl-scroll-animation">
+                    <div class="row">
+                      <div class="col-lg-6">
+                        <input type="text" placeholder="Adınız">
+                      </div>
+                      <div class="col-lg-6">
+                        <input type="email" placeholder="Email">
+                      </div>
+                      <div class="col-lg-12">
+                        <textarea name="name" rows="8" placeholder="Şərh"></textarea>
+                      </div>
+                      <div class="col-lg-12">
+                        <div class="knsl-form-submit-frame">
+                          <!-- temporary button to show the popup -->
+                          <a class="knsl-btn" data-fancybox href="#knsl-success">Göndər</a>
+                          <!-- <button class="knsl-btn">Send</button> -->
+                          <div class="knsl-text-sm">*Şəxsi məlumatlarınızı üçüncü tərəflərə açıqlamayacağımıza söz veririk..</div>
+                        </div>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </section>
+
+          </div>
+          <div class="col-lg-4">
+            <!-- sidebar -->
+            <div class="knsl-sticky knsl-stycky-right" data-margin-top="100">
+
+              <!-- room info -->
+              <div class="knsl-room-features-lg knsl-mb-20">
+                <div class="knsl-feature">
+                  <div class="knsl-icon-frame"><img src="img/icons/bed.svg" alt="icon"></div>
+                  <span>4 Nəfərlik</span>
+                </div>
+                <div class="knsl-feature">
+                  <div class="knsl-icon-frame"><img src="img/icons/square.svg" alt="icon"></div>
+                  <span>95 Ft²</span>
+                </div>
+              </div>
+              <!-- room info end -->
+
+              <div class="knsl-price-card knsl-mb-20">
+                <div class="knsl-price-number">450 M</div>
+                <div class="knsl-btn">Rezervasiya</div>
+              </div>
+
+              <div class="knsl-book-form">
+                <form>
+                  <div class="row">
+                    <div class="col-lg-12">
+                      <div class="knsl-input-frame">
+                        <label for="check-in">Giriş</label>
+                        <input id="check-in" type="text" class="datepicker-here" data-position="bottom left" placeholder="Tarix Seçin" autocomplete="off" readonly="readonly">
+                      </div>
+                    </div>
+                    <div class="col-lg-12">
+                      <div class="knsl-input-frame">
+                        <label for="check-out" class="knsl-add-icon">Çıxış</label>
+                        <input id="check-out" type="text" class="datepicker-here" data-position="bottom left" placeholder="Tarix Seçin" autocomplete="off" readonly="readonly">
+                      </div>
+                    </div>
+                    <div class="col-6">
+                      <div class="knsl-select-frame">
+                        <label for="person">Böyük</label>
+                        <select id="person">
+                          <option value="1">1</option>
+                          <option value="2">2</option>
+                          <option value="3">3</option>
+                          <option value="4" disabled>4</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="col-6">
+                      <div class="knsl-select-frame">
+                        <label for="children">Uşaq</label>
+                        <select id="children">
+                          <option value="0">0</option>
+                          <option value="1">1</option>
+                          <option value="2">2</option>
+                          <option value="3" disabled>3</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="col-lg-12 knsl-center">
+                      <button type="submit" class="knsl-btn"><img src="img/icons/search.svg" class="knsl-zoom" alt="icon">Axtar</button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+
+            </div>
+            <!-- sidebar end -->
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- room end -->
+
+
+
+    <!-- footer -->
+    <footer>
+      <div class="knsl-footer">
+        <div class="container knsl-p-100-100">
+          <div class="row">
+            <div class="col-md-6 col-lg-4">
+              <img class="knsl-footer-logo" src="img/logo1.svg" alt="Kinsley">
+              <div class="knsl-footer-about">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem error culpa, harum aspernatur est, vero velit quae natus excepturi, aliquam tempore in doloremque itaque voluptates facilis quis. Quis, enim animi?</div>
+              <div class="knsl-footer-social">
+                <a ><i class="fas fa-circle"></i></a>
+                <a><i class="fas fa-circle"></i></a>
+                <a><i class="fas fa-circle"></i></a>
+                <a><i class="fas fa-circle"></i></a>
+                <a><i class="fas fa-circle"></i></a>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-2">
+              <h4>Menyu</h4>
+              <ul class="knsl-footer-menu">
+                <li><a href="#.">Ana Səhifə</a></li>
+                <li><a href="#.">Haqqımızda</a></li>
+                <li><a href="#.">Otaqlar</a></li>
+                <li><a href="#.">Servislərimiz</a></li>
+                <li><a href="#.">Əlaqə</a></li>
+              </ul>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <h4>Text </h4>
+              <ul class="knsl-footer-menu">
+                <li><a href="#.">Text 1</a></li>
+                <li><a href="#.">Text 2</a></li>
+                <li><a href="#.">Text 3</a></li>
+                <li><a href="#.">Text 4</a></li>
+                <li><a href="#.">Text 5</a></li>
+              </ul>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <h4>Instagram</h4>
+              <div class="footer-insta">
+                <a href=""><img src="img/about/1.jpg" alt="Image"></a>
+                <a href=""><img src="img/about/2.jpg" alt="Image"></a>
+                <a href=""><img src="img/about/3.jpg" alt="Image"></a>
+                <a href=""><img src="img/about/4.jpg" alt="Image"></a>
+                <a href=""><img src="img/about/5.jpg" alt="Image"></a>
+                <a href=""><img src="img/about/6.jpg" alt="Image"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="knsl-copyright">
+          <div class="container">
+            <div class="copy-text">
+              <div>&copy; 2021. All Rights Reserved.</div>
+            </div>
+            <div class="copy-menu">
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer end -->
+
+    <!-- popup -->
+    <div id="knsl-success" class="knsl-popup">
+      <img src="img/features/12.svg" alt="success" class="knsl-succes-icon">
+      <h2 class="knsl-mb-20">Success</h2>
+      <p>However, message not sent. <br>This pop-up exists for demonstration.</p>
+    </div>
+    <!-- popup end -->
+
+    <!-- popup -->
+    <div class="knsl-popup-frame">
+      <div class="knsl-book-form knsl-book-popup">
+        <span class="knsl-close-popup">+</span>
+        <h2 class="knsl-mb-40">Search your Room</h2>
+        <form>
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="knsl-input-frame">
+                <label>Check in</label>
+                <input type="text" class="datepicker-here" data-position="bottom left" placeholder="Select date" autocomplete="off" readonly="readonly">
+              </div>
+            </div>
+            <div class="col-lg-12">
+              <div class="knsl-input-frame">
+                <label class="knsl-add-icon">Check out</label>
+                <input type="text" class="datepicker-here" data-position="bottom left" placeholder="Select date" autocomplete="off" readonly="readonly">
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="knsl-select-frame">
+                <label>Person</label>
+                <select>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4" disabled>4</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="knsl-select-frame">
+                <label>Childrens</label>
+                <select>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4" disabled>4</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-lg-12 knsl-center">
+              <button type="submit" class="knsl-btn"><img src="img/icons/search.svg" class="knsl-zoom" alt="icon">Serch room</button>
+            </div>
+          </div>
+        </form>
+
+      </div>
+    </div>
+    <!-- popup end -->
+
+  </div>
+  <!-- page wrapper end -->
+
+  <!-- jquery js -->
+  <script src="js/plugins/jquery.min.js"></script>
+  <!-- bootstrap js -->
+  <script src="js/plugins/bootstrap.min.js"></script>
+  <!-- nice select js -->
+  <script src="js/plugins/jquery.nice-select.min.js"></script>
+  <!-- datepicker js -->
+  <script src="js/plugins/datepicker.js"></script>
+  <!-- smooth scroll js -->
+  <script src="js/plugins/smooth-scroll.js"></script>
+  <!-- isotope js -->
+  <script src="js/plugins/isotope.min.js"></script>
+  <!-- mapbox js -->
+  <script src="js/plugins/mapbox.min.js"></script>
+  <!-- fancybox js -->
+  <script src="js/plugins/fancybox.min.js"></script>
+  <!-- swiper js -->
+  <script src="js/plugins/swiper.min.js"></script>
+  <!-- sticky js -->
+  <script src="js/plugins/sticky.js"></script>
+  <!-- kinsley js -->
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>
