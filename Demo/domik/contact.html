@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="css/style.css  ">
+  <title>Hotel</title>
+</head>
+
+<body>
+
+  <!-- page wrapper -->
+  <div class="hotel-app">
+
+    <!-- preloader -->
+    <div class="hotel-preloader-frame imgLoad">
+      <div class="hotel-preloader">
+        <img class="lozad" data-src="img/hotellogo.png" alt="logo">
+        <div class="hotel-preloader-progress">
+          <div class="hotel-preloader-bar"></div>
+        </div>
+        <div><span class="hotel-preloader-number" data-count="101">0</span>%</div>
+      </div>
+    </div>
+    <!-- preloader end -->
+
+    <!-- datepicker frame -->
+    <div class="hotel-datepicker-place"></div>
+
+   <!-- top bar -->
+   <div class="hotel-top-bar">
+    <div class="container">
+      <div class="hotel-left-side imgLoad">
+        <!-- logo -->
+        <a href="index.html" class="hotel-logo-frame" style="width: 50px;">
+          <img class="lozad" data-src="img/hotellogo.png" alt="logo">
+        </a>
+        <!-- logo end -->
+      </div>
+      <div class="hotel-right-side imgLoad">
+        <!-- menu -->
+        <div class="hotel-menu">
+          <nav>
+            <ul>
+              <li >
+                <a href="index.html">Ana Səhifə</a>
+              </li>
+              <li >
+                <a href="about.html">Haqqımızda</a>
+              </li>
+              <li>
+                <a href="rooms.html">Otaqlar</a>
+              </li>
+              <li >
+                <a href="menu.html">Restorant</a>
+              </li>
+              <li >
+                <a href="service.html">Xidmətlərimiz</a>
+              </li>
+              <li class="current-item"> 
+                <a href="contact.html">Əlaqə</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <!-- menu end -->
+        <!-- action button -->
+        <a id="book-popup" class="hotel-btn"><img class="lozad" data-src="img/icons/bookmark.svg" alt="icon">Rezervasiya et</a>
+        <!-- action button end -->
+      </div>
+      <!-- menu button -->
+      <div class="hotel-menu-btn"><span></span></div>
+      <!-- menu button end -->
+    </div>
+  </div>
+  <!-- top bar end -->
+
+    <!-- banner -->
+    <section class="hotel-banner-simple hotel-transition-bottom contact" >
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+
+            <div class="hotel-center hotel-title-frame">
+              <h1 class="hotel-mb-20 hotel-h1-inner">Əlaqə</h1>
+              <p class="hotel-mb-30">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi quis molestias voluptas laborum..</p>
+              <ul class="hotel-breadcrumbs">
+                <li><a href="index.html">Ana Səhifə</a></li>
+                <li><span>Əlaqə</span></li>
+              </ul>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- banner end -->
+
+    <!-- contact -->
+    <section class="hotel-p-100-100">
+
+      <div id="hotel-triger-1"></div>
+
+      <div class="container">
+
+        <!-- features card -->
+        <div class="hotel-features-card">
+
+          <div class="row">
+            <div class="col-12 col-lg-4">
+
+              <!-- icon box -->
+              <div class="hotel-icon-box imgLoad">
+                <img class="lozad" data-src="img/features/9.svg" alt="icon" class="hotel-mb-10">
+                <h5 class="hotel-mb-10">Ünvan</h5>
+                <p>Bakı,Azərbaycan</p>
+              </div>
+              <!-- icon box end -->
+
+            </div>
+            <div class="col-12 col-lg-4">
+
+              <!-- icon box -->
+              <div class="hotel-icon-box imgLoad">
+                <img class="lozad" data-src="img/features/10.svg" alt="icon" class="hotel-mb-10">
+                <h5 class="hotel-mb-10">Telefon</h5>
+                <p>+99455 555-55-55</p>
+              </div>
+              <!-- icon box end -->
+
+            </div>
+            <div class="col-12 col-lg-4">
+
+              <!-- icon box -->
+              <div class="hotel-icon-box imgLoad">
+                <img class="lozad" data-src="img/features/11.svg" alt="icon" class="hotel-mb-10">
+                <h5 class="hotel-mb-10">Email</h5>
+                <p><a href="mailto:inbox@inbox.com">inbox@mail.com</a> </p>
+              </div>
+              <!-- icon box end -->
+
+            </div>
+          </div>
+
+        </div>
+        <!-- contact end -->
+
+      </div>
+    </section>
+
+
+
+
+  <!-- map end -->
+    <section class="hotel-transition-top hotel-p-0-100">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <form class="hotel-scroll-animation">
+              <div class="row">
+                <div class="col-lg-6">
+                  <input type="text" placeholder="Adınız">
+                </div>
+                <div class="col-lg-6">
+                  <input type="email" placeholder="Email">
+                </div>
+                <div class="col-lg-12">
+                  <textarea name="name" rows="8" placeholder="Mesajınız"></textarea>
+                </div>
+                <div class="col-lg-12">
+                  <div class="hotel-form-submit-frame">
+                    <!-- temporary button to show the popup -->
+                    <a class="hotel-btn" data-fancybox href="#hotel-success">Göndər</a>
+                    <!-- <button class="hotel-btn">Send</button> -->
+                    <div class="hotel-text-sm">*Şəxsi məlumatlarınızı üçüncü tərəflərə açıqlamayacağımıza söz veririk.</div>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+   <!-- map -->
+   <section class="map">
+    <div class="row">
+      <div class="col-lg-12">
+        <h3 class="hotel-mb-40 hotel-scroll-animation">Xəritədə yerimiz</h3>
+      </div>
+      <div class="col-lg-12">
+
+        <div class="hotel-map-frame hotel-mb-60">
+          <div class="hotel-lock"><i class="fas fa-lock"></i></div>
+          <div id="map" class="hotel-map"></div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+    <!-- footer -->
+    <footer>
+      <div class="hotel-footer">
+        <div class="container hotel-p-100-100">
+          <div class="row">
+            <div class="col-md-6 col-lg-4 imgLoad">
+              <img class="hotel-footer-logo" class="lozad" data-src="img/logo1.svg" alt="logo">
+              <div class="hotel-footer-about">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem error culpa, harum aspernatur est, vero velit quae natus excepturi, aliquam tempore in doloremque itaque voluptates facilis quis. Quis, enim animi?</div>
+              <div class="hotel-footer-social">
+                <a ><i class="fas fa-circle"></i></a>
+                <a><i class="fas fa-circle"></i></a>
+                <a><i class="fas fa-circle"></i></a>
+                <a><i class="fas fa-circle"></i></a>
+                <a><i class="fas fa-circle"></i></a>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-2">
+              <h4>Menyu</h4>
+              <ul class="hotel-footer-menu">
+                <li><a href="#.">Ana Səhifə</a></li>
+                <li><a href="#.">Haqqımızda</a></li>
+                <li><a href="#.">Otaqlar</a></li>
+                <li><a href="#.">Servislərimiz</a></li>
+                <li><a href="#.">Əlaqə</a></li>
+              </ul>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <h4>Text </h4>
+              <ul class="hotel-footer-menu">
+                <li><a href="#.">Text 1</a></li>
+                <li><a href="#.">Text 2</a></li>
+                <li><a href="#.">Text 3</a></li>
+                <li><a href="#.">Text 4</a></li>
+                <li><a href="#.">Text 5</a></li>
+              </ul>
+            </div>
+            <div class="col-md-6 col-lg-3 fotins">
+              <h4>Qaleriya</h4>
+              <div class="footer-insta imgLoad">
+                <a><img class="lozad" data-src="img/about/1.jpg" alt="Image"></a>
+                <a><img class="lozad" data-src="img/about/2.jpg" alt="Image"></a>
+                <a><img class="lozad" data-src="img/about/3.jpg" alt="Image"></a>
+                <a><img class="lozad" data-src="img/about/4.jpg" alt="Image"></a>
+                <a><img class="lozad" data-src="img/about/5.jpg" alt="Image"></a>
+                <a><img class="lozad" data-src="img/about/6.jpg" alt="Image"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="hotel-copyright">
+          <div class="container">
+            <div class="copy-text">
+              <div>&copy; 2021. All Rights Reserved.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer end -->
+
+    <!-- popup -->
+    <div id="hotel-success" class="hotel-popup imgLoad">
+      <img class="lozad" data-src="img/features/12.svg" alt="success" class="hotel-succes-icon">
+      <h2 class="hotel-mb-20">Göndərildi</h2>
+      <p>Ancaq mesaj göndərilməyib. <br>Bu pop-up nümayiş üçün mövcuddur.</p>
+    </div>
+    <!-- popup end -->
+
+    <!-- popup -->
+    <div class="hotel-popup-frame">
+      <div class="hotel-book-form hotel-book-popup">
+        <span class="hotel-close-popup">+</span>
+        <h2 class="hotel-mb-40">Otaq Seç</h2>
+        <form>
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="hotel-input-frame">
+                <label>Giriş</label>
+                <input type="text" class="datepicker-here" data-position="bottom left" placeholder="Tarix Seçin" autocomplete="off" readonly="readonly">
+              </div>
+            </div>
+            <div class="col-lg-12">
+              <div class="hotel-input-frame">
+                <label class="hotel-add-icon">Çıxış</label>
+                <input type="text" class="datepicker-here" data-position="bottom left" placeholder="Tarix Seçin" autocomplete="off" readonly="readonly">
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="hotel-select-frame">
+                <label>Böyük</label>
+                <select>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="hotel-select-frame">
+                <label>Uşaq</label>
+                <select>
+                  <option value="0">0</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-lg-12 hotel-center imgLoad">
+              <button type="submit" class="hotel-btn"><img class="lozad" data-src="img/icons/search.svg" class="hotel-zoom" alt="icon">Axtar</button>
+            </div>
+          </div>
+        </form>
+
+      </div>
+    </div>
+    <!-- popup end -->
+
+  </div>
+  <!-- page wrapper end -->
+
+  <!-- jquery js -->
+  <script src="js/plugins/jquery.min.js"></script>
+  <script src="js/plugins/lozad.js"></script>
+  <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.js"></script>
+  <script>
+    const observer = lozad();
+    observer.observe();
+    </script>
+  <!-- bootstrap js -->
+  <script src="js/plugins/bootstrap.min.js"></script>
+  <!-- nice select js -->
+  <script src="js/plugins/jquery.nice-select.min.js"></script>
+  <!-- datepicker js -->
+  <script src="js/plugins/datepicker.js"></script>
+  <!-- smooth scroll js -->
+  <script src="js/plugins/smooth-scroll.js"></script>
+  <!-- isotope js -->
+  <script src="js/plugins/isotope.min.js"></script>
+  <!-- mapbox js -->
+  <script src="js/plugins/mapbox.min.js"></script>
+  <!-- fancybox js -->
+  <script src="js/plugins/fancybox.min.js"></script>
+  <!-- swiper js -->
+  <script src="js/plugins/swiper.min.js"></script>
+  <!-- sticky js -->
+  <script src="js/plugins/sticky.js"></script>
+  <!-- kinsley js -->
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>
