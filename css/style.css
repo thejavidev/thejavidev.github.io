@@ -182,7 +182,9 @@
 .home-section .home-img {
   position: relative;
 }
-.home-section .home-img .content {
+
+.home-section .home-img .content,
+.portfilo-item-thumbnail .content {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -203,9 +205,22 @@
   -o-transition: all 0.3s;
 }
 
-.home-section .home-img .img-box:hover .content {
+.home-section .home-img .img-box:hover .content,
+.portfilo-item-thumbnail .box_resize:hover .content {
   opacity: 1;
 }
+.portfilo-item-thumbnail .box_resize img{
+  transition: all 0.3s;
+}
+.portfilo-item-thumbnail .box_resize:hover img{
+  opacity: .5 !important;
+  transition: all 0.3s;
+}
+.portfilo-item-thumbnail .box_resize:hover .new{
+  display: none !important;
+}
+
+
 .home-text p {
   font-size: 18px;
 }
