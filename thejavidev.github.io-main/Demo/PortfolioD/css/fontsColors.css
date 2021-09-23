@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+
+:root{
+    --green:#27ae60;
+    --colorFF:#fff;
+    --colorEE:#eee;
+    --color22:#222;
+    --color33:#333;
+    --colorF9:#fff9;
+    --color66:#666;
+}
+*{
+    font-family: 'Nunito',sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+    -webkit-transition: all .2s linear;
+    -moz-transition: all .2s linear;
+    -ms-transition: all .2s linear;
+    -o-transition: all .2s linear;
+}
+body{
+    background-color: var(--colorEE);
+    padding-right: 5rem;
+}
+.heading{
+    text-align: center;
+    padding-bottom: 2rem;
+    font-size: 6rem;
+    text-transform: uppercase;
+    color: var(--color22);
+}
+.heading span{
+    text-transform: uppercase;
+    color: var(--green);
+}
+.btn{
+    display: inline-block;
+    margin-top: 1rem;
+    padding: .8rem 3rem;
+    background-color: var(--color22);
+    color: var(--colorFF);
+    font-size: 1.7rem;
+    cursor: pointer;
+}
+.btn:hover,
+.btn:focus{
+    background: var(--green);
+    letter-spacing: .2rem;
+}
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+html::-webkit-scrollbar{
+    width: .7rem;
+}
+html::-webkit-scrollbar-track{
+    background-color: var(--colorFF);
+}
+html::-webkit-scrollbar{
+    background-color: var(--green);
+}
+section{
+    padding: 2rem 9%;
+    min-height: 100vh;
+}
+header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    min-height: 100vh;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--colorFF);
+    z-index: 1000;
+}
+header .navbar{
+    writing-mode: vertical-lr;
+    -webkit-writing-mode: vertical-lr;
+    -ms-writing-mode: vertical-lr;
+    padding: 1.5rem;
+}
+header .navbar a{
+    padding: 1.5rem;
+    font-size: 1.7rem;
+    color: var(--color22);
+    transition: color .3s;
+    -webkit-transition: color .3s;
+    -moz-transition: color .3s;
+    -ms-transition: color .3s;
+    -o-transition: color .3s;
+}
+header .navbar a:hover{
+    color: var(--green);
+}
+#menu-bars{
+    position: fixed;
+    z-index: 10000;
+    top: 1rem;
+    left: 1rem;
+    padding: 1rem 1.5rem;
+    border-radius: .5rem;
+    -webkit-border-radius: .5rem;
+    -moz-border-radius: .5rem;
+    -ms-border-radius: .5rem;
+    -o-border-radius: .5rem;
+    color: var(--colorFF);
+    background: var(--green);
+    cursor: pointer;
+    font-size: 3rem;
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

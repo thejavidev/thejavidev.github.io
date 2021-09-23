@@ -1,0 +1,338 @@
+/* fonts*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+/* colors*/
+:root {
+  --backgorund-color: #3c4cad;
+  --accend-color: #240e88;
+  --red-color: #ec0808;
+  --red-color-2: #f79b9b;
+  --blue-color-3: #02047e;
+  --blue: #0000ff;
+  --blue-dark: #0a0e13;
+  --green-color: #9cbb68;
+  --orange: #ffa500;
+  --orange-2: #cf4307;
+  --green-yellow: #cddc39;
+  --pink-light: #efa2b4;
+  --cyan-light: #aef1ee;
+  --white: #ffffff;
+  --white-alpha-40: rgba(255, 255, 255, 0.4);
+  --white-alpha-25: rgba(255, 255, 255, 0.25);
+  
+
+  --bg-dark: #2b2c2f;
+}
+/* GLOBAL SETTINGS*/
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  outline: none;
+}
+
+::before,
+::after {
+  box-sizing: border-box;
+}
+body {
+  min-height: 100vh;
+  background-image: linear-gradient(
+    to top left,
+    var(--backgorund-color),
+    var(--accend-color)
+  );
+  background-attachment: fixed;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  color: var(--white);
+  line-height: 1.5;
+  overflow-x: hidden;
+  -webkit-top-highlight-color: transparent;
+  padding: 35px 15px;
+}
+body.dark {
+  background-image: linear-gradient(
+    to top left,
+    var(--bg-dark),
+    var(--blue-dark)
+  );
+}
+body.hide-scrolling {
+  overflow-y: hidden;
+}
+body::before {
+  content: "";
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: var(--blue-color-3);
+  z-index: -1;
+  opacity: 0.12;
+}
+
+.portfolioItemListing {
+  display: list-item !important;
+  list-style-type: none !important;
+}
+.portfolioItemNonListing {
+  display: none !important;
+  list-style-type: none !important;
+}
+a {
+  text-decoration: none;
+}
+h1,
+h2 {
+  font-weight: 600;
+}
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 500;
+}
+ul {
+  list-style: none;
+}
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+section {
+  background-color: var(--white-alpha-25);
+  border: 1px solid var(--white-alpha-40);
+  min-height: calc(100vh - 70px);
+  border-radius:1rem;
+  backdrop-filter: var(--backdrop-filter-blur);
+  display: none;
+  -webkit-border-radius:1rem;
+  -moz-border-radius:1rem;
+  -ms-border-radius:1rem;
+  -o-border-radius:1rem;
+  opacity:.7;
+}
+section.active {
+  display: block;
+  animation: fadeIn 0.5s ease-in-out forwards;
+}
+section.fade-out {
+  animation: fadeOut 0.5s ease-in-out forwards;
+}
+.main {
+  max-width: 1200px;
+  margin: auto;
+  transition: all 0.5s ease-in-out;
+  position: relative;
+}
+.main.fade-out {
+  opacity: 0;
+}
+.container {
+  padding: 0 40px;
+  width: 100%;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.center {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.align-items-center {
+  align-items: center;
+}
+.hidden {
+  display: none !important;
+}
+.sec-padding {
+  padding: 80px 0;
+}
+.flex-end {
+  justify-content: flex-end;
+}
+
+/* SECTION TITLE*/
+.section-title {
+  padding: 0 15px;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.section-title h2 {
+  font-size: 40px;
+  text-transform: capitalize;
+}
+/* CUSTOM SCROLLBAR*/
+::-webkit-scrollbar {
+  width: 13px;
+}
+::-webkit-scrollbar-track {
+  background: #ffffff;
+  border-radius: 10px;
+  border: 1px solid var(--accend-color);
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+::-webkit-scrollbar-thumb {
+  background: #dadae3;
+  border-radius: 10px;
+  border: 1px solid #aeaeb5;
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--accend-color);
+}
+::-webkit-scrollbar-thumb:active {
+  background: var(--accend-color);
+}
+/* BUTTONS SETTINGS*/
+button {
+  font-family: inherit;
+  user-select: none;
+}
+.btn {
+  line-height: 1.5;
+  background-color: transparent;
+  border: 2px solid var(--white-alpha-40);
+  padding: 10px 28px;
+  display: inline-block;
+  border-radius: 10px;
+  color: var(--white);
+  font-weight: 500;
+  text-transform: capitalize;
+  font-family: inherit;
+  font-size: 16px;
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+  overflow: hidden;
+  vertical-align: middle;
+  transition: color 0.3s ease;
+  box-shadow: 2px 2px 2px 2px rgba(97, 94, 94, 0.25),
+    -3px -3px 40px rgba(80, 79, 79, 0.4);
+}
+.btn::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 0%;
+  background-color: var(--orange);
+  z-index: -1;
+  transition: width 0.3s ease;
+}
+.btn:hover::before {
+  width: 100%;
+}
+.btn:hover {
+  color: var(--white);
+}
+.btnall {
+  margin: 6px 10px;
+}
+.btnC {
+  color: var(--white);
+  font-size: 20px;
+  line-height: 20px;
+  transition: all 0.3s ease;
+}
+.btnC:hover {
+  color: var(--orange);
+  font-weight: 500;
+}
+.btnD {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.5rem 2.5rem;
+  background-color: var(--bg-dark);
+  color: var(--white);
+  font-size: 1.3rem;
+  cursor: pointer;
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+}
+.btnD:hover,
+.btnD:focus {
+  background: var(--orange);
+  letter-spacing: 0.2rem;
+}
+/*toggle theme*/
+.toggle-theme{
+  cursor:pointer;
+}
+
+
+/*OVERLAY*/
+.overlay {
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: transparent;
+  z-index: 200;
+  visibility: hidden;
+}
+.overlay.active {
+  visibility: visible;
+}
+/* PAGE LOADER SETTINGS*/
+.page-loader {
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 999;
+  background-color: var(--white-alpha-25);
+  backdrop-filter: var(--backdrop-filter-blur);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 0.6s ease;
+}
+.page-loader.fade-out {
+  opacity: 0;
+}
+.page-loader div {
+  border: 1px solid transparent;
+  position: absolute;
+  border-radius: 50%;
+  opacity: 0.6;
+  border-top-color: transparent !important;
+  border-bottom-color: transparent !important;
+  animation: spin 1s linear infinite;
+}
+.page-loader div:nth-child(1) {
+  height: 60px;
+  width: 60px;
+  border-color: var(--red-color);
+}
+.page-loader div:nth-child(2) {
+  height: 45px;
+  width: 45px;
+  border-color: var(--blue);
+  animation-duration: 1.2s;
+}
+.page-loader div:nth-child(3) {
+  height: 30px;
+  width: 30px;
+  border-color: var(--orange);
+}
+.particles {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
