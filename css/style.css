@@ -204,7 +204,9 @@
   -ms-transition: all 0.3s;
   -o-transition: all 0.3s;
 }
-
+.home-section .home-img .content a{
+  margin: .2rem;
+}
 .home-section .home-img .img-box:hover .content,
 .portfilo-item-thumbnail .box_resize:hover .content {
   opacity: 1;
