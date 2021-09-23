@@ -38,8 +38,8 @@ body {
   min-height: 100vh;
   background-image: linear-gradient(
     to top left,
-    var(--backgorund-color),
-    var(--accend-color)
+    var(--bg-dark),
+    var(--blue-dark)
   );
   background-attachment: fixed;
   font-size: 16px;
