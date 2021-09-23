@@ -204,8 +204,8 @@
   -ms-transition: all 0.3s;
   -o-transition: all 0.3s;
 }
-.home-section .home-img .content a{
-  margin: .2rem;
+.portfilo-item-thumbnail .content a{
+  margin-left: .4rem;
 }
 .home-section .home-img .img-box:hover .content,
 .portfilo-item-thumbnail .box_resize:hover .content {
@@ -500,6 +500,7 @@
 .portfilo-item-thumbnail img {
   width: 100%;
   border-radius: 10px;
+  height: 100%;
 }
 .protfilo-item-detalis {
   display: none;
