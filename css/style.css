@@ -145,6 +145,10 @@
 .header .nav-inner ul li a:hover {
   color: var(--red-color);
 }
+.fancybox-navigation .fancybox-button--arrow_right,
+.fancybox-navigation .fancybox-button--arrow_left{
+  display: none;
+}
 /* HOME SETTINGS*/
 .home-section::before {
   content: "";

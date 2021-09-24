@@ -88,40 +88,40 @@ if (tabsContainer) {
   });
 }
 /*PORTFILO*/
-document.addEventListener("click", (e) => {
-  if (e.target.classList.contains("view-project-btn")) {
-    togglePortfiloPopup();
-    document.querySelector(".portfilo-popup").scrollTo(0, 0);
-    portfiloItemDetalis(e.target.parentElement);
-  }
-});
-function togglePortfiloPopup() {
-  document.querySelector(".portfilo-popup").classList.toggle("open");
-  document.body.classList.toggle("hide-scrolling");
-  document.querySelector(".main").classList.toggle("fade-out");
-  document
-    .querySelector(".pp-close")
-    .addEventListener("click", togglePortfiloPopup);
-}
+// document.addEventListener("click", (e) => {
+//   if (e.target.classList.contains("view-project-btn")) {
+//     togglePortfiloPopup();
+//     document.querySelector(".portfilo-popup").scrollTo(0, 0);
+//     portfiloItemDetalis(e.target.parentElement);
+//   }
+// });
+// function togglePortfiloPopup() {
+//   document.querySelector(".portfilo-popup").classList.toggle("open");
+//   document.body.classList.toggle("hide-scrolling");
+//   document.querySelector(".main").classList.toggle("fade-out");
+//   document
+//     .querySelector(".pp-close")
+//     .addEventListener("click", togglePortfiloPopup);
+// }
 
 //disariya tiklarken acilir pencereyi gizle
-document.addEventListener("click", (e) => {
-  if (e.target.classList.contains("pp-inner")) {
-    togglePortfiloPopup();
-  }
-});
-function portfiloItemDetalis(portfiloItem) {
-  document.querySelector(".pp-thumbnail img").src = portfiloItem.querySelector(
-    ".portfilo-item-thumbnail img"
-  ).src;
+// document.addEventListener("click", (e) => {
+//   if (e.target.classList.contains("pp-inner")) {
+//     togglePortfiloPopup();
+//   }
+// });
+// function portfiloItemDetalis(portfiloItem) {
+//   document.querySelector(".pp-thumbnail img").src = portfiloItem.querySelector(
+//     ".portfilo-item-thumbnail img"
+//   ).src;
 
-  document.querySelector(".pp-header h3").innerHTML =
-    portfiloItem.querySelector(".portfilo-item-title").innerHTML;
+//   document.querySelector(".pp-header h3").innerHTML =
+//     portfiloItem.querySelector(".portfilo-item-title").innerHTML;
 
-  document.querySelector(".pp-body").innerHTML = portfiloItem.querySelector(
-    ".protfilo-item-detalis"
-  ).innerHTML;
-}
+//   document.querySelector(".pp-body").innerHTML = portfiloItem.querySelector(
+//     ".protfilo-item-detalis"
+//   ).innerHTML;
+// }
 
 function search_project() {
   let input = document.getElementById("searchbar").value;
