@@ -245,14 +245,20 @@
 .home-text .btn {
   margin: 0 15px 15px 0;
 }
-.home-text .last a {
+.home-text .last a{
   text-decoration: none;
   font-size: 20px;
-  color: white;
-  transition: color 0.2s ease-in-out;
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: 2px;
+  transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
 }
 .home-text .last a:hover {
-  color: var(--white);
+  letter-spacing: 3px;
 }
 .home-img .img-box {
   max-width: 360px;
