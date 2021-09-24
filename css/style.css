@@ -2,6 +2,7 @@
 @import url(font-awesome.css);
 @import url(project.css);
 @import url(keyframes.css);
+@import url(fancybox.min.css);
 
 /* Header SETTINGS*/
 .header {
