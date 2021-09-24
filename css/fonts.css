@@ -196,7 +196,7 @@ button {
 }
 .btn {
   line-height: 1.5;
-  background-color: transparent;
+  background-color: var(--orange);
   border: 2px solid var(--white-alpha-40);
   padding: 10px 28px;
   display: inline-block;
@@ -224,13 +224,19 @@ button {
   width: 0%;
   background-color: var(--orange);
   z-index: -1;
-  transition: width 0.3s ease;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
 }
 .btn:hover::before {
   width: 100%;
+  background-color: transparent !important;
 }
 .btn:hover {
-  color: var(--white);
+
+  background-color: transparent;
 }
 .btnall {
   margin: 6px 10px;
