@@ -18,8 +18,6 @@ function animation(){
 .setTween(t1)
 .addTo(controller)
 }
-
-
 animation();
 
 var typed = new Typed('.typing-text',{
@@ -27,4 +25,3 @@ var typed = new Typed('.typing-text',{
     loop:true,
     typeSpeed:150
 });
-
