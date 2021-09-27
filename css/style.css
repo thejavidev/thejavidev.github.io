@@ -182,6 +182,7 @@
 .home-section .home-img {
   position: relative;
 }
+
 .home-section .home-img:hover img {
   filter: grayscale(1);
 }
