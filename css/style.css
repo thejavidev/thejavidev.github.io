@@ -182,7 +182,9 @@
 .home-section .home-img {
   position: relative;
 }
-
+.home-section .home-img:hover img {
+  filter: grayscale(1);
+}
 .home-section .home-img .content,
 .portfilo-item-thumbnail .content {
   position: absolute;
@@ -213,18 +215,8 @@
   opacity: 1;
  
 }
-.portfilo-item-thumbnail .box_resize img{
-  transition: all 0.3s;
-}
-.portfilo-item-thumbnail .box_resize:hover img{
-  opacity: .5 !important;
-  transition: all 0.3s;
-  filter: grayscale(1);
-  -webkit-filter: grayscale(1);
-}
-.portfilo-item-thumbnail .box_resize:hover .new{
-  display: none !important;
-}
+
+
 
 
 .home-text p {
@@ -514,6 +506,15 @@
 }
 .protfilo-item-detalis {
   display: none;
+}
+.portfilo-item-thumbnail .box_resize img{
+  transition: all 0.3s;
+}
+.portfilo-item-thumbnail .box_resize:hover img{
+  opacity: .5 !important;
+  transition: all 0.3s;
+  filter: grayscale(1);
+  -webkit-filter: grayscale(1);
 }
 .general-info ul li:nth-child(2) span a {
   color: var(--green-color);
