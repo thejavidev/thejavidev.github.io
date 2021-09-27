@@ -183,7 +183,7 @@
   position: relative;
 }
 
-.home-section .home-img:hover img {
+.home-section .home-img .img-box:hover img {
   filter: grayscale(1);
 }
 .home-section .home-img .content,
