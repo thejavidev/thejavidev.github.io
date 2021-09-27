@@ -149,6 +149,8 @@
 .fancybox-navigation .fancybox-button--arrow_left{
   display: none;
 }
+
+  
 /* HOME SETTINGS*/
 
 .home-section .home-text h1 a .typed-cursor {
@@ -209,6 +211,7 @@
 .home-section .home-img .img-box:hover .content,
 .portfilo-item-thumbnail .box_resize:hover .content {
   opacity: 1;
+ 
 }
 .portfilo-item-thumbnail .box_resize img{
   transition: all 0.3s;
@@ -216,6 +219,8 @@
 .portfilo-item-thumbnail .box_resize:hover img{
   opacity: .5 !important;
   transition: all 0.3s;
+  filter: grayscale(1);
+  -webkit-filter: grayscale(1);
 }
 .portfilo-item-thumbnail .box_resize:hover .new{
   display: none !important;
