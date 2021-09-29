@@ -189,7 +189,7 @@
 .home-section .home-img .content,
 .portfilo-item-thumbnail .content {
   position: absolute;
-  top: 50%;
+  top: 70%;
   left: 50%;
   transform: translate(-50%, -50%) skewX(-9deg);
   background: var(--dark-to-main-color);
@@ -484,6 +484,31 @@
   -moz-transform: scale(1.2);
   -ms-transform: scale(1.2);
   -o-transform: scale(1.2);
+}
+
+.portfilo-item-thumbnail .box .content .porrfolio-text{
+  position: absolute;
+  top: -20% !important;
+  left: 50% !important;
+  transform: translate(-50%,-50%) !important;
+  width: 100% !important;
+  padding: .4rem;
+  letter-spacing: 2px;
+  background: #212222;
+  border-radius: .3rem;
+  -webkit-border-radius: .3rem;
+  -moz-border-radius: .3rem;
+  -ms-border-radius: .3rem;
+  -o-border-radius: .3rem;
+  -webkit-transform: translate(-50%,-50%) !important;
+  -moz-transform: translate(-50%,-50%) !important;
+  -ms-transform: translate(-50%,-50%) !important;
+  -o-transform: translate(-50%,-50%) !important;
+}
+@media screen and (max-width:565px){
+  .portfilo-item-thumbnail .box .content .porrfolio-text{
+    width: 90% !important;
+  }
 }
 #text {
   font-size: 30px;
