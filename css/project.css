@@ -21,7 +21,7 @@
     height: 45px;
     width: 45px;
     border-color: var(--blue);
-    animation-duration: 1.2s
+    animation-duration: 1.2s;
   }
   .portfilo-item-thumbnail::after {
      height: 60px;
