@@ -697,7 +697,7 @@
         var $this = $(this),
             $finalDate = $this.data('countdown');
         $this.countdown($finalDate, function (event) {
-            $this.html(event.strftime('<div class="count"><span class="amount">%-D</span><span class="period">Days</span></div><div class="count"><span class="amount">%-H</span><span class="period">Hours</span></div><div class="count"><span class="amount">%-M</span><span class="period">Minutes</span></div><div class="count"><span class="amount">%-S</span><span class="period">Seconds</span></div>'));
+            $this.html(event.strftime('<div class="count"><span class="amount">%-D</span><span class="period">Gün</span></div><div class="count"><span class="amount">%-H</span><span class="period">Saat</span></div><div class="count"><span class="amount">%-M</span><span class="period">Dəqiqə</span></div><div class="count"><span class="amount">%-S</span><span class="period">Saniyə</span></div>'));
         });
     });
 
