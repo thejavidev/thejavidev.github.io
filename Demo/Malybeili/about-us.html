@@ -697,18 +697,6 @@
     <script>
         const observer = lozad();
         observer.observe();
-
-        $(function () {
-                $(this).load(file, function () {
-                    $("body").imagesLoaded().progress(onProgress);
-                });
-                });
-
-            function onProgress(imgLoad, image) {
-                var $item = $(image.img).parents(".imgLoad");
-                $item.addClass("loaded");
-            }
-
       </script>
     <!-- Plugins JS -->
     <script src="assets/js/plugins/select2.min.js"></script>

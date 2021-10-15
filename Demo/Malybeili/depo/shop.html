@@ -603,8 +603,9 @@
                     <div class="clearfix"></div>
                     <div class="col-lg-9 col-12 learts-mb-50">
                         <!-- Products Start -->
-                        <div id="shop-products" class="products row row-cols-xl-4 row-cols-md-3 row-cols-sm-2 row-cols-1 clearfix">
+                        <div id="shop-products" class="products isotope-grid row row-cols-xl-4 row-cols-md-3 row-cols-sm-2 row-cols-1 clearfix">
 
+                            <div class="grid-sizer col-1"></div>
 
                             <div class="grid-item col featured clearfix imgLoad">
                                 <div class="product">
@@ -1229,16 +1230,7 @@
         const observer = lozad();
         observer.observe();
 
-        $(function () {
-                $(this).load(file, function () {
-                    $("body").imagesLoaded().progress(onProgress);
-                });
-                });
-
-            function onProgress(imgLoad, image) {
-                var $item = $(image.img).parents(".imgLoad");
-                $item.addClass("loaded");
-            }
+     
 
       </script>
     <!-- Plugins JS -->

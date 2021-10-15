@@ -1,3 +1,12 @@
+$(function () {
+    $("body").imagesLoaded().progress(onProgress);
+    });
+
+function onProgress(imgLoad, image) {
+    var $item = $(image.img).parents(".imgLoad");
+    $item.addClass("loaded");
+}
+
 (function ($) {
     "use strict";
 

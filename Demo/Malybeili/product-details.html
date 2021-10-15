@@ -1217,16 +1217,7 @@
         const observer = lozad();
         observer.observe();
 
-        $(function () {
-                $(this).load(file, function () {
-                    $("body").imagesLoaded().progress(onProgress);
-                });
-                });
-
-            function onProgress(imgLoad, image) {
-                var $item = $(image.img).parents(".imgLoad");
-                $item.addClass("loaded");
-            }
+   
 
       </script>
     <!-- Plugins JS -->
