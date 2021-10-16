@@ -128,18 +128,44 @@ hr {
 .fix {
     overflow: hidden;
 }
-
+.imgLoad{
+    transition: 1s all linear;
+    -webkit-transition: 1s all linear;
+    -moz-transition: 1s all linear;
+    -ms-transition: 1s all linear;
+    -o-transition: 1s all linear;
+}
 .imgLoad img {
     opacity: 0 !important;
-  }
+    transition: 1s all linear;
+    -webkit-transition: 1s all linear;
+    -moz-transition: 1s all linear;
+    -ms-transition: 1s all linear;
+    -o-transition: 1s all linear;
+}
   .imgLoad.loaded::before, .bot.loaded::after {
     content: unset !important;
+    transition: 1s all linear;
+    -webkit-transition: 1s all linear;
+    -moz-transition: 1s all linear;
+    -ms-transition: 1s all linear;
+    -o-transition: 1s all linear;
   }
   .imgLoad.loaded img {
     opacity: 1 !important;
-  }
+    transition: 1s all linear;
+    -webkit-transition: 1s all linear;
+    -moz-transition: 1s all linear;
+    -ms-transition: 1s all linear;
+    -o-transition: 1s all linear;
+}
   .imgLoad img[data-loaded=true]{
     opacity: 1 !important;
+    transition: 1s all linear;
+    -webkit-transition: 1s all linear;
+    -moz-transition: 1s all linear;
+    -ms-transition: 1s all linear;
+    -o-transition: 1s all linear;
   }
   .section,
   .main-wrapper {
