@@ -24,6 +24,7 @@
     <link rel="stylesheet" href="assets/css/vendor/customFonts.css">
 
     <!-- Plugins CSS (All Plugins Files) -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/plugins/select2.min.css">
     <link rel="stylesheet" href="assets/css/plugins/perfect-scrollbar.css">
     <link rel="stylesheet" href="assets/css/plugins/swiper.min.css">
@@ -564,8 +565,8 @@
     <div class="container">
         <div class="row row-cols-lg-4 row-cols-sm-2 row-cols-1 learts-mb-n40">
 
-            <div class="col learts-mb-40">
-                <div class="category-banner4 imgLoad">
+            <div class="col learts-mb-40 " >
+                <div class="category-banner4 imgLoad" data-aos="fade-down" data-aos-duration="1000">
                     <a href="shop.html" class="inner">
                         <div class="image"><img  class="lozad" data-src="assets/images/banner/category/banner-s4-1.webp" alt=""></div>
                         <div class="content" data-bg-color="#f4ede7">
@@ -575,8 +576,8 @@
                 </div>
             </div>
 
-            <div class="col learts-mb-40">
-                <div class="category-banner4 imgLoad">
+            <div class="col learts-mb-40" >
+                <div class="category-banner4 imgLoad" data-aos="fade-down" data-aos-duration="2000">
                     <a href="shop.html" class="inner">
                         <div class="image"><img class="lozad" data-src="assets/images/banner/category/banner-s4-2.webp" alt=""></div>
                         <div class="content" data-bg-color="#e8f5f2">
@@ -586,8 +587,8 @@
                 </div>
             </div>
 
-            <div class="col learts-mb-40">
-                <div class="category-banner4 imgLoad">
+            <div class="col learts-mb-40" >
+                <div class="category-banner4 imgLoad" data-aos="fade-down" data-aos-duration="2500">
                     <a href="shop.html" class="inner">
                         <div class="image"><img  class="lozad" data-src="assets/images/banner/category/banner-s4-3.webp" alt=""></div>
                         <div class="content" data-bg-color="#e3e4f5">
@@ -597,8 +598,8 @@
                 </div>
             </div>
 
-            <div class="col learts-mb-40">
-                <div class="category-banner4 imgLoad">
+            <div class="col learts-mb-40" >
+                <div class="category-banner4 imgLoad" data-aos="fade-down" data-aos-duration="3000">
                     <a href="shop.html" class="inner">
                         <div class="image"><img class="lozad" data-src="assets/images/banner/category/banner-s4-4.webp" alt=""></div>
                         <div class="content" data-bg-color="#faf5e5">
@@ -619,7 +620,7 @@
     <div class="container">
         <div class="row align-items-center learts-mb-n30">
 
-            <div class="col-lg-6 col-12 learts-mb-30 imgLoad">
+            <div class="col-lg-6 col-12 learts-mb-30 imgLoad" data-aos="zoom-in" data-aos-duration="2000">
                 <div class="product-deal-image text-center">
                     <img class="lozad" data-src="assets/images/product/deal-product-2.png" alt="">
                 </div>
@@ -651,7 +652,7 @@
         <div class="container">
             <div class="row align-items-center learts-mb-n30">
 
-                <div class="col-lg-6 col-12 learts-mb-30 imgLoad">
+                <div class="col-lg-6 col-12 learts-mb-30 imgLoad" data-aos="zoom-in" data-aos-duration="2000">
                     <div class="product-deal-image text-center">
                         <div class="circle">
                         </div>
@@ -659,7 +660,7 @@
                     </div>
                 </div>
 
-                <div class="col-lg-6 col-12 learts-mb-30">
+                <div class="col-lg-6 col-12 learts-mb-30" data-aos="fade-left" data-aos-duration="2000">
                     <div class="product-deal-content">
                         <h2 class="sub-title texta">Instagramda bizi izləyin</h2>
                         <div class="desc">
@@ -816,8 +817,14 @@
 		<script>
 			const observer = lozad();
 			observer.observe();
+            
 		  </script>
+          
     <!-- Plugins JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init({ once: true, });
+</script>
     <script src="assets/js/plugins/select2.min.js"></script>
     <script src="assets/js/plugins/jquery.nice-select.min.js"></script>
     <script src="assets/js/plugins/perfect-scrollbar.min.js"></script>
