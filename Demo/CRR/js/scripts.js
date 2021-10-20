@@ -22,7 +22,7 @@ $(function () {
             navbar = $(".navbar"),
             logo = $(".navbar.change .logo> img");
 
-        if (bodyScroll > 300) {
+        if (bodyScroll > 80) {
 
             navbar.addClass("nav-scroll");
             logo.attr('src', 'img/logo.webp');
@@ -52,7 +52,7 @@ $(function () {
         var bodyScroll = wind.scrollTop(),
             navbar = $(".topnav");
 
-        if (bodyScroll > 300) {
+        if (bodyScroll > 50) {
 
             navbar.addClass("nav-scroll");
 
@@ -84,7 +84,7 @@ $(function () {
 
         } else {
 
-            $('.hamenu').delay(300).animate({ left: "-100%" });
+            $('.hamenu').delay(50).animate({ left: "-100%" });
 
             $('.topnav .menu-icon .text').removeClass('open');
 
