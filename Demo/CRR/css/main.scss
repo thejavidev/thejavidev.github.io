@@ -169,7 +169,11 @@
   .full-width {
     width: 100% !important;
   }
-  
+  @media screen and (max-width:565px) {
+    .full-height{
+      min-height: 40vh !important;
+    }
+  }
   .main-color {
     color: #12c2e9 !important;
   }
@@ -1144,7 +1148,7 @@
   /* ====================== [ Start navbar ] ====================== */
   
   .navbar {
-    position: absolute;
+    position: fixed !important;
     left: 0;
     top: 0;
     padding: 0;
@@ -4323,7 +4327,18 @@
   
             a {
               margin: 0 5px;
+              text-decoration: none;
+              color: #000;
+              letter-spacing: 2px;
             }
+            a:hover{
+              letter-spacing: 4px;
+              transition: all .5s;
+              -webkit-transition: all .5s;
+              -moz-transition: all .5s;
+              -ms-transition: all .5s;
+              -o-transition: all .5s;
+}
           }
         }
       }

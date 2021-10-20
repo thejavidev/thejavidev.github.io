@@ -1,4 +1,6 @@
 /* ====================== [ Start Typography  ] ====================== */
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&amp;display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100;200;300;400;500;600;700;800;900&amp;display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -6,7 +8,6 @@
   box-sizing: border-box;
   outline: none;
   list-style: none;
-  font-family: 'Poppins', sans-serif;
 }
 
 html {
@@ -166,6 +167,12 @@ a:hover, span:hover {
 
 .full-width {
   width: 100% !important;
+}
+
+@media screen and (max-width: 565px) {
+  .full-height {
+    min-height: 40vh !important;
+  }
 }
 
 .main-color {
@@ -1107,7 +1114,7 @@ a:hover, span:hover {
 /* ====================== [ end wrapper ] ====================== */
 /* ====================== [ Start navbar ] ====================== */
 .navbar {
-  position: absolute;
+  position: fixed !important;
   left: 0;
   top: 0;
   padding: 0;
@@ -4008,6 +4015,18 @@ footer .item .copy-right p a {
 
 .portfolio .gallery .items .cont span a {
   margin: 0 5px;
+  text-decoration: none;
+  color: #000;
+  letter-spacing: 2px;
+}
+
+.portfolio .gallery .items .cont span a:hover {
+  letter-spacing: 4px;
+  transition: all .5s;
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  -ms-transition: all .5s;
+  -o-transition: all .5s;
 }
 
 .portfolio .gallery .bords .item-img {
