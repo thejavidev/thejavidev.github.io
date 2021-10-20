@@ -26,8 +26,7 @@
         href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
         rel="stylesheet">
 
-    <!-- Plugins -->
-    <link rel="stylesheet" href="css/plugins.css" />
+
 
     <!-- Core Style Css -->
     <link rel="stylesheet" href="css/style.css" />
@@ -84,8 +83,8 @@
         <div class="container">
 
             <!-- Logo -->
-            <a class="logo" href="#">
-                <img src="img/logo.webp" alt="logo">
+            <a class="logo imgLoad" href="index.html">
+                <img class="lozad" data-src="img/logo.webp" alt="logo">
             </a>
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -267,8 +266,8 @@
             <div class="row pr-5">
                 <div class="col-lg-3 col-md-6">
                     <div class="item cir md-mb50">
-                        <div class="img ">
-                            <img  src="img/team/1.jpg" alt="">
+                        <div class="img imgLoad">
+                            <img  class="lozad" data-src="img/team/1.jpg" alt="">
                             <div id="circle">
                                 <svg version="1.1" xmlns="http://www.w3.org/2000/svg"
                                     xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="300px"
@@ -297,8 +296,8 @@
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="item cir md-mb50">
-                        <div class="img">
-                            <img  src="img/team/2.jpg" alt="">
+                        <div class="img imgLoad">
+                            <img  class="lozad" data-src="img/team/2.jpg" alt="">
                             <div id="circle">
                                 <svg version="1.1" xmlns="http://www.w3.org/2000/svg"
                                     xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="300px"
@@ -326,8 +325,8 @@
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="item cir sm-mb50">
-                        <div class="img">
-                            <img  src="img/team/3.jpg" alt="">
+                        <div class="img imgLoad">
+                            <img  class="lozad" data-src="img/team/3.jpg" alt="">
                             <div id="circle">
                                 <svg version="1.1" xmlns="http://www.w3.org/2000/svg"
                                     xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="300px"
@@ -355,8 +354,8 @@
                 </div>
                 <div class="col-lg-3 col-md-6 ">
                     <div class="item cir sm-mb50">
-                        <div class="img">
-                            <img  src="img/team/5.png" alt="">
+                        <div class="img imgLoad">
+                            <img  class="lozad" data-src="img/team/5.png" alt="">
                             <div id="circle">
                                 <svg version="1.1" xmlns="http://www.w3.org/2000/svg"
                                     xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="300px"
@@ -425,8 +424,8 @@
                 </div>
                 <div class="col-lg-6">
                     <div class="item">
-                        <div class="logo">
-                            <img src="img/logo-light.png" alt="">
+                        <div class="logo imgLoad">
+                            <img class="lozad" data-src="img/logo-light.png" alt="">
                         </div>
                         <!-- <div class="social">
                             <a href="#0"><i class="fab fa-facebook-f"></i></a>
@@ -456,7 +455,12 @@
 
     <!-- plugins -->
     <script src="js/plugins.js"></script>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lozad.js/1.16.0/lozad.js"></script>
+    <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.js"></script>
+    <script>
+        const observer = lozad();
+        observer.observe();
+    </script>
     <!-- custom scripts -->
     <script src="js/scripts.js"></script>
 

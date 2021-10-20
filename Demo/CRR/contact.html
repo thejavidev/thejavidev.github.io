@@ -26,8 +26,7 @@
         href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
         rel="stylesheet">
 
-    <!-- Plugins -->
-    <link rel="stylesheet" href="css/plugins.css" />
+
 
     <!-- Core Style Css -->
     <link rel="stylesheet" href="css/style.css" />
@@ -83,8 +82,8 @@
         <div class="container">
 
             <!-- Logo -->
-            <a class="logo" href="index.html">
-                <img src="img/logo.webp" alt="logo">
+            <a class="logo imgLoad" href="index.html">
+                <img class="lozad" data-src="img/logo.webp" alt="logo">
             </a>
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -251,9 +250,9 @@
                         </div>
                     </div>
                     <div class="col-lg-6">
-                        <div class="item">
+                        <div class="item imgLoad">
                             <div class="logo">
-                                <img src="img/logo-light.png" alt="">
+                                <img class="lozad" data-src="img/logo-light.png" alt="">
                             </div>
                             <!-- <div class="social">
                                 <a href="#0"><i class="fab fa-facebook-f"></i></a>
@@ -290,13 +289,18 @@
     <script src="js/plugins.js"></script>
 
     <!-- particles.min js -->
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lozad.js/1.16.0/lozad.js"></script>
+    <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.js"></script>
+    <script>
+        const observer = lozad();
+        observer.observe();
+    </script>
 
     <!-- custom scripts -->
     <script src="js/scripts.js"></script>
 
     <!-- Map -->
-    <script src="js/map.js"></script>
+ 
 
     <!-- google map api -->
 
@@ -304,5 +308,5 @@
 </body>
 
 
-<!-- Mirrored from innovationplans.com/idesign/vie/vie-light/contact.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 04 Oct 2021 10:58:54 GMT -->
+
 </html>

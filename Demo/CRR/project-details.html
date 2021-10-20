@@ -26,8 +26,6 @@
         href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
         rel="stylesheet">
 
-    <!-- Plugins -->
-    <link rel="stylesheet" href="css/plugins.css" />
 
     <!-- Core Style Css -->
     <link rel="stylesheet" href="css/style.css" />
@@ -83,8 +81,8 @@
         <div class="container">
 
             <!-- Logo -->
-            <a class="logo" href="#">
-                <img src="img/logo.webp" alt="logo">
+            <a class="logo imgLoad" href="index.html">
+                <img class="lozad" data-src="img/logo.webp" alt="logo">
             </a>
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -132,7 +130,7 @@
 
         <!-- ==================== Start Header ==================== -->
 
-        <section class="page-header  parallaxie valign" data-background="img/portfolio/project2/bg.jpg"
+        <section class="page-header  parallaxie valign lozad imgLoad" data-background="img/portfolio/project2/bg.jpg"
             data-overlay-dark="4">
             <div class="container">
                 <div class="row">
@@ -216,37 +214,37 @@
                         <div class="swiper-container">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
-                                    <div class="content wow noraidus fadeInUp popup-img" data-wow-delay=".3s" >
-                                        <div href="img/portfolio/project2/cornaz/fullsize/1.jpg" class="item-img bg-img wow imago popimg"
+                                    <div class="content wow noraidus fadeInUp popup-img imgLoad" data-wow-delay=".3s" >
+                                        <div href="img/portfolio/project2/cornaz/fullsize/1.jpg" class="item-img bg-img wow imago popimg lozad"
                                             data-background="img/portfolio/project2/cornaz/fullsize/1.jpg">
                                         </div>
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
-                                    <div class="content wow noraidus fadeInUp popup-img" data-wow-delay=".3s">
-                                        <div href="img/portfolio/project2/cornaz/fullsize/2.jpg" class="item-img bg-img wow imago popimg"
+                                    <div class="content wow noraidus fadeInUp popup-img imgLoad" data-wow-delay=".3s">
+                                        <div href="img/portfolio/project2/cornaz/fullsize/2.jpg" class="item-img bg-img wow imago popimg lozad"
                                             data-background="img/portfolio/project2/cornaz/fullsize/2.jpg">
                                         </div>
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
-                                    <div class="content wow noraidus fadeInUp popup-img" data-wow-delay=".3s">
-                                        <div href="img/portfolio/project2/cornaz/fullsize/3.jpg" class="item-img bg-img wow imago popimg"
+                                    <div class="content wow noraidus fadeInUp popup-img imgLoad" data-wow-delay=".3s">
+                                        <div href="img/portfolio/project2/cornaz/fullsize/3.jpg" class="item-img bg-img wow imago popimg lozad"
                                             data-background="img/portfolio/project2/cornaz/fullsize/3.jpg">
                                         </div>
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
-                                    <div class="content wow noraidus fadeInUp popup-img" data-wow-delay=".3s">
-                                        <div href="img/portfolio/project2/cornaz/fullsize/4.jpg" class="item-img bg-img wow imago popimg"
+                                    <div class="content wow noraidus fadeInUp popup-img imgLoad" data-wow-delay=".3s">
+                                        <div href="img/portfolio/project2/cornaz/fullsize/4.jpg" class="item-img bg-img wow imago popimg lozad"
                                             data-background="img/portfolio/project2/cornaz/fullsize/4.jpg">
                                         </div>
                                         
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
-                                    <div class="content wow noraidus fadeInUp popup-img" data-wow-delay=".3s">
-                                        <div href="img/portfolio/project2/cornaz/fullsize/5.jpg" class="item-img bg-img wow imago popimg"
+                                    <div class="content wow noraidus fadeInUp popup-img imgLoad" data-wow-delay=".3s">
+                                        <div href="img/portfolio/project2/cornaz/fullsize/5.jpg" class="item-img bg-img wow imago popimg lozad"
                                             data-background="img/portfolio/project2/cornaz/fullsize/5.jpg">
                                         </div>
                                     </div>
@@ -308,9 +306,9 @@
                         </div>
                     </div>
                     <div class="col-lg-6">
-                        <div class="item">
+                        <div class="item imgLoad">
                             <div class="logo">
-                                <img src="img/logo-light.png" alt="">
+                                <img class="lozad" data-src="img/logo-light.png" alt="">
                             </div>
                             <!-- <div class="social">
                                 <a href="#0"><i class="fab fa-facebook-f"></i></a>
@@ -338,7 +336,12 @@
 
     <!-- plugins -->
     <script src="js/plugins.js"></script>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lozad.js/1.16.0/lozad.js"></script>
+    <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.js"></script>
+    <script>
+        const observer = lozad();
+        observer.observe();
+    </script>
     <!-- custom scripts -->
     <script src="js/scripts.js"></script>
 
