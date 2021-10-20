@@ -6,6 +6,7 @@
   box-sizing: border-box;
   outline: none;
   list-style: none;
+  font-family: 'Poppins', sans-serif;
 }
 
 html {
@@ -2956,6 +2957,21 @@ footer .item .copy-right p a {
 .blog .item .btn-more a {
   font-size: 12px;
   letter-spacing: 2px;
+  text-decoration: none;
+  color: #000;
+}
+
+.blog .item .btn-more a:hover {
+  letter-spacing: 4px;
+  transition: all .4s;
+  -webkit-transition: all .4s;
+  -moz-transition: all .4s;
+  -ms-transition: all .4s;
+  -o-transition: all .4s;
+}
+
+.blog .item .btn-more .blog_detal {
+  text-decoration: none;
 }
 
 .blog-list .head h6 {

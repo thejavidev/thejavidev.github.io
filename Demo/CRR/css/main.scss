@@ -1,5 +1,6 @@
 /* ====================== [ Start Typography  ] ====================== */
-
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&amp;display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100;200;300;400;500;600;700;800;900&amp;display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -3157,7 +3158,20 @@
       a {
         font-size: 12px;
         letter-spacing: 2px;
+        text-decoration: none;
+        color: #000;
       }
+      a:hover{
+        letter-spacing: 4px;
+        transition: all .4s;
+        -webkit-transition: all .4s;
+        -moz-transition: all .4s;
+        -ms-transition: all .4s;
+        -o-transition: all .4s;
+    }
+    .blog_detal{
+      text-decoration: none;
+    }
     }
   }
   
