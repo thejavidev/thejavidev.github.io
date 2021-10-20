@@ -7,6 +7,18 @@ function onProgress(imgLoad, image) {
     $item.addClass("loaded");
 }
 
+window.addEventListener("load",function(){
+
+	document.querySelector(".pageloader").classList.add("fade-out");
+
+	setTimeout(function(){
+		document.querySelector(".pageloader").style.display="none";
+
+	},600);
+
+});
+
+
 (function ($) {
     "use strict";
 

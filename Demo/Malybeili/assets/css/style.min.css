@@ -2,7 +2,38 @@
 @import url(media.css);
 
 
-
+.pageloader{
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #ffffff;
+    z-index: 999;
+    transition: all .9s ease;
+  }
+  .pageloader.fade-out{
+    opacity: 0;
+  }
+  
+  .pageloader::before{
+    content: '';
+    position: absolute;
+    height: 4px;
+    width: 100px;
+    background-color: #C58E5A;
+    left: calc(50% - 50px);
+    top: calc(50% - 2px);
+    animation: pageloader 1.4s linear infinite;
+  }
+  @keyframes pageloader{
+    0%,100%{
+      transform: translateX(-100px);
+    }
+    50%{
+      transform: translateX(100px);
+    }
+  }
 
 
 .slick-arrow {
@@ -671,6 +702,11 @@
 @media only screen and (max-width: 767px) {
     .icon-box3 .inner {
         padding: 50px 15px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .aboutinsta {
+       display:none;
     }
 }
 .aboutinsta{
@@ -5513,88 +5549,11 @@ only screen and (max-width: 767px) {
 .product-deal-image{
     position: relative;
 }
-.product-deal-image .circle
-{
-    position: absolute;
-    z-index: 1;
-    height: 500px;
-    width: 500px;
-    border: 5px dashed #F4F3EC;
-    border-radius: 50%;
-    top: 50%;
-    left:50%;
-    transform: translate(-50%,-50%);
-    -webkit-transform: translate(-50%,-50%);
-    -moz-transform: translate(-50%,-50%);
-    -ms-transform: translate(-50%,-50%);
-    -o-transform: translate(-50%,-50%);
-    z-index: -1;
-}
-.product-deal-image .circle::before{
-    content: '';
-    position: absolute;
-    height: 60px;
-    width: 60px;
-    background-color: #DFBB99;
-    border-radius: 50%;
-    left: 30px;
-    top: 30px;
-    transform-origin: 210px 210px;
-    animation: spin_01 20s linear infinite;
-    -webkit-animation: spin_01 20s linear infinite;
-}
 
-@media screen and (max-width:1024px) {
-    .product-deal-image .circle{
-        height: 400px;
-        width: 400px;
-    }
-    .product-deal-image .circle::before{
-        transform-origin: 170px 170px;
-    }
-    .product-deal-content .texta{
-        padding-left: 5rem;
-    }
-}
-@media screen and (max-width:991px) {
-    .product-deal-image .circle{
-        height: 400px;
-        width: 400px;
-    }
-    .product-deal-image .circle::before{
-        transform-origin: 170px 170px;
-    }
-    .product-deal-content .sub-title{
-        padding-left: 5rem;
-    }
-}
-@media screen and (max-width:767px) {
-     .product-deal-image .circle{
-        height: 400px;
-        width: 400px;
-    }
-    .product-deal-image .circle::before{
-        transform-origin: 170px 170px;
-    }
-}
-@media screen and (max-width:585px) {
-    .product-deal-image .circle{
-        display: none;
-    }
-}
-@media screen and (max-width:380px) {
-    .product-deal-image .circle{
-        display: none;
-    }
-}
-@keyframes spin_01 {
-    0%{
-        transform: rotate(0deg);
-    }
-    100%{
-        transform: rotate(360deg);
-    }
-}
+
+
+
+
 @-webkit-keyframes dealImage {
     0% {
         -webkit-transform: translateY(0);

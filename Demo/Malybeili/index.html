@@ -24,6 +24,7 @@
     <link rel="stylesheet" href="assets/css/vendor/customFonts.css">
 
     <!-- Plugins CSS (All Plugins Files) -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/plugins/select2.min.css">
     <link rel="stylesheet" href="assets/css/plugins/perfect-scrollbar.css">
     <link rel="stylesheet" href="assets/css/plugins/swiper.min.css">
@@ -46,7 +47,7 @@
 
 <body>
 
-
+    <div class="pageloader"></div>
 <!-- Header Section Start -->
 <div class="header-section section bg-white d-none d-xl-block">
     <div class="container">
@@ -319,7 +320,7 @@
         </div>
         <div class="body customScroll">
             <ul class="minicart-product-list">
-                <li>
+                <li class="imgLoad">
                     <a href="product-details.html" class="image"><img class="lozad" data-src="assets/images/product/cart-product-1.webp" alt="Cart product Image"></a>
                     <div class="content">
                         <a href="product-details.html" class="title">Ürün</a>
@@ -327,7 +328,7 @@
                         <a href="#" class="remove">×</a>
                     </div>
                 </li>
-                <li>
+                <li class="imgLoad">
                     <a href="product-details.html" class="image"><img class="lozad" data-src="assets/images/product/cart-product-2.webp" alt="Cart product Image"></a>
                     <div class="content">
                         <a href="product-details.html" class="title">Ürün </a>
@@ -335,7 +336,7 @@
                         <a href="#" class="remove">×</a>
                     </div>
                 </li>
-                <li>
+                <li class="imgLoad">
                     <a href="product-details.html" class="image"><img class="lozad" data-src="assets/images/product/cart-product-3.webp" alt="Cart product Image"></a>
                     <div class="content">
                         <a href="product-details.html" class="title">Ürün </a>
@@ -363,7 +364,7 @@
         </div>
         <div class="body customScroll">
             <ul class="minicart-product-list">
-                <li>
+                <li class="imgLoad">
                     <a href="product-details.html" class="image"><img class="lozad" data-src="assets/images/product/cart-product-1.webp" alt="Cart product Image"></a>
                     <div class="content">
                         <a href="product-details.html" class="title">Ürün </a>
@@ -371,7 +372,7 @@
                         <a href="#" class="remove">×</a>
                     </div>
                 </li>
-                <li>
+                <li class="imgLoad">
                     <a href="product-details.html" class="image"><img class="lozad" data-src="assets/images/product/cart-product-2.webp" alt="Cart product Image"></a>
                     <div class="content">
                         <a href="product-details.html" class="title">Ürün </a>
@@ -379,7 +380,7 @@
                         <a href="#" class="remove">×</a>
                     </div>
                 </li>
-                <li>
+                <li class="imgLoad">
                     <a href="product-details.html" class="image"><img class="lozad" data-src="assets/images/product/cart-product-3.webp" alt="Cart product Image"></a>
                     <div class="content">
                         <a href="product-details.html" class="title">Ürün </a>
@@ -395,7 +396,7 @@
                 <span class="amount">$144.00</span>
             </div>
             <div class="buttons">
-                <a href="shopping-cart.html" class="btn btn-dark btn-hover-primary">Karta baxın</a>
+                <a href="shopping-cart.html" class="btn btn-dark btn-hover-primary">Səbətə baxın</a>
                 <a href="checkout.html" class="btn btn-outline-dark">Satın Al</a>
             </div>
             <p class="minicart-message">20 manatdan yuxarı alış-verişdə pulsuz çatdırılma</p>
@@ -462,14 +463,14 @@
 
 <div class="home2-slider swiper-container">
     <div class="swiper-wrapper">
-        <div class="home2-slide-item swiper-slide" data-swiper-autoplay="5000" data-bg-color="#EEE5DD">
-            <div class="home2-slide1-image">
+        <div class="home2-slide-item swiper-slide " data-swiper-autoplay="5000" data-bg-color="#EEE5DD">
+            <div class="home2-slide1-image imgLoad" >
                 <img src="assets/images/slider/home2/slider-1-1.webp" alt="Slide One Image">
 
                 <div class="home2-slide1-product1">
                     <button class="slide-pointer"><span>+</span></button>
-                    <div class="slide-product">
-                        <div class="image"><img src="assets/images/slider/home2/slider-1-2.webp" alt="Slide Product Image"></div>
+                    <div class="slide-product imgLoad" >
+                        <div class="image"><img class="lozad" data-src="assets/images/slider/home2/slider-1-2.webp" alt="Slide Product Image"></div>
                         <h6 class="title">Məhsul adı </h6>
                         <span class="price">39 &#8380;</span>
                     </div>
@@ -488,21 +489,21 @@
             </div>
         </div>
         <div class="home2-slide-item swiper-slide" data-swiper-autoplay="5000" data-bg-color="#F5F1F1">
-            <div class="home2-slide2-image">
-                <img src="assets/images/slider/home2/slider-2-1.webp" alt="Slide One Image">
+            <div class="home2-slide2-image imgLoad">
+                <img class="lozad" data-src="assets/images/slider/home2/slider-2-1.webp" alt="Slide One Image">
 
                 <div class="home2-slide2-product1">
                     <button class="slide-pointer"><span>+</span></button>
-                    <div class="slide-product">
-                        <div class="image"><img src="assets/images/slider/home2/slider-2-2.webp" alt="Slide Product Image"></div>
+                    <div class="slide-product imgLoad">
+                        <div class="image"><img class="lozad" data-src="assets/images/slider/home2/slider-2-2.webp" alt="Slide Product Image"></div>
                         <h6 class="title">Məshul adı </h6>
                         <span class="price">39 &#8380;</span>
                     </div>
                 </div>
                 <div class="home2-slide2-product2">
                     <button class="slide-pointer"><span>+</span></button>
-                    <div class="slide-product">
-                        <div class="image"><img src="assets/images/slider/home2/slider-2-3.webp" alt="Slide Product Image"></div>
+                    <div class="slide-product imgLoad">
+                        <div class="image"><img class="lozad" data-src="assets/images/slider/home2/slider-2-3.webp" alt="Slide Product Image"></div>
                         <h6 class="title">Məshul adı </h6>
                         <span class="price">39 &#8380;</span>
                     </div>
@@ -521,21 +522,21 @@
             </div>
         </div>
         <div class="home2-slide-item swiper-slide" data-swiper-autoplay="5000" data-bg-color="#F1DED0">
-            <div class="home2-slide3-image">
-                <img src="assets/images/slider/home2/slider-3-1.webp" alt="Slide One Image">
+            <div class="home2-slide3-image imgLoad">
+                <img class="lozad" data-src="assets/images/slider/home2/slider-3-1.webp" alt="Slide One Image">
 
                 <div class="home2-slide3-product1">
                     <button class="slide-pointer"><span>+</span></button>
-                    <div class="slide-product">
-                        <div class="image"><img src="assets/images/slider/home2/slider-3-2.webp" alt="Slide Product Image"></div>
+                    <div class="slide-product imgLoad">
+                        <div class="image"><img class="lozad" data-src="assets/images/slider/home2/slider-3-2.webp" alt="Slide Product Image"></div>
                         <h6 class="title">Məshul adı </h6>
                         <span class="price">39 &#8380;</span>
                     </div>
                 </div>
                 <div class="home2-slide3-product2">
                     <button class="slide-pointer"><span>+</span></button>
-                    <div class="slide-product">
-                        <div class="image"><img src="assets/images/slider/home2/slider-3-3.webp" alt="Slide Product Image"></div>
+                    <div class="slide-product imgLoad">
+                        <div class="image"><img class="lozad" data-src="assets/images/slider/home2/slider-3-3.webp" alt="Slide Product Image"></div>
                         <h6 class="title">Məshul adı </h6>
                         <span class="price"> 45 &#8380;</span>
                     </div>
@@ -564,8 +565,8 @@
     <div class="container">
         <div class="row row-cols-lg-4 row-cols-sm-2 row-cols-1 learts-mb-n40">
 
-            <div class="col learts-mb-40">
-                <div class="category-banner4 imgLoad">
+            <div class="col learts-mb-40 " >
+                <div class="category-banner4 imgLoad" data-aos="fade-down" data-aos-duration="1000">
                     <a href="shop.html" class="inner">
                         <div class="image"><img  class="lozad" data-src="assets/images/banner/category/banner-s4-1.webp" alt=""></div>
                         <div class="content" data-bg-color="#f4ede7">
@@ -575,8 +576,8 @@
                 </div>
             </div>
 
-            <div class="col learts-mb-40">
-                <div class="category-banner4 imgLoad">
+            <div class="col learts-mb-40" >
+                <div class="category-banner4 imgLoad" data-aos="fade-down" data-aos-duration="2000">
                     <a href="shop.html" class="inner">
                         <div class="image"><img class="lozad" data-src="assets/images/banner/category/banner-s4-2.webp" alt=""></div>
                         <div class="content" data-bg-color="#e8f5f2">
@@ -586,8 +587,8 @@
                 </div>
             </div>
 
-            <div class="col learts-mb-40">
-                <div class="category-banner4 imgLoad">
+            <div class="col learts-mb-40" >
+                <div class="category-banner4 imgLoad" data-aos="fade-down" data-aos-duration="2500">
                     <a href="shop.html" class="inner">
                         <div class="image"><img  class="lozad" data-src="assets/images/banner/category/banner-s4-3.webp" alt=""></div>
                         <div class="content" data-bg-color="#e3e4f5">
@@ -597,8 +598,8 @@
                 </div>
             </div>
 
-            <div class="col learts-mb-40">
-                <div class="category-banner4 imgLoad">
+            <div class="col learts-mb-40" >
+                <div class="category-banner4 imgLoad" data-aos="fade-down" data-aos-duration="3000">
                     <a href="shop.html" class="inner">
                         <div class="image"><img class="lozad" data-src="assets/images/banner/category/banner-s4-4.webp" alt=""></div>
                         <div class="content" data-bg-color="#faf5e5">
@@ -619,7 +620,7 @@
     <div class="container">
         <div class="row align-items-center learts-mb-n30">
 
-            <div class="col-lg-6 col-12 learts-mb-30 imgLoad">
+            <div class="col-lg-6 col-12 learts-mb-30 imgLoad" data-aos="fade-down" data-aos-duration="2000">
                 <div class="product-deal-image text-center">
                     <img class="lozad" data-src="assets/images/product/deal-product-2.png" alt="">
                 </div>
@@ -629,12 +630,12 @@
                 
 
                 <div class="about-us">
-                    <div class="inner">
+                    <div class="inner imgLoad">
                         <span class="special-title">Kampaniya</span>
                         <h2 class="title no-shape learts-mb-20">Həftənin endirimi</h2>
-                        <img class="learts-mb-30 " src="assets/images/about/about-4.webp" alt="">
+                        <img class="learts-mb-30 lozad" data-src="assets/images/about/about-4.webp" alt="">
                         <div class="countdown1 pb-5" data-countdown="2021/11/12"></div>
-                        <a href="shop.html" class="btn btn-primary2 btn-hover-black">Indi Al</a>
+                        <a href="shop.html" class="btn btn-primary btn-hover-black">Indi Al</a>
                     </div>
                 </div>
 
@@ -645,90 +646,20 @@
 </div>
 <!-- Deal of the Day Section End -->
 
-<!--SETUPS START-->
-<div class="section section-fluid section-padding" data-bg-color="#ffffff" style="margin-bottom: 100px;">
-    <div class="container">
 
-        <div class="row learts-mb-150">
-            <div class="col">
-                <!-- Section Title Start -->
-                <div class="section-title text-center mb-0">
-                    <h3 class="title2">MÜŞTƏRİLƏRİMİZLƏ İŞ PROSESİNİN MƏRHƏLƏLƏRİ</h3>
-                    <h2 class="title title-icon-both">Bizimlə İş Prosesi</h2>
-                </div>
-                <!-- Section Title End -->
-            </div>
-        </div>
-
-
-        <div class="row align-items-center learts-mb-n30 covimg">
-            <div class="col-md">
-                <div class="tw-work-process imgLoad">
-                    <div class="process-wrapper d-table" style=background-color:#fa6742;>
-                        <div class="process-inner d-table-cell">
-                            <img data-src="assets/images/procressa.png" alt="" class="img-fluid lozad">
-                        </div>
-                    </div>
-                    <p>Sifarişin qəbulu</p>
-                </div>
-            </div>
-            
-            <div class="col-md">
-                <div class="tw-work-process imgLoad">
-                    <div class="process-wrapper d-table" style=background-color:#ffb72f;>
-                        <div class="process-inner d-table-cell">
-                            <img  data-src="assets/images/procressb.png" alt="" class="img-fluid lozad">
-                        </div>
-                    </div>
-                    <p>Sifarişin hazırlanması</p>
-                </div>
-            </div>
-            
-            <div class="col-md">
-                <div class="tw-work-process imgLoad">
-                    <div class="process-wrapper d-table" style=background-color:#478fff;>
-                        <div class="process-inner d-table-cell">
-                            <img data-src="assets/images/procressc.png" alt="" class="img-fluid lozad">
-                        </div>
-                    </div>
-                    <p>Kuryerə verilməsi</p>
-                </div>
-            </div>
-
-         
-            
-            <div class="col-md">
-                <div class="tw-work-process imgLoad">
-                    <div class="process-wrapper d-table">
-                        <div class="process-inner d-table-cell">
-                            <img data-src="assets/images/procressd.png" alt="" class="img-fluid lozad">
-                        </div>
-                    </div>
-                    <p>Təhvil verilməsi</p>
-                </div>
-            </div>
-            
-
-    
-
-        </div>
-    </div>
-</div>
-<!--SETUPS END-->
 
  <div class="section section-fluid section-padding mt-5 mb-5" >
         <div class="container">
             <div class="row align-items-center learts-mb-n30">
 
-                <div class="col-lg-6 col-12 learts-mb-30 imgLoad">
+                <div class="col-lg-6 col-12 learts-mb-30 imgLoad" data-aos="zoom-in" data-aos-duration="2000">
                     <div class="product-deal-image text-center">
-                        <div class="circle">
-                        </div>
+                        
                         <img class="aboutinsta lozad" data-src="assets/images/instagram.png" alt="">
                     </div>
                 </div>
 
-                <div class="col-lg-6 col-12 learts-mb-30">
+                <div class="col-lg-6 col-12 learts-mb-30" data-aos="fade-left" data-aos-duration="2000">
                     <div class="product-deal-content">
                         <h2 class="sub-title texta">Instagramda bizi izləyin</h2>
                         <div class="desc">
@@ -881,12 +812,18 @@
     <script src="assets/js/vendor/jquery-migrate-3.1.0.min.js"></script>
     <script src="assets/js/vendor/bootstrap.bundle.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/lozad.js/1.16.0/lozad.js"></script>
-		<script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.js"></script>
+	<script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.js"></script>
 		<script>
 			const observer = lozad();
 			observer.observe();
+            
 		  </script>
+          
     <!-- Plugins JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init({ once: true, });
+</script>
     <script src="assets/js/plugins/select2.min.js"></script>
     <script src="assets/js/plugins/jquery.nice-select.min.js"></script>
     <script src="assets/js/plugins/perfect-scrollbar.min.js"></script>
@@ -895,7 +832,6 @@
     <script src="assets/js/plugins/mo.min.js"></script>
     <script src="assets/js/plugins/jquery.ajaxchimp.min.js"></script>
     <script src="assets/js/plugins/jquery.countdown.min.js"></script>
-    <script src="assets/js/plugins/imagesloaded.pkgd.min.js"></script>
     <script src="assets/js/plugins/isotope.pkgd.min.js"></script>
     <script src="assets/js/plugins/jquery.matchHeight-min.js"></script>
     <script src="assets/js/plugins/ion.rangeSlider.min.js"></script>

@@ -23,6 +23,7 @@
     <link rel="stylesheet" href="assets/css/vendor/customFonts.css">
 
     <!-- Plugins CSS (All Plugins Files) -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/plugins/select2.min.css">
     <link rel="stylesheet" href="assets/css/plugins/perfect-scrollbar.css">
     <link rel="stylesheet" href="assets/css/plugins/swiper.min.css">
@@ -44,7 +45,7 @@
 </head>
 
 <body>
-
+    <div class="pageloader"></div>
     <!-- Header Section Start -->
     <div class="header-section section section-fluid bg-white d-none d-xl-block">
         <div class="container">
@@ -486,13 +487,13 @@
     <div class="section section-padding">
         <div class="container">
             <div class="row learts-mb-n30">
-                <div class="col-lg-4 col-12 align-self-center learts-mb-30">
+                <div class="col-lg-4 col-12 align-self-center learts-mb-30" data-aos="fade-right" data-aos-duration="2000">
                     <div class="about-us4">
                         <span class="sub-title">Milli Azərbaycan Brendi</span>
                         <h2 class="title">Milli mədəni irsimizi qoruyan hər zövqə uyğun əl işləri</h2>
                     </div>
                 </div>
-                <div class="col-lg-8 col-12 learts-mb-30 imgLoad">
+                <div class="col-lg-8 col-12 learts-mb-30 imgLoad" data-aos="fade-left" data-aos-duration="2000">
                     <img class="a1image lozad" data-src="assets/images/about/a1.jpg" alt="">
                 </div>
             </div>
@@ -505,14 +506,14 @@
         <div class="container">
             <div class="row learts-mb-n30">
 
-                <div class="col-lg-6 col-12 text-center learts-mb-30 imgLoad" >
+                <div class="col-lg-6 col-12 text-center learts-mb-30 imgLoad" data-aos="zoom-in" data-aos-duration="2000">
                     <img class="a2image lozad" data-src="assets/images/about/coverphoto.png" alt="">
                 </div>
 
                 <div class="col-lg-6 col-12 align-self-center learts-mb-30">
-                    <div class="about-us4">
+                    <div class="about-us4" data-aos="fade-left" data-aos-duration="2000">
                         <div class="row learts-mb-n30 justify-content-center" >
-                            <div class="col-xl-8 col-12 learts-mb-30 ">
+                            <div class="col-xl-8 col-12 learts-mb-30 " >
                                 <div class="desc mb-0 ">
                                     <p class="aboutName">Amalya Verdiyeva</p>
                                 </div>
@@ -557,9 +558,80 @@
     </div>
     <!-- About Section End -->
 
-    <!-- Video Banner Section Start -->
-  
-    <!-- Video Banner Section End -->
+   <!--SETUPS START-->
+<div class="section section-fluid section-padding" data-bg-color="#ffffff" style="margin-bottom: 100px;">
+    <div class="container">
+
+        <div class="row learts-mb-150">
+            <div class="col">
+                <!-- Section Title Start -->
+                <div class="section-title text-center mb-0">
+                    <h3 class="title2">MÜŞTƏRİLƏRİMİZLƏ İŞ PROSESİNİN MƏRHƏLƏLƏRİ</h3>
+                    <h2 class="title title-icon-both">Bizimlə İş Prosesi</h2>
+                </div>
+                <!-- Section Title End -->
+            </div>
+        </div>
+
+
+        <div class="row align-items-center learts-mb-n30 covimg" data-aos="fade-up"
+        data-aos-anchor-placement="top-bottom" data-aos-duration="1000">
+            <div class="col-md">
+                <div class="tw-work-process imgLoad">
+                    <div class="process-wrapper d-table" style=background-color:#fa6742;>
+                        <div class="process-inner d-table-cell">
+                            <img data-src="assets/images/procressa.png" alt="" class="img-fluid lozad">
+                        </div>
+                    </div>
+                    <p>Sifarişin qəbulu</p>
+                </div>
+            </div>
+            
+            <div class="col-md">
+                <div class="tw-work-process imgLoad"  data-aos="fade-down"
+                data-aos-duration="1500">
+                    <div class="process-wrapper d-table" style=background-color:#ffb72f;>
+                        <div class="process-inner d-table-cell">
+                            <img  data-src="assets/images/procressb.png" alt="" class="img-fluid lozad">
+                        </div>
+                    </div>
+                    <p>Sifarişin hazırlanması</p>
+                </div>
+            </div>
+            
+            <div class="col-md">
+                <div class="tw-work-process imgLoad" data-aos="fade-up"
+                 data-aos-duration="2000">
+                    <div class="process-wrapper d-table" style=background-color:#478fff;>
+                        <div class="process-inner d-table-cell">
+                            <img data-src="assets/images/procressc.png" alt="" class="img-fluid lozad">
+                        </div>
+                    </div>
+                    <p>Kuryerə verilməsi</p>
+                </div>
+            </div>
+
+         
+            
+            <div class="col-md">
+                <div class="tw-work-process imgLoad" data-aos="fade-down"
+                 data-aos-duration="2500">
+                    <div class="process-wrapper d-table">
+                        <div class="process-inner d-table-cell">
+                            <img data-src="assets/images/procressd.png" alt="" class="img-fluid lozad">
+                        </div>
+                    </div>
+                    <p>Təhvil verilməsi</p>
+                </div>
+            </div>
+            
+
+    
+
+        </div>
+    </div>
+</div>
+<!--SETUPS END-->
 
     <!-- Testimonial Section Start -->
     <div class="section section-padding">
@@ -699,6 +771,10 @@
         observer.observe();
       </script>
     <!-- Plugins JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({ once: true, });
+    </script>
     <script src="assets/js/plugins/select2.min.js"></script>
     <script src="assets/js/plugins/jquery.nice-select.min.js"></script>
     <script src="assets/js/plugins/perfect-scrollbar.min.js"></script>
