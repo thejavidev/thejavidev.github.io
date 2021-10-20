@@ -971,7 +971,19 @@
       -o-transition: all .7s;
     }
   }
-  
+  .swiper_detal{
+    text-decoration: none !important;
+    color: #000;
+    letter-spacing: 2px;
+  }
+  .swiper_detal:hover{
+    letter-spacing: 4px;
+    transition: all .4s;
+    -webkit-transition: all .4s;
+    -moz-transition: all .4s;
+    -ms-transition: all .4s;
+    -o-transition: all .4s;
+}
   /*------------IMGLOADED END*/
   /* ====================== [ Start Progress ] ====================== */
   
@@ -5218,7 +5230,9 @@
   
     .swiper-container {
       height: 100%;
+
     }
+ 
   
     .swiper-slide .bg-img {
       height: 70vh;
