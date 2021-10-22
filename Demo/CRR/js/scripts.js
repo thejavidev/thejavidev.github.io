@@ -476,11 +476,17 @@ $(window).on("load", function () {
         itemSelector: '.items'
     });
 
+    $('.blogsrow').isotope({
+        itemSelector: '.items'
+    });
+
     var $gallery = $('.gallery').isotope();
+    var $blogrow = $('.blogsrow').isotope();
 
     $('.filtering').on('click', 'span', function () {
         var filterValue = $(this).attr('data-filter');
         $gallery.isotope({ filter: filterValue });
+        $blogrow.isotope({ filter: filterValue });
     });
 
     $('.filtering').on('click', 'span', function () {

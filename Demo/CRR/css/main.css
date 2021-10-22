@@ -1436,7 +1436,11 @@ a:hover, span:hover {
   margin: 0;
   padding: 0 0 50px 0;
 }
-
+@media screen and (max-width:565px) {
+  .price-heading h1{
+    font-size: 1.4rem !important;
+  }
+}
 .demo-button {
   background-color: #333333;
   color: #ffffff;
@@ -1990,6 +1994,8 @@ a:hover, span:hover {
   transform: translateY(0);
   -webkit-transition-delay: 1s;
   transition-delay: 1s;
+  outline: none;
+  border: none;
 }
 
 .hamenu.open .cont-info:after {
@@ -2082,6 +2088,8 @@ a:hover, span:hover {
   z-index: -1;
   -webkit-transition-delay: .2s;
   transition-delay: .2s;
+  outline: none;
+  border: none;
 }
 
 .hamenu .menu-links .main-menu .sub-menu.sub-open {
@@ -3135,7 +3143,15 @@ a:hover, span:hover {
   position: relative;
   z-index: 2;
 }
+.fontsize{
+  font-size: 3rem;
+}
+@media screen and (max-width:565px) {
+  .fontsize{
+    font-size: 2.5rem;
+  }
 
+}
 .services2 .item-box {
   padding: 46px 5px;
   text-align: center;
@@ -3313,7 +3329,9 @@ a:hover, span:hover {
 .work-carousel .simp-next {
   right: 30px;
 }
-
+.work-carousel .simp-next:hover {
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.01);
+}
 .work-carousel .simp-prev {
   left: 30px;
 }
@@ -3749,11 +3767,41 @@ a:hover, span:hover {
 .blog-pg .posts .item .img {
   position: relative;
 }
+.blog-pg .filtering{
+  margin-top: 100px;
+}
+@media screen and (max-width:767px) {
+  .blog-pg .filtering{
+    margin-top: 20px;
+  }
+  .blog-pg .filtering .filter
+  {
+    width: 17rem !important;
+    margin-left: -2.3rem;
+     padding: 15px 10px !important;
+     border-radius: 10px;
+   }
 
+   .blog-pg .filtering span:after
+  {
+   
+     display: none;
+   }
+}
+.blog-pg .content{
+  padding-top: 60px !important;
+}
 .blog-pg .posts .item .content {
   padding-top: 25px;
 }
-
+@media screen and (max-width:565px) {
+  .blog-pg .row2{
+    padding: 20px;
+  }
+  .blog-pg .content{
+    padding-top: 10px !important;
+  }
+}
 .blog-pg .posts .item .content .date {
   margin-right: 15px;
   text-transform: uppercase;
@@ -4588,18 +4636,21 @@ a:hover, span:hover {
   position: relative;
 }
 
-.portfolio .filtering {
+.portfolio .filtering,
+.blog-pg .filtering{
   padding-left: 50px;
 }
 
-.portfolio .filtering .filter {
+.portfolio .filtering .filter,
+.blog-pg .filtering .filter {
   padding: 15px;
   background: rgba(0, 0, 0, 0.04);
   border-radius: 30px;
   display: inline-block;
 }
 
-.portfolio .filtering span {
+.portfolio .filtering span,
+.blog-pg .filtering span {
   font-weight: 500;
   font-size: 12px;
   letter-spacing: 1px;
@@ -4609,11 +4660,13 @@ a:hover, span:hover {
   position: relative;
 }
 
-.portfolio .filtering span.active {
+.portfolio .filtering span.active,
+.blog-pg .filtering span.active {
   color: #12c2e9;
 }
 
-.portfolio .filtering span:after {
+.portfolio .filtering span:after,
+.blog-pg .filtering span:after {
   content: '';
   width: 7px;
   height: 7px;
@@ -4624,18 +4677,21 @@ a:hover, span:hover {
   top: 40%;
 }
 
-.portfolio .filtering span:last-of-type:after {
+.portfolio .filtering span:last-of-type:after,
+.blog-pg .filtering span:last-of-type::after {
   display: none;
 }
 
-.portfolio .filtering.smplx .filter {
+.portfolio .filtering.smplx .filter,
+.blog-pg .filtering.smplx .filter {
   padding: 0;
   background: transparent;
   border-radius: 0;
   display: inline-block;
 }
 
-.portfolio .filtering.smplx span {
+.portfolio .filtering.smplx span,
+.blog-pg .filtering.smplx span {
   font-weight: 500;
   font-size: 12px;
   letter-spacing: 1px;
@@ -4645,11 +4701,13 @@ a:hover, span:hover {
   position: relative;
 }
 
-.portfolio .filtering.smplx span.active {
+.portfolio .filtering.smplx span.active,
+.blog-pg .filtering.smplx span.active {
   color: #12c2e9;
 }
 
-.portfolio .filtering.smplx span:after {
+.portfolio .filtering.smplx span:after,
+.blog-pg .filtering.smplx span:after {
   content: '';
   width: 7px;
   height: 7px;
@@ -4660,7 +4718,8 @@ a:hover, span:hover {
   top: 40%;
 }
 
-.portfolio .filtering.smplx span:last-of-type:after {
+.portfolio .filtering.smplx span:last-of-type:after,
+.blog-pg .filtering.smplx span:last-of-type::after {
   display: none;
 }
 
@@ -5347,13 +5406,23 @@ body {
   letter-spacing: 4px;
   font-size: 13px;
   font-weight: 300;
+  text-decoration: none !important;
+  color: #000;
 }
-
+.simple-btn:hover{
+  transition: all .4s;
+  letter-spacing: 6px;
+  color: #000;
+  -webkit-transition: all .4s;
+  -moz-transition: all .4s;
+  -ms-transition: all .4s;
+  -o-transition: all .4s;
+}
 .simple-btn:after {
   content: '';
   width: 45%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.05);
+
   position: absolute;
   left: 0;
   top: 0;
@@ -6025,6 +6094,8 @@ body {
   .navbar .navbar-collapse {
     max-height: 340px;
     overflow: auto;
+    outline: none;
+    border: none;
     background: #11141b;
     text-align: center;
     padding: 10px 15px;
@@ -6042,30 +6113,13 @@ body {
   .nav-scroll .navbar-collapse .active, .light .navbar-collapse .active {
     color: #12c2e9 !important;
   }
-  .navbar .search {
-    border: 0;
-    padding: 0;
-    margin-top: 30px;
+  
+
+ 
+  .navbar-toggler:not(:disabled):not(.disabled){
+    outline: none;
   }
-  .navbar .search .search-form {
-    display: block;
-    position: static;
-    height: auto;
-  }
-  .navbar .search .search-form form {
-    position: static;
-    width: 100%;
-    -webkit-transform: none;
-    transform: none;
-  }
-  .navbar .search .search-form form input {
-    padding: 15px;
-    width: 100%;
-    font-size: 14px;
-  }
-  .navbar .search .icon, .navbar .search .search-form .close {
-    display: none;
-  }
+  
   .navbar-nav .dropdown-menu {
     opacity: 1;
     visibility: visible;
@@ -6424,14 +6478,19 @@ body {
   .call-action .content h2 {
     font-size: 7vw;
   }
-  .portfolio .filtering .filter {
+  
+  .portfolio .filtering .filter
+ {
     padding: 15px 5px;
     border-radius: 10px;
   }
-  .portfolio .filtering span {
+  .portfolio .filtering span
+ {
     margin: 5px 10px;
   }
-  .portfolio .filtering span:after {
+  .portfolio .filtering span:after
+ {
+  
     display: none;
   }
   .team-crv .img-box .img.sizxl, .team-crv .img-box .img.sizmd, .team-crv .img-box .img.sizsm {
