@@ -1963,7 +1963,13 @@ footer .item li {
   display: flex;
   margin-bottom: 2px;
 }
+footer .item li h6{
+  opacity: 1 !important;
+  color: #fff !important; 
+}
 footer .item li{
+  opacity: .8;
+  color: #ccc;
   padding: 6px 0;
   transition: all .4s;
   -webkit-transition: all .4s;
@@ -1972,6 +1978,7 @@ footer .item li{
   -o-transition: all .4s;
 }
 footer .item li:hover{
+  opacity: 1;
   color: #059dff;
   transform: translateX(10px);
   -webkit-transform: translateX(10px);
