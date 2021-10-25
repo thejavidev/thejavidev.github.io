@@ -130,7 +130,13 @@ a:hover, span:hover {
   background: -webkit-gradient(linear, left top, right top, from(#12c2e9), color-stop(#c471ed), to(#f64f59));
   background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
 }
-
+.lineb{
+  margin-top: 30px;
+  height: 2px;
+  width: 100%;
+  background: -webkit-gradient(linear, left top, right top, from(#12c2e9), color-stop(#c471ed), to(#f64f59));
+  background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
+}
 .line.top {
   top: 0;
 }

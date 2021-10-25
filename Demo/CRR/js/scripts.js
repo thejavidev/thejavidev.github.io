@@ -515,7 +515,7 @@ $(window).on("load", function () {
 
     $('#contact-form').on('submit', function (e) {
         if (!e.isDefaultPrevented()) {
-            var url = "https://www.innovationplans.com/idesign/vie/vie-light/contact.php";
+            var url = "";
 
             $.ajax({
                 type: "POST",
