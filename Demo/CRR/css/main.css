@@ -3053,18 +3053,32 @@ footer .item .copy-right p a {
 
 }
 .services .item-box {
+  border-radius: 12px;
   display: flex;
   padding: 4px 2px;
   text-align: center;
   border: 1px solid rgba(0, 0, 0, 0.08);
   overflow: hidden;
   position: relative;
+  transition: all .4s;
   box-shadow: 0 0 15px rgba(0,0,0,.2);
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+  -webkit-transition: all .4s;
+  -moz-transition: all .4s;
+  -ms-transition: all .4s;
+  -o-transition: all .4s;
 }
 
 .services .item-box:hover {
   box-shadow: 0 0 17px rgba(0,0,0,.6);
-       
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
 }
 
 .services .item-box .icon {
