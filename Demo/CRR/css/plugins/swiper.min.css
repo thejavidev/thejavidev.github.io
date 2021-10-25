@@ -45,10 +45,14 @@
 .swiper-wrapper {
 	transform: translate3d(0px, 0, 0);
 }
+.speed {
+    transition-duration: 1s !important;
+	transform: translate3d(0px, 0, 0);
+	}
 @media screen and (max-width:991px) {
 	
 	
-.sw2 {
+.speed {
     transition-duration: 1s !important;
 	transform: translate3d(0px, 0, 0);
 	}

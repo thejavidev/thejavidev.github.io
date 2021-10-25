@@ -207,7 +207,7 @@ $(function () {
         spaceBetween: 0,
         autoplaySpeed:1000,
         autoplay:false,
-        speed: 2000,
+        speed: 1000,
         loop: true,
         centeredSlides: true,
 
@@ -241,9 +241,18 @@ $(function () {
         },
     });
 
+
+
+
+
+
+
+
+
+
     var swiperWorkCaroul = new Swiper('.caroul .swiper-container', {
         spaceBetween: 0,
-        speed: 5000,
+        speed: 1000,
         autoplaySpeed:10000,
         loop: true,
 
@@ -261,6 +270,10 @@ $(function () {
                 spaceBetween: 0
             },
             1024: {
+                slidesPerView: 3,
+                spaceBetween: 0
+            },
+            1200: {
                 slidesPerView: 4,
                 spaceBetween: 0
             }
@@ -323,6 +336,8 @@ $(function () {
             $(this).css("background-image", "url(" + $(this).data("background") + ")");
         }
     });
+
+
 
 
     /* ===============================  slick Carousel  =============================== */
@@ -810,3 +825,55 @@ $('[data-carousel="swiper"]').each(function () {
         var init = new Swiper(initID, conf);
     };
 });
+$('.testimonials .slic-item').slick({
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    centerMode: true,
+    arrows: true,
+    prevArrow: '.testimonials .prev',
+    nextArrow: '.testimonials .next',
+    dots: false,
+    autoplay: true,
+    responsive: [
+        {
+            breakpoint: 1024,
+            settings: {
+                slidesToShow: 1,
+                centerMode: false,
+            }
+        },
+        {
+            breakpoint: 767,
+            settings: {
+                slidesToShow: 1,
+                centerMode: false,
+            }
+        },
+        {
+            breakpoint: 480,
+            settings: {
+                slidesToShow: 1,
+                centerMode: false,
+            }
+        }
+    ]
+});
+
+$(document).ready(function(){
+    $(".testimonial .indicators li").click(function(){
+      var i = $(this).index();
+      var targetElement = $(".testimonial .tabs li");
+      targetElement.eq(i).addClass('active');
+      targetElement.not(targetElement[i]).removeClass('active');
+              });
+              $(".testimonial .tabs li").click(function(){
+                  var targetElement = $(".testimonial .tabs li");
+                  targetElement.addClass('active');
+                  targetElement.not($(this)).removeClass('active');
+              });
+          });
+  $(document).ready(function(){
+      $(".slider .swiper-pagination span").each(function(i){
+          $(this).text(i+1).prepend("0");
+      });
+  });
