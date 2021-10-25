@@ -3029,11 +3029,21 @@ footer .item .copy-right p a {
   margin-bottom: 20px;
 }
 .faq .accordion-header{
-  box-shadow: 0 5px 15px rgba(0,0,0,.3);
+  box-shadow: 0 5px 10px rgba(0,0,0,.3);
   padding: 20px 50px 20px 30px;
   transition: all .5s ease;
   cursor: pointer;
+  transition: all .4s;
   position: relative;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  -webkit-transition: all .4s;
+  -moz-transition: all .4s;
+  -ms-transition: all .4s;
+  -o-transition: all .4s;
 }
 
 .faq .accordion-header::before{
@@ -3055,33 +3065,46 @@ footer .item .copy-right p a {
   transition: all .5s ease;
 }
 .faq .accordion-header:not(.collapsed)::before{
-  color: #ff005a;
+  background: #ff005a;
   background: url('/img/mius.svg');
 
 }
 .faq .accordion-header:not(.collapsed){
-  background-color:#ccc;
-
+  transition: all .4s;
+  background-color:#fff;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  -webkit-transition: all .4s;
+  -moz-transition: all .4s;
+  -ms-transition: all .4s;
+  -o-transition: all .4s;
 }
 .faq .accordion-header h3{
   font-size: 18px;
   font-weight: 500;
-  color: var(--black-400);
+  color: #000;
   margin: 0;
   transition: all .5s ease;
 }
 
 .faq .accordion-header:not(.collapsed) h3{
-  color:var(--black-000);
+  color:#8400ff;
 }
 .faq .accordion-body{
+  transition: all .4s;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
   padding:20px 30px;
-  background-color: var(--black-100);
+  background-color: #ccc;
+  -webkit-transition: all .4s;
+  -moz-transition: all .4s;
+  -ms-transition: all .4s;
+  -o-transition: all .4s;
 }
 .faq .accordion-body p{
-  font-weight: 300;
+  font-weight: 500;
   font-size: 16px;
-  color: var(--black-400);
+  color: #000;
   line-height: 26px;
   margin:0;
 }
