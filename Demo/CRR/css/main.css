@@ -1021,6 +1021,8 @@ a:hover, span:hover {
 }
 
 /*PRICE START------------------------------------------------*/
+
+
 .princ .pricingTable10{
   transition: all .4s;
   -webkit-transition: all .4s;
@@ -1029,11 +1031,11 @@ a:hover, span:hover {
   -o-transition: all .4s;
 }
 .princ .pricingTable10:hover{
-  transform: translateY(-15px);
-  -webkit-transform: translateY(-15px);
-  -moz-transform: translateY(-15px);
-  -ms-transform: translateY(-15px);
-  -o-transform: translateY(-15px);
+  transform: translateY(-25px);
+  -webkit-transform: translateY(-25px);
+  -moz-transform: translateY(-25px);
+  -ms-transform: translateY(-25px);
+  -o-transform: translateY(-25px);
 }
 
 
@@ -1053,6 +1055,17 @@ a:hover, span:hover {
 }
 .paket1:hover .pricingTable-header {
 	background: #9B59B6;
+}
+.pak.active{
+  transform: translateY(-20px);
+  -webkit-transform: translateY(-17px);
+  -moz-transform: translateY(-20px);
+  -ms-transform: translateY(-20px);
+  -o-transform: translateY(-20px);
+}
+.pak.active .pricingTable-header{
+  background: #f64f59 !important;
+  
 }
 .paket1:hover .read{
   background: #9B59B6;
@@ -1097,7 +1110,7 @@ a:hover, span:hover {
 	position: relative;
 	font-size: 55px;
 	font-weight: 700;
-	color: #09b1c5;
+	color: #ccc;
 	transition: all 0.3s ease 0s;
 }
 .pricingTable10:hover .price-value {
@@ -1111,7 +1124,7 @@ a:hover, span:hover {
 	left: -19px;
 }
 .pricingTable10 .month {
-	font-size: 16px;
+	font-size: 26px;
 	color: #fff;
 	position: absolute;
 	bottom: 15px;
@@ -1176,7 +1189,7 @@ a:hover, span:hover {
 	font-size: 15px;
 	font-weight: 700;
 	color: #777473;
-	padding: 10px 0;
+	padding: 5px 0;
 	border-bottom: 1px solid #d9d9d8;
 }
 .pricingTable10 .pricing-content ul li:last-child {
@@ -1944,7 +1957,22 @@ footer .item li {
   display: flex;
   margin-bottom: 2px;
 }
-
+footer .item li{
+  padding: 6px 0;
+  transition: all .4s;
+  -webkit-transition: all .4s;
+  -moz-transition: all .4s;
+  -ms-transition: all .4s;
+  -o-transition: all .4s;
+}
+footer .item li:hover{
+  color: #059dff;
+  transform: translateX(10px);
+  -webkit-transform: translateX(10px);
+  -moz-transform: translateX(10px);
+  -ms-transform: translateX(10px);
+  -o-transform: translateX(10px);
+}
 footer .item li:last-of-type {
   margin-bottom: 0;
 }
@@ -2911,7 +2939,9 @@ footer .item .copy-right p a {
   .fontsize{
     font-size: 2.5rem !important;
   }
-
+  .fontsize2{
+    font-size: 2rem !important;
+  }
 }
 .services2 .item-box {
   padding: 46px 5px;
