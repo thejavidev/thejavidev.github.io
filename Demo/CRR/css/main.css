@@ -131,7 +131,7 @@ a:hover, span:hover {
   background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
 }
 .lineb{
-  margin-top: 30px;
+  margin-top: 40px;
   height: 2px;
   width: 100%;
   background: -webkit-gradient(linear, left top, right top, from(#12c2e9), color-stop(#c471ed), to(#f64f59));
