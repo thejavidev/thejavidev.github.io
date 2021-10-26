@@ -1,15 +1,14 @@
 @import url(main.css);
-@import url(plugins.css);
+
 @import url(plugins/animate.css);
 @import url(plugins/bootstrap.min.css);
 @import url(plugins/fontawesome-all.min.css);
-@import url(plugins/justifiedGallery.min.css);
 @import url(plugins/magnific-popup.css);
 @import url(plugins/pe-icon-7-stroke.css);
 @import url(plugins/slick-theme.css);
 @import url(plugins/slick.css);
 @import url(plugins/swiper.min.css);
-@import url(plugins/YouTubePopUp.css);
+
 
 
 

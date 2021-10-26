@@ -3934,8 +3934,8 @@ tbody.collapse.show {
 		left: auto;
 	}
 	.navbar-expand-lg .navbar-nav .nav-link {
-		padding-right: 0.5rem;
-		padding-left: 0.5rem;
+		padding-right: 0.2rem;
+		padding-left: 0.2rem;
 	}
 	.navbar-expand-lg > .container,
 	.navbar-expand-lg > .container-fluid {
@@ -5769,6 +5769,7 @@ button.bg-dark:hover {
 .rounded {
 	border-radius: 0.25rem !important;
 }
+
 .rounded-top {
 	border-top-left-radius: 0.25rem !important;
 	border-top-right-radius: 0.25rem !important;
