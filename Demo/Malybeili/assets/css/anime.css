@@ -1,0 +1,39 @@
+@-webkit-keyframes pageloader {
+	0%,
+	100% {
+		transform: translateX(-100px);
+	}
+	50% {
+		transform: translateX(100px);
+	}
+}
+
+@-o-keyframes pageloader {
+	0%,
+	100% {
+		transform: translateX(-100px);
+	}
+	50% {
+		transform: translateX(100px);
+	}
+}
+
+@-moz-keyframes pageloader {
+	0%,
+	100% {
+		transform: translateX(-100px);
+	}
+	50% {
+		transform: translateX(100px);
+	}
+}
+
+@keyframes pageloader {
+	0%,
+	100% {
+		transform: translateX(-100px);
+	}
+	50% {
+		transform: translateX(100px);
+	}
+}

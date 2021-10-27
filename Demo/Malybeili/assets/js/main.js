@@ -15,7 +15,6 @@ window.addEventListener("load",function(){
 		document.querySelector(".pageloader").style.display="none";
 
 	},600);
-
 });
 
 

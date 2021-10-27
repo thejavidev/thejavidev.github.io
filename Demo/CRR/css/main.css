@@ -5405,7 +5405,7 @@ body {
   .navbar .navbar-collapse {
     overflow: hidden !important;
     max-height: 340px;
-    overflow: auto;
+    overflow: hidden !important;
     outline: none;
     border: none;
     background: #11141b;
