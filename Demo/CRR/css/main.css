@@ -2797,7 +2797,6 @@ footer .item .copy-right p a {
   z-index: -1;
   width: 100%;
   height: 100%;
-
   border-radius: 50%;
   -webkit-transform: scale(1);
   -ms-transform: scale(1);
@@ -2839,10 +2838,10 @@ footer .item .copy-right p a {
 }
  .testimonial .row .carousel .carousel-indicators li {
   background: #000;
-  width: 20px;
+  width: 10px;
   border-radius: 50%;
   background-clip: padding-box;
-  height: 20px;
+  height: 10px;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
@@ -3925,15 +3924,6 @@ footer .item .copy-right p a {
   }
 }
 
-/* ====================== [ End Team ] ====================== */
-
-
-
-
-
-
-
-
 
 /* ====================== [ End Team ] ====================== */
 /*ABOUT SECTION END--------------------------------------------------------------------*/
@@ -4024,6 +4014,7 @@ footer .item .copy-right p a {
 /* ====================== [ Start Work ] ====================== */
 .portfolio {
   position: relative;
+  overflow: hidden;
 }
 
 .portfolio .filtering,
