@@ -441,6 +441,7 @@ window.addEventListener("load",function(){
     $('.product-carousel').slick({
         infinite: true,
         slidesToShow: 4,
+        autoplay:true,
         slidesToScroll: 1,
         focusOnSelect: true,
         prevArrow: '<button class="slick-prev"><i class="ti-angle-left"></i></button>',
@@ -568,6 +569,7 @@ window.addEventListener("load",function(){
     $('.testimonial-carousel').slick({
         infinite: true,
         slidesToShow: 3,
+        autoplay:true,
         slidesToScroll: 1,
         prevArrow: '<button class="slick-prev"><i class="ti-angle-left"></i></button>',
         nextArrow: '<button class="slick-next"><i class="ti-angle-right"></i></button>',

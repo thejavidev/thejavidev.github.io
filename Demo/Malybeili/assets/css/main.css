@@ -1,5 +1,4 @@
 @charset "UTF-8";
-@import url(texts.css);
 @import url(media.css);
 @import url(anime.css);
 @import url("https://fonts.googleapis.com/css2?family=Milonga&display=swap");
@@ -211,7 +210,10 @@ hr {
   padding-top: 100px;
   padding-bottom: 100px;
 }
-
+.section-paddingb{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
 .learts-mb-10 {
   margin-bottom: 10px;
 }
@@ -330,7 +332,26 @@ hr {
 .covimg [class*="col"]:nth-child(even) .process-wrapper {
   margin-top: 125px;
 }
+@media (max-width: 1200px)
+{
+    .covimg [class*="col"]:nth-child(even) .process-wrapper {
+        margin-top: unset;
+    }
+    .covimg{
+        background-image: none !important;
+    }
 
+}
+@media only screen and (min-width: 1500px) {
+    .section-fluid {
+        padding-right: 55px;
+        padding-left: 55px;
+    }
+    .section-fluid>.container,
+    .section-fluid>.container-fluid {
+        max-width: 100%;
+    }
+}
 .learts-mt-40 {
   margin-top: 40px;
 }
@@ -1005,7 +1026,18 @@ fieldset legend {
 body.offside-header-left {
   margin-left: 400px;
 }
-
+@media only screen and (min-width: 1200px) and (max-width: 1499px) {
+  body.offside-header-left {
+      margin-left: 300px;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+only screen and (min-width: 768px) and (max-width: 991px),
+only screen and (max-width: 767px) {
+  body.offside-header-left {
+      margin-left: 0;
+  }
+}
 .d-table-cell {
   display: table-cell !important;
 }
@@ -1030,7 +1062,15 @@ body.offcanvas-open {
 
 body.offcanvas-open .sticky-header {
   right: 17px;
-  right: 17px;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px),
+only screen and (max-width: 767px) {
+    body.offcanvas-open {
+        padding-right: 0;
+    }
+    body.offcanvas-open .sticky-header {
+        right: 0;
+    }
 }
 
 .page-title .title {
@@ -1198,7 +1238,9 @@ hr {
   -ms-transition: 1s all linear;
   -o-transition: 1s all linear;
 }
-
+.imgLoad .slick-slide.slick-active img[aria-hidden=true]{
+  opacity: 1 !important;
+}
 .section, .main-wrapper {
   float: left;
   width: 100%;
@@ -1233,7 +1275,23 @@ hr {
   padding-right: 15px;
   padding-left: 15px;
 }
+@media only screen and (min-width: 1200px) {
+  .container {
+      max-width: 1200px;
+  }
+}
 
+@media only screen and (max-width: 575px) {
+  .container {
+      max-width: 450px;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  .container {
+      max-width: 350px;
+  }
+}
 .bg-light {
   background-color: #f8f9fa !important;
 }
@@ -1256,7 +1314,12 @@ body.homepage-bg1 .topbar-section {
 body.homepage-bg1.offcanvas-open {
   padding-right: 32px !important;
 }
-
+@media only screen and (min-width: 768px) and (max-width: 991px),
+only screen and (max-width: 767px) {
+    body.homepage-bg1.offcanvas-open {
+        padding-right: 15px !important;
+    }
+}
 #scrollUp {
   right: 25px;
   bottom: 25px;
@@ -1294,6 +1357,26 @@ body.homepage-bg1.offcanvas-open {
   padding-bottom: 100px;
 }
 
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .section-padding {
+      padding-top: 100px;
+      padding-bottom: 100px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .section-padding {
+      padding-top: 80px;
+      padding-bottom: 80px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .section-padding {
+      padding-top: 60px;
+      padding-bottom: 60px;
+  }
+}
 .learts-mb-10 {
   margin-bottom: 10px;
 }
@@ -1867,11 +1950,19 @@ body.homepage-bg1.offcanvas-open {
   letter-spacing: 1px;
   text-transform: uppercase;
   border-radius: 500px;
+  transition: all .4s;
+  -webkit-transition: all .4s;
+  -moz-transition: all .4s;
+  -ms-transition: all .4s;
+  -o-transition: all .4s;
 }
-
+.btn:hover{
+  background: #ddb758;
+}
 .btn:focus {
   -webkit-box-shadow: none !important;
   box-shadow: none !important;
+  background: #ddb758;
 }
 
 .btn-icon {
@@ -2366,12 +2457,23 @@ body.homepage-bg1.offcanvas-open {
 }
 
 @media screen and (max-width: 1200px) {
+  .about-us4 .title{
+    font-size: 1.8rem !important;
+  }
+  .aboutuss .section-title .title2{
+    font-size: 30px !important;
+  }
+  .aboutuss .section-title .title{
+    font-size: 30px !important;
+  }
   .a2image {
-    margin-top: 4rem;
+    margin-top: 6rem;
   }
   .aboutName {
     font-family: 'Dancing Script', cursive;
     font-size: 3rem;
+    margin-top: 3rem;
+    text-align: center;
     font-weight: 700;
     color: #D18B40;
   }
@@ -2732,7 +2834,28 @@ fieldset legend {
   position: relative;
   z-index: 101;
 }
+@media only screen and (min-width: 1200px) and (max-width: 1499px) {
+  .section-fluid {
+      padding-right: 35px;
+      padding-left: 35px;
+  }
+  .section-fluid>.container,
+  .section-fluid>.container-fluid {
+      max-width: 100%;
+  }
+}
 
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+only screen and (min-width: 768px) and (max-width: 991px) {
+  .section-fluid {
+      padding-right: 25px;
+      padding-left: 25px;
+  }
+  .section-fluid>.container,
+  .section-fluid>.container-fluid {
+      max-width: 100%;
+  }
+}
 @media only screen and (min-width: 1500px) {
   .topbar-section.section-fluid {
     padding-right: 55px;
@@ -3027,11 +3150,11 @@ fieldset legend {
   transform: scale3d(0, 1, 1);
   -webkit-transform-origin: 100% 50%;
   transform-origin: 100% 50%;
-  background-color: #333;
+  background-color: #ddb758;
 }
 
 .site-main-menu > ul > li:hover > a {
-  color: #333;
+  color: #ddb758;
 }
 
 .site-main-menu > ul > li:hover > a > .menu-text::after {
@@ -3110,7 +3233,16 @@ fieldset legend {
   -webkit-transform: translateY(0);
   transform: translateY(0);
 }
-
+@media only screen and (min-width: 1200px) {
+  .sticky-header.header-menu-center .row>[class*='col']:first-child,
+  .sticky-header.header-menu-center .row>[class*='col']:last-child {
+      -webkit-box-flex: 1;
+      -webkit-flex: 1 0 210px;
+      -ms-flex: 1 0 210px;
+      flex: 1 0 210px;
+      max-width: 210px;
+  }
+}
 /*==================NAVBAR B END==================================*/
 /*==================NAVBAR MOBILE START==================================*/
 .mobile-menu-toggle svg {
@@ -3339,7 +3471,7 @@ fieldset legend {
   position: absolute;
   z-index: 9;
   top: 10%;
-  right: 15%;
+  right: 20%;
   -webkit-transition: all 1s ease 0s;
   transition: all 1s ease 0s;
   -webkit-transform: scale(0.8);
@@ -3408,7 +3540,7 @@ fieldset legend {
   position: absolute;
   z-index: 9;
   top: 14%;
-  right: 9%;
+  right: 20%;
   -webkit-transition: all 1s ease 0s;
   transition: all 1s ease 0s;
   -webkit-transform: scale(0.8);
@@ -3489,7 +3621,8 @@ fieldset legend {
 .home2-slide3-image {
   position: absolute;
   z-index: 9;
-  right: 30%;
+  top: 14%;
+  right: 20%;
   bottom: 0;
   -webkit-transition: all 1s ease 0s;
   transition: all 1s ease 0s;
@@ -3520,7 +3653,7 @@ fieldset legend {
     bottom: auto;
     left: auto;
     display: inline-block;
-    max-width: 300px;
+    max-width: 500px;
     margin: 0 auto 20px;
   }
 }
@@ -4126,7 +4259,13 @@ fieldset legend {
   -webkit-box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.5);
           box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.5);
 }
-
+@media (min-width: 768px) and (max-width: 991px)
+{
+    .process-wrapper {
+        width: 140px;
+        height: 140px;
+    }
+}
 /*======SETUP BY SECTION END==================----------*/
 .minicart-product-list {
   margin: 0;
@@ -5070,23 +5209,36 @@ fieldset legend {
 }
 
 .page-title .breadcrumb {
+  justify-content: center;
+  align-items: center;
   padding: 0;
-  background-color: transparent;
+  background-color: #32cc73;
+  border-radius: 2rem;
+  width: 15rem;
+  height: 2rem;
+  -webkit-border-radius: 2rem;
+  -moz-border-radius: 2rem;
+  -ms-border-radius: 2rem;
+  -o-border-radius: 2rem;
+  display: inline-flex;
 }
 
 .page-title .breadcrumb .breadcrumb-item {
   font-size: 16px;
   font-weight: 400;
-  color: #999;
+  color: #fff;
 }
 
 .page-title .breadcrumb .breadcrumb-item + .breadcrumb-item::before {
   content: '>';
-  color: #333;
+  color: #fff;
 }
-
-.page-title .breadcrumb .breadcrumb-item a:hover, .page-title .breadcrumb .breadcrumb-item.active {
-  color: #333;
+.page-title .breadcrumb .breadcrumb-item a:hover{
+  color: #f5cc26;
+}
+.page-title .breadcrumb .breadcrumb-item.active {
+  color: #fff;
+  font-weight: 600;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -5111,6 +5263,15 @@ fieldset legend {
 }
 
 @media only screen and (max-width: 575px) {
+  .aboutme.section-padding{
+    padding-bottom: 0px !important;
+  }
+  .aboutuss.section-padding{
+    padding-top: 20px !important;
+  }
+  .comments.section-padding{
+    padding-top: 10px !important;
+  }
   .page-title .title {
     font-size: 24px;
   }
@@ -5866,8 +6027,36 @@ fieldset legend {
 .product-thumb .image img {
   z-index: 3;
   width: 100%;
+  padding-right: 2rem;
 }
-
+@media screen and (max-width:991px) {
+  .product-thumb-slider{
+    display: none;
+  }
+  .product-gallery-slider .lozad{
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+  }
+  .productss .texts{
+    text-align: center;
+  }
+  .product-meta,
+  .product-variations,
+  .product-buttons{
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+}
+@media screen and (max-width:565px) {
+  .product-thumb .image img {
+    z-index: 3;
+    width: 100%;
+    padding-right: 0rem;
+  }
+ 
+}
 .product-thumb .image img.image-hover {
   position: absolute;
   z-index: 4;
@@ -9515,7 +9704,9 @@ fieldset legend {
   font-size: 16px;
   font-weight: 400;
 }
-
+.footer4-section{
+  border-top: 2px solid rgba(129, 70, 70, 0.5);
+}
 .footer1-section {
   background-color: #f4ede7;
 }
