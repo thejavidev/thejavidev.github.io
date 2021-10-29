@@ -3656,7 +3656,18 @@ footer .item .copy-right p a {
   font-size: 28px;
   font-weight: 500;
 }
-
+.intro-section .color-font{
+  font-size: 2rem;
+  line-height: 3rem !important;
+}
+.intro-section .font{
+  color: #000;
+  font-size: 1.3rem;
+  line-height: 1.8rem !important;
+}
+.intro-section .fontc{
+  margin-top: 4rem;
+}
 .intro-section .htit span {
   font-size: 17px;
   font-weight: 300;
@@ -3707,7 +3718,6 @@ footer .item .copy-right p a {
 @media  screen and (max-width:767px) {
   .team .container .wow{
     font-size: 2rem;
-    
   }
 }
 .team .item .info h6{
@@ -3716,28 +3726,27 @@ footer .item .copy-right p a {
 }
 
 .team .item.cir .img {
-  border-radius: 2rem;
+  border-radius: .5rem;
   position: relative;
-  
   box-shadow: 2px 2px 2px 2px rgba(83, 83, 83, 0.7);
-  -webkit-border-radius: 2rem;
-  -moz-border-radius: 2rem;
-  -ms-border-radius: 2rem;
-  -o-border-radius: 2rem;
+  -webkit-border-radius: .5rem;
+  -moz-border-radius: .5rem;
+  -ms-border-radius: .5rem;
+  -o-border-radius: .5rem;
 }
 .team .item.cir .img img{
-  border-radius: 2rem;
-  -webkit-border-radius: 2rem;
-  -moz-border-radius: 2rem;
-  -ms-border-radius: 2rem;
-  -o-border-radius: 2rem;
+  border-radius: .5rem;
+  -webkit-border-radius: .5rem;
+  -moz-border-radius: .5rem;
+  -ms-border-radius: .5rem;
+  -o-border-radius: .5rem;
 }
 .team .item.cir .img:hover:after {
-  border-radius: 2rem;
-  -webkit-border-radius: 2rem;
-  -moz-border-radius: 2rem;
-  -ms-border-radius: 2rem;
-  -o-border-radius: 2rem;
+  border-radius: .5rem;
+  -webkit-border-radius: .5rem;
+  -moz-border-radius: .5rem;
+  -ms-border-radius: .5rem;
+  -o-border-radius: .5rem;
   opacity: 1;
   -webkit-transform: rotate(4deg);
   -ms-transform: rotate(4deg);
@@ -3747,28 +3756,28 @@ footer .item .copy-right p a {
 .team .item.cir .img:hover #circle,
 .team .item.cir .img:hover .info {
   opacity: 1;
-  border-radius: 2rem;
-  -webkit-border-radius: 2rem;
-  -moz-border-radius: 2rem;
-  -ms-border-radius: 2rem;
-  -o-border-radius: 2rem;
+  border-radius: .5rem;
+  -webkit-border-radius: .5rem;
+  -moz-border-radius: .5rem;
+  -ms-border-radius: .5rem;
+  -o-border-radius: .5rem;
 }
 
 .team .item.cir .img:hover:before {
   opacity: .5;
-  border-radius: 2rem;
-  -webkit-border-radius: 2rem;
-  -moz-border-radius: 2rem;
-  -ms-border-radius: 2rem;
-  -o-border-radius: 2rem;
+  border-radius: .5rem;
+  -webkit-border-radius: .5rem;
+  -moz-border-radius: .5rem;
+  -ms-border-radius: .5rem;
+  -o-border-radius: .5rem;
 }
 
 .team .item.cir .img:after {
-  border-radius: 2rem;
-  -webkit-border-radius: 2rem;
-  -moz-border-radius: 2rem;
-  -ms-border-radius: 2rem;
-  -o-border-radius: 2rem;
+  border-radius: .5rem;
+  -webkit-border-radius: .5rem;
+  -moz-border-radius: .5rem;
+  -ms-border-radius: .5rem;
+  -o-border-radius: .5rem;
   content: '';
   position: absolute;
   top: 5px;
@@ -4035,6 +4044,96 @@ footer .item .copy-right p a {
 
 
 /* ====================== [ End Team ] ====================== */
+/* ====================== [ About us slogan start ] ====================== */
+.min-area .img {
+  padding: 120px 0 120px 80px;
+  position: relative;
+  z-index: 3;
+}
+.min-area .img:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 120px;
+  bottom: 0;
+  left: -300px;
+  background: #f5f5f5;
+  z-index: -1;
+}
+
+.min-area .content {
+  padding-left: 40px;
+}
+
+.min-area .content h4 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.min-area .content ul {
+  margin: 0;
+}
+
+.min-area .content ul li {
+  margin-top: 25px;
+  padding-left: 25px;
+  position: relative;
+}
+
+.min-area .content ul li:after {
+  content: '';
+  width: 10px;
+  height: 10px;
+  border: 1px solid #999;
+  border-radius: 50%;
+  position: absolute;
+  left: 0;
+  top: 2px;
+}
+
+.min-area .content ul.feat li {
+  padding: 0 0 0px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.min-area .content ul.feat li:last-of-type {
+  padding: 0;
+  border: 0;
+}
+
+.min-area .content ul.feat li:after {
+  display: none;
+}
+
+.min-area .content ul.feat li h6 {
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.min-area .content ul.feat li h6 span {
+  color: #12c2e9;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  font-size: 13px;
+  border: 1px solid #12c2e9;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.min-area .content ul.feat li p {
+  font-size: 13px;
+  padding-left: 45px;
+}
+
+
+
+
+
+/* ====================== [ About us slogan end ] ====================== */
 /*ABOUT SECTION END--------------------------------------------------------------------*/
 /*CONTACT SECTION START-------------------------------------------------------------------*/
 /* ====================== [ Start contact ] ====================== */
