@@ -1331,8 +1331,16 @@ a:hover, span:hover {
   margin-left: 5rem;
   background-color: transparent;
 }
-
-@media screen and (min-width:80px) and (max-width:1200px){
+@media screen and (max-width:1200px){
+  .navbar .navbar-nav .nav-link {
+    margin: 1px 5px !important;
+    font-size: 17px !important;
+  }
+  .select{
+    margin-left: 3rem;
+  }
+}
+@media screen and (min-width:80px) and (max-width:991px){
   .select{
     display: none;
   }
