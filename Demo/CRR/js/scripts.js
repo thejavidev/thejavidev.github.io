@@ -233,34 +233,43 @@ $(function () {
             prevEl: '.metro .swiper-button-prev'
         },
     });
+
+
+
+
     var swiperWorkCaroul = new Swiper('.caroul .swiper-container', {
-        spaceBetween: 0,
         speed: 3000,
         autoplay:true,
         autoplaySpeed:3000,
-        loop: true,
+        loop: true, 
+        slidesPerView: 25,
+        spaceBetween: 1,
+    
 
         breakpoints: {
             320: {
                 slidesPerView: 1,
-                spaceBetween: 0
+                spaceBetween: 0,
+                loop:true
             },
             767: {
                 slidesPerView: 2,
-                spaceBetween: 0
+                spaceBetween: 0,
+                loop:true
             },
             991: {
                 slidesPerView: 3,
-                spaceBetween: 0
+                loop:true
             },
             1024: {
                 slidesPerView: 3,
-                spaceBetween: 0
+                loop:true
             },
             1200: {
                 slidesPerView: 4,
-                spaceBetween: 0
-            }
+                loop:true
+            },
+
         },
 
         pagination: {
@@ -349,64 +358,7 @@ wow.init();
 
 $(window).on("load", function () {
 
-
-    /* ===============================  SPLITTING TEXT  =============================== */
-
     Splitting();
-
-
-  
-
-    /* ===============================  isotope Masonery  =============================== */
-
-    $('.gallery').isotope({
-        itemSelector: '.items'
-    });
-
-    $('.blogsrow').isotope({
-        itemSelector: '.items'
-    });
-
-    var $gallery = $('.gallery').isotope();
-    var $blogrow = $('.blogsrow').isotope();
-
-    $('.filtering').on('click', 'span', function () {
-        var filterValue = $(this).attr('data-filter');
-        $gallery.isotope({ filter: filterValue });
-        $blogrow.isotope({ filter: filterValue });
-    });
-
-    $('.filtering').on('click', 'span', function () {
-        $(this).addClass('active').siblings().removeClass('active');
-    });
-
-
-    /* ===============================  contact validator  =============================== */
-
-    $('#contact-form').validator();
-
-    $('#contact-form').on('submit', function (e) {
-        if (!e.isDefaultPrevented()) {
-            var url = "";
-
-            $.ajax({
-                type: "POST",
-                url: url,
-                data: $(this).serialize(),
-                success: function (data) {
-                    var messageAlert = 'alert-' + data.type;
-                    var messageText = data.message;
-
-                    var alertBox = '<div class="alert ' + messageAlert + ' alert-dismissable"><button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>' + messageText + '</div>';
-                    if (messageAlert && messageText) {
-                        $('#contact-form').find('.messages').html(alertBox);
-                        $('#contact-form')[0].reset();
-                    }
-                }
-            });
-            return false;
-        }
-    });
 
 });
 
