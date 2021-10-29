@@ -355,14 +355,15 @@ wow.init();
 
 
 // === window When Loading === //
-
+/*
 $(window).on("load", function () {
+
 
     Splitting();
 
 });
 
-
+*/
 
 /* ===============================  Hide / show navbar  =============================== */
 
