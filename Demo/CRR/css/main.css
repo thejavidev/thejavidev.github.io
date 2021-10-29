@@ -3971,16 +3971,6 @@ footer .item .copy-right p a {
   height: 70%;
   z-index: -2;
 }
-
-
-
-
-
-
-
-
-
-
 /* ====================== [ End Team ] ====================== */
 /* ====================== [ About us slogan start ] ====================== */
 .min-area .img {
@@ -5594,9 +5584,14 @@ body {
   .navbar .navbar-nav .nav-link {
     padding: 0;
     padding-top: 7px;
+    border-bottom: 1px solid rgba(238, 238, 238, .3);
+  }
+  .navbar .navbar-nav .nav-link:nth-child(6),
+  .navbar .navbar-nav .nav-link:nth-child(7){
+    border-bottom:none !important;
   }
   .slider .parallax-slider .caption.dig {
-    text-align: center;
+    text-align: center ;
   }
   .slider .parallax-slider .caption.dig h1 {
     font-size: 60px;
