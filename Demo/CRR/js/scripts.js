@@ -233,10 +233,128 @@ $(function () {
             prevEl: '.metro .swiper-button-prev'
         },
     });
+    var swiperWorkWork = new Swiper('.services2 .swiper-container',{
+        slidesPerView: 3,
+        spaceBetween: 3,
+        autoplaySpeed:3000,
+        autoplay:true,
+        speed: 3000,
+        loop: true,
+        breakpoints: {
+            320: {
+                slidesPerView: 1,
+                spaceBetween: 0
+            },
+            640: {
+                slidesPerView: 1,
+                spaceBetween: 0
+            },
+            767: {
+                slidesPerView: 1,
+                spaceBetween: 0,
+            },
+            991: {
+                slidesPerView: 2,
+            },
+            1200:{
+                slidesPerView: 3,
+                loop: true,
+                autoplay:false,
+            }
+        },
 
+        pagination: {
+            el: '.services2 .swiper-pagination',
+            type: 'progressbar',
+        },
 
+        navigation: {
+            nextEl: '.services2 .swiper-button-next',
+            prevEl: '.services2 .swiper-button-prev'
+        },
+    });
 
+    var swiperWorkBloq = new Swiper('.blog-grid .swiper-container',{
+        slidesPerView: 3,
+        spaceBetween: 3,
+        autoplaySpeed:3000,
+        autoplay:true,
+        speed: 3000,
+        loop: true,
+        breakpoints: {
+            320: {
+                slidesPerView: 1,
+                spaceBetween: 0
+            },
+            640: {
+                slidesPerView: 1,
+                spaceBetween: 0
+            },
+            767: {
+                slidesPerView: 1,
+                spaceBetween: 0,
+            },
+            991: {
+                slidesPerView: 2,
+            },
+            1200:{
+                slidesPerView: 3,
+                loop: true,
+                autoplay:false,
+            }
+        },
 
+        pagination: {
+            el: '.blog-grid .swiper-pagination',
+            type: 'progressbar',
+        },
+
+        navigation: {
+            nextEl: '.blog-grid .swiper-button-next',
+            prevEl: '.blog-grid .swiper-button-prev'
+        },
+    });
+
+    var swiperWorkPrice = new Swiper('.princ .swiper-container',{
+        slidesPerView: 1,
+        spaceBetween: 0,
+        autoplaySpeed:3000,
+        autoplay:true,
+        speed: 3000,
+        loop: true,
+        breakpoints: {
+            320: {
+                slidesPerView: 1,
+                spaceBetween: 0
+            },
+            640: {
+                slidesPerView: 1,
+                spaceBetween: 0
+            },
+            767: {
+                slidesPerView: 1,
+                spaceBetween: 0,
+            },
+            991: {
+                slidesPerView: 2,
+            },
+            1200:{
+                slidesPerView: 3,
+                loop: true,
+                autoplay:false,
+            }
+        },
+
+        pagination: {
+            el: '.blog-grid .swiper-pagination',
+            type: 'progressbar',
+        },
+
+        navigation: {
+            nextEl: '.blog-grid .swiper-button-next',
+            prevEl: '.blog-grid .swiper-button-prev'
+        },
+    });
     var swiperWorkCaroul = new Swiper('.caroul .swiper-container', {
         speed: 3000,
         autoplay:true,
@@ -284,11 +402,6 @@ $(function () {
     });
 
 
-
-
-  
-
-
     /* ===============================  Var Background image  =============================== */
 
     var pageSection = $(".bg-img, section");
@@ -300,13 +413,7 @@ $(function () {
     });
 
 
-
-
     /* ===============================  slick Carousel  =============================== */
-
- 
-
- 
 
 
     /* ===============================  Mouse Hover  =============================== */

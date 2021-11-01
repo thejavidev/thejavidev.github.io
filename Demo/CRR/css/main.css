@@ -1,6 +1,8 @@
 /* ====================== [ Start Typography  ] ====================== */
 @import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&amp;display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100;200;300;400;500;600;700;800;900&amp;display=swap");
+
+
 * {
   margin: 0;
   padding: 0;
@@ -434,7 +436,7 @@ a:hover, span:hover {
 }
 .pricingTable10 .pricingTable-header {
   border-radius: 10px;
-  padding: 30px 0;
+  padding: 2px 0;
   background: #4d4d4d;
   position: relative;
   transition: all 0.3s ease 0s;
@@ -489,6 +491,7 @@ a:hover, span:hover {
 	right: 40px;
 }
 .pricingTable10 .heading {
+  padding-top: 20px;
 	font-size: 20px;
 	color: #fff;
 	text-transform: uppercase;
@@ -498,7 +501,7 @@ a:hover, span:hover {
 .pricingTable10 .price-value {
 	display: inline-block;
 	position: relative;
-	font-size: 55px;
+	font-size: 37px;
 	font-weight: 700;
 	color: #ccc;
 	transition: all 0.3s ease 0s;
@@ -514,7 +517,7 @@ a:hover, span:hover {
 	left: -19px;
 }
 .pricingTable10 .month {
-	font-size: 26px;
+	font-size: 16px;
 	color: #fff;
 	position: absolute;
 	bottom: 15px;
@@ -523,7 +526,7 @@ a:hover, span:hover {
 }
 .pricingTable10 .pricing-content {
   border-radius: .7rem;
-  padding-top: 50px;
+  padding-top: 25px;
   background: rgb(245, 241, 241);
   position: relative;
   -webkit-border-radius: .7rem;
@@ -592,7 +595,7 @@ a:hover, span:hover {
 	text-transform: uppercase;
 	background: #d9d9d8;
 	padding: 8px 25px;
-	margin: 30px 0;
+	margin: 10px 0;
 	transition: all 0.3s ease 0s;
 }
 .pricingTable10 .read:hover {
@@ -2296,7 +2299,14 @@ footer .item .copy-right p a {
   -ms-transition: all .4s;
   -o-transition: all .4s;
 }
+.services .row .phone{
+  padding-top: 120px;
+  width: 100%;
+  
+}
 .services .row .phone img{
+  width: 100%;
+  height: 40vh !important;
   -webkit-animation: dealImage 2s linear infinite alternate both;
     animation: dealImage 2s linear infinite alternate both;
 }
@@ -2350,7 +2360,7 @@ footer .item .copy-right p a {
   -moz-border-radius: 12px;
   -ms-border-radius: 12px;
   -o-border-radius: 12px;
-  -webkit-transition: all .4s;
+  -webkit-transition: all .7s;
   -moz-transition: all .4s;
   -ms-transition: all .4s;
   -o-transition: all .4s;
@@ -2358,13 +2368,32 @@ footer .item .copy-right p a {
 
 .services .item-box:hover {
   box-shadow: 0 0 17px rgba(0,0,0,.6);
-  transform: scale(1.1);
-  -webkit-transform: scale(1.1);
-  -moz-transform: scale(1.1);
-  -ms-transform: scale(1.1);
-  -o-transform: scale(1.1);
+  transform: scale(1.030);
+  background:  #c471ed;
+  -webkit-transform: scale(1.030);
+  -moz-transform: scale(1.030);
+  -ms-transform: scale(1.030);
+  -o-transform: scale(1.030);
 }
-
+.services .item-box:hover h6{
+  color: #fff;
+  transition: letter-spacing .4s;
+  letter-spacing: 2px;
+  -webkit-transition: letter-spacing .4s;
+  -moz-transition: letter-spacing .4s;
+  -ms-transition: letter-spacing .4s;
+  -o-transition: letter-spacing .4s;
+  letter-spacing: 2px;
+}
+.services .item-box:hover .icon:after{
+  background: #ccc;
+  z-index: -1;
+  border-radius: 50%;
+  opacity: 1;
+}
+.services .item-box:hover .icon{
+  color: #fff;
+}
 .services .item-box .icon {
   position: relative;
   width: 60px;
@@ -3805,10 +3834,10 @@ footer .item .copy-right p a {
   -o-border-radius: .5rem;
   content: '';
   position: absolute;
-  top: 5px;
+  top: -10px;
   left: 0;
   right: 0;
-  bottom: 5px;
+  bottom: -10px;
   background: -webkit-gradient(linear, left top, right top, from(#12c2e9), color-stop(#c471ed), to(#f64f59));
   background: -webkit-linear-gradient(left, #12c2e9, #c471ed, #f64f59);
   background: -o-linear-gradient(left, #12c2e9, #c471ed, #f64f59);
@@ -5680,9 +5709,9 @@ body {
     padding-right: 0;
     margin-bottom: 30px;
   }
-  .blog-grid .item.active {
+  /* .blog-grid .item.active {
     margin: 50px 0;
-  }
+  } */
   .footer-half:after {
     width: 100%;
   }
@@ -5716,9 +5745,13 @@ body {
   }
   .sm-mb70 {
     margin-bottom: 70px;
+   
   }
   .sm-mb80 {
     margin-bottom: 80px;
+  }
+  .sm-pt30{
+    padding-top: 30px;
   }
   .sm-pb10 {
     padding-bottom: 10px;
