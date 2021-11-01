@@ -233,7 +233,7 @@ $(function () {
             prevEl: '.metro .swiper-button-prev'
         },
     });
-    var swiperWorkWork = new Swiper('.services2 .swiper-container',{
+    var swiperWorkBloq = new Swiper('.bords .swiper-container',{
         slidesPerView: 3,
         spaceBetween: 3,
         autoplaySpeed:3000,
@@ -250,11 +250,11 @@ $(function () {
                 spaceBetween: 0
             },
             767: {
-                slidesPerView: 1,
+                slidesPerView: 2,
                 spaceBetween: 0,
             },
             991: {
-                slidesPerView: 2,
+                slidesPerView: 3,
             },
             1200:{
                 slidesPerView: 3,
@@ -264,15 +264,16 @@ $(function () {
         },
 
         pagination: {
-            el: '.services2 .swiper-pagination',
+            el: '.bords .swiper-pagination',
             type: 'progressbar',
         },
 
         navigation: {
-            nextEl: '.services2 .swiper-button-next',
-            prevEl: '.services2 .swiper-button-prev'
+            nextEl: '.bords .swiper-button-next',
+            prevEl: '.bords .swiper-button-prev'
         },
     });
+
 
     var swiperWorkBloq = new Swiper('.blog-grid .swiper-container',{
         slidesPerView: 3,
