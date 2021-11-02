@@ -25,12 +25,12 @@ $(function () {
         if (bodyScroll > 80) {
 
             navbar.addClass("nav-scroll");
-            logo.attr('src', 'img/logo.webp');
+            logo.attr('src', 'img/mainlogo-dark.webp');
 
         } else {
 
             navbar.removeClass("nav-scroll");
-            logo.attr('src', 'img/logo.webp');
+            logo.attr('src', 'img/mainlogo.webp');
         }
     });
 
@@ -71,7 +71,7 @@ $(function () {
             $('.topnav .menu-icon .text').addClass('open');
 
             navDark.addClass("navlit");
-            logoChan.attr('src', 'img/logo-light.png');
+            logoChan.attr('src', 'img/mainlogo.webp');
 
             window.addEventListener('scroll', noScroll);
 
@@ -82,7 +82,7 @@ $(function () {
             $('.topnav .menu-icon .text').removeClass('open');
 
             navDark.removeClass("navlit");
-            logoChan.attr('src', 'img/logo-dark.png');
+            logoChan.attr('src', 'img/mainlogo-white.webp');
 
             window.removeEventListener('scroll', noScroll);
         }

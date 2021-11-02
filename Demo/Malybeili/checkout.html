@@ -7,7 +7,7 @@
     <meta name="robots" content="noindex, follow" />
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.webp">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/logo/ico.ico">
     <link rel="stylesheet" href="assets/css/main.css">
     <style>
         .dropdown-menu.show{
@@ -16,9 +16,19 @@
     </style>
 </head>
 <body>
-<div class="pageloader"></div>
+    <div class="pageloader">
+        <div class="wrapper">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="shadow"></div>
+            <div class="shadow"></div>
+            <div class="shadow"></div>
+            <span>Yüklənir</span>
+        </div>
+    </div>
 
-<div class="header-section section section-fluid d-none d-xl-block" data-bg-color="#f4f3ec" style="border-bottom: 2px solid rgba(129, 70, 70, 0.5);">
+<div class="header-section section section-fluid d-none d-xl-block" style="border-bottom: 2px solid rgba(129, 70, 70, 0.5);">
 <div class="container">
     <div class="row align-items-center">
         <div class="col-auto">
@@ -198,7 +208,7 @@
  
 <div class="offcanvas-overlay"></div>
 
-<div class="page-title-section section" data-bg-image="assets/images/bg/payment-title.webp" style="border-bottom: 1px solid rgba(129, 70, 70, 0.5);">
+<div class="page-title-section2 section" data-bg-image="assets/images/bg/payment-title.webp" style="border-bottom: 1px solid rgba(129, 70, 70, 0.5);">
     <div class="container">
         <div class="row">
             <div class="col">
@@ -223,11 +233,11 @@
                 <div class="row">
                     <div class="col-md-6 col-12 learts-mb-20">
                         <label for="bdFirstName">Adınız <abbr class="required">*</abbr></label>
-                        <input type="text" id="bdFirstName">
+                        <input type="text" id="bdFirstName" placeholder="Aydan">
                     </div>
                     <div class="col-md-6 col-12 learts-mb-20">
                         <label for="bdLastName">Soyadınız <abbr class="required">*</abbr></label>
-                        <input type="text" id="bdLastName">
+                        <input type="text" id="bdLastName" placeholder="Ismayılova">
                     </div>
                     <div class="col-12 learts-mb-20">
                         <label for="bdAddress1">Ünvan <abbr class="required">*</abbr></label>
@@ -239,11 +249,11 @@
                     </div>
                     <div class="col-md-6 col-12 learts-mb-20">
                         <label for="bdEmail">Email <abbr class="required">*</abbr></label>
-                        <input type="text" id="bdEmail">
+                        <input type="text" id="bdEmail" placeholder="aydan@gmail.com">
                     </div>
                     <div class="col-md-6 col-12 learts-mb-30">
                         <label for="bdPhone">Telefon <abbr class="required">*</abbr></label>
-                        <input type="text" id="bdPhone">
+                        <input type="phone" id="bdPhone" placeholder="994505555555">
                     </div>
                     <div class="col-12 learts-mb-20">
                         <label for="bdOrderNote">Əlavə şərh</label>
@@ -267,24 +277,24 @@
                             <tbody>
                                 <tr>
                                     <td class="name">Sini&nbsp; <strong class="quantity">×&nbsp;1</strong></td>
-                                    <td class="total"><span>£100.00</span></td>
+                                    <td class="total"><span>100 &#8380;</span></td>
                                 </tr>
                                 <tr>
                                     <td class="name">Taxta&nbsp; <strong class="quantity">×&nbsp;1</strong></td>
-                                    <td class="total"><span>£22.00</span></td>
+                                    <td class="total"><span>22 &#8380;</span></td>
                                 </tr>
                                 <tr>
                                     <td class="name">Taxta&nbsp; <strong class="quantity">×&nbsp;1</strong></td>
-                                    <td class="total"><span>£120.00</span></td>
+                                    <td class="total"><span>120 &#8380;</span></td>
                                 </tr>
                             </tbody>
                             <tfoot>
                                 <tr class="subtotal">
                                     <th>Toplam</th>
-                                    <td><span>£242.00</span></td>
+                                    <td><span>242 &#8380;</span></td>
                                 </tr>
                                 <tr class="total">
-                                    <th>Məbləğ</th>
+                                    <th>Yekun Məbləğ</th>
                                     <td><strong><span>242 &#8380;</span></strong></td>
                                 </tr>
                             </tfoot>
@@ -308,7 +318,7 @@
                             </div>
                         </div>
                         <div class="text-center">
-                            <p class="payment-note">Şəxsi məlumatlarınız sifarişinizi emal etmək, bu veb saytdakı təcrübənizi dəstəkləmək və məxfilik siyasətimizdə təsvir olunan digər məqsədlər üçün istifadə ediləcək.</p>
+                            <p class="payment-note" style="font-style: italic; opacity: .7;">Şəxsi məlumatlarınız sifarişinizi emal etmək, bu veb saytdakı təcrübənizi dəstəkləmək və məxfilik siyasətimizdə təsvir olunan digər məqsədlər üçün istifadə ediləcək.</p>
                             <button class="btn btn-dark btn-outline-hover-dark">Ödəniş et</button>
                         </div>
                     </div>
@@ -361,48 +371,36 @@
 <div class="footer2-copyright bg-dark section" >
     <div class="container">
         <p class="copyright text-left col-lg-4 footertext" >&copy; 2021.Bütün hüquqlar qorunur.</p>
-        <p class="copyright2 text-end col-lg-4 footertext2">Designed by <a href="https://crr.az/">crr.z</a></p>
+        <p class="copyright2 text-end col-lg-4 footertext2">Created with <i class="fa fa-heart" style="color:red; font-size: 20px;"></i> by <a href="https://crr.az/">crr.az</a></p>
     </div>
 </div>
 
     <!-- JS
 ============================================ -->
+<script src="assets/js/vendor/modernizr-3.6.0.min.js"></script>
+<script src="assets/js/vendor/jquery-3.4.1.min.js"></script>
 
-    <!-- Vendors JS -->
-    <script src="assets/js/vendor/modernizr-3.6.0.min.js"></script>
-    <script src="assets/js/vendor/jquery-3.4.1.min.js"></script>
-    <script src="assets/js/vendor/jquery-migrate-3.1.0.min.js"></script>
-    <script src="assets/js/vendor/bootstrap.bundle.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/lozad.js/1.16.0/lozad.js"></script>
-    <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.js"></script>
-    <script>
-    const observer = lozad();
-    observer.observe();
-    </script>
-    <!-- Plugins JS -->
-    <script src="assets/js/plugins/select2.min.js"></script>
-    <script src="assets/js/plugins/jquery.nice-select.min.js"></script>
-    <script src="assets/js/plugins/perfect-scrollbar.min.js"></script>
-    <script src="assets/js/plugins/swiper.min.js"></script>
-    <script src="assets/js/plugins/slick.min.js"></script>
-    <script src="assets/js/plugins/mo.min.js"></script>
-    <script src="assets/js/plugins/jquery.ajaxchimp.min.js"></script>
-    <script src="assets/js/plugins/jquery.countdown.min.js"></script>
-    <script src="assets/js/plugins/isotope.pkgd.min.js"></script>
-    <script src="assets/js/plugins/jquery.matchHeight-min.js"></script>
-    <script src="assets/js/plugins/ion.rangeSlider.min.js"></script>
-    <script src="assets/js/plugins/photoswipe.min.js"></script>
-    <script src="assets/js/plugins/photoswipe-ui-default.min.js"></script>
-    <script src="assets/js/plugins/ResizeSensor.js"></script>
-    <script src="assets/js/plugins/jquery.sticky-sidebar.min.js"></script>
-    <script src="assets/js/plugins/jquery.magnific-popup.min.js"></script>
-    <script src="assets/js/plugins/jquery.scrollUp.min.js"></script>
-    <script src="assets/js/plugins/scrollax.min.js"></script>
-    <script src="assets/js/plugins/instafeed.min.js"></script>
+<script src="assets/js/vendor/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lozad.js/1.16.0/lozad.js"></script>
+<script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.js"></script>
+<script>
+const observer = lozad();
+observer.observe();
+</script>
 
-
-    <script src="assets/js/main.js"></script>
-
+<script src="assets/js/plugins/select2.min.js"></script>
+<script src="assets/js/plugins/jquery.nice-select.min.js"></script>
+<script src="assets/js/plugins/perfect-scrollbar.min.js"></script>
+<script src="assets/js/plugins/swiper.min.js"></script>
+<script src="assets/js/plugins/slick.min.js"></script>
+<script src="assets/js/plugins/jquery.ajaxchimp.min.js"></script>
+<script src="assets/js/plugins/jquery.matchHeight-min.js"></script>
+<script src="assets/js/plugins/ion.rangeSlider.min.js"></script>
+<script src="assets/js/plugins/ResizeSensor.js"></script>
+<script src="assets/js/plugins/jquery.sticky-sidebar.min.js"></script>
+<script src="assets/js/plugins/jquery.magnific-popup.min.js"></script>
+<script src="assets/js/plugins/jquery.scrollUp.min.js"></script>
+<script src="assets/js/plugins/scrollax.min.js"></script>
+<script src="assets/js/main.js"></script>
 </body>
-
 </html>

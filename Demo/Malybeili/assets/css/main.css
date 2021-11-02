@@ -347,9 +347,11 @@ hr {
         padding-right: 55px;
         padding-left: 55px;
     }
+    
     .section-fluid>.container,
     .section-fluid>.container-fluid {
         max-width: 100%;
+       
     }
 }
 .learts-mt-40 {
@@ -941,11 +943,41 @@ hr {
 }
 
 .aboutinsta {
-  max-width: 100%;
-  width: 300px;
+  max-width: 700px !important;
+  width: 700px !important;
   z-index: 999;
 }
 
+.middlelogo{
+  position: absolute;
+  top: 5%;
+  left: 55%;
+  transform: translate(-50%,-55%);
+  width: 120px;
+  height: 120px;
+  display: flex;
+  -webkit-animation: dealImage 2s linear infinite alternate both;
+  animation: dealImage 2s linear infinite alternate both;
+  -webkit-transform: translate(-50%,-55%);
+  -moz-transform: translate(-50%,-55%);
+  -ms-transform: translate(-50%,-55%);
+  -o-transform: translate(-50%,-55%);
+}
+.middlelogob{
+  position: absolute;
+  top: 28%;
+  left: 43%;
+  transform: translate(-50%,-43%);
+  width: 150px;
+  height: 150px;
+  display: flex;
+  -webkit-animation: dealImage2 3s linear infinite alternate both;
+  animation: dealImage2 3s linear infinite alternate both;
+  -webkit-transform: translate(-50%,-43%);
+  -moz-transform: translate(-50%,-43%);
+  -ms-transform: translate(-50%,-43%);
+  -o-transform: translate(-50%,-43%);
+}
 .jusstart {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
@@ -1721,6 +1753,110 @@ only screen and (max-width: 767px) {
   position: relative;
   padding-bottom: 20px;
 }
+.wrapper{
+  width:200px;
+  height:60px;
+  position: absolute;
+  left:50%;
+  top:50%;
+  transform: translate(-50%, -50%);
+}
+.circle{
+  width:20px;
+  height:20px;
+  position: absolute;
+  border-radius: 50%;
+  background-color: #f8796c;
+  left:15%;
+  transform-origin: 50%;
+  animation: circle .5s alternate infinite ease;
+}
+
+@keyframes circle{
+  0%{
+      top:60px;
+      height:5px;
+      border-radius: 50px 50px 25px 25px;
+      transform: scaleX(1.7);
+  }
+  40%{
+      height:20px;
+      border-radius: 50%;
+      transform: scaleX(1);
+  }
+
+  100%{
+      top:0%;
+  }
+}
+.circle:nth-child(2){
+  left:45%;
+  animation-delay: .2s;
+}
+.circle:nth-child(3){
+  left:auto;
+  right:15%;
+  animation-delay: .3s;
+}
+.shadow{
+  width:20px;
+  height:4px;
+  border-radius: 50%;
+  background-color: rgba(0,0,0,.5);
+  position: absolute;
+  top:62px;
+  transform-origin: 50%;
+  z-index: -1;
+  left:15%;
+  filter: blur(1px);
+  animation: shadow .5s alternate infinite ease;
+}
+
+@keyframes shadow{
+  0%{
+      transform: scaleX(1.5);
+  }
+  40%{
+      transform: scaleX(1);
+      opacity: .7;
+  }
+  100%{
+      transform: scaleX(.2);
+      opacity: .4;
+  }
+}
+.shadow:nth-child(4){
+  left: 45%;
+  animation-delay: .2s
+}
+.shadow:nth-child(5){
+  left:auto;
+  right:15%;
+  animation-delay: .3s;
+}
+.wrapper span{
+  position: absolute;
+  top:75px;
+  font-family: 'Lato';
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 12px;
+  color: #4BB090;
+  left:15%;
+}
+
+
+
+
+
+
+
+
+
+  
+
+
+
 
 .pageloader {
   position: fixed;
@@ -1728,7 +1864,7 @@ only screen and (max-width: 767px) {
   top: 0;
   height: 100%;
   width: 100%;
-  background-color: #ffffff;
+  background-color: #EEE5DD;
   z-index: 999;
   -webkit-transition: all .9s ease;
   transition: all .9s ease;
@@ -1738,17 +1874,7 @@ only screen and (max-width: 767px) {
   opacity: 0;
 }
 
-.pageloader::before {
-  content: '';
-  position: absolute;
-  height: 4px;
-  width: 100px;
-  background: #C58E5A;
-  left: calc(50% - 50px);
-  top: calc(50% - 2px);
-  -webkit-animation: pageloader 1.4s linear infinite;
-          animation: pageloader 1.4s linear infinite;
-}
+
 
 .slick-arrow {
   position: absolute;
@@ -2366,15 +2492,18 @@ only screen and (max-width: 767px) {
   }
 }
 
-@media only screen and (max-width: 767px) {
-  .aboutinsta {
+@media only screen and (max-width: 991px) {
+  
+  .aboutinsta,
+  .middlelogo,
+  .middlelogob {
     display: none;
   }
 }
 
 .aboutinsta {
-  max-width: 100%;
-  width: 300px;
+  max-width: 500px;
+  width: 500px;
   z-index: 999;
 }
 
@@ -6638,33 +6767,83 @@ only screen and (min-width: 768px) and (max-width: 991px) {
 .product-deal-image {
   position: relative;
 }
-
-.product-deal-image img {
+.productc img{
   -webkit-animation: dealImage 2s linear infinite alternate both;
   animation: dealImage 2s linear infinite alternate both;
+}
+.product-deal-image img {
+  /* -webkit-animation: dealImage 2s linear infinite alternate both;
+  animation: dealImage 2s linear infinite alternate both; */
   z-index: 99;
 }
+@-webkit-keyframes dealImage2 {
+  0% {
+    transform: scale(1.0);
+    -webkit-transform: scale(1.0);
+    -moz-transform: scale(1.0);
+    -ms-transform: scale(1.0);
+    -o-transform: scale(1.0);
+}
+  100% {
+   transform: scale(1.3);
+   -webkit-transform: scale(1.3);
+   -moz-transform: scale(1.3);
+   -ms-transform: scale(1.3);
+   -o-transform: scale(1.3);
+}
+}
+
+@keyframes dealImage2 {
+  0% {
+    transform: scale(1.0);
+    -webkit-transform: scale(1.0);
+    -moz-transform: scale(1.0);
+    -ms-transform: scale(1.0);
+    -o-transform: scale(1.0);
+}
+  100% {
+    transform: scale(1.3);
+    -webkit-transform: scale(1.3);
+    -moz-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    -o-transform: scale(1.3);
+  }
+}
+
+
 
 @-webkit-keyframes dealImage {
   0% {
     -webkit-transform: translateY(0);
     transform: translateY(0);
-  }
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+}
   100% {
-    -webkit-transform: translateY(-40px);
-    transform: translateY(-40px);
-  }
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+    -moz-transform: translateY(-30px);
+    -ms-transform: translateY(-30px);
+    -o-transform: translateY(-30px);
+}
 }
 
 @keyframes dealImage {
   0% {
     -webkit-transform: translateY(0);
     transform: translateY(0);
-  }
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+}
   100% {
-    -webkit-transform: translateY(-40px);
-    transform: translateY(-40px);
-  }
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+    -moz-transform: translateY(-30px);
+    -ms-transform: translateY(-30px);
+    -o-transform: translateY(-30px);
+}
 }
 
 .product-deal-content {
@@ -10141,7 +10320,12 @@ only screen and (min-width: 768px) and (max-width: 991px) {
 .checkout-form input, .checkout-form textarea {
   font-weight: 400 !important;
 }
-
+.checkout-form input::placeholder,
+.checkout-form textarea::placeholder
+{
+  font-style: italic !important;
+  opacity: .5 !important;
+}
 .checkout-form .select2-selection__rendered {
   font-weight: 400;
 }

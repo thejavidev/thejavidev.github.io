@@ -466,6 +466,7 @@ window.addEventListener("load",function(){
             }
         ]
     });
+  // Gallery Slider
 
     // Product List Slider
     $('.product-list-slider').slick({

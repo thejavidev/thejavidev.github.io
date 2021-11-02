@@ -2201,7 +2201,9 @@ footer .item .copy-right p a {
   position: relative;
   padding: 0;
 }
-
+.about-us .aboutuslogo{
+  max-width: 250px;
+}
 .about-us .img:before {
   content: '';
   position: absolute;
