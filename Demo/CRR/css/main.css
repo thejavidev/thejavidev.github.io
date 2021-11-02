@@ -4609,9 +4609,9 @@ footer .item .copy-right p a {
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
   font-weight: 300;
-  font-size: 11px;
+  font-size: 13px;
   text-transform: uppercase;
-  letter-spacing: 4px;
+  letter-spacing: 6px;
   z-index: 9999999999;
 }
 
