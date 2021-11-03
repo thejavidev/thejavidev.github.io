@@ -14,7 +14,7 @@ window.addEventListener("load",function(){
 	setTimeout(function(){
 		document.querySelector(".pageloader").style.display="none";
 
-	},600);
+	},1000);
 });
 
 
