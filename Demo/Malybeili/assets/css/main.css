@@ -6836,8 +6836,10 @@ only screen and (min-width: 768px) and (max-width: 991px) {
 
 .product-deal-image {
   position: relative;
+  z-index: 999999 !important;
 }
 .productc img{
+  z-index: 9999000 !important;
   -webkit-animation: dealImage 2s linear infinite alternate both;
   animation: dealImage 2s linear infinite alternate both;
 }
