@@ -1,123 +1,280 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="no-js" lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Axtardığınız səhifə tapılmadı</title>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Malybeili – Milli Azərbaycan Brendi</title>
+    <meta name="robots" content="noindex, follow" />
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/logo/ico.ico">
+    <link rel="stylesheet" href="assets/css/main.css">
     <style>
-        * {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
-body {
-  padding: 0;
-  margin: 0;
-}
-
-#notfound {
-  position: relative;
-  height: 100vh;
-}
-
-#notfound .notfound {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-}
-
-.notfound {
-  max-width: 520px;
-  width: 100%;
-  text-align: center;
-  line-height: 1.4;
-}
-
-.notfound .notfound-404 {
-  height: 190px;
-}
-
-.notfound .notfound-404 h1 {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 146px;
-  font-weight: 700;
-  margin: 0px;
-  color: #232323;
-}
-
-.notfound .notfound-404 h1>span {
-  display: inline-block;
-  width: 120px;
-  height: 120px;
-  background-image: url('/assets/images/emoji.png');
-  background-size: cover;
-  -webkit-transform: scale(1.4);
-      -ms-transform: scale(1.4);
-          transform: scale(1.4);
-  z-index: -1;
-}
-
-.notfound h2 {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 22px;
-  font-weight: 700;
-  margin: 0;
-  text-transform: uppercase;
-  color: #232323;
-}
-
-.notfound p {
-  font-family: 'Montserrat', sans-serif;
-  color: #787878;
-  font-weight: 300;
-}
-
-.notfound a {
-  font-family: 'Montserrat', sans-serif;
-  display: inline-block;
-  padding: 12px 30px;
-  font-weight: 700;
-  background-color: #f99827;
-  color: #fff;
-  border-radius: 40px;
-  text-decoration: none;
-  -webkit-transition: 0.2s all;
-  transition: 0.2s all;
-}
-
-.notfound a:hover {
-  opacity: 0.8;
-}
-
-@media only screen and (max-width: 767px) {
-  .notfound .notfound-404 {
-    height: 115px;
-  }
-  .notfound .notfound-404 h1 {
-    font-size: 86px;
-  }
-  .notfound .notfound-404 h1>span {
-    width: 86px;
-    height: 86px;
-  }
-}
-
+        .dropdown-menu{
+            inset: 70px auto auto 0 !important;
+        }
     </style>
 </head>
+
 <body>
-    <div id="notfound">
-		<div class="notfound">
-			<div class="notfound-404">
-				<h1>4<span></span>4</h1>
-			</div>
-			<h2>Oops! Axtardığınız səhifə tapılmadı</h2>
-		
-			<a href="index.html">Ana Səhifəyə Geri Qayıt</a>
-		</div>
-	</div>
+    <div class="pageloader">
+        <div class="wrapper">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="shadow"></div>
+            <div class="shadow"></div>
+            <div class="shadow"></div>
+            <span>Yüklənir</span>
+        </div>
+    </div>
+
+<div class="header-section section section-fluid d-none d-xl-block border-bottom-dashed"  data-bg-color="#f4f3ec"> 
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-auto">
+                    <div class="header-logo">
+                        <a href="index.html"><img class="lozad" data-src="assets/images/logo/logobg.png" alt="Learts Logo"></a>
+                    </div>
+                </div>
+                <div class="col-auto me-auto">
+                    <nav class="site-main-menu site-main-menu-left menu-height-100 justify-content-center">
+                        <ul>
+                            <li><a href="index.html"><span class="menu-text">Ana Səhifə</span></a></li>
+                            <li><a href="about-us.html"><span class="menu-text">Haqqımızda</span></a></li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Məhsullar</a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="background: #f4f3ec;">
+                                    <li><a class="dropdown-item" href="shop.html"><span class="menu-text">Təqdimat taxtaları</span></a></li>
+                                    <li><a class="dropdown-item" href="shop.html"><span class="menu-text">Sinilər</span></a></li>
+                                    <li><a class="dropdown-item" href="shop.html"><span class="menu-text">Çərəz qabları</span></a></li>
+                                    <li><a class="dropdown-item" href="shop.html"><span class="menu-text">Salfet qabları</span></a></li>
+                                    <li><a class="dropdown-item" href="shop.html"><span class="menu-text">Fincan altlıqları</span></a></li>
+                                    <li><a class="dropdown-item" href="shop.html"><span class="menu-text">Şamdanlar</span></a></li>
+                                </ul>
+                              </li>
+                            <li ><a href="contact-us.html"><span class="menu-text">Əlaqə</span></a> 
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+               
+            </div>
+        </div>
+</div>
+
+<div class="sticky-header section section-fluid d-none d-xl-block" data-bg-color="#f4f3ec">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-xl-auto col">
+                <div class="header-logo">
+                    <a href="index.html"><img class="lozad" data-src="assets/images/logo/logobg.png" alt="Learts Logo"></a>
+                </div>
+            </div>
+            <div class="col-auto me-auto d-none d-xl-block">
+                <nav class="site-main-menu site-main-menu-left justify-content-center">
+                    <ul>
+                        <li><a href="index.html"><span class="menu-text">Ana Səhifə</span></a></li>
+                        <li><a href="about-us.html"><span class="menu-text">Haqqımızda</span></a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Məhsullar</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="background: #f4f3ec;">
+                                <li><a class="dropdown-item" href="shop.html"><span class="menu-text">Təqdimat taxtaları</span></a></li>
+                                <li><a class="dropdown-item" href="shop.html"><span class="menu-text">Sinilər</span></a></li>
+                                <li><a class="dropdown-item" href="shop.html"><span class="menu-text">Çərəz qabları</span></a></li>
+                                <li><a class="dropdown-item" href="shop.html"><span class="menu-text">Salfet qabları</span></a></li>
+                                <li><a class="dropdown-item" href="shop.html"><span class="menu-text">Fincan altlıqları</span></a></li>
+                                <li><a class="dropdown-item" href="shop.html"><span class="menu-text">Şamdanlar</span></a></li>
+                            </ul>
+                            </li>
+                        <li><a href="contact-us.html"><span class="menu-text">Əlaqə</span></a>            
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="col-auto">
+                <div class="header-tools justify-content-end">     
+                 
+                    <div class="mobile-menu-toggle d-xl-none">
+                        <a href="#" class="offcanvas-toggle">
+                            <svg viewBox="0 0 800 600">
+                                <path d="M300,220 C300,220 520,220 540,220 C740,220 640,540 520,420 C440,340 300,200 300,200" class="top"></path>
+                                <path d="M300,320 L540,320" class="middle"></path>
+                                <path d="M300,210 C300,210 520,210 540,210 C740,210 640,530 520,410 C440,330 300,190 300,190" class="bottom" transform="translate(480, 320) scale(1, -1) translate(-480, -318) "></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="mobile-header bg-white section d-xl-none">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col">
+                <div class="header-logo">
+                    <a href="index.html"><img class="lozad" data-src="assets/images/logo/logobg.png" alt="Learts Logo"></a>
+                </div>
+            </div>
+            <div class="col-auto">
+                <div class="header-tools justify-content-end">
+                    <div class="header-cart">
+                        <a href="shopping-cart.html"><span class="cart-count">3</span><i class="fal fa-shopping-cart"></i></a>
+                    </div>
+                    <div class="mobile-menu-toggle">
+                        <a href="#offcanvas-mobile-menu" class="offcanvas-toggle">
+                            <svg viewBox="0 0 800 600">
+                                <path d="M300,220 C300,220 520,220 540,220 C740,220 640,540 520,420 C440,340 300,200 300,200" class="top"></path>
+                                <path d="M300,320 L540,320" class="middle"></path>
+                                <path d="M300,210 C300,210 520,210 540,210 C740,210 640,530 520,410 C440,330 300,190 300,190" class="bottom" transform="translate(480, 320) scale(1, -1) translate(-480, -318) "></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+  
+<div class="mobile-header sticky-header bg-white section d-xl-none">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col">
+                <div class="header-logo">
+                    <a href="index.html"><img class="lozad" data-src="assets/images/logo/logobg.png" alt="Learts Logo"></a>
+                </div>
+            </div>
+            <div class="col-auto">
+                <div class="header-tools justify-content-end">
+                    <div class="header-cart">
+                        <a href="shopping-cart.html" ><span class="cart-count">3</span><i class="fal fa-shopping-cart"></i></a>
+                    </div>
+                    <div class="mobile-menu-toggle">
+                        <a href="#offcanvas-mobile-menu" class="offcanvas-toggle">
+                            <svg viewBox="0 0 800 600">
+                                <path d="M300,220 C300,220 520,220 540,220 C740,220 640,540 520,420 C440,340 300,200 300,200" class="top"></path>
+                                <path d="M300,320 L540,320" class="middle"></path>
+                                <path d="M300,210 C300,210 520,210 540,210 C740,210 640,530 520,410 C440,330 300,190 300,190" class="bottom" transform="translate(480, 320) scale(1, -1) translate(-480, -318) "></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="offcanvas-mobile-menu" class="offcanvas offcanvas-mobile-menu">
+    <div class="inner customScroll">
+        <div class="offcanvas-menu">
+            <ul>
+                <li><a href="index.html"><span class="menu-text">Ana Səhifə</span></a>    
+                </li>
+                <li><a href="about-us.html"><span class="menu-text">Haqqımızda</span></a>
+                </li>
+                <li><a><span class="menu-text">Məhsullar</span></a>
+                    <ul class="sub-menu">
+                        <li><a><span class="menu-text">Təqdimat taxtaları</span></a></li>
+                        <li><a href="shop.html"><span class="menu-text">Sinilər</span></a></li>
+                        <li><a href="shop.html"><span class="menu-text">Çərəz qabları</span></a></li>
+                        <li><a href="shop.html"><span class="menu-text">Salfet qabları</span></a></li>
+                        <li><a href="shop.html"><span class="menu-text">Fincan altlıqları</span></a></li>
+                        <li><a href="shop.html"><span class="menu-text">Şamdanlar</span></a></li>
+                    </ul>
+                </li>
+                <li><a href="contact-us.html"><span class="menu-text">Əlaqə</span></a>
+                </li>
+            </ul>
+        </div>
+        <div class="offcanvas-buttons">
+            <div class="header-tools">
+                <div class="header-cart">
+                    <a href="shopping-cart.html"><span class="cart-count">3</span><i class="fal fa-shopping-cart"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    
+<div class="offcanvas-overlay"></div>
+ 
+
+  
+<div class="section section-padding2">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 picture">
+          <img src="assets/images/bg/notfound.png" alt="">
+        </div>
+      </div>
+    </div>
+</div>
+ 
+
+<div class="footer4-section section section-fluid section-paddingb" data-bg-color="#f4f3ec">
+    <div class="container">
+        <div class="row learts-mb-n40">
+            <div class="col-xl-6 col-lg-5 col-12 learts-mb-40 px-5">
+                <div class="widget-contact">
+                    <p class="email">info@malybeili.az</p>
+                    <p class="phone">(+994) 50 995 41  60</p>
+                    <img class="learts-mt-10 lozad" data-src="assets/images/logo/logobg.png" alt=""> 
+                </div>
+            </div>
+            <div class="col-xl-6 col-lg-7 col-12 learts-mb-40">
+                <div class="row row-cols-sm-3 row-cols-1 learts-mb-n40">
+                    <div class="col learts-mb-40">
+                        <ul class="widget-list">
+                            <li><a href="#">Ana Səhifə</a></li>
+                            <li><a href="#">Haqqımızda</a></li>
+                            <li><a href="#">Məhsullar</a></li>
+                            <li><a href="#">Əlaqə</a></li>
+                        </ul>
+                    </div>
+                    <div class="col learts-mb-40">
+                        <ul class="widget-list">
+                            <li><a href="#">Sinilər</a></li>
+                            <li><a href="#">Fincan altlıqları</a></li>
+                            <li><a href="#">Şamdanlar</a></li>
+                        </ul>
+                    </div>
+                    <div class="col learts-mb-40">
+                        <ul class="widget-list">
+                            <li> <i class="fab fa-twitter"></i> <a href="https://www.twitter.com/">Twitter</a></li>
+                            <li> <i class="fab fa-facebook-f"></i> <a href="https://www.facebook.com/">Facebook</a></li>
+                            <li> <i class="fab fa-instagram"></i> <a href="https://www.instagram.com/">Instagram</a></li>
+                            <li> <i class="fab fa-youtube"></i> <a href="https://www.youtube.com/">Youtube</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="footer2-copyright bg-dark section" >
+    <div class="container">
+        <p class="copyright text-left col-lg-4 footertext" >&copy; 2021.Bütün hüquqlar qorunur.</p>
+        <p class="copyright2 text-end col-lg-4 footertext2">Created with <i class="fa fa-heart" style="color:red; font-size: 20px;"></i> by <a href="https://crr.az/">crr.az</a></p>
+    </div>
+</div>
+
+
+<script src="assets/js/vendor/jquery-3.4.1.min.js"></script>
+<script src="assets/js/vendor/jquery-migrate-3.1.0.min.js"></script>
+<script src="assets/js/vendor/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lozad.js/1.16.0/lozad.js"></script>
+<script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.js"></script>
+<script>
+const observer = lozad();
+observer.observe();
+</script>
+<script src="assets/js/plugins/perfect-scrollbar.min.js"></script>
+<script src="assets/js/plugins/jquery.sticky-sidebar.min.js"></script>
+<script src="assets/js/plugins/jquery.scrollUp.min.js"></script>
+<script src="assets/js/main.js"></script>
 </body>
 </html>

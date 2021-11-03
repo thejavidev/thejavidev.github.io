@@ -1,8 +1,5 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en">
-
-
-<!-- Mirrored from template.hasthemes.com/learts/learts/product-details.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 05 Oct 2021 11:41:20 GMT -->
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -10,10 +7,16 @@
     <meta name="robots" content="noindex, follow" />
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- Favicon -->
     <link rel="shortcut icon" type="image/x-icon" href="assets/images/logo/ico.ico">
+    <link rel="stylesheet" href="assets/css/plugins/slick.css">
     <link rel="stylesheet" href="assets/css/main.css">
+    <style>
+        .dropdown-menu{
+            inset: 70px auto auto 0 !important;
+        }
+    </style>
 </head>
+
 <body>
     <div class="pageloader">
         <div class="wrapper">
@@ -27,11 +30,11 @@
         </div>
     </div>
 
-<div class="header-section section section-fluid bg-white d-none d-xl-block">
+<div class="header-section section section-fluid bg-white d-none d-xl-block" data-bg-color="#F4F3EC">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-auto">
-                <div class="header-logo imgLoad">
+                <div class="header-logo">
                     <a href="index.html"><img class="lozad" data-src="assets/images/logo/logobg.png" alt="Learts Logo"></a>
                 </div>
             </div>
@@ -40,10 +43,9 @@
                     <ul>
                         <li><a href="index.html"><span class="menu-text">Ana Səhifə</span></a></li>
                         <li><a href="about-us.html"><span class="menu-text">Haqqımızda</span></a></li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" style="color: #7e7e7e;" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Məhsullar</a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li class="nav-item dropdown ">
+                            <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"">Məhsullar</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                                 <li><a class="dropdown-item" href="shop.html"><span class="menu-text">Təqdimat taxtaları</span></a></li>
                                 <li><a class="dropdown-item" href="shop.html"><span class="menu-text">Sinilər</span></a></li>
                                 <li><a class="dropdown-item" href="shop.html"><span class="menu-text">Çərəz qabları</span></a></li>
@@ -52,14 +54,14 @@
                                 <li><a class="dropdown-item" href="shop.html"><span class="menu-text">Şamdanlar</span></a></li>
                             </ul>
                         </li>
-                        <li ><a href="contact-us.html"><span class="menu-text">Əlaqə</span></a></li>
+                        <li ><a href="contact-us.html"><span class="menu-text">Əlaqə</span></a> </li>
                     </ul>
                 </nav>
             </div>
             <div class="col-auto">
                 <div class="header-tools justify-content-end">
                     <div class="header-cart">
-                        <a href="shopping-cart.html"><span class="cart-count">3</span><i class="fal fa-shopping-cart"></i></a>
+                        <a href="#offcanvas-cart" class="offcanvas-toggle"><span class="cart-count">3</span><i class="fal fa-shopping-cart"></i></a>
                     </div>
                 </div>
             </div>
@@ -71,7 +73,7 @@
     <div class="container">
         <div class="row align-items-center">
             <div class="col-xl-auto col">
-                <div class="header-logo imgLoad">
+                <div class="header-logo">
                     <a href="index.html"><img class="lozad" data-src="assets/images/logo/logobg.png" alt="Learts Logo"></a>
                 </div>
             </div>
@@ -81,9 +83,8 @@
                         <li><a href="index.html"><span class="menu-text">Ana Səhifə</span></a></li>
                         <li><a href="about-us.html"><span class="menu-text">Haqqımızda</span></a></li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" style="color: #7e7e7e;" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Məhsullar</a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"">Məhsullar</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="background: #f4f3ec;">
                                 <li><a class="dropdown-item" href="shop.html"><span class="menu-text">Təqdimat taxtaları</span></a></li>
                                 <li><a class="dropdown-item" href="shop.html"><span class="menu-text">Sinilər</span></a></li>
                                 <li><a class="dropdown-item" href="shop.html"><span class="menu-text">Çərəz qabları</span></a></li>
@@ -100,7 +101,7 @@
             <div class="col-auto">
                 <div class="header-tools justify-content-end">
                     <div class="header-cart">
-                        <a href="shopping-cart.html" ><span class="cart-count">3</span><i class="fal fa-shopping-cart"></i></a>
+                        <a href="#offcanvas-cart" class="offcanvas-toggle"><span class="cart-count">3</span><i class="fal fa-shopping-cart"></i></a>
                     </div>
                     <div class="mobile-menu-toggle d-xl-none">
                         <a href="#" class="offcanvas-toggle">
@@ -121,14 +122,14 @@
     <div class="container">
         <div class="row align-items-center">
             <div class="col">
-                <div class="header-logo imgLoad">
-                    <a href="index.html"><img class="lozad" data-src="assets/images/logo/logobg.png" alt="Learts Logo"></a>
+                <div class="header-logo">
+                    <a href="index.html"><img src="assets/images/logo/logobg.png" alt="Learts Logo"></a>
                 </div>
             </div>
             <div class="col-auto">
                 <div class="header-tools justify-content-end">
                     <div class="header-cart">
-                        <a href="shopping-cart.html"><span class="cart-count">3</span><i class="fal fa-shopping-cart"></i></a>
+                        <a href="#offcanvas-cart" class="offcanvas-toggle"><span class="cart-count">3</span><i class="fal fa-shopping-cart"></i></a>
                     </div>
                     <div class="mobile-menu-toggle">
                         <a href="#offcanvas-mobile-menu" class="offcanvas-toggle">
@@ -149,14 +150,14 @@
     <div class="container">
         <div class="row align-items-center">
             <div class="col">
-                <div class="header-logo imgLoad">
+                <div class="header-logo">
                     <a href="index.html"><img class="lozad" data-src="assets/images/logo/logobg.png" alt="Learts Logo"></a>
                 </div>
             </div>
             <div class="col-auto">
                 <div class="header-tools justify-content-end">
                     <div class="header-cart">
-                        <a href="shopping-cart.html" ><span class="cart-count">3</span><i class="fal fa-shopping-cart"></i></a>
+                        <a href="#offcanvas-cart" class="offcanvas-toggle"><span class="cart-count">3</span><i class="fal fa-shopping-cart"></i></a>
                     </div>
                     <div class="mobile-menu-toggle">
                         <a href="#offcanvas-mobile-menu" class="offcanvas-toggle">
@@ -175,6 +176,12 @@
 
 <div id="offcanvas-mobile-menu" class="offcanvas offcanvas-mobile-menu">
     <div class="inner customScroll">
+        <div class="offcanvas-menu-search-form">
+            <form action="#">
+                <input type="text" placeholder="Axtar...">
+                <button><i class="fal fa-search"></i></button>
+            </form>
+        </div>
         <div class="offcanvas-menu">
             <ul>
                 <li><a href="index.html"><span class="menu-text">Ana Səhifə</span></a>    
@@ -191,8 +198,7 @@
                         <li><a href="shop.html"><span class="menu-text">Şamdanlar</span></a></li>
                     </ul>
                 </li>
-                <li><a href="contact-us.html"><span class="menu-text">Əlaqə</span></a>
-                </li>
+                <li><a href="contact-us.html"><span class="menu-text">Əlaqə</span></a></li>
             </ul>
         </div>
         <div class="offcanvas-buttons">
@@ -223,7 +229,7 @@
         </div>
     </div>
 </div>
-
+   
 <div class="section section-paddingb border-bottom productss">
     <div class="container">
         <div class="row learts-mb-n40">
@@ -310,7 +316,6 @@
         </div>
     </div>
 </div>
-
 <div class="section section-padding border-bottom">
     <div class="container">
         <ul class="nav product-info-tab-list">
@@ -431,7 +436,8 @@
 
     </div>
 </div>
-    
+   
+
 <div class="section section-padding">
     <div class="container">
         <div class="section-title2 text-center">
@@ -624,7 +630,6 @@
 <div class="footer4-section section section-fluid section-paddingb" data-bg-color="#f4f3ec">
     <div class="container">
         <div class="row learts-mb-n40">
-
             <div class="col-xl-6 col-lg-5 col-12 learts-mb-40 px-5">
                 <div class="widget-contact">
                     <p class="email">info@malybeili.az</p>
@@ -659,7 +664,6 @@
                     </div>
                 </div>
             </div>
-
         </div>
     </div>
 </div>
@@ -671,121 +675,41 @@
     </div>
 </div>
 
-<div class="quickViewModal modal fade" id="quickViewModal">
-    <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content">
-            <button class="close" data-bs-dismiss="modal">&times;</button>
-            <div class="row learts-mb-n30">
-                <div class="col-lg-6 col-12 learts-mb-30">
-                    <div class="product-images">
-                        <div class="product-gallery-slider-quickview imgLoad">
-                            <div class="lozad" data-image="assets/images/product/single/1/product-1.webp">
-                                <img class="lozad" data-src="assets/images/product/single/1/product-1.webp" alt="">
-                            </div>
-                            <div class="lozad" data-image="assets/images/product/single/1/product-2.webp">
-                                <img class="lozad" data-src="assets/images/product/single/1/product-2.webp" alt="">
-                            </div>
-                            <div class="lozad" data-image="assets/images/product/single/1/product-3.webp">
-                                <img class="lozad" data-src="assets/images/product/single/1/product-3.webp" alt="">
-                            </div>
-                            <div class="lozad" data-image="assets/images/product/single/1/product-4.webp">
-                                <img class="lozad" data-src="assets/images/product/single/1/product-4.webp" alt="">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Product Images End -->
 
-                <!-- Product Summery Start -->
-                <div class="col-lg-6 col-12 overflow-hidden position-relative learts-mb-30">
-                    <div class="product-summery customScroll">
-                        
-                        <h3 class="product-title">Məhsul adl</h3>
-                        <div class="product-price">66 &#8380;</div>
-                        <div class="product-description">
-                            <p>Məhsul haqqında</p>
-                        </div>
-                        <div class="product-variations">
-                            <table>
-                                <tbody>
-                                    
-                                    <tr>
-                                        <td class="label"><span>Sayı</span></td>
-                                        <td class="value">
-                                            <div class="product-quantity">
-                                                <span class="qty-btn minus"><i class="ti-minus"></i></span>
-                                                <input type="text" class="input-qty" value="1">
-                                                <span class="qty-btn plus"><i class="ti-plus"></i></span>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                        <div class="product-buttons">
-                            <a href="#" class="btn btn-icon btn-outline-body btn-hover-dark"><i class="fal fa-heart"></i></a>
-                            <a href="#" class="btn btn-dark btn-outline-hover-dark"><i class="fal fa-shopping-cart"></i> Səbətə Əlavə Et</a>
-                
-                        </div>
-                        
-                        <div class="product-meta mb-0">
-                            <table>
-                                <tbody>
-                                    
-                                    <tr>
-                                        <td class="label"><span>Kateqoriya</span></td>
-                                        <td class="value">
-                                            <ul class="product-category">
-                                                <li><a href="#">Sinilər</a></li>
-                                            </ul>
-                                        </td>
-                                    </tr>
-                                
-                            
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
-                </div>
-                <!-- Product Summery End -->
-
-            </div>
-        </div>
-    </div>
-</div>
 
     <!-- JS
 ============================================ -->
 
     <!-- Vendors JS -->
-    <script src="assets/js/vendor/modernizr-3.6.0.min.js"></script>
-    <script src="assets/js/vendor/jquery-3.4.1.min.js"></script>
-    <script src="assets/js/vendor/jquery-migrate-3.1.0.min.js"></script>
-    <script src="assets/js/vendor/bootstrap.bundle.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/lozad.js/1.16.0/lozad.js"></script>
-    <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.js"></script>
-    <script>
-        const observer = lozad();
-        observer.observe();
+<script src="assets/js/vendor/modernizr-3.6.0.min.js"></script>
+<script src="assets/js/vendor/jquery-3.4.1.min.js"></script>
+<script src="assets/js/vendor/jquery-migrate-3.1.0.min.js"></script>
+<script src="assets/js/vendor/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lozad.js/1.16.0/lozad.js"></script>
+<script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.js"></script>
+<script>
+    const observer = lozad();
+    observer.observe();
+    </script>
+<!-- Plugins JS -->
+<script src="assets/js/plugins/select2.min.js"></script>
+<script src="assets/js/plugins/jquery.nice-select.min.js"></script>
+<script src="assets/js/plugins/perfect-scrollbar.min.js"></script>
+<script src="assets/js/plugins/swiper.min.js"></script>
+<script src="assets/js/plugins/slick.min.js"></script>
+<script src="assets/js/plugins/isotope.pkgd.min.js"></script>
+<script src="assets/js/plugins/jquery.matchHeight-min.js"></script>
+<script src="assets/js/plugins/ion.rangeSlider.min.js"></script>
+<script src="assets/js/plugins/photoswipe.min.js"></script>
+<script src="assets/js/plugins/photoswipe-ui-default.min.js"></script>
+<script src="assets/js/plugins/ResizeSensor.js"></script>
+<script src="assets/js/plugins/jquery.sticky-sidebar.min.js"></script>
 
-      </script>
-    <!-- Plugins JS -->
-    <script src="assets/js/plugins/select2.min.js"></script>
-    <script src="assets/js/plugins/jquery.nice-select.min.js"></script>
-    <script src="assets/js/plugins/perfect-scrollbar.min.js"></script>
-    <script src="assets/js/plugins/swiper.min.js"></script>
-    <script src="assets/js/plugins/slick.min.js"></script>
-    <script src="assets/js/plugins/isotope.pkgd.min.js"></script>
-    <script src="assets/js/plugins/jquery.matchHeight-min.js"></script>
-    <script src="assets/js/plugins/ion.rangeSlider.min.js"></script>
-    <script src="assets/js/plugins/photoswipe.min.js"></script>
-    <script src="assets/js/plugins/photoswipe-ui-default.min.js"></script>
-    <script src="assets/js/plugins/ResizeSensor.js"></script>
-    <script src="assets/js/plugins/jquery.sticky-sidebar.min.js"></script>
-    <script src="assets/js/plugins/jquery.magnific-popup.min.js"></script>
-    <script src="assets/js/plugins/jquery.scrollUp.min.js"></script>
-    <script src="assets/js/plugins/scrollax.min.js"></script>
-    <script src="assets/js/plugins/instafeed.min.js"></script>
-    <script src="assets/js/main.js"></script>
+<script src="assets/js/plugins/jquery.magnific-popup.min.js"></script>
+<script src="assets/js/plugins/jquery.scrollUp.min.js"></script>
+<script src="assets/js/plugins/scrollax.min.js"></script>
+<script src="assets/js/plugins/instafeed.min.js"></script>
+<script src="assets/js/main.js"></script>
+
 </body>
 </html>

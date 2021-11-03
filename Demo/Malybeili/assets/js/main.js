@@ -46,7 +46,7 @@ window.addEventListener("load",function(){
         Header Sticky
     -----------------------------------*/
     $window.on('scroll', function () {
-        if ($window.scrollTop() > 350) {
+        if ($window.scrollTop() > 100) {
             $('.sticky-header').addClass('is-sticky');
         } else {
             $('.sticky-header').removeClass('is-sticky');
