@@ -1902,19 +1902,6 @@ only screen and (max-width: 767px) {
 }
 
 
-
-
-
-
-
-  
-
-
-
-
-
-
-
 .slick-arrow {
   position: absolute;
   z-index: 9;
@@ -2683,6 +2670,15 @@ only screen and (max-width: 767px) {
     font-weight: 700;
     color: #D18B40;
   }
+}
+.comments .container{
+  background: #f4f3ec;
+  padding: 40px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
 }
 
 .aboutUs {
@@ -10694,6 +10690,11 @@ only screen and (min-width: 768px) and (max-width: 991px) {
 .about-us .inner .link:hover {
   border-color: #333;
 }
+@media screen and (max-width: 991px) {
+  .aboutUSA{
+    margin-top: 100px;
+  }
+}
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .about-us .inner .title {
@@ -10716,7 +10717,10 @@ only screen and (min-width: 768px) and (max-width: 991px) {
 
 
 
-
+.about-us4{
+  padding: 40px ;
+  text-align: center;
+}
 
 .about-us4 .sub-title {
   font-size: 16px;
@@ -10731,7 +10735,7 @@ only screen and (min-width: 768px) and (max-width: 991px) {
   font-size: 43px;
   font-weight: 400;
   line-height: 1.25;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .about-us4 .title:last-child {

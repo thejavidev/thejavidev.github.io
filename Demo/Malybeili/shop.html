@@ -898,6 +898,25 @@
 <script>
     const observer = lozad();
     observer.observe();
+    var $isotopeGrid = $('.isotope-grid');
+    var $isotopeFilter = $('.isotope-filter');
+    $isotopeGrid.imagesLoaded(function () {
+        $isotopeGrid.isotope({
+            itemSelector: '.grid-item',
+            masonry: {
+                columnWidth: '.grid-sizer'
+            }
+        });
+    });
+    $isotopeFilter.on('click', 'button', function () {
+        var $this = $(this),
+            $filterValue = $this.attr('data-filter'),
+            $targetIsotop = $this.parent().data('target');
+        $this.addClass('active').siblings().removeClass('active');
+        $($targetIsotop).isotope({
+            filter: $filterValue
+        });
+    });
     </script>
 <!-- Plugins JS -->
 <script src="assets/js/plugins/select2.min.js"></script>
@@ -916,7 +935,6 @@
 <script src="assets/js/plugins/jquery.magnific-popup.min.js"></script>
 <script src="assets/js/plugins/jquery.scrollUp.min.js"></script>
 <script src="assets/js/plugins/scrollax.min.js"></script>
-<script src="assets/js/plugins/instafeed.min.js"></script>
 <script src="assets/js/main.js"></script>
 
 </body>
