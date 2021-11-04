@@ -1982,7 +1982,7 @@ footer .item .copy-right p a {
 
 @media screen and (max-width: 991px) {
   .slider .parallax-slider .swiper-slide {
-    min-height: 54vh;
+    min-height: 64vh;
   }
   .statusImg {
     width: 25rem;
@@ -1991,13 +1991,13 @@ footer .item .copy-right p a {
 
 @media screen and (max-width: 767px) {
   .slider .parallax-slider .swiper-slide {
-    min-height: 44vh;
+    min-height: 56vh;
   }
 }
 
 @media screen and (max-width: 585px) {
   .slider .parallax-slider .swiper-slide {
-    min-height: 34vh;
+    min-height: 44vh;
   }
   .statusImg {
     display: none;
@@ -3653,7 +3653,7 @@ footer .item .copy-right p a {
 }
 
 .page-header .cont {
-  padding: 220px 0 50px;
+  padding: 122px 0 50px;
 }
 
 .pages-header {
