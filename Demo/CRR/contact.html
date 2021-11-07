@@ -133,7 +133,27 @@
 
     <!-- ==================== End Navbar ==================== -->
 
-
+<!-- Mobile Menu -->
+<!-- <div class="sidebar-back"></div> -->
+<div class="vs-menu-wrapper">
+    <div class="vs-menu-area">
+        <button class="vs-menu-toggle text-theme vs-active">x</button>
+        <div class="mobile-logo">
+            <a class="logo imgLoad" href="index.html">
+                <img class="lozad" data-src="img/mainlogo-dark.webp" alt="logo" />
+            </a>
+        </div>
+        <ul class="menu-items">
+            <li class="nav-item"><a class="nav-link" href="/index.html">Ana Səhifə</a></li>
+            <li class="nav-item"><a class="nav-link" href="about.html">Haqqımızda</a></li>
+            <li class="nav-item "><a class="nav-link" href="works.html" role="button" aria-haspopup="true" aria-expanded="false">Layihələr</a></li>
+            <li class="nav-item"><a class="nav-link" href="services.html">Xidmətlər</a></li>
+            <li class="nav-item "><a class="nav-link" href="blogs.html" role="button" aria-haspopup="true" aria-expanded="false">Bloq</a></li>
+            <li class="nav-item "><a class="nav-link" href="faq.html" role="button" aria-haspopup="true" aria-expanded="false">FAQ</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact.html">Əlaqə</a></li>
+        </ul>
+    </div>
+</div>
     <!-- ==================== Start header ==================== -->
 
     <header class="pages-header2  circle-bg valign position-re sub-bg">
@@ -311,6 +331,15 @@
         const observer = lozad();
         observer.observe();
     </script>
+        <script>
+    $( ".navbar-toggler" ).click(function() {
+        $(".vs-menu-wrapper").addClass("vs-body-visible");
+});
+$( ".vs-menu-toggle" ).click(function() {
+        $(".vs-menu-wrapper").removeClass("vs-body-visible");
+});
+
+</script>
     <script src="js/scripts.js"></script>
 </body>
 </html>
