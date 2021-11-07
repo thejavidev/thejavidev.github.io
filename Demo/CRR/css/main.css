@@ -1378,6 +1378,16 @@ a:hover, span:hover {
   }
   
 }
+
+.vs-menu-wrapper .vs-mobile-menu{
+    text-align: center;
+    display: block;
+    color: #000;
+    font-weight: 600;
+    font-size: 20px;
+    border-bottom: 2pxsolid rgba(0,0,0,.1);
+    padding: 0.5rem 1rem;
+}
 .select .option {
     border-radius: 6px;
     padding:0 30px 0 15px;
