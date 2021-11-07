@@ -1389,7 +1389,8 @@ a:hover, span:hover {
     padding: 0.5rem 1rem;
     transition:all .3s;
 }
-.vs-menu-wrapper .vs-mobile-menu:hover{
+.vs-menu-wrapper .vs-mobile-menu:hover,
+.vs-menu-wrapper .vs-mobile-menu:focus{
 	color:#c471ed;
 }
 .select .option {
