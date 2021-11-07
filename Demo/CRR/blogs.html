@@ -366,6 +366,15 @@
         const observer = lozad();
         observer.observe();
     </script>
+    <script>
+    $( ".navbar-toggler" ).click(function() {
+        $(".vs-menu-wrapper").addClass("vs-body-visible");
+});
+$( ".vs-menu-toggle" ).click(function() {
+        $(".vs-menu-wrapper").removeClass("vs-body-visible");
+});
+
+</script>
     <!-- custom scripts -->
     <script src="js/scripts.js"></script>
     
