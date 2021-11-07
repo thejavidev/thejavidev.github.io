@@ -2357,7 +2357,7 @@ footer .item .copy-right p a {
     width: 300px;
   }
 }
-@media screen and (max-width:767px) {
+@media screen and (max-width:991px) {
   .phone{
     display: none;
   }
