@@ -1387,6 +1387,10 @@ a:hover, span:hover {
     font-size: 20px;
     border-bottom: 2pxsolid rgba(0,0,0,.1);
     padding: 0.5rem 1rem;
+    transition:all .3s;
+}
+.vs-menu-wrapper .vs-mobile-menu:hover{
+	color:#c471ed;
 }
 .select .option {
     border-radius: 6px;
