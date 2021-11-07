@@ -1345,7 +1345,7 @@ a:hover, span:hover {
 }
 @media screen and (min-width:80px) and (max-width:991px){
   .select{
-    display: none;
+    
   }
 }
 
