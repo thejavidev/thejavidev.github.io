@@ -1403,15 +1403,23 @@ a:hover, span:hover {
   letter-spacing: 3px;
 }
 .vs-menu-wrapper .dropdown{
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  transform: translate(-50%,-50%);
   display: flex;
   align-items: center;
   justify-content: center;
+  -webkit-transform: translate(-50%,-50%);
+  -moz-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  -o-transform: translate(-50%,-50%);
 }
 .vs-menu-wrapper .dropdown-item{
   padding: 5px;
 }
 .vs-menu-wrapper .dropdown .dropdown-menu{
-  min-width: 6rem !important;
+  min-width: 5rem !important;
 }
 .vs-menu-wrapper .dropdown .dropdown-menu .dropdown-item img{
   margin-right: 10px;
