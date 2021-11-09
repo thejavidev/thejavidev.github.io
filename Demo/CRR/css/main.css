@@ -1354,7 +1354,11 @@ a:hover, span:hover {
 
 @media screen and (min-width:80px) and (max-width:991px){
   .select{
+<<<<<<< HEAD
    display: none;
+=======
+    display:none;
+>>>>>>> b9865d81dbee3a1fbefe439d04edbf4d4582dab2
   }
 }
 
@@ -1401,6 +1405,7 @@ a:hover, span:hover {
 .vs-menu-wrapper .vs-mobile-menu:hover,
 .vs-menu-wrapper .vs-mobile-menu:focus{
 	color:#c471ed;
+<<<<<<< HEAD
   letter-spacing: 3px;
 }
 .vs-menu-wrapper .dropdown{
@@ -1444,6 +1449,8 @@ a:hover, span:hover {
   -moz-transition: all .3s;
   -ms-transition: all .3s;
   -o-transition: all .3s;
+=======
+>>>>>>> b9865d81dbee3a1fbefe439d04edbf4d4582dab2
 }
 .select .option {
     border-radius: 6px;
@@ -6329,4 +6336,8 @@ body {
 }
 
 /* ====================== [ End Responsive ] ====================== */
+<<<<<<< HEAD
 
+=======
+/*# sourceMappingURL=main.css.map */
+>>>>>>> b9865d81dbee3a1fbefe439d04edbf4d4582dab2
