@@ -1429,10 +1429,15 @@ a:hover, span:hover {
   -ms-transition: all .3s;
   -o-transition: all .3s;
 }
-
+.vs-menu-wrapper .vs-active span{
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
 .vs-menu-wrapper .vs-active span:hover,
 .vs-menu-wrapper .vs-active span:focus{
   background-color: red;
+
   transition: all .3s;
   border-radius: 50%;
   -webkit-border-radius: 50%;
@@ -1443,6 +1448,11 @@ a:hover, span:hover {
   -moz-transition: all .3s;
   -ms-transition: all .3s;
   -o-transition: all .3s;
+}
+.vs-menu-wrapper .nav-item .nav-link.active{
+ color: #9B59B6;
+ border-bottom: 1px solid rgba(0, 0, 0, .2);
+ letter-spacing: 3px;
 }
 .select .option {
     border-radius: 6px;
@@ -2527,7 +2537,6 @@ footer .item .copy-right p a {
   margin-bottom: -50px;
   margin-top: auto;
 }
-
 
 
 
@@ -6299,6 +6308,8 @@ body {
   position: absolute;
   right: 0;
   top: 0;
+  border: none;
+  outline: none;
   padding: 0;
   line-height: 1;
   width: 45px;
@@ -6328,8 +6339,3 @@ body {
 }
 
 /* ====================== [ End Responsive ] ====================== */
-<<<<<<< HEAD
-
-=======
-/*# sourceMappingURL=main.css.map */
->>>>>>> b9865d81dbee3a1fbefe439d04edbf4d4582dab2
