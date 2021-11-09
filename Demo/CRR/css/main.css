@@ -1451,7 +1451,6 @@ a:hover, span:hover {
 }
 .vs-menu-wrapper .nav-item .nav-link.active{
  color: #9B59B6;
- border-bottom: 1px solid rgba(0, 0, 0, .2);
  letter-spacing: 3px;
 }
 .select .option {
