@@ -715,8 +715,8 @@ a:hover, span:hover {
 .progress-wrap::after {
   position: absolute;
   font-family: 'Font Awesome 5 Free';
-  content: '';
-  background: url('/img/up.svg');
+  content: '\f077';
+  
   text-align: center;
   line-height: 44px;
   font-size: 13px;
@@ -1404,7 +1404,7 @@ a:hover, span:hover {
 }
 .vs-menu-wrapper .dropdown{
   position: absolute;
-  bottom: 5%;
+  bottom: 0;
   left: 50%;
   transform: translate(-50%,-50%);
   display: flex;
@@ -2790,11 +2790,21 @@ footer .item .copy-right p a {
 }
 
 .work-carousel .content .item-img {
-  position: relative;
   height: 480px;
   line-height: 0;
+  overflow: hidden;
 }
-
+.work-carousel .content .item-img img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top;
+  transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  -moz-transition: all .4s ease-in-out;
+  -ms-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+}
 .work-carousel .content:hover .item-ig {
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
