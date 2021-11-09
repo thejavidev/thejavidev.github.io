@@ -1354,11 +1354,7 @@ a:hover, span:hover {
 
 @media screen and (min-width:80px) and (max-width:991px){
   .select{
-<<<<<<< HEAD
-   display: none;
-=======
-    display:none;
->>>>>>> b9865d81dbee3a1fbefe439d04edbf4d4582dab2
+    display: none;
   }
 }
 
@@ -1368,7 +1364,6 @@ a:hover, span:hover {
     display: inline-block;
     color: #fff;
     padding: 3px;
-   
   }
   .navbar .lang .langs:nth-child(1) ,.navbar .lang .langs:nth-child(2), .navbar .lang .langs:nth-child(3){
     padding-right: 20px !important;
@@ -1405,7 +1400,6 @@ a:hover, span:hover {
 .vs-menu-wrapper .vs-mobile-menu:hover,
 .vs-menu-wrapper .vs-mobile-menu:focus{
 	color:#c471ed;
-<<<<<<< HEAD
   letter-spacing: 3px;
 }
 .vs-menu-wrapper .dropdown{
@@ -1449,8 +1443,6 @@ a:hover, span:hover {
   -moz-transition: all .3s;
   -ms-transition: all .3s;
   -o-transition: all .3s;
-=======
->>>>>>> b9865d81dbee3a1fbefe439d04edbf4d4582dab2
 }
 .select .option {
     border-radius: 6px;
