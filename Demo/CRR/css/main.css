@@ -3156,7 +3156,7 @@ footer .item .copy-right p a {
 .clients .brands .img img {
   -webkit-transition: all .4s;
   transition: all .4s;
-  max-width: 75px;
+  max-width: 90px;
   margin: auto;
 }
 
@@ -3177,8 +3177,19 @@ footer .item .copy-right p a {
 
 .clients .bord .item {
   margin-bottom: 30px;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
 }
-
+.clients .brands .item{
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+}
 .clients-brand .brands:hover .img {
   -webkit-transform: scale(0);
   transform: scale(0);
