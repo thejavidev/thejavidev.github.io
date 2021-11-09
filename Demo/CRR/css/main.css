@@ -1429,14 +1429,14 @@ a:hover, span:hover {
   -ms-transition: all .3s;
   -o-transition: all .3s;
 }
-.vs-menu-wrapper .vs-active span{
+.vs-menu-wrapper .vs-active i{
   border: none;
   outline: none;
   cursor: pointer;
 }
-.vs-menu-wrapper .vs-active span:hover,
-.vs-menu-wrapper .vs-active span:focus{
-  background-color: red;
+.vs-menu-wrapper .vs-active i:hover,
+.vs-menu-wrapper .vs-active i:focus{
+  color: red;
 
   transition: all .3s;
   border-radius: 50%;
