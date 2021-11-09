@@ -120,7 +120,38 @@
 
     <!-- ==================== End Navbar ==================== -->
 
-
+<!-- Mobile Menu -->
+<!-- <div class="sidebar-back"></div> -->
+<div class="vs-menu-wrapper position-re">
+    <div class="vs-menu-area">
+        <button class="vs-menu-toggle text-theme vs-active"><span class="pe-7s-close-circle"></span></button>
+        <div class="mobile-logo">
+            <a class="logo imgLoad" href="index.html">
+                <img class="lozad" data-src="img/mainlogo-dark.webp" alt="logo" />
+            </a>
+        </div>
+        <div class="linec top left"></div>
+        <ul class="menu-items">
+            <li class="nav-item"><a class="nav-link vs-mobile-menu" href="index.html">Ana Səhifə</a></li>
+            <li class="nav-item"><a class="nav-link vs-mobile-menu" href="about.html">Haqqımızda</a></li>
+            <li class="nav-item "><a class="nav-link vs-mobile-menu" href="works.html" role="button" aria-haspopup="true" aria-expanded="false">Layihələr</a></li>
+            <li class="nav-item"><a class="nav-link vs-mobile-menu" href="services.html">Xidmətlər</a></li>
+            <li class="nav-item "><a class="nav-link vs-mobile-menu" href="blogs.html" role="button" aria-haspopup="true" aria-expanded="false">Bloq</a></li>
+            <li class="nav-item "><a class="nav-link vs-mobile-menu" href="faq.html" role="button" aria-haspopup="true" aria-expanded="false">FAQ</a></li>
+            <li class="nav-item"><a class="nav-link vs-mobile-menu" href="contact.html">Əlaqə</a></li>
+        </ul>
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+             Dillər
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="#"><img src="img/flag/azerbaijan.png" alt="">Az</a>
+              <a class="dropdown-item" href="#"><img src="img/flag/russia.png" alt="">Ru</a>
+              <a class="dropdown-item" href="#"><img src="img/flag/united-kingdom.png" alt="">En</a>
+            </div>
+          </div>
+    </div>
+</div>
     
 
     <!-- ==================== Start header ==================== -->
@@ -351,6 +382,7 @@
 
 
     <script src="js/jquery-3.0.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
     <script src="js/plugins/bootstrap.min.js"></script>
     <script src="js/plugins/isotope.pkgd.js"></script>
     <script src="js/plugins/pace.min.js"></script>
@@ -372,6 +404,15 @@
         $(this).addClass('active').siblings().removeClass('active');
     });
     </script>
+    <script>
+    $( ".navbar-toggler" ).click(function() {
+        $(".vs-menu-wrapper").addClass("vs-body-visible");
+});
+$( ".vs-menu-toggle" ).click(function() {
+        $(".vs-menu-wrapper").removeClass("vs-body-visible");
+});
+
+</script>
     <script src="js/scripts.js"></script>
 </body>
 </html>
