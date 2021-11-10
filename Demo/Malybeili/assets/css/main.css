@@ -958,21 +958,21 @@ hr {
 }
 
 .aboutinsta {
-  max-width: 700px !important;
-  width: 700px !important;
+  max-width: 400px !important;
+  width: 400px !important;
   z-index: 999;
 }
 
 .middlelogo{
   position: absolute;
-  top: 15%;
-  left: 55%;
+  top: 20%;
+  left: 38%;
   transform: translate(-50%,-55%);
-  width: 120px;
-  height: 120px;
+  width: 65px;
+  height: 65px;
   display: flex;
-  -webkit-animation: dealImage 2s linear infinite alternate both;
-  animation: dealImage 2s linear infinite alternate both;
+  -webkit-animation: dealImage2 2s linear infinite alternate both;
+  animation: dealImage2 2s linear infinite alternate both;
   -webkit-transform: translate(-50%,-55%);
   -moz-transform: translate(-50%,-55%);
   -ms-transform: translate(-50%,-55%);
@@ -981,7 +981,7 @@ hr {
 }
 .middlelogob{
   position: absolute;
-  top: 28%;
+  top: 48%;
   left: 43%;
   transform: translate(-50%,-43%);
   width: 150px;
@@ -2107,6 +2107,7 @@ only screen and (max-width: 767px) {
   -moz-transition: all .4s;
   -ms-transition: all .4s;
   -o-transition: all .4s;
+  z-index: 999 !important;
 }
 .btn:hover{
   background: #ddb758;
@@ -3125,6 +3126,61 @@ only screen and (min-width: 768px) and (max-width: 991px) {
 
 /*--------------------------------------INDEX SECTION==================*/
 /*==================NAVBAR A START===========*/
+.topbar-section {
+  background: #baa491;
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+  z-index: 101;
+}
+.topbar-section .col-12 p a:hover{
+  color: #f5cc26;
+}
+.topbar-section .topbar-menu ul li a{
+  color: #fff;
+}
+
+.topbar-section .topbar-menu ul li a:hover{
+  color: #f5cc26;
+}
+@media only screen and (min-width: 1500px) {
+  .topbar-section.section-fluid {
+    padding-right: 55px;
+    padding-left: 55px;
+  }
+  .topbar-section.section-fluid .container,
+  .topbar-section.section-fluid .container-fluid {
+    max-width: 100%;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1499px) {
+  .topbar-section.section-fluid {
+    padding-right: 35px;
+    padding-left: 35px;
+  }
+  .topbar-section.section-fluid .container,
+  .topbar-section.section-fluid .container-fluid {
+    max-width: 100%;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .topbar-section.section-fluid {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .topbar-section.section-fluid .container {
+    max-width: 960px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .topbar-section.section-fluid {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .topbar-section.section-fluid .container {
+    max-width: 720px;
+  }
+}
 .header-section {
   position: relative;
   z-index: 98;
@@ -3162,6 +3218,29 @@ only screen and (min-width: 768px) and (max-width: 991px) {
   display: flex !important;
   align-items: flex-start !important;
   justify-content: left !important;
+}
+.header-section .dropdown .dropdown-menu .lang:hover,
+.sticky-header .dropdown .dropdown-menu .lang:hover{
+  font-weight: 600;
+  transition: all .3s;
+  letter-spacing: 4px;
+  margin-left: 5px;
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  -ms-transition: all .3s;
+  -o-transition: all .3s;
+}
+.header-section .dropdown a img,
+.sticky-header .dropdown a img{
+  margin-right: 10px;
+  width: 20px;
+  height: 20px;
+}
+.header-section .dropdown .dropdown-menu .dropdown-item span img,
+.sticky-header  .dropdown .dropdown-menu .dropdown-item span img{
+  margin-right: 10px;
+  width: 20px;
+  height: 20px;
 }
 .header-logo {
   display: -webkit-box;
@@ -3361,6 +3440,7 @@ only screen and (min-width: 768px) and (max-width: 991px) {
 }
 
 .header-call {
+  margin-right: -50px;
   position: absolute;
   top: 0;
   right: 15px;
@@ -3475,6 +3555,7 @@ only screen and (min-width: 768px) and (max-width: 991px) {
 /*==================NAVBAR MOBILE END==================================*/
 /*-----------HOME SLIDER SECTION======================================*/
 .home2-slider {
+  position: relative;
   width: 100%;
   height: 770px;
 }
@@ -3483,7 +3564,10 @@ only screen and (min-width: 768px) and (max-width: 991px) {
   -webkit-transform: scale(1.5);
   transform: scale(1.5);
 }
-
+.home2-slider .bottom{
+  position: absolute;
+  bottom: 0;
+}
 .home2-slider:hover [class*='swiper-button'] {
   opacity: 1;
 }
@@ -4459,6 +4543,21 @@ only screen and (min-width: 768px) and (max-width: 991px) {
 }
 --*/
 /*======SETUP BY SECTION END==================----------*/
+.shoppingcart .container{
+  padding: 30px;
+  border-radius: 1rem;
+  background: #F7F7F7;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+}
+.shoppingcart .container .btnA{
+  background: #b4b4b4;
+}
+.shoppingcart .container .btnA:hover{
+  background: #f5cc26;
+}
 .minicart-product-list {
   margin: 0;
   padding-left: 0;
@@ -6831,6 +6930,7 @@ only screen and (min-width: 768px) and (max-width: 991px) {
 [data-name='mojs-shape'] {
   z-index: 99;
 }
+
 .discount  .discounts{
   position: absolute;
   top: 45%;
@@ -6841,8 +6941,12 @@ only screen and (min-width: 768px) and (max-width: 991px) {
   -ms-transform: translate(-50%,-50%);
   -o-transform: translate(-50%,-50%);
 }
-  
-
+.discount .btn{
+  background: #f5cc26;
+}
+.discount .btn:hover{
+  background: #b99606;
+}
 .product-deal-image {
   position: relative;
   z-index: 999999 !important;
@@ -9169,16 +9273,17 @@ only screen and (min-width: 768px) and (max-width: 991px) {
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  margin-right: -5px;
-  margin-left: -5px;
+  margin-right: 23px;
+  margin-left: 14px;
 }
 
 .countdown1 .count {
+ 
   -webkit-box-flex: 1;
-  -ms-flex: 1 0 25%;
-  flex: 1 0 25%;
+  -ms-flex: 1 0 15%;
+  flex: 1 0 15%;
   max-width: 25%;
-  padding: 0 5px;
+  padding: 0 1px;
 }
 
 .countdown1 .count span {
@@ -9987,7 +10092,9 @@ only screen and (min-width: 768px) and (max-width: 991px) {
   color: #72a499 !important;
   border-color: #72a499 !important;
 }
-
+.widget-contact .lozad{
+  margin-bottom: 10px;
+}
 .widget-contact .email {
   font-size: 15px;
   font-weight: 400;
@@ -10077,7 +10184,9 @@ only screen and (min-width: 768px) and (max-width: 991px) {
   border-top: 1px solid #ebebeb;
   background-color: #f8f8f8;
 }
-
+.footer2-copyright .copyright a:hover{
+  color: #ddb758;
+}
 .copyright {
   font-size: 16px;
   font-weight: 400;
@@ -10677,7 +10786,28 @@ only screen and (min-width: 768px) and (max-width: 991px) {
 .about-us .inner p {
   margin-bottom: 35px;
 }
+.about-us .price{
+  letter-spacing: 4px;
+  text-align: center;
+  display: inline-block;
+  color: #fff;
+  font-size: 4rem;
+  padding-bottom: 20px;
+  background: #D18B40;
+  padding: 20px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border: 2px dashed #da0e2b;
+}
 
+.about-us .manat{
+  display: inline-block;
+  padding-left: 20px;
+  font-size: 2rem;
+}
 .about-us .inner .link {
   font-size: 16px;
   font-weight: 400;
