@@ -843,6 +843,8 @@ a:hover, span:hover {
 
 /* ====================== [ end wrapper ] ====================== */
 /* ====================== [ Start navbar ] ====================== */
+
+
 .navbar {
   position: fixed !important;
   left: 0;
@@ -997,7 +999,9 @@ a:hover, span:hover {
 .navbar .logo {
   width: 180px;
 }
-
+.mainnavfixed{
+ 
+}
 .nav-scroll {
   background: #fff;
   border-color: #f5f5f5;

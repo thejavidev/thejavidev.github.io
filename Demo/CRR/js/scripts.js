@@ -25,11 +25,13 @@ $(function () {
         if (bodyScroll > 80) {
 
             navbar.addClass("nav-scroll");
+     
             logo.attr('src', 'img/mainlogo-dark.webp');
 
         } else {
 
             navbar.removeClass("nav-scroll");
+           
             logo.attr('src', 'img/mainlogo.webp');
         }
     });
@@ -44,14 +46,17 @@ $(function () {
 
         var bodyScroll = wind.scrollTop(),
             navbar = $(".topnav");
+          
 
-        if (bodyScroll > 50) {
+        if (bodyScroll > 60) {
 
             navbar.addClass("nav-scroll");
+    
 
         } else {
 
             navbar.removeClass("nav-scroll");
+        
         }
     });
 
