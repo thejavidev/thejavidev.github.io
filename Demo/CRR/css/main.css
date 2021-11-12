@@ -2739,6 +2739,7 @@ footer .item .copy-right p a {
 }
 
 .work-carousel .swiper-slide-active .noraidus .cont {
+
   opacity: 1;
   visibility: visible;
   -webkit-transition-delay: .5s;
@@ -2845,6 +2846,7 @@ footer .item .copy-right p a {
 }
 
 .work-carousel .content .bgbox {
+
   position: absolute;
   bottom: 35px;
   left: 35px;
@@ -2878,7 +2880,7 @@ footer .item .copy-right p a {
   bottom: 20px;
   height: 100px;
   right: 20px;
-  background: #fff;
+  background: #ccc;
   opacity: 0;
   -webkit-transition: all .4s;
   -o-transition: all .4s;
@@ -3249,6 +3251,11 @@ footer .item .copy-right p a {
 .blog-grid .item {
   padding: 40px;
   position: relative;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
 }
 
 .blog-grid .item:after {
@@ -3259,9 +3266,15 @@ footer .item .copy-right p a {
   width: 100%;
   height: 100%;
   background: #f5f5f5;
+  opacity: .7;
   -webkit-transition: all .4s;
   -o-transition: all .4s;
   transition: all .4s;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
 }
 
 .blog-grid .item.active:after {
@@ -3269,7 +3282,7 @@ footer .item .copy-right p a {
 }
 
 .blog-grid .item:hover:after {
-  opacity: .7;
+  opacity: .6;
 }
 
 .blog-grid .item .cont {
@@ -5075,7 +5088,19 @@ body {
   left: auto;
   right: 0;
 }
-
+.blogBtn{
+  background-color: #9B59B6;
+  padding: 10px;
+  border-radius: 20px;
+  color: #fff;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+.blogBtn:hover{
+  color: #fff;
+}
 /* ====================== [ End Button Style ] ====================== */
 /* ====================== [ Start showcase ] ====================== */
 .showcase-full .parallax-slider .swiper-slide .bg-img {
