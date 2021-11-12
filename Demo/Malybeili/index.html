@@ -9,6 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="shortcut icon" type="image/x-icon" href="assets/images/logo/ico.ico">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/2.1.0/css/flag-icon.min.css">
     <link rel="stylesheet" href="assets/css/main.css">
     <style>
         .dropdown-menu{
@@ -72,31 +73,21 @@
                             </li>
                             
                             <li class="pr-5" ><a href="contact-us.html"><span class="menu-text">Əlaqə</span></a></li>
-                          
                         </ul>
                     </nav>
 
-                   
                 </div>
-                <div class="col-4 ">
+                <div class="col-4">
                     <div class="header-call">
-                        <div class="select" tabindex="1">
-                            <input class="selectopt" name="test" type="radio" id="opt1" checked>
-                            <label for="opt1" class="option"><img src="assets/images/flag/azerbaijan.png" alt="">Az</label>
-                            <input class="selectopt" name="test" type="radio" id="opt2">
-                            <label for="opt2" class="option"><img src="assets/images/flag/russia.png" alt="">Ру</label>
-                            <input class="selectopt" name="test" type="radio" id="opt3">
-                            <label for="opt3" class="option"><img src="assets/images/flag/united-kingdom.png" alt="">En</label>
-                        </div>
-                       
+                        <select class="selectpicker" data-width="fit">
+                            <option class="option" data-content='Az'>Az</option>
+                            <option class="option"  data-content='Ru'>Ru</option>
+                            <option class="option"  data-content='En'>En</option>
+                        </select>
                     </div>
-                   
                 </div>
                 
             </div>
-          
-           
-           
         </div>
     </div>
 </div>
@@ -495,6 +486,7 @@
 
 <!--JS -->
 <script src="assets/js/vendor/jquery-3.4.1.min.js"></script>
+
 <script src="assets/js/vendor/bootstrap.bundle.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/lozad.js/1.16.0/lozad.js"></script>
 <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.js"></script>
@@ -506,6 +498,10 @@ observer.observe();
 </script>
 <script >
     AOS.init({ once: true, });
+</script>
+<script >
+  
+
 </script>
 <script src="assets/js/plugins/select2.min.js"></script>
 <script src="assets/js/plugins/jquery.nice-select.min.js"></script>
