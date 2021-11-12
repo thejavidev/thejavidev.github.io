@@ -3175,7 +3175,7 @@ only screen and (min-width: 768px) and (max-width: 991px) {
 }
 .selectpicker-two{
   position: absolute;
-  top: 33%;
+  top: 3%;
   right: 5%;
 }
 .select {
