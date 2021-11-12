@@ -1887,7 +1887,15 @@ footer .item .copy-right p a {
 .slider .setone.setwo .swiper-nav-ctrl {
   border-radius: 50%;
 }
-
+.next-ctrl:hover,
+.prev-ctrl:hover{
+  transition: all .3s;
+  box-shadow: inset 2px 7px 7px 2px rgba(156, 5, 5, 0.9);
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  -ms-transition: all .3s;
+  -o-transition: all .3s;
+}
 .slider .setone.setwo .next-ctrl {
   position: absolute;
   top: 50%;
@@ -3884,7 +3892,7 @@ footer .item .copy-right p a {
 }
 
 .team .item {
-  padding: 0 25px;
+  padding: 31px 5px;
 }
 .team .container .wow{
   font-size: 4rem;
@@ -6148,6 +6156,7 @@ body {
     display: none;
   }
   .slider .txt-botm .swiper-nav-ctrl.swiper-button-next {
+    
     right: 20px;
   }
   .slider .txt-botm .swiper-nav-ctrl.swiper-button-prev {
