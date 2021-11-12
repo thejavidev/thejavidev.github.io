@@ -366,7 +366,7 @@ $(function () {
         autoplaySpeed:3000,
         loop: true, 
         slidesPerView: 25,
-        spaceBetween: 1,
+        spaceBetween: 0,
     
 
         breakpoints: {
