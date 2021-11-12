@@ -7178,6 +7178,14 @@ only screen and (min-width: 768px) and (max-width: 991px) {
   -ms-transform: translate(-50%,-50%);
   -o-transform: translate(-50%,-50%);
 }
+@media screen and (max-width:767px) {
+  .discount .discounts{
+    top: 80%;
+  }
+  .product-deal-image img{
+   margin-top: 80px;
+  }
+}
 .discount .btn{
   background: #f5cc26;
 }
