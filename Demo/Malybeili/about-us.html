@@ -197,12 +197,18 @@
 
 <div id="offcanvas-mobile-menu" class="offcanvas offcanvas-mobile-menu">
     <div class="inner customScroll">
+        <div class="offcanvas-menu-search-form align-items-center" style="border-bottom: 2px solid #f4f3ec; ">
+            <form action>
+                <a style="cursor: default; margin-bottom: 30px;"><img src="assets/images/logo/logobg.png" alt="Malybeili Logo"></a>
+            </form>
+        </div>
         <div class="offcanvas-menu">
             <ul>
                 <li><a href="index.html"><span class="menu-text">Ana Səhifə</span></a></li>
+                <li><a href="about-us.html"><span class="menu-text">Haqqımda</span></a></li>
                 <li><a><span class="menu-text">Məhsullar</span></a>
                     <ul class="sub-menu">
-                        <li><a><span class="menu-text">Təqdimat taxtaları</span></a></li>
+                        <li><a href="shop.html"><span class="menu-text">Təqdimat taxtaları</span></a></li>
                         <li><a href="shop.html"><span class="menu-text">Sinilər</span></a></li>
                         <li><a href="shop.html"><span class="menu-text">Çərəz qabları</span></a></li>
                         <li><a href="shop.html"><span class="menu-text">Salfet qabları</span></a></li>
@@ -210,7 +216,7 @@
                         <li><a href="shop.html"><span class="menu-text">Şamdanlar</span></a></li>
                     </ul>
                 </li>
-                <li><a href="about-us.html"><span class="menu-text">Haqqımda</span></a></li>
+           
                 <li><a href="contact-us.html"><span class="menu-text">Əlaqə</span></a></li>
             </ul>
         </div>
@@ -222,6 +228,11 @@
             </div>
         </div>
     </div>
+    <select class="selectpicker" id="selectMobile" data-width="fit">
+        <option class="option" data-content='Az'>Az</option>
+        <option class="option"  data-content='Ru'>Ru</option>
+        <option class="option"  data-content='En'>En</option>
+    </select>
 </div>
 
 <div class="offcanvas-overlay"></div>

@@ -213,10 +213,9 @@
 
 <div id="offcanvas-mobile-menu" class="offcanvas offcanvas-mobile-menu">
     <div class="inner customScroll">
-        <div class="offcanvas-menu-search-form">
-            <form action="#">
-                <input type="text" placeholder="Axtar...">
-                <button><i class="fal fa-search"></i></button>
+        <div class="offcanvas-menu-search-form align-items-center" style="border-bottom: 2px solid #f4f3ec; ">
+            <form action>
+                <a style="cursor: default; margin-bottom: 30px;"><img src="assets/images/logo/logobg.png" alt="Malybeili Logo"></a>
             </form>
         </div>
         <div class="offcanvas-menu">
@@ -246,6 +245,11 @@
             </div>
         </div>
     </div>
+    <select class="selectpicker" id="selectMobile" data-width="fit">
+        <option class="option" data-content='Az'>Az</option>
+        <option class="option"  data-content='Ru'>Ru</option>
+        <option class="option"  data-content='En'>En</option>
+    </select>
 </div>
 
 <div class="offcanvas-overlay"></div>
