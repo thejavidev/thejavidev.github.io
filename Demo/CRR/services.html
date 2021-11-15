@@ -465,7 +465,22 @@
                                 <div class="service_form_group_multiselect_content">
                                     <input type="text" readonly="readonly" class="multiselect_preview" placeholder="secmek ucun buraya klikleyin">
                                     <ul class="service_form_group_multiselect_items">
-                                       <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni velit natus eaque, dolores ipsum minus distinctio ullam laborum eligendi, ad consequuntur mollitia odit placeat iusto? A quibusdam eaque laborum ad.</p>
+                                        <label>
+                                            <input type="checkbox" name="site_function" data-function-name="${item.name}" value="${item.pk}">
+                                            Ödəmə sistemi
+                                        </label>
+                                        <label>
+                                            <input type="checkbox" name="site_function" data-function-name="${item.name}" value="${item.pk}">
+                                            Bir neçə dil
+                                        </label>
+                                        <label>
+                                            <input type="checkbox" name="site_function" data-function-name="${item.name}" value="${item.pk}">
+                                            Bir neçə dil
+                                        </label>
+                                        <label>
+                                            <input type="checkbox" name="site_function" data-function-name="${item.name}" value="${item.pk}">
+                                            Səbət Sistemi
+                                        </label>
                                     </ul>
                                 </div>
                       
@@ -612,7 +627,7 @@ $( ".vs-menu-toggle" ).click(function() {
         $(".vs-menu-wrapper").removeClass("vs-body-visible");
 });
 $( ".service_form_group_multiselect_content").click(function() {
-        $(".service_form_group_multiselect_items").toggleClass("active");
+        $(".service_form_group_multiselect_items").addClass("active");
 });
 </script>
 <script src="js/plugins/pace.min.js"></script>
