@@ -79,7 +79,7 @@
                 </div>
                 <div class="col-4">
                     <div class="header-call">
-                        <select class="selectpicker" data-width="fit">
+                        <select class="selectpicker" data-width="fit" onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
                             <option class="option" data-content='Az'>Az</option>
                             <option class="option"  data-content='Ru'>Ru</option>
                             <option class="option"  data-content='En'>En</option>
@@ -124,14 +124,11 @@
             <div class="col-auto">
                 <div class="header-tools justify-content-end">
                     <div class="header-call">
-                        <div class="select" tabindex="1">
-                            <input class="selectopt" name="test" type="radio" id="opt1" checked>
-                            <label for="opt1" class="option"><img src="assets/images/flag/azerbaijan.png" alt="">Az</label>
-                            <input class="selectopt" name="test" type="radio" id="opt2">
-                            <label for="opt2" class="option"><img src="assets/images/flag/russia.png" alt="">Ру</label>
-                            <input class="selectopt" name="test" type="radio" id="opt3">
-                            <label for="opt3" class="option"><img src="assets/images/flag/united-kingdom.png" alt="">En</label>
-                        </div>
+                        <select class="selectpicker selectpicker-three" data-width="fit" onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
+                            <option class="option" data-content='Az'>Az</option>
+                            <option class="option"  data-content='Ru'>Ru</option>
+                            <option class="option"  data-content='En'>En</option>
+                        </select>
                     </div>
                     <div class="mobile-menu-toggle d-xl-none">
                         <a href="#offcanvas-mobile-menu" class="offcanvas-toggle">
@@ -230,7 +227,7 @@
         </div>
         
     </div>
-    <select class="selectpicker" id="selectMobile" data-width="fit">
+    <select class="selectpicker" id="selectMobile" data-width="fit" onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
         <option class="option" data-content='Az'>Az</option>
         <option class="option"  data-content='Ru'>Ru</option>
         <option class="option"  data-content='En'>En</option>

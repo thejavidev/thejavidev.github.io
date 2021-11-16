@@ -70,14 +70,7 @@
                             </ul>
                         </li>
                         <li ><a href="contact-us.html"><span class="menu-text">Əlaqə</span></a> </li>
-                        <!-- <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="assets/images/flag/azerbaijan.png" alt="">Az</a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" >
-                                
-                                <li><a class="dropdown-item lang" href=""><span class="menu-text"><img src="assets/images/flag/russia.png" alt="">Ru</span></a></li>
-                                <li><a class="dropdown-item lang" href=""><span class="menu-text"><img src="assets/images/flag/united-kingdom.png" alt="">En</span></a></li>
-                            </ul>
-                        </li> -->
+                      
                     </ul>
                 </nav>
             </div>
@@ -86,7 +79,7 @@
                     <div class="header-cart">
                         <a href="#offcanvas-cart" class="offcanvas-toggle"><span class="cart-count">3</span><i class="fal fa-shopping-cart"></i></a>
                     </div>
-                    <select class="selectpicker selectpicker-two" data-width="fit">
+                    <select class="selectpicker selectpicker-two" data-width="fit" onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
                         <option class="option" data-content='Az'>Az</option>
                         <option class="option"  data-content='Ru'>Ru</option>
                         <option class="option"  data-content='En'>En</option>
@@ -132,14 +125,11 @@
                     <div class="header-cart">
                         <a href="#offcanvas-cart" class="offcanvas-toggle"><span class="cart-count">3</span><i class="fal fa-shopping-cart"></i></a>
                     </div>
-                    <div class="select " tabindex="1" id="select-two">
-                        <input class="selectopt" name="test" type="radio" id="opt1" checked>
-                        <label for="opt1" class="option"><img src="assets/images/flag/azerbaijan.png" alt="">Az</label>
-                        <input class="selectopt" name="test" type="radio" id="opt2">
-                        <label for="opt2" class="option"><img src="assets/images/flag/russia.png" alt="">Ру</label>
-                        <input class="selectopt" name="test" type="radio" id="opt3">
-                        <label for="opt3" class="option"><img src="assets/images/flag/united-kingdom.png" alt="">En</label>
-                    </div>
+                    <select class="selectpicker selectpicker-two" data-width="fit" onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
+                        <option class="option" data-content='Az'>Az</option>
+                        <option class="option"  data-content='Ru'>Ru</option>
+                        <option class="option"  data-content='En'>En</option>
+                    </select>
                     <div class="mobile-menu-toggle d-xl-none">
                         <a href="#" class="offcanvas-toggle">
                             <svg viewBox="0 0 800 600">
