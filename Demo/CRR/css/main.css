@@ -5780,12 +5780,27 @@ body {
   -webkit-transition: all 10s linear;
   transition: all 10s linear;
 }
-
+.teamFirst{
+  display: none;
+}
 /* ====================== [ End Call To Action  ] ====================== */
 /* ====================== [ Start Responsive ] ====================== */
-
+@media  screen and (max-width:991px) {
+  .footercol,
+  .teamSecond,
+  .min-area .img{
+    display: none;
+  }
+  .min-area .valign{
+    padding-top: 30px;
+  }
+  .teamFirst{
+    display: block !important;
+  }
+}
 
 @media screen and (max-width: 991px) {
+  
   .bg-img {
     background-position: center !important;
   }
