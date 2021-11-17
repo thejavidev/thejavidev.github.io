@@ -3179,7 +3179,9 @@ only screen and (min-width: 768px) and (max-width: 991px) {
 .topbar-section .topbar-menu ul li a{
   color: #fff;
 }
-
+.topbar-section .topbar-menu{
+  padding-top: 3px;
+}
 .topbar-section .topbar-menu ul li a:hover{
   color: #f5cc26;
 }
