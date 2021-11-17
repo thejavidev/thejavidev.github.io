@@ -3170,6 +3170,9 @@ only screen and (min-width: 768px) and (max-width: 991px) {
   z-index: 101;
   padding: 0 70px 0 70px;
 }
+.sticky-header{
+  padding: 0 70px 0 70px;
+}
 .topbar-section .mail{
   font-weight: 600;
 }
@@ -3190,7 +3193,8 @@ only screen and (min-width: 768px) and (max-width: 991px) {
   display: inline-block !important;
 }
 @media only screen and (max-width: 1600px) {
-  .topbar-section{
+  .topbar-section,
+  .sticky-header{
     padding: 0px;
   }
   
@@ -3230,7 +3234,8 @@ only screen and (min-width: 768px) and (max-width: 991px) {
   .topbar-section .mail{
     font-size: 12px;
   }
-  .topbar-section{
+  .topbar-section,
+  .sticky-header{
     padding: 0px;
   }
 }
@@ -3245,7 +3250,8 @@ only screen and (min-width: 768px) and (max-width: 991px) {
   .topbar-section .mail{
     font-size: 12px;
   }
-  .topbar-section{
+  .topbar-section,
+  .sticky-header{
     padding: 0px;
   }
 }
@@ -3253,7 +3259,8 @@ only screen and (min-width: 768px) and (max-width: 991px) {
   .topbar-section .mail{
     font-size: 12px;
   }
-  .topbar-section{
+  .topbar-section,
+  .sticky-header{
     padding: 0px;
   }
 }
@@ -3275,7 +3282,8 @@ only screen and (min-width: 768px) and (max-width: 991px) {
   .topbar-menu ul li{
     padding-top: 0px !important;
   }
-  .topbar-section{
+  .topbar-section,
+  .sticky-header{
     padding: 0px;
   }
   
