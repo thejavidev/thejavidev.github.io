@@ -3168,6 +3168,7 @@ only screen and (min-width: 768px) and (max-width: 991px) {
   font-weight: 400;
   position: relative;
   z-index: 101;
+  padding: 0 70px 0 70px;
 }
 .topbar-section .mail{
   font-weight: 600;
@@ -3182,6 +3183,16 @@ only screen and (min-width: 768px) and (max-width: 991px) {
 .topbar-section .topbar-menu ul li a:hover{
   color: #f5cc26;
 }
+.mailB{
+  padding-top: 15px;
+  display: inline-block !important;
+}
+@media only screen and (max-width: 1600px) {
+  .topbar-section{
+    padding: 0px;
+  }
+  
+}
 @media only screen and (min-width: 1500px) {
   .topbar-section.section-fluid {
     padding-right: 55px;
@@ -3191,6 +3202,7 @@ only screen and (min-width: 768px) and (max-width: 991px) {
   .topbar-section.section-fluid .container-fluid {
     max-width: 100%;
   }
+  
 }
 @media only screen and (min-width: 1200px) and (max-width: 1499px) {
   .topbar-section.section-fluid {
@@ -3201,6 +3213,9 @@ only screen and (min-width: 768px) and (max-width: 991px) {
   .topbar-section.section-fluid .container-fluid {
     max-width: 100%;
   }
+  .topbar-section .mail{
+    font-size: 12px;
+  }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .topbar-section.section-fluid {
@@ -3209,6 +3224,12 @@ only screen and (min-width: 768px) and (max-width: 991px) {
   }
   .topbar-section.section-fluid .container {
     max-width: 960px;
+  }
+  .topbar-section .mail{
+    font-size: 12px;
+  }
+  .topbar-section{
+    padding: 0px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -3219,16 +3240,20 @@ only screen and (min-width: 768px) and (max-width: 991px) {
   .topbar-section.section-fluid .container {
     max-width: 720px;
   }
+  .topbar-section .mail{
+    font-size: 12px;
+  }
+  .topbar-section{
+    padding: 0px;
+  }
 }
 @media only screen and (max-width: 767px) {
-
-  .topbar-section .mailB{
-    display: none;
-  }
   .topbar-section .mail{
-    font-size: 14px;
+    font-size: 12px;
   }
-  
+  .topbar-section{
+    padding: 0px;
+  }
 }
 @media only screen and (min-width:280px) and (max-width: 565px) {
   .topbar-section.section-fluid {
@@ -3245,11 +3270,18 @@ only screen and (min-width: 768px) and (max-width: 991px) {
     font-size: 11px;
     padding-bottom: 0px !important;
   }
+  .topbar-menu ul li{
+    padding-top: 0px !important;
+  }
+  .topbar-section{
+    padding: 0px;
+  }
   
 }
 .header-section {
   position: relative;
   z-index: 98;
+  padding: 0 100px 0 100px;
 }
 
 .header-section .container, .header-section .container-fluid {
@@ -7027,6 +7059,36 @@ only screen and (min-width: 768px) and (max-width: 991px) {
 [data-name='mojs-shape'] {
   z-index: 99;
 }
+
+.discount{
+  background: linear-gradient(-45deg, #F4EDE7, #E8F5F2, #E3E4F5, #FAF5E5);
+  background-size: 400% 400%;
+  -webkit-animation: gradient 15s ease infinite;
+  animation: gradient 15s ease infinite;
+}
+@-webkit-keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
 .discount::before{
   content: '';
   position: absolute;
@@ -7036,6 +7098,7 @@ only screen and (min-width: 768px) and (max-width: 991px) {
   height: 24px;
   background: linear-gradient(-135deg,#fff 12px,transparent 0%),linear-gradient(135deg,#fff 12px,transparent 0%);
   background-size: 24px;
+  
 }
 .discount::after{
   content: '';
@@ -7046,6 +7109,7 @@ only screen and (min-width: 768px) and (max-width: 991px) {
   height: 24px;
   background: linear-gradient(-45deg,#fff 12px,transparent 0%),linear-gradient(45deg,#fff 12px,transparent 0%);
   background-size: 24px;
+
 }
 .discount  .discounts{
   position: absolute;
