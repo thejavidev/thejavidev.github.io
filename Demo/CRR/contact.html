@@ -40,7 +40,7 @@
 <!-- ==================== End cursor ==================== -->
 <!-- ==================== Start Navbar ==================== -->
 <nav class="navbar navbar-expand-lg light" >
-    <div class="container">
+    <div class="container-fluid">
         <a class="logo imgLoad" href="index.html">
             <img class="lozad" data-src="img/mainlogo-dark.webp" alt="logo" />
         </a>
@@ -66,14 +66,11 @@
                 </li>
             </ul>
         </div>
-        <div class="select" tabindex="1">
-            <input class="selectopt" name="test" type="radio" id="opt1" checked>
-            <label for="opt1" class="option"><img src="img/flag/azerbaijan.png" alt="">Az</label>
-            <input class="selectopt" name="test" type="radio" id="opt2">
-            <label for="opt2" class="option"><img src="img/flag/russia.png" alt="">Ру</label>
-            <input class="selectopt" name="test" type="radio" id="opt3">
-            <label for="opt3" class="option"><img src="img/flag/united-kingdom.png" alt="">En</label>
-        </div>
+        <select class="selectpicker" data-width="fit" onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
+            <option class="option" data-content='Az'>Az</option>
+            <option class="option"  data-content='Ru'>Ru</option>
+            <option class="option"  data-content='En'>En</option>
+        </select>
     </div>
 </nav>
 
@@ -98,16 +95,11 @@
             <li class="nav-item"><a class="nav-link vs-mobile-menu active" href="contact.html">Əlaqə</a></li>
         </ul>
 
-        <div class="dropdown">
-            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-             Dillər
-            </button>
-            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-              <a class="dropdown-item" href="#"><img src="img/flag/azerbaijan.png" alt="">Az</a>
-              <a class="dropdown-item" href="#"><img src="img/flag/russia.png" alt="">Ru</a>
-              <a class="dropdown-item" href="#"><img src="img/flag/united-kingdom.png" alt="">En</a>
-            </div>
-          </div>
+        <select class="selectpicker" id="lang" data-width="fit" onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
+            <option class="option" data-content='Az'>Az</option>
+            <option class="option"  data-content='Ru'>Ru</option>
+            <option class="option"  data-content='En'>En</option>
+        </select>
 
     </div>
 </div>

@@ -1136,7 +1136,9 @@ a:hover, span:hover {
   background: #fff;
   margin: 4px 0;
 }
-
+.navbar-expand-lg .container-fluid{
+  padding: 5px 100px 5px 100px;
+}
 .hamenu {
   position: fixed;
   top: 0;
@@ -1338,7 +1340,14 @@ a:hover, span:hover {
 }
 
 
-
+.selectpicker{
+  margin-left: 50px;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+}
 
 @media screen and (max-width:991px) {
   .navbar .nav-item.lang .nav-link{
@@ -1347,6 +1356,15 @@ a:hover, span:hover {
     color: #fff;
     padding: 3px;
   }
+  .selectpicker{
+    display: none;
+  }
+  #lang{
+    display: block !important;
+    position: absolute;
+    bottom: 5%;
+    right: 50%;
+}
   .navbar .lang .langs:nth-child(1) ,.navbar .lang .langs:nth-child(2), .navbar .lang .langs:nth-child(3){
     padding-right: 20px !important;
   }
@@ -5869,10 +5887,11 @@ body {
   .navbar {
     min-height: 60px;
   }
+  
+
   .navbar .navbar-collapse {
     overflow: hidden !important;
     max-height: 400px;
-    overflow: hidden !important;
     outline: none;
     border: none;
     background: #11141b;
