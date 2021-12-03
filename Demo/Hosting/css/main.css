@@ -41,7 +41,8 @@ li{
 }
 .about-header,
 .contact-header,
-.partners-header{
+.partners-header,
+.basket-header{
     background: var(--colorA1B);
     padding: 10px 100px 10px 100px;
 }
@@ -1249,6 +1250,26 @@ html {
     .contact-section .container-fluid{
         padding:10rem 20px 0 20px;
     }
+    .about-section .container{
+        padding:6rem 0px 0px 0px;
+    }
+    .about-header {
+        padding: 11px 27px 10px 18px;
+    }
+    .about-section .about-text {
+        padding-top: 1rem;
+    }
+    .about-section .title{
+        font-size: 2rem;
+    }
+    .about-img{
+        display: none;
+    }
+    .about-section .container .row .about-text p{
+        padding: 15px;
+        text-align: justify;
+        font-size: 12px;
+    }
 }
 /*ABOUT PAGE LOADER END*/
 /*CONTACT PAGE LOADER START*/
@@ -1512,6 +1533,13 @@ html {
     .formBox .inputBox{
         width: 100% !important;
     }
+    
+}
+@media screen and (max-width:767px) {
+    .contact-header{
+        padding: 11px 27px 10px 18px;
+    }
+    
 }
 /*CONTACT PAGE LOADER END*/
 .checkoutFr{
@@ -1707,6 +1735,24 @@ html {
     margin-top: 20px;
     margin-bottom: 30px;
 }
+@media screen and (max-width:767px) {
+    .partners-header {
+        padding: 11px 27px 10px 18px;
+    }
+    .partners-section .container{
+        padding-top: 5rem;
+    }
+    .partners-section .container .title{
+        font-size: 2rem;
+    }
+    .partners-section .client-in ul {
+        margin-left: 30px;
+        padding: 0rem;
+    }
+    .detalis-section .title{
+        font-size: 2rem;
+    }
+}
 /*PARTNERS PAGE LOADER END*/
 .clearfix {
   content: "";
@@ -1864,6 +1910,9 @@ html {
 }
 /* Make adjustments for tablet */
  @media screen and (max-width: 650px) {
+      .basket-header{
+        padding: 11px 27px 10px 18px;
+     }
 	.basket-section  .shopping-cart {
 		 margin: 0;
 		 padding-top: 20px;
@@ -1910,6 +1959,13 @@ html {
 		 float: right;
 		 width: 70px;
 	}
+    .basket-section .product .product-image img{
+        width: 45px;
+        height: 45px;
+    }
+    .contact-section .box {
+        padding: 20px;
+    }
 }
 /* Make more adjustments for phone */
  @media screen and (max-width: 350px) {
