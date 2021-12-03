@@ -15,9 +15,11 @@
     box-sizing: border-box;
     list-style: none;
   }
+
+
 body{
     font-family: 'Montserrat', sans-serif;
-    overflow-x: hidden;
+
  
 }
 @media screen and (max-width:767px) {
@@ -49,7 +51,7 @@ li{
     padding-top: 10px;
 }
 .index-header{
-    padding: 4px 92px 0px 90px;
+    padding: 4px 92px 11px 90px;
 }
 * {
     margin: 0;
@@ -1012,6 +1014,7 @@ html {
     -o-border-radius: 10px;
     padding: 20px;
 }
+
 .main .rounded-lg img{
     display: inline-block;
     width: 80px;
@@ -1152,7 +1155,29 @@ html {
     padding-right: 20px;
     color: var(--colorRed);
 }
-
+@media screen and (max-width:767px) {
+    .main .rounded-lg {
+        margin: 15px;
+        padding: 4px;
+    }
+    .main .container .swiper-slide .h1{
+        font-size: 2rem !important;
+        padding-bottom: 0px;
+    }
+    .main .container .swiper-slide .h1 .text-small{
+        font-size: 1.4rem !important;
+    }
+    .main .rounded-lg img {
+        width: 50px !important;
+        height:50px !important;
+    }
+    .main .container .swiper-slide .h6{
+        padding-bottom: 2px;
+    }
+    .main .container .swiper-slide ul li{
+        padding-top: 3px;
+    }
+}
 
 /*HOSTING PAKET PAGE LOADER END*/
 /*ABOUT PAGE LOADER START*/

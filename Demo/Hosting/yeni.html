@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hosting</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/main.css">
+
+ <style>
+     
+.rounded-lg {
+  border-radius: 1rem !important;
+}
+
+.text-small {
+  font-size: 0.9rem !important;
+}
+
+.custom-separator {
+  width: 5rem;
+  height: 6px;
+  border-radius: 1rem;
+}
+
+.text-uppercase {
+  letter-spacing: 0.2em;
+}
+
+/*
+*
+* ==========================================
+* FOR DEMO PURPOSES
+* ==========================================
+*
+*/
+
+.price {
+    padding-top: 10rem;
+  background: #fff;
+  background: -webkit-linear-gradient(to right, #0083B0, #00B4DB);
+  background: linear-gradient(to right, #0083B0, #00B4DB);
+  color: #514B64;
+  min-height: 100vh;
+}
+.rounded-lg {
+    margin: 10px;
+}
+ </style>
+</head>
+<body>
+
+<!--PAGELOADER START-->
+<div class="pageloader">
+    <div class="loader">
+        <div class="square" ></div>
+        <div class="square"></div>
+        <div class="square last"></div>
+        <div class="square clear"></div>
+        <div class="square"></div>
+        <div class="square last"></div>
+        <div class="square clear"></div>
+        <div class="square "></div>
+        <div class="square last"></div>
+      </div>
+</div>
+  
+<!--PAGELOADER END-->
+<header class="fixed-top header about-header" >
+    <a href="index.html"><img src="img/mainpage/logowhite.png" alt="" class="logo"></a>
+    <nav>
+        <ul class="nav-area">
+            <li><a href="index.html">Ana Səhifə</a></li>
+            <li><a href="about.html">Haqqımızda</a></li>
+            <li><a href="partners.html">Partnyorlar</a></li>
+            <li><a href="contact.html">Əlaqə</a></li>
+   
+        </ul>
+    </nav>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="icon-bar"><i class="fas fa-bars"></i></span>
+    </button>
+    <div class="circle ">
+        <h2><i class="fas fa-shopping-basket"></i></h2>
+     </div>
+ 
+</header>
+
+
+<div class="vs-menu-wrapper position-re">
+    <div class="vs-menu-area">
+        <button class="vs-menu-toggle text-theme vs-active"><i class="fas fa-times-circle"></i></button>
+        <div class="mobile-logo">
+            <a class="logo imgLoad" href="index.html">
+                <img  src="img/mainpage/logo.png" alt="logo" />
+            </a>
+        </div>
+      
+        <ul class="menu-items">
+            <li class="nav-item"><a class="nav-link vs-mobile-menu" href="index.html">Ana Səhifə</a></li>
+            <li class="nav-item"><a class="nav-link vs-mobile-menu" href="about.html">Haqqımızda</a></li>
+            <li class="nav-item "><a class="nav-link vs-mobile-menu" href="partners.html" role="button" aria-haspopup="true" aria-expanded="false">Partnyorlar</a></li>
+            <li class="nav-item"><a class="nav-link vs-mobile-menu active" href="basket.html">Səbət</a></li>
+            <li class="nav-item"><a class="nav-link vs-mobile-menu active" href="contact.html">Əlaqə</a></li>
+          
+        </ul>
+
+        <select class="selectpicker" id="lang" data-width="fit" onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
+            <option class="option" data-content='Az'>Az</option>
+            <option class="option"  data-content='Ru'>Ru</option>
+            <option class="option"  data-content='En'>En</option>
+        </select>
+
+    </div>
+</div>
+
+<!--NAVBAR START-->
+
+<!--NAVBAR END-->
+
+
+<!--MAIN PAGE START-->
+
+<section class="price">
+    <div class="container py-5">
+  
+  
+  
+  
+      <div class="row text-center align-items-end">
+
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                   <!-- Pricing Table-->
+        <div class=" col-lg-4 col-md-4   swiper-slide ">
+            <div class="bg-white p-5 rounded-lg shadow">
+              <h1 class="h6 text-uppercase font-weight-bold mb-4">Basic</h1>
+              <h2 class="h1 font-weight-bold">$199<span class="text-small font-weight-normal ml-2">/ month</span></h2>
+    
+              <div class="custom-separator my-4 mx-auto bg-primary"></div>
+    
+              <ul class="list-unstyled my-5 text-small text-left">
+                <li class="mb-3">
+                  <i class="fa fa-check mr-2 text-primary"></i> Lorem ipsum dolor sit amet</li>
+                <li class="mb-3">
+                  <i class="fa fa-check mr-2 text-primary"></i> Sed ut perspiciatis</li>
+                <li class="mb-3">
+                  <i class="fa fa-check mr-2 text-primary"></i> At vero eos et accusamus</li>
+                <li class="mb-3 text-muted">
+                  <i class="fa fa-times mr-2"></i>
+                  <del>Nam libero tempore</del>
+                </li>
+                <li class="mb-3 text-muted">
+                  <i class="fa fa-times mr-2"></i>
+                  <del>Sed ut perspiciatis</del>
+                </li>
+                <li class="mb-3 text-muted">
+                  <i class="fa fa-times mr-2"></i>
+                  <del>Sed ut perspiciatis</del>
+                </li>
+              </ul>
+              <a href="#" class="btn btn-primary btn-block p-2 shadow rounded-pill">Subscribe</a>
+            </div>
+          </div>
+          <!-- END -->
+    
+    
+          <!-- Pricing Table-->
+          <div class="col-lg-4 col-md-4 mb-4 mb-lg-0 swiper-slide ">
+            <div class="bg-white p-5 rounded-lg shadow">
+              <h1 class="h6 text-uppercase font-weight-bold mb-4">Pro</h1>
+              <h2 class="h1 font-weight-bold">$399<span class="text-small font-weight-normal ml-2">/ month</span></h2>
+    
+              <div class="custom-separator my-4 mx-auto bg-primary"></div>
+    
+              <ul class="list-unstyled my-5 text-small text-left font-weight-normal">
+                <li class="mb-3">
+                  <i class="fa fa-check mr-2 text-primary"></i> Lorem ipsum dolor sit amet</li>
+                <li class="mb-3">
+                  <i class="fa fa-check mr-2 text-primary"></i> Sed ut perspiciatis</li>
+                <li class="mb-3">
+                  <i class="fa fa-check mr-2 text-primary"></i> At vero eos et accusamus</li>
+                <li class="mb-3">
+                  <i class="fa fa-check mr-2 text-primary"></i> Nam libero tempore</li>
+                <li class="mb-3">
+                  <i class="fa fa-check mr-2 text-primary"></i> Sed ut perspiciatis</li>
+                <li class="mb-3 text-muted">
+                  <i class="fa fa-times mr-2"></i>
+                  <del>Sed ut perspiciatis</del>
+                </li>
+              </ul>
+              <a href="#" class="btn btn-primary btn-block p-2 shadow rounded-pill">Subscribe</a>
+            </div>
+          </div>
+          <!-- END -->
+    
+    
+          <!-- Pricing Table-->
+          <div class="col-lg-4 col-md-4 swiper-slide ">
+            <div class="bg-white p-5 rounded-lg shadow">
+              <h1 class="h6 text-uppercase font-weight-bold mb-4">Enterprise</h1>
+              <h2 class="h1 font-weight-bold">$899<span class="text-small font-weight-normal ml-2">/ month</span></h2>
+    
+              <div class="custom-separator my-4 mx-auto bg-primary"></div>
+    
+              <ul class="list-unstyled my-5 text-small text-left font-weight-normal">
+                <li class="mb-3">
+                  <i class="fa fa-check mr-2 text-primary"></i> Lorem ipsum dolor sit amet</li>
+                <li class="mb-3">
+                  <i class="fa fa-check mr-2 text-primary"></i> Sed ut perspiciatis</li>
+                <li class="mb-3">
+                  <i class="fa fa-check mr-2 text-primary"></i> At vero eos et accusamus</li>
+                <li class="mb-3">
+                  <i class="fa fa-check mr-2 text-primary"></i> Nam libero tempore</li>
+                <li class="mb-3">
+                  <i class="fa fa-check mr-2 text-primary"></i> Sed ut perspiciatis</li>
+                <li class="mb-3">
+                  <i class="fa fa-check mr-2 text-primary"></i> Sed ut perspiciatis</li>
+              </ul>
+              <a href="#" class="btn btn-primary btn-block p-2 shadow rounded-pill">Subscribe</a>
+            </div>
+          </div>
+          <!-- END -->
+
+                <!-- Pricing Table-->
+                <div class="col-lg-4 col-md-4 swiper-slide ">
+                    <div class="bg-white p-5 rounded-lg shadow">
+                      <h1 class="h6 text-uppercase font-weight-bold mb-4">Enterprise</h1>
+                      <h2 class="h1 font-weight-bold">$899<span class="text-small font-weight-normal ml-2">/ month</span></h2>
+            
+                      <div class="custom-separator my-4 mx-auto bg-primary"></div>
+            
+                      <ul class="list-unstyled my-5 text-small text-left font-weight-normal">
+                        <li class="mb-3">
+                          <i class="fa fa-check mr-2 text-primary"></i> Lorem ipsum dolor sit amet</li>
+                        <li class="mb-3">
+                          <i class="fa fa-check mr-2 text-primary"></i> Sed ut perspiciatis</li>
+                        <li class="mb-3">
+                          <i class="fa fa-check mr-2 text-primary"></i> At vero eos et accusamus</li>
+                        <li class="mb-3">
+                          <i class="fa fa-check mr-2 text-primary"></i> Nam libero tempore</li>
+                        <li class="mb-3">
+                          <i class="fa fa-check mr-2 text-primary"></i> Sed ut perspiciatis</li>
+                        <li class="mb-3">
+                          <i class="fa fa-check mr-2 text-primary"></i> Sed ut perspiciatis</li>
+                      </ul>
+                      <a href="#" class="btn btn-primary btn-block p-2 shadow rounded-pill">Subscribe</a>
+                    </div>
+                  </div>
+                  <!-- END -->
+            </div>
+        </div>
+     
+  
+      </div>
+    </div>
+  </section>
+  
+
+<!--MAIN PAGE END-->
+
+
+
+<!--FOOTER START-->
+<footer>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6 col-sm-6 ">
+                <div class="social-icons">
+                    <ul>
+                        <li><a href=""><i class="fab fa-facebook"></i></a></li>
+                        <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                        <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                        <li><a href=""><i class="fab fa-youtube"></i></a></li>
+                        <li><a href=""><i class="fab fa-linkedin-in"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-6 footer-text">
+                <div>
+                    <p>Bütün hüquqlar qorunur.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!--FOOTER END-->
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" type="text/javascript"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+    function menuToogle(){
+  const toogleMenu=document.querySelector('.menu');
+  toogleMenu.classList.toggle('active');
+}
+
+</script>
+<script src="js/plugins/swiper-bundle.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init({ once: true, });
+  </script>
+ <script src="js//main.js"></script>   
+</body>
+</html>
+
+
+<!--
+
+<div class="col cards">
+                    <div class="col-lg-3 card " data-aos="fade-up" data-aos-duration="1000">
+                        <h3 class="main-text-card">Basic</h3>
+                        <hr style="height:2px;border-width:0;color:gray;background-color:gray">
+                        <div class="texts">
+                            <h1>50</h1><span>&#8380;</span>
+                            <p>Aylıq</p>
+                        </div>
+                      <div class="down "></div>
+        
+                        <div  class="content">
+                            <ul>
+                                <li><a href=""><i class="fas fa-check"></i>1 Web Sayt</a></li>
+                                <li><a href=""><i class="fas fa-check"></i>30 Gb SSD Yaddaş</a></li>
+                                <li><a href=""><i class="fas fa-check"></i>1 E-poçt hesabı</a></li>
+                                <li><a href=""><i class="fas fa-check"></i>Pulsuz SSL</a></li>
+                                <li><a href=""><i class="fas fa-times"></i>Pulsuz Domen</a></li>
+                                <li><a href=""><i class="fas fa-check"></i>100 Gb Trafik</a></li>
+                                <li><a href=""><i class="fas fa-check"></i>GİT</a></li>
+                                <li><a href=""><i class="fas fa-times"></i>SSH</a></li>
+                                <li><a href=""><i class="fas fa-check"></i>Həftəlik Backup</a></li>
+                                <li><a href=""><i class="fas fa-times"></i>CDN</a></li>
+                                <li><a href=""><i class="fas fa-check"></i>DNS İdarəetmə</a></li>
+                                <li><a href=""><i class="fas fa-check"></i>2 Sub Domen</a></li>
+                                <li><a href=""><i class="fas fa-check"></i>1 FTP</a></li>
+                                <li><a href=""><i class="fas fa-check"></i>2 Cronjob</a></li>
+                            </ul>
+                            <button class="button">
+                                <span>SƏbətə əlavə et</span>
+                                <div class="cart">
+                                    <svg viewBox="0 0 36 26">
+                                        <polyline points="1 2.5 6 2.5 10 18.5 25.5 18.5 28.5 7.5 7.5 7.5"></polyline>
+                                        <polyline points="15 13.5 17 15.5 22 10.5"></polyline>
+                                    </svg>
+                                </div>
+                            </button>
+                            
+                       
+                           
+                        </div>
+                    </div>
+    
+                    <div class="col-lg-3 card card100" data-aos="fade-up" data-aos-duration="1500">  
+                        <h3 class="main-text-card">Premium</h3>
+                        <hr style="height:2px;border-width:0;color:gray;background-color:gray">
+                        <div class="texts">
+                            <h1>100</h1><span>&#8380;</span>
+                            <p>Aylıq</p>
+                        </div>
+                        <div class="down"></div>
+        
+                        <div  class="content">
+                            <ul>
+                                <li><a href=""><i class="fas fa-check"></i>100 Web Sayt</a></li>
+                                <li><a href=""><i class="fas fa-check"></i>100 Gb SSD Yaddaş</a></li>
+                                <li><a href=""><i class="fas fa-check"></i>100 E-Poçt hesabı</a></li>
+                                <li><a href=""><i class="fas fa-check"></i>Pulsuz SSL</a></li>
+                                <li><a href=""><i class="fas fa-check"></i>Pulsuz Domen</a></li>
+                                <li><a href=""><i class="fas fa-check"></i>Limtisiz Trafik</a></li>
+                                <li><a href=""><i class="fas fa-check"></i>GİT</a></li>
+                                <li><a href=""><i class="fas fa-check"></i>SSH</a></li>
+                                <li><a href=""><i class="fas fa-check"></i>Həftəlik Backup</a></li>
+                                <li><a href=""><i class="fas fa-times"></i>CDN</a></li>
+                                <li><a href=""><i class="fas fa-check"></i>DNS İdarəetmə</a></li>
+                                <li><a href=""><i class="fas fa-check"></i>100 Sub Domen</a></li>
+                                <li><a href=""><i class="fas fa-check"></i>Limitsiz FTP</a></li>
+                                <li><a href=""><i class="fas fa-check"></i>Limitsiz Cronjob</a></li>
+                              
+                            </ul>
+                            <button class="button">
+                                <span>Səbətə əlavə et</span>
+                                <div class="cart">
+                                    <svg viewBox="0 0 36 26">
+                                        <polyline points="1 2.5 6 2.5 10 18.5 25.5 18.5 28.5 7.5 7.5 7.5"></polyline>
+                                        <polyline points="15 13.5 17 15.5 22 10.5"></polyline>
+                                    </svg>
+                                </div>
+                            </button>
+                            
+                           
+                          
+                        </div>
+                        <div class="content">
+                            <ul>
+                                <li><a href="">1 Domen</a></li>
+                                <li><a href="">500Gb Yaddaş</a></li>
+                                <li><a href="">5 E-poçt hesabı</a></li>
+                                <li><a href="">Limitsiz trafik</a></li>
+                                <li><a href="">Limitsiz ftp hesaplarə</a></li>
+                            </ul>
+                            <button class="btn">Ətraflı</button>
+                        </div>
+                        
+                    </div>
+                    <div class="col-lg-3 card" data-aos="fade-up" data-aos-duration="2000">
+                        <h3 class="main-text-card">Advance</h3>
+                        <hr style="height:2px;border-width:0;color:gray;background-color:gray">
+                        <div class="texts">
+                            <h1>150</h1><span>&#8380;</span>
+                            <p>Aylıq</p>
+                        </div>
+                        <div class="down"></div>
+
+                        <div class=" content">
+                            <ul>
+                                <li><a href=""><i class="fas fa-check"></i>100 Web Sayt</a></li>
+                                <li><a href=""><i class="fas fa-check"></i>200 Gb SSD Yaddaş</a></li>
+                                <li><a href=""><i class="fas fa-check"></i>100 E-Poçt hesabı</a></li>
+                                <li><a href=""><i class="fas fa-check"></i>Pulsuz SSL</a></li>
+                                <li><a href=""><i class="fas fa-check"></i>Pulsuz Domen</a></li>
+                                <li><a href=""><i class="fas fa-check"></i>Limtisiz Trafik</a></li>
+                                <li><a href=""><i class="fas fa-check"></i>GİT</a></li>
+                                <li><a href=""><i class="fas fa-check"></i>SSH</a></li>
+                                <li><a href=""><i class="fas fa-check"></i>Həftəlik Backup</a></li>
+                                <li><a href=""><i class="fas fa-times"></i>CDN</a></li>
+                                <li><a href=""><i class="fas fa-check"></i>DNS İdarəetmə</a></li>
+                                <li><a href=""><i class="fas fa-check"></i>100 Sub Domen</a></li>
+                                <li><a href=""><i class="fas fa-check"></i>Limitsiz FTP</a></li>
+                                <li><a href=""><i class="fas fa-check"></i>Limitsiz Cronjob</a></li>
+                               
+                            </ul>
+                            <button class="button">
+                                <span>Səbətə əlavə et</span>
+                                <div class="cart">
+                                    <svg viewBox="0 0 36 26">
+                                        <polyline points="1 2.5 6 2.5 10 18.5 25.5 18.5 28.5 7.5 7.5 7.5"></polyline>
+                                        <polyline points="15 13.5 17 15.5 22 10.5"></polyline>
+                                    </svg>
+                                </div>
+                            </button>
+                            
+                   
+                           
+                        </div>
+                    </div>
+                    <div class="col-lg-3 card" data-aos="fade-up" data-aos-duration="2500">
+                        <h3 class="main-text-card">Gold</h3>
+                        <hr style="height:2px;border-width:0;color:gray;background-color:gray">
+                        <div class="texts">
+                            <h1>200</h1><span>&#8380;</span>
+                            <p>Aylıq</p>
+                        </div>
+                        <div class="down"></div>
+        
+                        <div class=" content">
+                            <ul>
+                                <li><a href=""><i class="fas fa-check"></i>100 Web Sayt</a></li>
+                                <li><a href=""><i class="fas fa-check"></i>200 Gb SSD Yaddaş</a></li>
+                                <li><a href=""><i class="fas fa-check"></i>100 E-Poçt hesabı</a></li>
+                                <li><a href=""><i class="fas fa-check"></i>Pulsuz SSL</a></li>
+                                <li><a href=""><i class="fas fa-check"></i>Pulsuz Domen</a></li>
+                                <li><a href=""><i class="fas fa-check"></i>Limtisiz Trafik</a></li>
+                                <li><a href=""><i class="fas fa-check"></i>GİT</a></li>
+                                <li><a href=""><i class="fas fa-check"></i>SSH</a></li>
+                                <li><a href=""><i class="fas fa-check"></i>Həftəlik Backup</a></li>
+                                <li><a href=""><i class="fas fa-check"></i>CDN</a></li>
+                                <li><a href=""><i class="fas fa-check"></i>DNS İdarəetmə</a></li>
+                                <li><a href=""><i class="fas fa-check"></i>100 Sub Domen</a></li>
+                                <li><a href=""><i class="fas fa-check"></i>Limitsiz FTP</a></li>
+                                <li><a href=""><i class="fas fa-check"></i>Limitsiz Cronjob</a></li>
+                                
+                            </ul>
+                            <button class="button">
+                                <span>Səbətə əlavə et</span>
+                                <div class="cart">
+                                    <svg viewBox="0 0 36 26">
+                                        <polyline points="1 2.5 6 2.5 10 18.5 25.5 18.5 28.5 7.5 7.5 7.5"></polyline>
+                                        <polyline points="15 13.5 17 15.5 22 10.5"></polyline>
+                                    </svg>
+                                </div>
+                            </button>
+                            
+     
+                          
+                        </div>
+                    </div>
+                </div>
+
+
+                
+.main .container-fluid .cards{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.main .container-fluid .cards .card{
+    width: 20rem;
+   
+    overflow: hidden;
+    margin: 30px;
+    opacity: 0.9;
+    transition: all 1s;
+    position: relative;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+}
+.main .container-fluid .cards .card:hover{
+    opacity: 1;
+
+    transition: .4s linear;
+    -webkit-transition: .4s linear;
+    -moz-transition: .4s linear;
+    -ms-transition: .4s linear;
+    -o-transition: .4s linear;
+}
+.main .container-fluid .cards .card h3{
+    text-align: center;
+    color: var(--color88BA);
+    font-weight: 200;
+    padding-top: 10px;
+}
+.main .container-fluid .cards .card h1{
+    text-align: center;
+    font-size: 4rem;
+    color: var(--color88BA);
+    font-weight: 600;
+    display: inline-block;
+}
+.main .container-fluid .cards .card .texts {
+    text-align: center;
+}
+.main .container-fluid .cards .card .texts span{
+    font-size: 1.9rem;
+    color: var(--color88BA);
+}
+
+.main .container-fluid .cards .card-content{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: gray;
+}
+
+.main .container-fluid .cards .card-content ul {
+    padding: 0 5px 0 5px;
+}
+.main .container-fluid .cards .card-content ul li{
+    font-size: 14px;
+    padding-top: 10px;
+    color: var(--color88BA);
+    font-weight: 600;
+   
+}
+.main .container-fluid .cards .card:hover .card-content ul li{
+    color: var(--colorfff);
+}
+.main .container-fluid .cards .card-btn{
+    background: var(--color88BA);
+    border-radius: 20px;
+    padding: 5px 25px 5px 25px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    color: var(--colorfff);
+    border: none;
+    outline: none;
+    margin-bottom: 10px;
+ 
+    transition: all .4s;
+    -webkit-transition: all .4s;
+    -moz-transition: all .4s;
+    -ms-transition: all .4s;
+    -o-transition: all .4s;
+}
+.main .container-fluid .cards .card-btn a{
+    color: var(--colorfff);
+}
+.main .container-fluid .cards .card:hover .card-btn{
+    background: var(--colorGreen);
+    color: var(--colorfff);
+  
+}
+.main .container-fluid .cards .content{
+    border-top: 1px solid #f5f5f5;
+    text-align: center;
+   
+}
+.main .container-fluid .cards .content ul{
+    padding: 20px;
+}
+.main .container-fluid .cards .content ul li:nth-child(2n){
+    background-color: #f5f5f5;
+
+}
+.main .container-fluid .cards .content ul li{
+    padding: 5px;
+    text-align: left;
+}
+.main .container-fluid .cards .content ul li a{
+    color: var(--color88BA);
+    cursor: default;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+.main .container-fluid .cards .content ul li a i.fa-check{
+    padding-right: 20px;
+    color: var(--colorGreen);
+}
+.main .container-fluid .cards .content ul li a i.fa-times{
+    padding-right: 20px;
+    color: var(--colorRed);
+}
+.main .container-fluid .cards .content .btn {
+   display: initial;
+}
+.main .container-fluid .cards .down{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main .container-fluid .cards .down::after{
+	content: '';
+	position: absolute;
+	left: calc(50% - 20px);
+	top: 100%;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-top: 20px solid var(--color88BA);
+}
+
+
+-->
