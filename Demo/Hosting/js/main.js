@@ -26,17 +26,7 @@ $( ".vs-menu-toggle" ).click(function() {
         $(".vs-menu-wrapper").removeClass("vs-body-visible");
 });
 
-/*
-This time try to code js in a different way than I use to... more ordered and following this practices 
-https://rmurphey.com/blog/2009/10/15/using-objects-to-organize-your-code
 
-Please let me know what u think :D 
-
-Thanks for watching!
-
-Also original dribbble
-https://dribbble.com/shots/2705517-boldybae
-*/
 
 var mySlider = {
   
@@ -167,91 +157,99 @@ var mySlider = {
 
 
 
-  
-  var check = false;
+  /* Set rates + misc */
+var taxRate = 0.05;
+var shippingRate = 15.00; 
+var fadeTime = 300;
 
-function changeVal(el) {
-  var qt = parseFloat(el.parent().children(".qt").html());
-  var price = parseFloat(el.parent().children(".price").html());
-  var eq = Math.round(price * qt * 100) / 100;
-  
-  el.parent().children(".full-price").html( eq + "&#8380;" );
-  
-  changeTotal();			
-}
 
-function changeTotal() {
-  
-  var price = 0;
-  
-  $(".full-price").each(function(index){
-    price += parseFloat($(".full-price").eq(index).html());
-  });
-  
-  price = Math.round(price * 100) / 100;
-  var tax = Math.round(price * 0.05 * 100) / 100
-  var shipping = parseFloat($(".shipping span").html());
-  var fullPrice = Math.round((price + tax + shipping) *100) / 100;
-  
-  if(price == 0) {
-    fullPrice = 0;
-  }
-  
-  $(".subtotal span").html(price);
-  $(".tax span").html(tax);
-  $(".total span").html(fullPrice);
-}
-
-$(document).ready(function(){
-  
-  $(".remove").click(function(){
-    var el = $(this);
-    el.parent().parent().addClass("removed");
-    window.setTimeout(
-      function(){
-        el.parent().parent().slideUp('fast', function() { 
-          el.parent().parent().remove(); 
-          if($(".product").length == 0) {
-            if(check) {
-              $("#cart").html("<h1>The shop does not function, yet!</h1><p>If you liked my shopping cart, please take a second and heart this Pen on <a href='https://codepen.io/ziga-miklic/pen/xhpob'>CodePen</a>. Thank you!</p>");
-            } else {
-              $("#cart").html("<h1>No products!</h1>");
-            }
-          }
-          changeTotal(); 
-        });
-      }, 200);
-  });
-  
-  $(".qt-plus").click(function(){
-    $(this).parent().children(".qt").html(parseInt($(this).parent().children(".qt").html()) + 1);
-    
-    $(this).parent().children(".full-price").addClass("added");
-    
-    var el = $(this);
-    window.setTimeout(function(){el.parent().children(".full-price").removeClass("added"); changeVal(el);}, 150);
-  });
-  
-  $(".qt-minus").click(function(){
-    
-    child = $(this).parent().children(".qt");
-    
-    if(parseInt(child.html()) > 1) {
-      child.html(parseInt(child.html()) - 1);
-    }
-    
-    $(this).parent().children(".full-price").addClass("minused");
-    
-    var el = $(this);
-    window.setTimeout(function(){el.parent().children(".full-price").removeClass("minused"); changeVal(el);}, 150);
-  });
-  
-  window.setTimeout(function(){$(".is-open").removeClass("is-open")}, 1200);
-  
-  $(".btn").click(function(){
-    check = true;
-    $(".remove").click();
-  });
+/* Assign actions */
+$('.product-quantity input').change( function() {
+  updateQuantity(this);
 });
+
+$('.product-removal button').click( function() {
+  removeItem(this);
+});
+
+
+/* Recalculate cart */
+function recalculateCart()
+{
+  var subtotal = 0;
+  
+  /* Sum up row totals */
+  $('.product').each(function () {
+    subtotal += parseFloat($(this).children('.product-line-price').text());
+  });
+  
+  /* Calculate totals */
+  var tax = subtotal * taxRate;
+  var shipping = (subtotal > 0 ? shippingRate : 0);
+  var total = subtotal + tax + shipping;
+  
+  /* Update totals display */
+  $('.totals-value').fadeOut(fadeTime, function() {
+    $('#cart-subtotal').html(subtotal.toFixed(2));
+    $('#cart-tax').html(tax.toFixed(2));
+    $('#cart-shipping').html(shipping.toFixed(2));
+    $('#cart-total').html(total.toFixed(2));
+    if(total == 0){
+      $('.checkout').fadeOut(fadeTime);
+    }else{
+      $('.checkout').fadeIn(fadeTime);
+    }
+    $('.totals-value').fadeIn(fadeTime);
+  });
+}
+
+
+/* Update quantity */
+function updateQuantity(quantityInput)
+{
+  /* Calculate line price */
+  var productRow = $(quantityInput).parent().parent();
+  var price = parseFloat(productRow.children('.product-price').text());
+  var quantity = $(quantityInput).val();
+  var linePrice = price * quantity;
+  
+  /* Update line price display and recalc cart totals */
+  productRow.children('.product-line-price').each(function () {
+    $(this).fadeOut(fadeTime, function() {
+      $(this).text(linePrice.toFixed(2));
+      recalculateCart();
+      $(this).fadeIn(fadeTime);
+    });
+  });  
+}
+
+
+/* Remove item from cart */
+function removeItem(removeButton)
+{
+  /* Remove row from DOM and recalc cart total */
+  var productRow = $(removeButton).parent().parent();
+  productRow.slideUp(fadeTime, function() {
+    productRow.remove();
+    recalculateCart();
+  });
+}
+
+
+
+
+
+document.querySelectorAll('.button').forEach(button => button.addEventListener('click', e => {
+  if(!button.classList.contains('loading')) {
+
+      button.classList.add('loading');
+
+      setTimeout(() => button.classList.remove('loading'), 3700);
+
+  }
+  e.preventDefault();
+}))
+
+
 
 })

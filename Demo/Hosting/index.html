@@ -7,7 +7,12 @@
     <title>Hosting</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/swiper.min.css">
     <link rel="stylesheet" href="css/main.css">
+    <style>
+
+    </style>
 </head>
 <body>
 
@@ -30,8 +35,9 @@
 <!--NAVBAR START-->
 <header class="fixed-top header index-header">
     <a href="index.html"><img src="img/mainpage/logowhite.png" alt="" class="logo"></a>
-    <nav >
+    <nav  class="position">
         <ul class="nav-area">
+            <li><a href="index.html" class="">Ana Səhifə</a></li>
             <li><a href="about.html">Haqqımızda</a></li>
             <li><a href="partners.html">Partnyorlar</a></li>
             <li><a href="contact.html">Əlaqə</a></li>
@@ -44,6 +50,8 @@
     </button>
     <div class="circle ">
         <h2><a href="basket.html"><i class="fas fa-shopping-basket"></i></a></h2>
+       
+
      </div>
  
 
@@ -58,13 +66,12 @@
                 <img  src="img/mainpage/logo.png" alt="logo" />
             </a>
         </div>
-        <div class="circle">
-           
-         </div>
-        <div class="linec top left"></div>
+     
         <ul class="menu-items">
+            <li class="nav-item"><a class="nav-link vs-mobile-menu" href="index.html">Ana Səhifə</a></li>
             <li class="nav-item"><a class="nav-link vs-mobile-menu" href="about.html">Haqqımızda</a></li>
             <li class="nav-item "><a class="nav-link vs-mobile-menu" href="partners.html" role="button" aria-haspopup="true" aria-expanded="false">Partnyorlar</a></li>
+            <li class="nav-item"><a class="nav-link vs-mobile-menu active" href="basket.html">Səbət</a></li>
             <li class="nav-item"><a class="nav-link vs-mobile-menu active" href="contact.html">Əlaqə</a></li>
       
         </ul>
@@ -88,16 +95,8 @@
     <symbol id="arrow" viewBox="0 0 451.846 451.847"><path fill="#FFF" d="M345.44 248.292l-194.286 194.28c-12.36 12.366-32.397 12.366-44.75 0-12.354-12.353-12.354-32.39 0-44.743l171.914-171.91-171.91-171.905c-12.353-12.36-12.353-32.394 0-44.748 12.355-12.36 32.392-12.36 44.75 0L345.446 203.55c6.177 6.18 9.262 14.27 9.262 22.367 0 8.098-3.09 16.195-9.267 22.372z"/></symbol>
     </svg>
         
-    <div class=" slide container-fluid">
+    <div class="slide container-fluid">
     <div class="slider-content">
-        <div class="header-wrapper ">
-            <div class="header">
-            
-            
-            
-            </div>
-        </div>
-        
         <div class="slider-wrapper">
         <div class="slider-container"> 
             <div class="control-nav">
@@ -167,119 +166,143 @@
     
     <!--MAIN PAGE START-->
     <section class="main overfollow-hidden">
-        <div class="container-fluid">
+        <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="main-text-h1">
-                        <h1>Sizə uyğun olanı seçin</h1>
+                        <h1>Sizə uyğun paketi seçin</h1>
                         <span></span>
                     </div>
                 </div>
             </div>
-            <div class="row "> 
-                <div class="col cards">
-                    <div class="col-lg-3 card">
-                        <h3 class="main-text-card">Basic</h3>
-                        <hr style="height:2px;border-width:0;color:gray;background-color:gray">
-                        <div class="texts">
-                            <h1>50</h1><span>&#8380;</span>
-                            <p>Aylıq</p>
+            <div class="row text-center align-items-center"> 
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                <!-- Pricing Table-->
+                <div class=" col-lg-4 col-md-4   swiper-slide ">
+                    <div class="bg-white  rounded-lg">
+                        <img src="img/bean/small.png" alt="">
+                       
+                      <h1 class="h6 text-uppercase font-weight-bold mb-4">SMALL BEAN</h1>
+                      <h2 class="h1 font-weight-bold">79 <span class="text-small font-weight-normal ml-2">&#8380;</span></h2>
+            
+                      <div class="custom-separator my-4 mx-auto bg-primary"></div>
+            
+                      <ul class="list-unstyled my-1 text-small text-left">
+                        <li><a href=""><i class="fas fa-check"></i>1 Web Sayt</a></li>
+                        <li><a href=""><i class="fas fa-check"></i>30 Gb SSD Yaddaş</a></li>
+                        <li><a href=""><i class="fas fa-check"></i>1 E-poçt hesabı</a></li>
+                        <li><a href=""><i class="fas fa-check"></i>Pulsuz SSL</a></li>
+                        <li><a href=""><i class="fas fa-times"></i>Pulsuz Domen</a></li>
+                        <li><a href=""><i class="fas fa-check"></i>100 Gb Trafik</a></li>
+                        <li><a href=""><i class="fas fa-check"></i>GİT</a></li>
+                        <li><a href=""><i class="fas fa-times"></i>SSH</a></li>
+                        <li><a href=""><i class="fas fa-check"></i>Həftəlik Backup</a></li>
+                        <li><a href=""><i class="fas fa-times"></i>CDN</a></li>
+                        <li><a href=""><i class="fas fa-check"></i>DNS İdarəetmə</a></li>
+                        <li><a href=""><i class="fas fa-check"></i>2 Sub Domen</a></li>
+                        <li><a href=""><i class="fas fa-check"></i>1 FTP</a></li>
+                        <li><a href=""><i class="fas fa-check"></i>2 Cronjob</a></li>
+                      </ul>
+                      <button class="button">
+                        <span>Səbətə əlavə et</span>
+                        <div class="cart">
+                            <svg viewBox="0 0 36 26">
+                                <polyline points="1 2.5 6 2.5 10 18.5 25.5 18.5 28.5 7.5 7.5 7.5"></polyline>
+                                <polyline points="15 13.5 17 15.5 22 10.5"></polyline>
+                            </svg>
                         </div>
-                      <div class="down "></div>
-        
-                        <div  class=" content">
-                            <ul>
-                                <li><a href="">1 Domen</a></li>
-                                <li><a href="">500Gb Yaddaş</a></li>
-                                <li><a href="">5 E-poçt hesabı</a></li>
-                                <li><a href="">Limitsiz trafik</a></li>
-                                <li><a href="">Limitsiz ftp hesaplarə</a></li>
-                             
-                            </ul>
-                            <button class="btn">Sifariç et</button>
-                        </div>
+                    </button>
                     </div>
-    
-                    <div class="col-lg-3 card card100">
-                        <h3 class="main-text-card">Premium</h3>
-                        <hr style="height:2px;border-width:0;color:gray;background-color:gray">
-                        <div class="texts">
-                            <h1>100</h1><span>&#8380;</span>
-                            <p>Aylıq</p>
-                        </div>
-                        <div class="down"></div>
+                </div>
+                  <!-- END -->
+             <!-- Pricing Table-->
+             <div class=" col-lg-4 col-md-4   swiper-slide ">
+                <div class="bg-white  rounded-lg extra">
+                    <img src="img/bean/medium.png" alt="">
+                  <h1 class="h6 text-uppercase font-weight-bold mb-4 extra-white">MEDİUİM BEAN</h1>
+                  <div class="ribbon">SƏRFƏLİ</div>
+                  <h2 class="h1 font-weight-bold extra-white">109 <span class="text-small font-weight-normal ml-2 extra-white">&#8380;</span></h2>
         
-                        <div  class="content">
-                            <ul>
-                                <li><a href="">1 Domen</a></li>
-                                <li><a href="">500Gb Yaddaş</a></li>
-                                <li><a href="">5 E-poçt hesabı</a></li>
-                                <li><a href="">Limitsiz trafik</a></li>
-                                <li><a href="">Limitsiz ftp hesaplarə</a></li>
-                                <li><a href="">1 Domen</a></li>
-                              
-                            </ul>
-                            <button class="btn">Sifariç et</button>
-                        </div>
-                        <!-- <div class="content">
-                            <ul>
-                                <li><a href="">1 Domen</a></li>
-                                <li><a href="">500Gb Yaddaş</a></li>
-                                <li><a href="">5 E-poçt hesabı</a></li>
-                                <li><a href="">Limitsiz trafik</a></li>
-                                <li><a href="">Limitsiz ftp hesaplarə</a></li>
-                            </ul>
-                            <button class="btn">Ətraflı</button>
-                        </div> -->
-                        
-                    </div>
-                    <div class="col-lg-3 card">
-                        <h3 class="main-text-card">Advance</h3>
-                        <hr style="height:2px;border-width:0;color:gray;background-color:gray">
-                        <div class="texts">
-                            <h1>150</h1><span>&#8380;</span>
-                            <p>Aylıq</p>
-                        </div>
-                        <div class="down"></div>
+                  <div class="custom-separator my-4 mx-auto bg-primary"></div>
         
-                        <div class=" content">
-                            <ul>
-                                <li><a href="">1 Domen</a></li>
-                                <li><a href="">500Gb Yaddaş</a></li>
-                                <li><a href="">5 E-poçt hesabı</a></li>
-                                <li><a href="">Limitsiz trafik</a></li>
-                                <li><a href="">Limitsiz ftp hesaplarə</a></li>
-                                <li><a href="">1 Domen</a></li>
-                                <li><a href="">500Gb Yaddaş</a></li>
-                               
-                            </ul>
-                            <button class="btn">Sifariç et</button>
-                        </div>
+                  <ul class="list-unstyled my-1 text-small text-left">
+                    <li><a href=""><i class="fas fa-check"></i>100 Web Sayt</a></li>
+                    <li><a href=""><i class="fas fa-check"></i>200 Gb SSD Yaddaş</a></li>
+                    <li><a href=""><i class="fas fa-check"></i>100 E-Poçt hesabı</a></li>
+                    <li><a href=""><i class="fas fa-check"></i>Pulsuz SSL</a></li>
+                    <li><a href=""><i class="fas fa-check"></i>Pulsuz Domen</a></li>
+                    <li><a href=""><i class="fas fa-check"></i>Limtisiz Trafik</a></li>
+                    <li><a href=""><i class="fas fa-check"></i>GİT</a></li>
+                    <li><a href=""><i class="fas fa-check"></i>SSH</a></li>
+                    <li><a href=""><i class="fas fa-check"></i>Həftəlik Backup</a></li>
+                    <li><a href=""><i class="fas fa-times"></i>CDN</a></li>
+                    <li><a href=""><i class="fas fa-check"></i>DNS İdarəetmə</a></li>
+                    <li><a href=""><i class="fas fa-check"></i>100 Sub Domen</a></li>
+                    <li><a href=""><i class="fas fa-check"></i>Limitsiz FTP</a></li>
+                    <li><a href=""><i class="fas fa-check"></i>Limitsiz Cronjob</a></li>
+                  </ul>
+                  <button class="button">
+                    <span>Səbətə əlavə et</span>
+                    <div class="cart">
+                        <svg viewBox="0 0 36 26">
+                            <polyline points="1 2.5 6 2.5 10 18.5 25.5 18.5 28.5 7.5 7.5 7.5"></polyline>
+                            <polyline points="15 13.5 17 15.5 22 10.5"></polyline>
+                        </svg>
                     </div>
-                    <div class="col-lg-3 card">
-                        <h3 class="main-text-card">Gold</h3>
-                        <hr style="height:2px;border-width:0;color:gray;background-color:gray">
-                        <div class="texts">
-                            <h1>200</h1><span>&#8380;</span>
-                            <p>Aylıq</p>
-                        </div>
-                        <div class="down"></div>
+                </button>
+                </div>
+            </div>
+              <!-- END -->
+               <!-- Pricing Table-->
+               <div class=" col-lg-4 col-md-4   swiper-slide ">
+                <div class="bg-white  rounded-lg">
+                    <img src="img/bean/large.png" alt="">
+                  <h1 class="h6 text-uppercase font-weight-bold mb-4">LARGE BEAN</h1>
+                  <h2 class="h1 font-weight-bold">199 <span class="text-small font-weight-normal ml-2">&#8380;</span></h2>
         
-                        <div class=" content">
-                            <ul>
-                                <li><a href="">1 Domen</a></li>
-                                <li><a href="">500Gb Yaddaş</a></li>
-                                <li><a href="">5 E-poçt hesabı</a></li>
-                                <li><a href="">Limitsiz trafik</a></li>
-                                <li><a href="">Limitsiz ftp hesaplarə</a></li>
-                                <li><a href="">1 Domen</a></li>
-                                <li><a href="">500Gb Yaddaş</a></li>
-                                <li><a href="">5 E-poçt hesabı</a></li>
-                                
-                            </ul>
-                            <button class="btn">Sifariç et</button>
-                        </div>
+                  <div class="custom-separator my-4 mx-auto bg-primary"></div>
+        
+                  <ul class="list-unstyled my-1 text-small text-left">
+                    <li><a href=""><i class="fas fa-check"></i>100 Web Sayt</a></li>
+                        <li><a href=""><i class="fas fa-check"></i>200 Gb SSD Yaddaş</a></li>
+                        <li><a href=""><i class="fas fa-check"></i>100 E-Poçt hesabı</a></li>
+                        <li><a href=""><i class="fas fa-check"></i>Pulsuz SSL</a></li>
+                        <li><a href=""><i class="fas fa-check"></i>Pulsuz Domen</a></li>
+                        <li><a href=""><i class="fas fa-check"></i>Limtisiz Trafik</a></li>
+                        <li><a href=""><i class="fas fa-check"></i>GİT</a></li>
+                        <li><a href=""><i class="fas fa-check"></i>SSH</a></li>
+                        <li><a href=""><i class="fas fa-check"></i>Həftəlik Backup</a></li>
+                        <li><a href=""><i class="fas fa-check"></i>CDN</a></li>
+                        <li><a href=""><i class="fas fa-check"></i>DNS İdarəetmə</a></li>
+                        <li><a href=""><i class="fas fa-check"></i>100 Sub Domen</a></li>
+                        <li><a href=""><i class="fas fa-check"></i>Limitsiz FTP</a></li>
+                        <li><a href=""><i class="fas fa-check"></i>Limitsiz Cronjob</a></li>
+                  </ul>
+                   <button class="button">
+                    <span>Səbətə əlavə et</span>
+                    <div class="cart">
+                        <svg viewBox="0 0 36 26">
+                            <polyline points="1 2.5 6 2.5 10 18.5 25.5 18.5 28.5 7.5 7.5 7.5"></polyline>
+                            <polyline points="15 13.5 17 15.5 22 10.5"></polyline>
+                        </svg>
                     </div>
+                </button>
+                </div>
+            </div>
+              <!-- END -->
+               <!-- Pricing Table-->
+            
+              <!-- END -->
+            
+                
+                    </div>
+                </div>
+                <div class="swiper-button-next swiper-nav-ctrl next-ctrl  cursor-pointer" >
+                    <i class="ion-ios-arrow-right"></i>
+                </div>
+                <div class="swiper-button-prev swiper-nav-ctrl prev-ctrl  cursor-pointer">
+                    <i class="ion-ios-arrow-left"></i>
                 </div>
             </div>
     
@@ -333,6 +356,53 @@
 }
 
 </script>
+
+<script src="js/plugins/swiper-bundle.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init({ once: true, });
+    var swiperWorkWork = new Swiper('.main .swiper-container',{
+  slidesPerView: 3,
+  spaceBetween: 0,
+  autoplaySpeed:4000,
+  autoplay:true,
+  speed: 4000,
+  loop: true,
+  breakpoints: {
+      320: {
+          slidesPerView: 1,
+          spaceBetween: 0
+      },
+      640: {
+          slidesPerView: 1,
+          spaceBetween: 0
+      },
+      767: {
+          slidesPerView: 2,
+          spaceBetween: 0,
+      },
+      991: {
+          slidesPerView: 2,
+      },
+      1200:{
+          loop: false,
+          autoplay:false,
+          mousewheel:false,
+          allowTouchMove: false,
+      }
+  },
+
+  pagination: {
+            el: '.main .swiper-pagination',
+            type: 'progressbar',
+        },
+
+        navigation: {
+            nextEl: '.main .swiper-button-next',
+            prevEl: '.main .swiper-button-prev'
+        },
+});
+  </script>
  <script src="js//main.js"></script>   
 </body>
 </html>
