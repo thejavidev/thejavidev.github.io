@@ -1,5 +1,3 @@
-@import url('/css/plugins/bootstrap.min.css');
-@import url('/css/plugins/swiper.min.css');
 
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;600;700;800&display=swap');
@@ -345,7 +343,7 @@ header .navbar-expand-xl .navbar-collapse{
 
 
 .vs-menu-wrapper.vs-body-visible .vs-menu-area .menu-items{
-    margin-top: 3rem;
+    padding-top: 4rem;
   display: none;
   background: rgba(228, 35, 42, 0.95);
   display: flex;
@@ -353,7 +351,9 @@ header .navbar-expand-xl .navbar-collapse{
   margin-left: -40px;
   padding-left: 50px;
 }
-
+.vs-menu-wrapper.vs-body-visible .vs-menu-area .menu-items .nav-item{
+ 
+}
 .vs-menu-wrapper.vs-body-visible .vs-menu-area .mobile-logo{
   max-width: 140px;
     padding-bottom: 20px;
@@ -427,11 +427,14 @@ header .header-up .language .mobileMenu{
   header .header-up .language .mobileMenu{
       display: flex;
   }
-  header .header-up .language .selectpicker{
+  header .header-up .language .socials{
       display: none !important;
   }
   header .header-up .language{
       padding-right: 0px;
+  }
+  header .header-up .language {
+      padding-top: 15px;
   }
   .vs-menu-wrapper .selectpicker{
       position: absolute;
@@ -444,7 +447,15 @@ header .header-up .language .mobileMenu{
       -o-transform: translate(-40%,0);
     }   
     header .header-up .connection {
-        padding-top: 14px;
+        display: flex;
+        flex-direction: column;
+        padding-top: 5px;
+    }
+    header .header-up .connection a{
+        padding-top:5px;
+    }
+    header .container{
+        padding: 10px;
     }
     .mobileMenu{
         padding-top: 8px;
@@ -1509,7 +1520,7 @@ footer .container-fluid .fotTight img{
        padding-top:3px;
    }
    header .header-up .language {
-       padding-top: 3px;
+       padding-top: 12px;
    }
    .about-section .row .text{
        padding: 10px;
@@ -1518,11 +1529,10 @@ footer .container-fluid .fotTight img{
        font-size: .7rem;
    }
    .header-up .lang{
-     display: none;
+        width: 30%;
    }
     header .row > *{
-      width: 100%;
-      text-align: center;
+      width: 70%;
    }
    footer .container-fluid .fotTight{
     padding-right: 0px !important;
@@ -1545,7 +1555,7 @@ footer .container-fluid .fotTight img{
 @media screen and (max-width:565px){
     
     header .header-up .language{
-        padding-top: 5px !important;
+        padding-top: 15px !important;
     }
     header .header-down .navbar .navbar-brand img{
         height: 30px;
