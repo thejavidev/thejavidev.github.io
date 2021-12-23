@@ -351,13 +351,13 @@ $(function () {
         },
 
         pagination: {
-            el: '.blog-grid .swiper-pagination',
+            el: '.princ .swiper-pagination',
             type: 'progressbar',
         },
 
         navigation: {
-            nextEl: '.blog-grid .swiper-button-next',
-            prevEl: '.blog-grid .swiper-button-prev'
+            nextEl: '.princ .swiper-button-next',
+            prevEl: '.princ .swiper-button-prev'
         },
     });
     var swiperWorkCaroul = new Swiper('.caroul .swiper-container', {
