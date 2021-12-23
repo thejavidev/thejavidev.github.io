@@ -5,9 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Logistik</title>
-    <link rel="stylesheet" href="../Alfar/css/plugins/bootstrap.min.css">
-    <link rel="stylesheet" href="../Alfar/css/plugins/swiper.min.css">
-    <link rel="stylesheet" href="../Alfar/css/main.css">
+    <link rel="stylesheet" href="css/plugins/bootstrap.min.css">
+    <link rel="stylesheet" href="css/plugins/swiper.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
 <!--HEADER SECTION START-->
@@ -44,7 +45,7 @@
         <div class="container">
             <nav class="navbar navbar-expand-xl navbar-light flex">
                 <a class="navbar-brand" href="#">
-                    <img src="../Alfar/img/homePage/logo.png" alt="alfar logosu">
+                    <img src="img/homePage/logo.png" alt="alfar logosu">
                 </a>
                 <div class="collapse navbar-collapse  flex" id="navbarSupportedContent">
                     <ul class="navbar-nav">
@@ -121,13 +122,13 @@
                 <h2>Haqqımızda</h2>
             </div>
         </div>
-        <div class="row">
-            <div class="col-md-10">
+        <div class="row" >
+            <div class="col-md-10" data-aos="fade-down" data-aos-duration="2000">
                 <div class="image">
                     <img src="img/about/bg-55.jpg" alt="">
                 </div>
             </div>
-            <div class="col-md-10">
+            <div class="col-md-10" data-aos="fade-down" data-aos-duration="1200">
                 <div class="text">
                     <p>
                         “Alfa-R Engineering” MMC şirkəti 2003-cü ildə “Akvaterm” adı ilə təsis olunmuş isitmə, soyutma, havalandırma və su təchizatı sistemlərinin layihəndirilməsi və quraşdırılması ilə məşğul olan şirkətdir. 24 aprel 2016-cı ildə şirkətin adı dəyişdirilmiş və profil olaraq birazda genişlənmişdir. Qeyd olunan tarixdən sonra şirkət tam təkminləşmiş Mexanik və Elektrik şirkəti olaraq fəaliyyət göstərir. Yarandığı tarixdən “Alfa-R Engineering” MMC şirkəti həm dövlət sifarişi olan strateji layihələri, həm də fərdi sifariş olan layihələri uğurla yerinə yetirmişdir. Başqa şirkətlərdən fərqli olaraq bizim özəlliyimiz Keyfiyyət-Qiymət-Müddət  arasında  mütənasiblik  yaratmaqdır. Tam məsuliyyəti ilə qeyd edirik ki, gördüyümüz layihələrin arasında fərq qoymuruq, bütün gördüyümüz işlər bizim vizit kartımızdır. Sürətlə müasirləşən və yenilənən dövrümüzdə stabilliyi  üçün yeni sistemlər və avadanlıqlar həmişə diqqətimizdədir. Şirkət olaraq mütəxəssislərimizi tez-tez dünyanın qabaqcıl ölkələrinə seminar və ya kurs keçməyə göndəririk. Avropa və Asiyanın tanınmış mühəndis və texniklərini həm işlərimizi kontrol etmək, həm də öz biliklərini bölüşmək  üçün ölkəmizə dəvət edirik.  Bu səbəbdəndə bizim şirkətdə çox savadlı və bacarıqlı mühəndis heyəti cəmləşib.
@@ -162,11 +163,12 @@
     </div>
 </footer>
 
-<script src="../Alfar/js/plugins/bootstrap.bundle.min.js"></script>
-<script src="../Alfar/js/plugins/bootstrap.min.js"></script>
-<script src="../Alfar/js/plugins/jquery.min.js"></script>
-<script src="../Alfar/js/plugins/popper.min.js"></script>
-<script src="../Alfar/js/plugins/swiper-bundle.min.js"></script>
+<script src="js/plugins/bootstrap.bundle.min.js"></script>
+<script src="js/plugins/bootstrap.min.js"></script>
+<script src="js/plugins/jquery.min.js"></script>
+<script src="js/plugins/popper.min.js"></script>
+<script src="js/plugins/swiper-bundle.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
   
 $( ".navbar-toggler").click(function() {
@@ -175,7 +177,10 @@ $( ".navbar-toggler").click(function() {
 $( ".vs-menu-toggle" ).click(function() {
         $(".vs-menu-wrapper").removeClass("vs-body-visible");
 });
+AOS.init({
+    once:true,
+});
 </script>
-<script src="../Alfar/js/main.js"></script>   
+<script src="js/main.js"></script>   
 </body>
 </html>

@@ -5,10 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Logistik</title>
-    <link rel="stylesheet" href="../Alfar/css/plugins/bootstrap.min.css">
-    <link rel="stylesheet" href="../Alfar/css/plugins/swiper.min.css">
-    <link rel="stylesheet" href="../Alfar/css/main.css">
+    <title>Alfa-r.az</title>
+    <link rel="stylesheet" href="css/plugins/bootstrap.min.css">
+    <link rel="stylesheet" href="css/plugins/swiper.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
 <!--HEADER SECTION START-->
@@ -45,7 +46,7 @@
         <div class="container">
             <nav class="navbar navbar-expand-xl navbar-light flex">
                 <a class="navbar-brand" href="#">
-                    <img src="../Alfar/img/homePage/logo.png" alt="alfar logosu">
+                    <img src="img/homePage/logo.png" alt="alfar logosu">
                 </a>
                 <div class="collapse navbar-collapse  flex" id="navbarSupportedContent">
                     <ul class="navbar-nav">
@@ -121,43 +122,43 @@
             <h2>Tərəfdaşlar</h2>
         </div>
         <div class="partners">
-            <div class="part">
+            <div class="part" data-aos="zoom-in">
                 <div class="image">
                     <img src="img/partners/1.png" alt="">
                     
                 </div>
             </div>
-            <div class=" part">
+            <div class=" part" data-aos="zoom-in">
                 <div class="image">
                     <img src="img/partners/2.png" alt="">
                 </div>
             </div>
-            <div class="part">
+            <div class="part" data-aos="zoom-in">
                 <div class="image">
                     <img src="img/partners/3.png" alt="">
                 </div>
             </div>
-            <div class=" part">
+            <div class=" part" data-aos="zoom-in">
                 <div class="image">
                     <img src="img/partners/4.png" alt="">
                 </div>
             </div> 
-            <div class=" part">
+            <div class=" part" data-aos="zoom-in">
                 <div class="image">
                     <img src="img/partners/1.png" alt="">
                 </div>
             </div>
-            <div class="part">
+            <div class="part" data-aos="zoom-in">
                 <div class="image">
                     <img src="img/partners/2.png" alt="">
                 </div>
             </div>
-            <div class="part">
+            <div class="part" data-aos="zoom-in">
                 <div class="image">
                     <img src="img/partners/3.png" alt="">
                 </div>
             </div>
-            <div class="part">
+            <div class="part" data-aos="zoom-in">
                 <div class="image">
                     <img src="img/partners/4.png" alt="">
                 </div>
@@ -191,11 +192,12 @@
 </footer>
 
 
-<script src="../Alfar/js/plugins/bootstrap.bundle.min.js"></script>
-<script src="../Alfar/js/plugins/bootstrap.min.js"></script>
-<script src="../Alfar/js/plugins/jquery.min.js"></script>
-<script src="../Alfar/js/plugins/popper.min.js"></script>
-<script src="../Alfar/js/plugins/swiper-bundle.min.js"></script>
+<script src="js/plugins/bootstrap.bundle.min.js"></script>
+<script src="js/plugins/bootstrap.min.js"></script>
+<script src="js/plugins/jquery.min.js"></script>
+<script src="js/plugins/popper.min.js"></script>
+<script src="js/plugins/swiper-bundle.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
   
 $( ".navbar-toggler").click(function() {
@@ -204,7 +206,10 @@ $( ".navbar-toggler").click(function() {
 $( ".vs-menu-toggle" ).click(function() {
         $(".vs-menu-wrapper").removeClass("vs-body-visible");
 });
+AOS.init({
+    once:true,
+});
 </script>
-<script src="../Alfar/js/main.js"></script>   
+<script src="js/main.js"></script>   
 </body>
 </html>
