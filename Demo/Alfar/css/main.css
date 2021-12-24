@@ -549,92 +549,10 @@ header .header-up .language .mobileMenu .navbar-toggler{
 header .header-up .language .mobileMenu{
     display: none;
 }
-@media (max-width:991px){
-    
-    header .header-down .navbar-collapse{
-        display: none;
-    }
-  
-  header .header-up .language .mobileMenu{
-      display: flex;
-  }
-  header .header-up .language .socials{
-      display: none !important;
-  }
-  header .header-up .language{
-      padding-right: 0px;
-  }
-  header .header-up .language {
-      padding-top: 5px;
-  }
-  .vs-menu-wrapper .selectpicker{
-      position: absolute;
-      left: 45%;
-      transform: translate(-40%,0);
-      bottom: 20%;
-      -webkit-transform: translate(-40%,0);
-      -moz-transform: translate(-40%,0);
-      -ms-transform: translate(-40%,0);
-      -o-transform: translate(-40%,0);
-    }   
-    header .header-up .connection {
-    
-        padding-top: 5px;
-    }
-    header .header-up .connection a{
-        padding-top:5px;
-    }
-    header .container{
-        padding: 5px;
-    }
-    header .header-down .navbar .navbar-brand img{
-        height: 35px;
-        padding-left: 1rem;
-    }
-    .mobileMenu{
-        padding-top: 8px;
-    }
-}
-@media (max-width: 768px){
-.container, .container-md, .container-sm {
-    max-width: 860px;
-    }
-}
-@media (min-width:992px){
-  .vs-menu-wrapper.vs-body-visible {
-    display: none !important;
-  }
 
-}
-@media screen and (max-width:767px) {
-    header .header-up .social a{
-        padding-top: 5px;
-        font-size: 15px !important;
-      }
-   
-}
-@media (max-width:575px) {
-    header .header-up .connection {
-        display: flex;
-        flex-direction: column;
-        padding-top: 5px;
-    }
-    header .container{
-        padding: 0px;
-    }
-  .vs-menu-area{
-    max-width: 100%;
-  }
-  header .col-sm-6{
-      width: 50% !important;
-  }
-  header .header-down{
-      min-height: 70px;
-  }
-  .navbar-brand{
-      padding-top: 0;
-  }
-}
+
+
+
 
 /*MOBILE MENU END*/
 /**HEADER SECTION END=============================*/
@@ -695,6 +613,28 @@ header .header-up .language .mobileMenu{
 		transform: translateX(0px);
 	}
 }
+.home .carousel-inner {
+    position: relative;
+}
+.home .carousel-inner .about{
+    position: absolute;
+    top: 38%;
+    left: 0;
+    width: 45%;
+}
+.home .carousel-inner .about .text{
+    display: flex;
+    padding-left: 20px;
+    align-items: center;
+ 
+    height: 100px;
+    background: linear-gradient(90deg, #E4232A 0%, rgba(228, 35, 42, 0) 117.94%);
+}
+.home .carousel-inner .text h2{
+    text-transform: uppercase;
+    font-size: 2.2rem;
+}
+
 .home .carousel-controls{
 	position: absolute;
 	left: 50%;
@@ -751,55 +691,11 @@ header .header-up .language .mobileMenu{
 	left: -90px;
 }
 
-@media screen and (max-width:1200px) {
-    .home .carousel-item{
-        min-height: 70vh;
-    }
-}
 
-@media screen and (max-width:991px) {
-    .home .carousel-item{
-        min-height: 63vh;
-    }
-}
-@media screen and (max-width:767px) {
-    .home .carousel-item{
-        min-height: 48vh;
-    }
-}
-@media screen and (max-width:565px) {
-    .home .carousel-item{
-        min-height: 33vh;
-    }
-}
-@media screen and (max-width:1024px) {
-    .home .carousel-item{
-        min-height: 43vh !important;
-    }
-    header .header-down .navbar .nav-item{
-        margin-left: 25px;
-    }
-    header .header-down .navbar .nav-item a{
-        font-size: 15px !important;
-    }
-}
 
-@media (max-width:767px){
-	.home .carousel-control-next,
-	.home .carousel-control-prev{
-		display: none;
-	}
-	.home .carousel-indicators button{
-		height: 40px;
-		width: 40px;
-	}
-	.home .carousel-item h2{
-		font-size: 45px;
-	}
-	.home .carousel-item p{
-		font-size: 22px;
-	}
-}
+
+
+
 
 
 /*MAIN SLIDER SECTION END=============================*/
@@ -905,11 +801,7 @@ header .header-up .language .mobileMenu{
     grid-gap: 10px;
     grid-template-columns: repeat(4,1fr);
 }
-@media screen and (max-width:991px) {
-    .references .refer{
-        grid-template-columns: repeat(2,1fr); 
-    }
-}
+
 .references .refer .box .image{
 
     border: 2px solid var(--colorF5);
@@ -1179,11 +1071,7 @@ header .header-up .language .mobileMenu{
 {
     color: var(--colorFF);
 }
-@media screen and (max-width:991px) {
-    .services-section .container-fluid{
-        padding: 0px 10px 0px 10px;
-    }
-}
+
 
 
 /*SERVICES SECTION SECTION END=============================*/
@@ -1263,22 +1151,8 @@ header .header-up .language .mobileMenu{
 {
     color: var(--color00);
 }
-@media screen and (max-width:1200px){
-    .products-section .products_boxs{
-        width: 85%;
-    }
-    .products-section .container-fluid{
-        padding: 0px 10px 0px 10px;
-    }
-}
-@media screen and (max-width:991px) {
-    .products-section .container-fluid{
-        padding: 0px 10px 0px 10px;
-    }
-    .products-section .products_boxs{
-        width: 100%;
-    }
-}
+
+
 
 
 /*PRODUCTS SECTION SECTION END=============================*/
@@ -1321,27 +1195,7 @@ header .header-up .language .mobileMenu{
 .reference-section  .reference-section-gallery#margin:last-child{
     padding-bottom: 15rem !important;
 }
-@media screen and (max-width:767px) {
-    .reference-section .global_text{
-        margin-top: 2rem ;
-      
-    }
-    
-    .reference-section .reference-section-about .reference-section-text{
-        width: 90%;
-        padding-top: 1rem;
-    }
-    .reference-section .reference-section-about .reference-section-text p{
-        font-size: .8rem;
-    }
-    .reference-section  .reference-section-gallery{
-        width: 95%;
-        margin: 50px auto 0;
-        grid-template-columns: repeat(2,1fr);
-        grid-gap: 10px;
-        justify-content: center;
-    }   
-}
+
 /*REFERENCE SECTION  SECTION END=============================*/
 
 /*PRODUCTS DETAILS SECTION  SECTION END=============================*/
@@ -1375,28 +1229,8 @@ header .header-up .language .mobileMenu{
     text-align: justify;
 }
 
-@media screen  and (max-width:991px) {
-    .productdetils-section .productdetils-section-gallery .image{
-        padding-bottom: 4rem;
-    }
-   .productdetils-section .global_text h2{
-    font-size: 1.2rem;
-    }
-    .productdetils-section .productdetils-section-about{
-        padding: 0px 100px 0px 100px;
-    }
-}
-@media screen  and (max-width:767px){
-    .productdetils-section .productdetils-section-gallery .image{
-        width: 90%;
-    }
-    .productdetils-section .productdetils-section-about{
-        padding: 0px 20px 0px 20px;
-    }
-    .productdetils-section .productdetils-section-about p{
-        font-size: .74rem;
-    }
-} 
+
+ 
 /*PRODUCTS DETAILS SECTION END=============================*/
 
 
@@ -1519,32 +1353,8 @@ header .header-up .language .mobileMenu{
     font-size: .8rem;
     font-weight: 600;
 }
-@media screen and (max-width:1200px) {
-    .references-section .references-boxs{
-        width: 80%;
-    }
-    .references-section .references-boxs .references-box .references-box-text{
-        font-size: .8rem;
-    }
-    .references-section .references-boxs .references-box-about p{
-        font-size: .6rem;
-    }
-}
-@media screen and (max-width:767px){
-    .references-section .references-boxs{
-        width: 90%;
-    }
-    .references-section .references-boxs .references-box {
-        flex-direction: column !important;
-    }
-    .references-section .references-boxs .references-box .references-box-img{
-        width: 90%;
-        margin: 0 0 50px !important;
-    }
-    .references-section .references-boxs .references-box-about{
-        width: 90%;
-    }
-}
+
+
 /*REFERENCES SECTION  SECTION END=============================*/
 
 
@@ -1719,59 +1529,8 @@ header .header-up .language .mobileMenu{
     padding: 10px;
 }
 
-@media screen and (max-width: 1200px){
-    .contact-section .container-fluid .contact_form form input,
-    .contact-section .container-fluid .contact_form form textarea{
-        width: 100% !important;
-        margin: 10px 0 !important;
-    }
-    .contact-section .container-fluid .contact_form{
-        flex-direction: column;
-    }
-    .contact-section .container-fluid  .contact_infos .contact_map,
-    .contact-section .container-fluid  .contact_infos .contact_phone,
-    .contact-section .container-fluid  .contact_infos .contact_mail{
-        padding: 10px 10px 10px 10px;
-    }
-    .contact-section .container-fluid .contact_infos .contact_map p,
-    .contact-section .container-fluid  .contact_infos .contact_phone p,
-    .contact-section .container-fluid  .contact_infos .contact_mail p{
-        font-size: 13px;
-    }
-    .contact-section .container-fluid .contact_form form .contact_btn button{
-        margin-bottom: 20px;
-    }
-    .services-section .container-fluid{
-        padding: 0px 25px 0px 25px;
-    }
-  
-}
-@media screen and (max-width: 767px){
-    .contact-section .container-fluid .contact_infos{
-        flex-direction: column;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .references .refer .box .text{
-        line-height: 14px;
-        font-size: 9px;
-    }
-    .references .refer .box .text a {
-        font-size: 11px;
-    }
-   
-    .contact-section .container-fluid{
-        padding: 0;
-    }
-    .contact-section .container-fluid .contact_infos .contact_map,
-    .contact-section .container-fluid  .contact_infos .contact_phone,
-    .contact-section .container-fluid  .contact_infos .contact_mail{
-        width: 100%;
-        margin-top: 20px;
-        height: 150px;
-    }
-}
+
+
 /*CONTACT SECTION  SECTION END=============================*/
 
 
@@ -1829,7 +1588,54 @@ footer .container-fluid .fotTight img{
     padding-left: 10px;
 }
 
-@media screen and (max-width:1200px) {
+/*--------------------------------------RESPONSIVE -------------------------------------------*/
+
+@media screen and (max-width: 1200px){
+    .contact-section .container-fluid .contact_form form input,
+    .contact-section .container-fluid .contact_form form textarea{
+        width: 100% !important;
+        margin: 10px 0 !important;
+    }
+    .contact-section .container-fluid .contact_form{
+        flex-direction: column;
+    }
+    .contact-section .container-fluid  .contact_infos .contact_map,
+    .contact-section .container-fluid  .contact_infos .contact_phone,
+    .contact-section .container-fluid  .contact_infos .contact_mail{
+        padding: 10px 10px 10px 10px;
+    }
+    .contact-section .container-fluid .contact_infos .contact_map p,
+    .contact-section .container-fluid  .contact_infos .contact_phone p,
+    .contact-section .container-fluid  .contact_infos .contact_mail p{
+        font-size: 13px;
+    }
+    .contact-section .container-fluid .contact_form form .contact_btn button{
+        margin-bottom: 20px;
+    }
+    .services-section .container-fluid{
+        padding: 0px 25px 0px 25px;
+    }
+    .references-section .references-boxs{
+        width: 80%;
+    }
+    .references-section .references-boxs .references-box .references-box-text{
+        font-size: .8rem;
+    }
+    .references-section .references-boxs .references-box-about p{
+        font-size: .6rem;
+    }
+    .home .carousel-item{
+        min-height: 70vh;
+    }
+    .home .carousel-inner .text h2{
+        font-size: 2.0rem;
+    }
+    .products-section .products_boxs{
+        width: 85%;
+    }
+    .products-section .container-fluid{
+        padding: 0px 10px 0px 10px;
+    }
     header .header-up .socials{
         width: 55%;
     }
@@ -1855,21 +1661,116 @@ footer .container-fluid .fotTight img{
         padding-right: 0px;
     }
 }
-@media screen and (max-width:991px){
-  
+@media screen and (max-width:1024px) {
+    .home .carousel-item{
+        min-height: 43vh !important;
+    }
+    header .header-down .navbar .nav-item{
+        margin-left: 25px;
+    }
+    header .header-down .navbar .nav-item a{
+        font-size: 15px !important;
+    }
+}
+@media screen  and (max-width:991px) {
+    .productdetils-section .productdetils-section-gallery .image{
+        padding-bottom: 4rem;
+    }
+   .productdetils-section .global_text h2{
+    font-size: 1.2rem;
+    }
+    .productdetils-section .productdetils-section-about{
+        padding: 0px 100px 0px 100px;
+    }
     .mobileMenu{
         display: inline-block;
         float: right;
         padding-top: 12px;
         padding-right: 1rem;
+    
     }
     .main-slider .row{
         --bs-gutter-x: 0rem !important;
-
     }
     header .row > * {
         width: 50%;
     }
+    header .header-down .navbar-collapse{
+        display: none;
+    }
+  
+  header .header-up .language .mobileMenu{
+      display: flex;
+  }
+  header .header-up .language .socials{
+      display: none !important;
+  }
+  header .header-up .language{
+      padding-right: 0px;
+  }
+  header .header-up .language {
+      padding-top: 5px;
+  }
+  .vs-menu-wrapper .selectpicker{
+      position: absolute;
+      left: 45%;
+      transform: translate(-40%,0);
+      bottom: 20%;
+      -webkit-transform: translate(-40%,0);
+      -moz-transform: translate(-40%,0);
+      -ms-transform: translate(-40%,0);
+      -o-transform: translate(-40%,0);
+    }   
+    header .header-up .connection {
+    
+        padding-top: 5px;
+    }
+    header .header-up .connection a{
+        padding-top:5px;
+    }
+    header .container{
+        padding: 5px;
+    }
+    header .header-down .navbar .navbar-brand img{
+        height: 35px;
+        padding-left: 1rem;
+    }
+    .home .carousel-item{
+        min-height: 63vh;
+    }
+    .home .carousel-inner .text h2{
+        font-size: 1.7rem;
+    }
+    .home .carousel-inner .about .text{
+        height: 70px;
+    }
+    .home .carousel-indicators button{
+        width: 50px;
+        height: 50px;
+    }
+    .references .refer{
+        grid-template-columns: repeat(2,1fr); 
+    }
+    .services-section .container-fluid{
+        padding: 0px 10px 0px 10px;
+    }
+    .products-section .container-fluid{
+        padding: 0px 10px 0px 10px;
+    }
+    .products-section .products_boxs{
+        width: 100%;
+    }
+}
+@media (max-width: 768px){
+    .container, .container-md, .container-sm {
+        max-width: 860px;
+        }
+}
+@media (min-width:992px){
+      .vs-menu-wrapper.vs-body-visible {
+        display: none !important;
+      }
+    
 }
 @media screen and (max-width:767px){
     footer .row > * {
@@ -1916,8 +1817,110 @@ footer .container-fluid .fotTight img{
     .partners-section .partners .part{
         margin-left: 12px;
     }
+    header .header-up .social a{
+        padding-top: 5px;
+        font-size: 15px !important;
+      }
+      .contact-section .container-fluid .contact_infos{
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .references .refer .box .text{
+        line-height: 14px;
+        font-size: 9px;
+    }
+    .references .refer .box .text a {
+        font-size: 11px;
+    }
+   
+    .contact-section .container-fluid{
+        padding: 0;
+    }
+    .contact-section .container-fluid .contact_infos .contact_map,
+    .contact-section .container-fluid  .contact_infos .contact_phone,
+    .contact-section .container-fluid  .contact_infos .contact_mail{
+        width: 100%;
+        margin-top: 20px;
+        height: 150px;
+    }
+    .references-section .references-boxs{
+        width: 90%;
+    }
+    .references-section .references-boxs .references-box {
+        flex-direction: column !important;
+    }
+    .references-section .references-boxs .references-box .references-box-img{
+        width: 90%;
+        margin: 0 0 50px !important;
+    }
+    .references-section .references-boxs .references-box-about{
+        width: 90%;
+    }
+    .productdetils-section .productdetils-section-gallery .image{
+        width: 90%;
+    }
+    .productdetils-section .productdetils-section-about{
+        padding: 0px 20px 0px 20px;
+    }
+    .productdetils-section .productdetils-section-about p{
+        font-size: .74rem;
+    }
+    .reference-section .global_text{
+        margin-top: 2rem ;
+      
+    }
+    
+    .reference-section .reference-section-about .reference-section-text{
+        width: 90%;
+        padding-top: 1rem;
+    }
+    .reference-section .reference-section-about .reference-section-text p{
+        font-size: .8rem;
+    }
+    .reference-section  .reference-section-gallery{
+        width: 95%;
+        margin: 50px auto 0;
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: 10px;
+        justify-content: center;
+    }
+    .home .carousel-control-next,
+	.home .carousel-control-prev{
+		display: none;
+	}
+	.home .carousel-indicators button{
+		height: 40px;
+		width: 40px;
+	}
+	.home .carousel-item h2{
+		font-size: 45px;
+	}
+	.home .carousel-item p{
+		font-size: 22px;
+	}
+    .home .carousel-item{
+        min-height: 48vh;
+    }
+    .home .carousel-inner .about .text{
+        height: 60px;
+    }
+    .home .carousel-inner .about{
+        width: 50%;
+    }
+    .home .carousel-inner .text h2{
+        font-size: 1.3rem;
+    }
 }
-
+@media screen and (max-width:640px){
+    .home .carousel-inner .about{
+        width: 60%;
+    }
+    .home .carousel-inner .text h2{
+        font-size: 1.1rem;
+    }
+}
 @media screen and (max-width:565px){
     
     header .header-up .language{
@@ -1937,5 +1940,37 @@ footer .container-fluid .fotTight img{
     footer .container-fluid .fotTight h4{
         font-size: .85rem;
     }
+    header .header-up .connection {
+        display: flex;
+        flex-direction: column;
+        padding:5px 0px 5px 10px;
+    }
+    header .container{
+        padding: 0px;
+    }
+    header .header-up .language{
+        padding-right: 10px;
+    }
+  .vs-menu-area{
+    max-width: 100%;
+  }
+  header .col-sm-6{
+      width: 50% !important;
+  }
+  header .header-down{
+      min-height: 70px;
+  }
+  .navbar-brand{
+      padding-top: 0;
+  }
+  .home .carousel-item{
+    min-height: 33vh;
+}
+.home .carousel-inner .about{
+    width: 70%;
+}
+.home .carousel-inner .text h2{
+    font-size: 1rem;
+}
 }
 /*FOOTER SECTION END=============================*/
