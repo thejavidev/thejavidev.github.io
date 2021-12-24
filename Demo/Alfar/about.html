@@ -7,6 +7,7 @@
     <title>Logistik</title>
     <link rel="stylesheet" href="css/plugins/bootstrap.min.css">
     <link rel="stylesheet" href="css/plugins/swiper.min.css">
+    <link rel="stylesheet icon" href="img/lgico.ico">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
 </head>
@@ -87,7 +88,7 @@
     <div class="vs-menu-area">
         <button class="vs-menu-toggle text-theme vs-active"><i class="fas fa-times-circle"></i></button>
         <div class="mobile-logo">
-            <a class="logo imgLoad" href="index.html">
+            <a class="logo" href="index.html">
                 
             </a>
         </div>
@@ -123,9 +124,9 @@
             </div>
         </div>
         <div class="row" >
-            <div class="col-md-10" data-aos="fade-down" data-aos-duration="2000">
+            <div class="col-md-10 imgLoad" data-aos="fade-down" data-aos-duration="2000">
                 <div class="image">
-                    <img src="img/about/bg-55.jpg" alt="">
+                    <img class="lozad" data-src="img/about/bg-55.jpg" alt="">
                 </div>
             </div>
             <div class="col-md-10" data-aos="fade-down" data-aos-duration="1200">
@@ -147,16 +148,16 @@
 
 <footer class="fix">
     <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-6 fotLeft">
+        <div class="row imgLoad">
+            <div class="col-md-6 fotLeft ">
                 <div class="image">
-                    <img src="img/homePage/logo-footer.png" alt="">
+                    <img class="lozad" data-src="img/homePage/logo-footer.png" alt="">
                 </div>
             </div>
             <div class="col-md-6 fotTight">
                 <h4>Bütüb hüquqlar qorunur</h4>
                 <div class="image">
-                    <img src="img/homePage/corn.png" alt="">
+                    <img class="lozad" data-src="img/homePage/corn.png" alt="">
                 </div>
             </div>
         </div>
@@ -169,18 +170,9 @@
 <script src="js/plugins/popper.min.js"></script>
 <script src="js/plugins/swiper-bundle.min.js"></script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script>
-  
-$( ".navbar-toggler").click(function() {
-        $(".vs-menu-wrapper").addClass("vs-body-visible");
-});
-$( ".vs-menu-toggle" ).click(function() {
-        $(".vs-menu-wrapper").removeClass("vs-body-visible");
-});
-AOS.init({
-    once:true,
-});
-</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lozad.js/1.16.0/lozad.js"></script>
+<script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.js"></script>
+
 <script src="js/main.js"></script>   
 </body>
 </html>

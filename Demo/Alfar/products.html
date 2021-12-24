@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alfa-r.az</title>
+    <link rel="stylesheet icon" href="img/lgico.ico">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/plugins/bootstrap.min.css">
     <link rel="stylesheet" href="css/plugins/swiper.min.css">
@@ -123,11 +124,11 @@
                 <h2>Məhsullar</h2>
             </div>
         </div>
-        <div class="products_boxs">
+        <div class="products_boxs imgLoad">
             <a href="#">
                 <div class="product_box" data-aos="zoom-in">
                     <div class="image">
-                        <img class="fisrt" src="img/products/1.png" alt="">
+                        <img class="fisrt lozad" data-src="img/products/1.png" alt="">
                      
                         <h3>Havalandırma Sistemləri</h3>
                     </div>
@@ -136,7 +137,7 @@
             <a href="#">
                 <div class="product_box" data-aos="zoom-in">
                     <div class="image">
-                        <img class="fisrt" src="img/products/2.png" alt="">
+                        <img class="fisrt lozad" data-src="img/products/2.png" alt="">
                         
                         <h3>İsitmə və soyutma sistemləri</h3>
                     </div>
@@ -145,7 +146,7 @@
             <a href="#">
                 <div class="product_box" data-aos="zoom-in">
                     <div class="image">
-                        <img class="fisrt" src="img/products/3.png" alt="">
+                        <img class="fisrt lozad" data-src="img/products/3.png" alt="">
                       
                         <h3>Su və kanalizasiya sistemləri</h3>
                     </div>
@@ -154,7 +155,7 @@
             <a href="#">
                 <div class="product_box" data-aos="zoom-in">
                     <div class="image">
-                        <img class="fisrt" src="img/products/4.png" alt="">
+                        <img class="fisrt lozad" data-src="img/products/4.png" alt="">
                       
                         <h3>Avtomatik yanğın söndürmə və tüstü sovurma</h3>
                     </div>
@@ -163,7 +164,7 @@
             <a href="#">
                 <div class="product_box" data-aos="zoom-in">
                     <div class="image">
-                        <img class="fisrt" src="img/products/5.png" alt="">
+                        <img class="fisrt lozad" data-src="img/products/5.png" alt="">
                      
                         <h3>Qazanxana və Nasosxana sistemləri</h3>
                     </div>
@@ -172,7 +173,7 @@
             <a href="#">
                 <div class="product_box" data-aos="zoom-in">
                     <div class="image">
-                        <img class="fisrt" src="img/products/6.png" alt="">
+                        <img class="fisrt lozad" data-src="img/products/6.png" alt="">
                    
                         <h3>Elektrik Sistemləri</h3>
                     </div>
@@ -181,16 +182,16 @@
             <a href="#">
                 <div class="product_box" data-aos="zoom-in">
                     <div class="image">
-                        <img class="fisrt" src="img/products/7.png" alt="">
+                        <img class="fisrt lozad" data-src="img/products/7.png" alt="">
             
                         <h3>Rabitə (zəif axın) sistemləri</h3>
                     </div>
                 </div>
             </a>
             <a href="#">
-                <div class="product_box" data-aos="zoom-in">
+                <div class="product_box " data-aos="zoom-in">
                     <div class="image">
-                        <img class="fisrt" src="img/products/8.png" alt="">
+                        <img class="fisrt lozad" data-src="img/products/8.png" alt="">
  
                         <h3>Transformator</h3>
                     </div>
@@ -209,16 +210,16 @@
 
 <footer class="fix">
     <div class="container-fluid">
-        <div class="row">
+        <div class="row imgLoad">
             <div class="col-md-6 fotLeft">
                 <div class="image">
-                    <img src="img/homePage/logo-footer.png" alt="">
+                    <img class="lozad" data-src="img/homePage/logo-footer.png" alt="">
                 </div>
             </div>
             <div class="col-md-6 fotTight">
                 <h4>Bütüb hüquqlar qorunur</h4>
                 <div class="image">
-                    <img src="img/homePage/corn.png" alt="">
+                    <img class="lozad" data-src="img/homePage/corn.png" alt="">
                 </div>
             </div>
         </div>
@@ -232,18 +233,8 @@
 <script src="js/plugins/popper.min.js"></script>
 <script src="js/plugins/swiper-bundle.min.js"></script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script>
-  
-$( ".navbar-toggler").click(function() {
-        $(".vs-menu-wrapper").addClass("vs-body-visible");
-});
-$( ".vs-menu-toggle" ).click(function() {
-        $(".vs-menu-wrapper").removeClass("vs-body-visible");
-});
-AOS.init({
-    once:true,
-});
-</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lozad.js/1.16.0/lozad.js"></script>
+<script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.js"></script>
  <script src="js/main.js"></script>   
 </body>
 </html>

@@ -55,5 +55,29 @@ window.addEventListener("scroll",function(){
         document.querySelector(".header-down").classList.remove("active");
     }
 });
+window.addEventListener("load",()=>{
+    $(function () {
+      $.each(function () {
+        $(this).load(file, function () {
+          $("body").imagesLoaded().progress(onProgress);
+        });
+      });
+    });
+    AOS.init({
+        once:true,
+    });
+const observer = lozad();
+observer.observe();
+    function onProgress(imgLoad, image) {
+      var $item = $(image.img).parents(".imgLoad");
+      $item.addClass("loaded");
+    }
+  });
 
+$( ".navbar-toggler").click(function() {
+    $(".vs-menu-wrapper").addClass("vs-body-visible");
+});
+$( ".vs-menu-toggle" ).click(function() {
+    $(".vs-menu-wrapper").removeClass("vs-body-visible");
+});
 

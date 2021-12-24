@@ -7,6 +7,7 @@
     <title>Logistik</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet icon" href="img/lgico.ico">
     <link rel="stylesheet" href="css/plugins/bootstrap.min.css">
     <link rel="stylesheet" href="css/plugins/swiper.min.css">
     <link rel="stylesheet" href="css/main.css">
@@ -125,35 +126,35 @@
             </div>
         </div>
         <div class="row">
-            <div class="certs">
+            <div class="certs imgLoad">
                <a data-fancybox="gallery" data-src="/img/certificats/1.jpg" class="cert" data-aos="zoom-in" >
                 <div class="cert_card">
-                   <img src="img/certificats/1.jpg" alt="">
+                   <img class="lozad" data-src="img/certificats/1.jpg" alt="">
                 </div>
                </a>
                <a  data-fancybox="gallery" data-src="/img/certificats/2.jpg" class="cert" data-aos="zoom-in"> 
                 <div class="cert_card">
-                   <img src="img/certificats/2.jpg" alt="">
+                   <img class="lozad" data-src="img/certificats/2.jpg" alt="">
                 </div>
                </a>
                <a data-fancybox="gallery" data-src="/img/certificats/3.jpg" class="cert" data-aos="zoom-in">
                 <div class="cert_card">
-                   <img src="img/certificats/3.jpg" alt="">
+                   <img class="lozad" data-src="img/certificats/3.jpg" alt="">
                 </div>
                </a>
                <a  data-fancybox="gallery" data-src="/img/certificats/4.jpg" class="cert" data-aos="zoom-in">
                 <div class="cert_card">
-                   <img src="img/certificats/4.jpg" alt="">
+                   <img class="lozad" data-src="img/certificats/4.jpg" alt="">
                 </div>
                </a>
                <a  data-fancybox="gallery" data-src="/img/certificats/5.jpg" class="cert" data-aos="zoom-in">
                 <div class="cert_card">
-                   <img src="img/certificats/5.jpg" alt="">
+                   <img class="lozad" data-src="img/certificats/5.jpg" alt="">
                 </div>
                </a>
                <a  data-fancybox="gallery" data-src="/img/certificats/6.jpg" class="cert" data-aos="zoom-in">
                 <div class="cert_card">
-                   <img src="img/certificats/6.jpg" alt="">
+                   <img class="lozad" data-src="img/certificats/6.jpg" alt="">
                 </div>
                </a>
             </div>
@@ -169,16 +170,16 @@
 
 <footer class="fix">
     <div class="container-fluid">
-        <div class="row">
+        <div class="row imgLoad">
             <div class="col-md-6 fotLeft">
                 <div class="image">
-                    <img src="img/homePage/logo-footer.png" alt="">
+                    <img class="lozad" data-src="img/homePage/logo-footer.png" alt="">
                 </div>
             </div>
             <div class="col-md-6 fotTight">
                 <h4>Bütüb hüquqlar qorunur</h4>
                 <div class="image">
-                    <img src="img/homePage/corn.png" alt="">
+                    <img class="lozad" data-src="img/homePage/corn.png" alt="">
                 </div>
             </div>
         </div>
@@ -192,18 +193,8 @@
 <script src="js/plugins/swiper-bundle.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script>
-  
-$( ".navbar-toggler").click(function() {
-        $(".vs-menu-wrapper").addClass("vs-body-visible");
-});
-$( ".vs-menu-toggle" ).click(function() {
-        $(".vs-menu-wrapper").removeClass("vs-body-visible");
-});
-AOS.init({
-    once:true,
-});
-</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lozad.js/1.16.0/lozad.js"></script>
+<script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.js"></script>
  <script src="js/main.js"></script>   
 </body>
 </html>
