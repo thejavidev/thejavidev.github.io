@@ -79,11 +79,19 @@ header .header-up .connection a{
     color: var(--colorFF);
     padding-right: 20px;
 }
+header .header-up .connection a:hover{
+    transition: .4s ease-out;
+    color: var(--color00);
+    -webkit-transition: .4s ease-out;
+    -moz-transition: .4s ease-out;
+    -ms-transition: .4s ease-out;
+    -o-transition: .4s ease-out;
+}
 header .header-up .connection a i{
     padding-right: 10px;
 }
 header .header-up .socials{
-    padding-top: 6px;
+    padding-top: 2px;
     width: 30%;
     margin-bottom: 0rem !important;
 }
@@ -100,6 +108,14 @@ header .header-up .socials a{
 header .header-up .socials li i{
     color: var(--colorFF);
     padding-right: 5px;
+}
+header .header-up .socials li i:hover{
+    transition: .4s ease-out;
+    color: var(--color00);
+    -webkit-transition: .4s ease-out;
+    -moz-transition: .4s ease-out;
+    -ms-transition: .4s ease-out;
+    -o-transition: .4s ease-out;
 }
 header .header-up .socials a:hover{
     color: var(--color172);
@@ -121,9 +137,12 @@ header .header-up .language select{
     border: none;
     outline: none;
     color: var(--colorFF);
+    cursor: pointer;
 }
 header .header-up .language select .option{
-    color: var(--color00);
+    color: var(--colorFF);
+    background: var(--colorE42);
+
 }
 /**HEADER UP END---------*/
 
@@ -221,6 +240,7 @@ header .navbar-expand-xl .navbar-collapse{
     font-size: 20px;
     padding: 0.5rem 1rem;
     transition:all .3s;
+    padding-top: 20px;
 }
 .vs-menu-wrapper .vs-mobile-menu:hover,
 .vs-menu-wrapper .vs-mobile-menu:focus{
@@ -282,8 +302,8 @@ header .navbar-expand-xl .navbar-collapse{
   -o-transition: all .3s;
 }
 .vs-menu-wrapper .nav-item .nav-link.active{
- color: var(--color00);
- font-weight: 400;
+ color: var(--colorF5);
+ font-weight: 600;
  letter-spacing: 3px;
 }
 .vs-menu-wrapper{
@@ -1203,65 +1223,53 @@ header .header-up .language .mobileMenu{
 /*PRODUCTS DETAILS SECTION  SECTION END=============================*/
 .productdetils-section{
     position: relative;
-    min-height: calc(100vh - 210px);
+    min-height: 100vh;
+    overflow: hidden !important;
 }
-.productdetils-section  .global_text{
-    margin-top: 4rem;
+.productdetils-section .global_text{
+    padding-top: 6rem;
 }
-.productdetils-section  .productdetils-section-about{
-    width: 100%;
-    text-align: center;
+.productdetils-section .productdetils-section-gallery{
     display: flex;
-    display: -webkit-flex;
     justify-content: center;
-    -webkit-justify-content:center;
 }
-.productdetils-section  .productdetils-section-about .productdetils-section-text{
-    width: 50%;
-    padding-top: 2rem;
-    padding-bottom: 8rem;
+.productdetils-section .productdetils-section-gallery .image{
+    width: 30%;
+    margin-top: 3rem;
 }
-.productdetils-section  .productdetils-section-about .productdetils-section-text p{
-    font-size: 1rem;
+.productdetils-section .productdetils-section-about{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    padding: 0px 150px 0px 150px;
+}
+.productdetils-section .productdetils-section-about p{
+    width: 100%;
     text-align: justify;
 }
-.productdetils-section  .productdetils-section-gallery{
-    width: 30%;
-    margin: 70px auto 0;
-    display: flex;
-    -webkit-justify-content: center;
-    justify-content: center;
-    align-items: center;
-    cursor: default;
-   
+
+@media screen  and (max-width:991px) {
+    .productdetils-section .productdetils-section-gallery .image{
+        padding-bottom: 4rem;
+    }
+   .productdetils-section .global_text h2{
+    font-size: 1.2rem;
+    }
+    .productdetils-section .productdetils-section-about{
+        padding: 0px 100px 0px 100px;
+    }
 }
-.productdetils-section  .productdetils-section-gallery div{
-    box-shadow: 0 8px 20px rgb(0 0 0 / 50%);
-}
-.productdetils-section  .productdetils-section-gallery#margin{
-    padding-bottom: 2rem !important;
-}
-@media screen  and (max-width:991px){
-    .productdetils-section  .productdetils-section-gallery{
+@media screen  and (max-width:767px){
+    .productdetils-section .productdetils-section-gallery .image{
         width: 90%;
     }
-    .productdetils-section .productdetils-section-about .productdetils-section-text{
-        width: 90%;
+    .productdetils-section .productdetils-section-about{
+        padding: 0px 20px 0px 20px;
     }
-    .productdetils-section .global_text{
-        margin-top: 1.8rem;
+    .productdetils-section .productdetils-section-about p{
+        font-size: .74rem;
     }
-    .productdetils-section .global_text h2{
-        margin-bottom: 0rem;
-        font-size: .95rem;
-    }
-    .productdetils-section .productdetils-section-gallery{
-        margin: 35px auto 0;
-    }
-    .productdetils-section .productdetils-section-about .productdetils-section-text p{
-        font-size: .7rem;
-    }
-}
+} 
 /*PRODUCTS DETAILS SECTION END=============================*/
 
 
