@@ -56,6 +56,12 @@ window.addEventListener("scroll",function(){
     }
 });
 window.addEventListener("load",()=>{
+
+    document.querySelector(".load").classList.add("active");
+	setTimeout(function(){
+		document.querySelector(".load").style.display="none";
+       
+	},600);
     $(function () {
       $.each(function () {
         $(this).load(file, function () {
