@@ -47,7 +47,9 @@ a{
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
 }
-
+.fix{
+    overflow: hidden !important;
+}
 
 /**HEADER SECTION START=============================*/
 header{
@@ -163,11 +165,11 @@ header .header-down.active{
     top: 0;
     left: 0;
     right: 0;
-    transition: .1s linear;
-    -webkit-transition: .1s linear;
-    -moz-transition: .1s linear;
-    -ms-transition: .1s linear;
-    -o-transition: .1s linear;
+    transition: .4s linear;
+    -webkit-transition: .4s linear;
+    -moz-transition: .4s linear;
+    -ms-transition: .4s linear;
+    -o-transition: .4s linear;
 }
 header .header-down .navbar{
     position: relative;
@@ -521,9 +523,11 @@ header .header-up .language .mobileMenu{
 /**MAIN SLIDER SECTION START=============================*/
 .home .carousel-item{
 	min-height: 100vh;
-	background-position: center;
+	background-position: center center;
 	background-size: cover;
+    background-repeat: no-repeat;
 	position: relative;
+    background-attachment: fixed;
 	z-index: 1;
 }
 
@@ -587,6 +591,7 @@ header .header-up .language .mobileMenu{
 	height: 70px;
 	width: 70px;
 	margin: 0 5px;
+    
 	border-radius: 50%;
 	background-position: center;
 	background-size: cover;
@@ -914,7 +919,7 @@ header .header-up .language .mobileMenu{
 /*PARTNERS SECTION SLIDER SECTION START=============================*/
 .partners-section{
  
-    min-height: 75vh;
+    min-height: 80vh;
 }
 .partners-section .global_text{
     margin-top: 3rem;
@@ -1234,14 +1239,17 @@ header .header-up .language .mobileMenu{
     justify-content: center;
 }
 .productdetils-section .productdetils-section-gallery .image{
-    width: 30%;
+    width: 20%;
     margin-top: 3rem;
+    margin-bottom: 3rem;
+    box-shadow: 0 8px 20px rgb(0 0 0 / 10%);
 }
 .productdetils-section .productdetils-section-about{
-    margin-top: 3rem;
+    margin-top: .2rem;
     display: flex;
     justify-content: center;
     padding: 0px 150px 0px 150px;
+    margin-bottom: 10rem;
 }
 .productdetils-section .productdetils-section-about p{
     width: 100%;
@@ -1786,7 +1794,7 @@ footer .container-fluid .fotTight img{
         margin-bottom: 1.2rem;
     }
     .partners-section .partners .part{
-        margin-left: 0px;
+        margin-left: 12px;
     }
 }
 
