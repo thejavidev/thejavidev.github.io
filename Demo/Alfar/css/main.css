@@ -620,13 +620,19 @@ header .header-up .language .mobileMenu{
         padding-top: 5px;
     }
     header .container{
-        padding: 10px 20px 10px 20px;
+        padding: 0px;
     }
   .vs-menu-area{
     max-width: 100%;
   }
   header .col-sm-6{
       width: 50% !important;
+  }
+  header .header-down{
+      min-height: 70px;
+  }
+  .navbar-brand{
+      padding-top: 0;
   }
 }
 

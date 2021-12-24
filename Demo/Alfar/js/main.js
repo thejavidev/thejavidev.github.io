@@ -61,7 +61,7 @@ window.addEventListener("load",()=>{
 	setTimeout(function(){
 		document.querySelector(".load").style.display="none";
        
-	},600);
+	},1200);
     $(function () {
       $.each(function () {
         $(this).load(file, function () {
