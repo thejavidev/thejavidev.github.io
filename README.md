@@ -67,6 +67,57 @@
 </br>
 <img align="center" alt="HTML5" width="100" style="width:100%" src="https://i.ibb.co/gy46qf2/13.png" alt="project13" />
 
+<h3>14 - Bootstrap 5 Slideshow</h3>
+<a href="https://thejavidev.github.io/Bootstrap5Slideshow/index.html" target="_blank" >Demo</a>
+</br>
+<img align="center" alt="HTML5" width="100" style="width:100%" src="https://i.ibb.co/PWZZHM1/14.png" alt="project14" />
+
+<h3>15 - CV Resume</h3>
+<a href="https://thejavidev.github.io/CVResume/index.html" target="_blank" >Demo</a>
+</br>
+<img align="center" alt="HTML5" width="100" style="width:100%" src="https://i.ibb.co/w7sKWZg/15.png" alt="project15" />
+
+<h3>16 - Calendar</h3>
+<a href="https://thejavidev.github.io/Calendar/index.html" target="_blank" >Demo</a>
+</br>
+<img align="center" alt="HTML5" width="100" style="width:100%" src="https://i.ibb.co/xFnrXk8/16.png" alt="project16" />
+
+<h3>17 - Clock - 1</h3>
+<a href="https://thejavidev.github.io/Clock1/index.html" target="_blank" >Demo</a>
+</br>
+<img align="center" alt="HTML5" width="100" style="width:100%" src="https://i.ibb.co/TDQyNy2/17.png" alt="project17" />
+
+<h3>18 - Clock - 2</h3>
+<a href="https://thejavidev.github.io/ClockB/index.html" target="_blank" >Demo</a>
+</br>
+<img align="center" alt="HTML5" width="100" style="width:100%" src="https://i.ibb.co/d7psNVz/18.png" alt="project18" />
+
+<h3>19 - Contact</h3>
+<a href="https://thejavidev.github.io/Contact/index.html" target="_blank" >Demo</a>
+</br>
+<img align="center" alt="HTML5" width="100" style="width:100%" src="https://i.ibb.co/zXTrWxk/19.png" alt="project19" />
+
+<h3>20 - Counter</h3>
+<a href="https://thejavidev.github.io/Counter/index.html" target="_blank" >Demo</a>
+</br>
+<img align="center" alt="HTML5" width="100" style="width:100%" src="https://i.ibb.co/kyncXgt/20.png" alt="project20" />
+
+<h3>21 - CutPhoto</h3>
+<a href="https://thejavidev.github.io/CutPhoto/index.html" target="_blank" >Demo</a>
+</br>
+<img align="center" alt="HTML5" width="100" style="width:100%" src="https://i.ibb.co/tZCq8Q5/21.png" alt="project21" />
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
