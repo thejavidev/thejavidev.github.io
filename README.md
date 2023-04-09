@@ -52,13 +52,13 @@
 </br>
 <img align="center" alt="HTML5" width="100" style="width:100%" src="https://i.ibb.co/N9c3ZjZ/10.png" alt="project10" />
 
-<h3>11 - Animated Divs</h3>
+<h3>11 - Social Icons - 3</h3>
 <a href="https://thejavidev.github.io/AnimatedIcons/index.html" target="_blank" >Demo</a>
 </br>
 <img align="center" alt="HTML5" width="100" style="width:100%" src="https://i.ibb.co/Lz1HQR5/11.png" alt="project11" />
 
 <h3>12 - Auto Text</h3>
-<a href="https://thejavidev.github.io/AnimatedIcons/index.html" target="_blank" >Demo</a>
+<a href="https://thejavidev.github.io/AutoText/index.html" target="_blank" >Demo</a>
 </br>
 <img align="center" alt="HTML5" width="100" style="width:100%" src="https://i.ibb.co/BZHNQ9N/12.png" alt="project12" />
 
