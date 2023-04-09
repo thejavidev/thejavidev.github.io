@@ -27,6 +27,12 @@
 </br>
 <img align="center" alt="HTML5" width="100" style="width:100%" src="https://i.ibb.co/fHvxFs6/5.png" alt="agilli-cavidan-info" />
 
+<h3>6 - 3D Social Icons</h3>
+<a href="https://thejavidev.github.io/3DSocial/index.html" target="_blank" >Demo</a>
+</br>
+<img align="center" alt="HTML5" width="100" style="width:100%" src="https://i.ibb.co/Wk7hVkS/6.png" alt="agilli-cavidan-info" />
+
+
 
 
 
