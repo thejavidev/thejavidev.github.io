@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,700&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #352b48;
+    font-family: 'Poppins',sans-serif;
+}
+.calendar{
+    position: relative;
+    background: #fff;
+    width: 800px;
+    height: 450px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 15px solid #fff;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, .5);
+}
+.calendar .date {
+    width: 400px;
+    padding: 30px;
+    box-sizing: border-box;
+}
+.calendar .date h3{
+    margin: 0 0 20px;
+    padding: 0;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+}
+.calendar .date .days{
+    display: flex;
+    flex-wrap: wrap;
+}
+.calendar .date .days .day,
+.calendar .date .days .number{
+    width: 48px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calendar .date .days .day:nth-child(7),
+.calendar .date .days .number:nth-child(7n-0){
+    color: #f44336;
+    font-weight: 600;
+}
+.calendar .date .days .number.active{
+    background: #352b48;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.calendar .image{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 400px;
+    height: 100%;
+    background: #000;
+}
+.calendar .image img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
