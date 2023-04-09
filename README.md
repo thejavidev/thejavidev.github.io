@@ -122,6 +122,41 @@
 </br>
 <img align="center" alt="HTML5" width="100" style="width:100%" src="https://i.ibb.co/j3pSQVn/24.png" alt="project24" />
 
+<h3>24 - Earth</h3>
+<a href="https://thejavidev.github.io/Earth/index.html" target="_blank" >Demo</a>
+</br>
+<img align="center" alt="HTML5" width="100" style="width:100%" src="https://i.ibb.co/S6VNBLX/25.png" alt="project24" />
+
+<h3>25 - Email verification</h3>
+<a href="https://thejavidev.github.io/EmailVer/index.html" target="_blank" >Demo</a>
+</br>
+<img align="center" alt="HTML5" width="100" style="width:100%" src="https://i.ibb.co/7rW44tj/26.png" alt="project25" />
+
+<h3>26 - EmojiBar</h3>
+<a href="https://thejavidev.github.io/EmojiBar/index.html" target="_blank" >Demo</a>
+</br>
+<img align="center" alt="HTML5" width="100" style="width:100%" src="https://i.ibb.co/SvC5wkm/27.png" alt="project26" />
+
+<h3>27 - Expanding Cards</h3>
+<a href="https://thejavidev.github.io/EmojiBar/index.html" target="_blank" >Demo</a>
+</br>
+<img align="center" alt="HTML5" width="100" style="width:100%" src="https://i.ibb.co/17mkpgb/28.png" alt="project27" />
+
+<h3>28 - Fire Text</h3>
+<a href="https://thejavidev.github.io/EmojiBar/index.html" target="_blank" >Demo</a>
+</br>
+<img align="center" alt="HTML5" width="100" style="width:100%" src="https://i.ibb.co/kSqrt5r/29.png" alt="project28" />
+
+<h3>29 - Foldable Card</h3>
+<a href="https://thejavidev.github.io/FoldableCard/index.html" target="_blank" >Demo</a>
+</br>
+<img align="center" alt="HTML5" width="100" style="width:100%" src="https://i.ibb.co/Bskr45k/30.png" alt="project29" />
+
+<h3>30 - Footbals</h3>
+<a href="https://thejavidev.github.io/Footbals/index.html" target="_blank" >Demo</a>
+</br>
+<img align="center" alt="HTML5" width="100" style="width:100%" src="https://i.ibb.co/ZVGS2c8/31.png" alt="project30" />
+
 
 
 
