@@ -207,9 +207,52 @@
 <img align="center" alt="HTML5" width="100" style="width:100%" src="https://i.ibb.co/HBSR0pq/41.png" alt="Loading4" />
 
 <h3>42 - Loading - 5</h3>
-<a href="https://thejavidev.github.io/loading/index.html" target="_blank" >Demo</a>
+<a href="https://thejavidev.github.io/Loading6/index.html" target="_blank" >Demo</a>
 </br>
 <img align="center" alt="HTML5" width="100" style="width:100%" src="https://i.ibb.co/CVynvmM/42.png" alt="Loading5" />
+
+<h3>43 - Memory Game</h3>
+<a href="https://thejavidev.github.io/MemoryGame/index.html" target="_blank" >Demo</a>
+</br>
+<img align="center" alt="HTML5" width="100" style="width:100%" src="https://i.ibb.co/ZYwcp03/43.png" alt="MemoryGame" />
+
+<h3>44 - Menu - 2</h3>
+<a href="https://thejavidev.github.io/Menu/index.html" target="_blank" >Demo</a>
+</br>
+<img align="center" alt="HTML5" width="100" style="width:100%" src="https://i.ibb.co/nL8Gfy6/44.png" alt="Menu2" />
+
+<h3>45 - MenuBar</h3>
+<a href="https://thejavidev.github.io/MenuBar/index.html" target="_blank" >Demo</a>
+</br>
+<img align="center" alt="HTML5" width="100" style="width:100%" src="https://i.ibb.co/rmF52Tk/45.png" alt="MenuBar" />
+
+<h3>46 - Neon Text</h3>
+<a href="https://thejavidev.github.io/NeonText/index.html" target="_blank" >Demo</a>
+</br>
+<img align="center" alt="HTML5" width="100" style="width:100%" src="https://i.ibb.co/prNhwDs/46.png" alt="NeonText" />
+
+<h3>47 - NotePad</h3>
+<a href="https://thejavidev.github.io/NotePad/index.html" target="_blank" >Demo</a>
+</br>
+<img align="center" alt="HTML5" width="100" style="width:100%" src="https://i.ibb.co/grDZ1m1/47.png" alt="NotePad" />
+
+<h3>48 - OurTeam</h3>
+<a href="https://thejavidev.github.io/OurTeam/index.html" target="_blank" >Demo</a>
+</br>
+<img align="center" alt="HTML5" width="100" style="width:100%" src="https://i.ibb.co/PYgbrt6/48.png" alt="OurTeam" />
+
+<h3>49 - PepsiCard</h3>
+<a href="https://thejavidev.github.io/PepsiCard/index.html" target="_blank" >Demo</a>
+</br>
+<img align="center" alt="HTML5" width="100" style="width:100%" src="https://i.ibb.co/9bfBX84/49.png" alt="OurTeam" />
+
+<h3>50 - PhoneSlide</h3>
+<a href="https://thejavidev.github.io/PhoneSlide/index.html" target="_blank" >Demo</a>
+</br>
+<img align="center" alt="HTML5" width="100" style="width:100%" src="https://i.ibb.co/qCF13jh/50.png" alt="OurTeam" />
+
+
+
 
 
 
