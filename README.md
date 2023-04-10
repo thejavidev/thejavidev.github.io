@@ -244,12 +244,102 @@
 <h3>49 - PepsiCard</h3>
 <a href="https://thejavidev.github.io/PepsiCard/index.html" target="_blank" >Demo</a>
 </br>
-<img align="center" alt="HTML5" width="100" style="width:100%" src="https://i.ibb.co/9bfBX84/49.png" alt="OurTeam" />
+<img align="center" alt="HTML5" width="100" style="width:100%" src="https://i.ibb.co/9bfBX84/49.png" alt="PepsiCard" />
 
 <h3>50 - PhoneSlide</h3>
 <a href="https://thejavidev.github.io/PhoneSlide/index.html" target="_blank" >Demo</a>
 </br>
-<img align="center" alt="HTML5" width="100" style="width:100%" src="https://i.ibb.co/qCF13jh/50.png" alt="OurTeam" />
+<img align="center" alt="HTML5" width="100" style="width:100%" src="https://i.ibb.co/qCF13jh/50.png" alt="PhoneSlide" />
+
+<h3>51 - Porfile Cover</h3>
+<a href="https://thejavidev.github.io/PorfileCoverC/index.html" target="_blank" >Demo</a>
+</br>
+<img align="center" alt="HTML5" width="100" style="width:100%" src="https://i.ibb.co/QKm9wgJ/51.png" alt="PorfileCoverC" />
+
+<h3>52 - Product Card</h3>
+<a href="https://thejavidev.github.io/ProductCard/index.html" target="_blank" >Demo</a>
+</br>
+<img align="center" alt="HTML5" width="100" style="width:100%" src="https://i.ibb.co/2tDrjv6/52.png" alt="ProductCard" />
+
+<h3>53 - Progress Steps</h3>
+<a href="https://thejavidev.github.io/ProgressSteps/index.html" target="_blank" >Demo</a>
+</br>
+<img align="center" alt="HTML5" width="100" style="width:100%" src="https://i.ibb.co/FmRRHs9/53.png" alt="ProgressSteps" />
+
+<h3>54 - Puzzle Game</h3>
+<a href="https://thejavidev.github.io/PuzzleGame/index.html" target="_blank" >Demo</a>
+</br>
+<img align="center" alt="HTML5" width="100" style="width:100%" src="https://i.ibb.co/Tgk2CB3/54.png" alt="PuzzleGame" />
+
+<h3>55 - Rain Project</h3>
+<a href="https://thejavidev.github.io/RainProject/index.html" target="_blank" >Demo</a>
+</br>
+<img align="center" alt="HTML5" width="100" style="width:100%" src="https://i.ibb.co/hd7q1KD/55.png" alt="RainProject" />
+
+<h3>56 - Rating</h3>
+<a href="https://thejavidev.github.io/Rating/index.html" target="_blank" >Demo</a>
+</br>
+<img align="center" alt="HTML5" width="100" style="width:100%" src="https://i.ibb.co/5hmZRgS/56.png" alt="Rating" />
+
+<h3>57 - Responsive Menu</h3>
+<a href="https://thejavidev.github.io/ResponsiveMenu/index.html" target="_blank" >Demo</a>
+</br>
+<img align="center" alt="HTML5" width="100" style="width:100%" src="https://i.ibb.co/0s59Fpq/57.png" alt="ResponsiveMenu" />
+
+<h3>58 - Rgb Button</h3>
+<a href="https://thejavidev.github.io/RgbButton/index.html" target="_blank" >Demo</a>
+</br>
+<img align="center" alt="HTML5" width="100" style="width:100%" src="https://i.ibb.co/mvpd8Jk/58.png" alt="RgbButton" />
+
+<h3>59 - Rgb Cards</h3>
+<a href="https://thejavidev.github.io/RgbCards/index.html" target="_blank" >Demo</a>
+</br>
+<img align="center" alt="HTML5" width="100" style="width:100%" src="https://i.ibb.co/gZGbXfB/59.png" alt="RgbCards" />
+
+<h3>60 - Rgb Navigation Bar</h3>
+<a href="https://thejavidev.github.io/RgbNavigationBar/index.html" target="_blank" >Demo</a>
+</br>
+<img align="center" alt="HTML5" width="100" style="width:100%" src="https://i.ibb.co/bLDj4wQ/60.png"  alt="RgbNavigationBar" />
+
+<h3>61 - Shattered Menu</h3>
+<a href="https://thejavidev.github.io/ShatteredMenu/index.html" target="_blank" >Demo</a>
+</br>
+<img align="center" alt="HTML5" width="100" style="width:100%" src="https://i.ibb.co/X7G22B9/61.png"  alt="ShatteredMenu" />
+
+<h3>62 - Signup Signin</h3>
+<a href="https://thejavidev.github.io/SignupSignin/index.html" target="_blank" >Demo</a>
+</br>
+<img align="center" alt="HTML5" width="100" style="width:100%" src="https://i.ibb.co/cvk90sb/62.png"   alt="SignupSignin" />
+
+<h3>63 - Slideshow</h3>
+<a href="https://thejavidev.github.io/Slideshow/index.html" target="_blank" >Demo</a>
+</br>
+<img align="center" alt="HTML5" width="100" style="width:100%" src="https://i.ibb.co/9NK5mJZ/63.png"    alt="Slideshow" />
+
+<h3>64 - Subscribe</h3>
+<a href="https://thejavidev.github.io/Subscribe/index.html" target="_blank" >Demo</a>
+</br>
+<img align="center" alt="HTML5" width="100" style="width:100%" src="https://i.ibb.co/R3pmVtt/64.png"   alt="Subscribe" />
+
+<h3>65 - Verify Account</h3>
+<a href="https://thejavidev.github.io/VerifyAccount/index.html" target="_blank" >Demo</a>
+</br>
+<img align="center" alt="HTML5" width="100" style="width:100%" src="https://i.ibb.co/F4JCM2h/65.png"   alt="VerifyAccount" />
+
+<h3>66 - Vertical Slider</h3>
+<a href="https://thejavidev.github.io/VerticalSlider/index.html" target="_blank" >Demo</a>
+</br>
+<img align="center" alt="HTML5" width="100" style="width:100%" src="https://i.ibb.co/cDVdprf/66.png"   alt="VerticalSlider" />
+
+<h3>67 - Volume Up</h3>
+<a href="https://thejavidev.github.io/VolumeUp/index.html" target="_blank" >Demo</a>
+</br>
+<img align="center" alt="HTML5" width="100" style="width:100%" src="https://i.ibb.co/Px3fST7/67.png"    alt="VolumeUp" />
+
+<h3>68 - Watch And Colors</h3>
+<a href="https://thejavidev.github.io/WatchAndColors/index.html" target="_blank" >Demo</a>
+</br>
+<img align="center" alt="HTML5" width="100" style="width:100%" src="https://i.ibb.co/7t11fpN/68.png"    alt="WatchAndColors" />
 
 
 
