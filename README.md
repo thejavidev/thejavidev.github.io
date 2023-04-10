@@ -11,7 +11,6 @@
 </br>
 <img align="center" alt="HTML5" width="100" style="width:100%" src="https://i.ibb.co/WF17ccV/3.png" alt="project2" />
 
-
 <h3>3 - 3D FOOD </h3>
 <a href="https://thejavidev.github.io/3DFood/index.html" target="_blank" >Demo</a>
 </br>
@@ -117,70 +116,102 @@
 </br>
 <img align="center" alt="HTML5" width="100" style="width:100%" src="https://i.ibb.co/pXFnmm8/23.png" alt="project23" />
 
-<h3>23 - Dropdown Menu - 2</h3>
+<h3>24 - Dropdown Menu - 2</h3>
 <a href="https://thejavidev.github.io/DropdownMenu2/index.html" target="_blank" >Demo</a>
 </br>
 <img align="center" alt="HTML5" width="100" style="width:100%" src="https://i.ibb.co/j3pSQVn/24.png" alt="project24" />
 
-<h3>24 - Earth</h3>
+<h3>25 - Earth</h3>
 <a href="https://thejavidev.github.io/Earth/index.html" target="_blank" >Demo</a>
 </br>
 <img align="center" alt="HTML5" width="100" style="width:100%" src="https://i.ibb.co/S6VNBLX/25.png" alt="project24" />
 
-<h3>25 - Email verification</h3>
+<h3>26 - Email verification</h3>
 <a href="https://thejavidev.github.io/EmailVer/index.html" target="_blank" >Demo</a>
 </br>
 <img align="center" alt="HTML5" width="100" style="width:100%" src="https://i.ibb.co/7rW44tj/26.png" alt="project25" />
 
-<h3>26 - EmojiBar</h3>
+<h3>27 - EmojiBar</h3>
 <a href="https://thejavidev.github.io/EmojiBar/index.html" target="_blank" >Demo</a>
 </br>
 <img align="center" alt="HTML5" width="100" style="width:100%" src="https://i.ibb.co/SvC5wkm/27.png" alt="project26" />
 
-<h3>27 - Expanding Cards</h3>
+<h3>28 - Expanding Cards</h3>
 <a href="https://thejavidev.github.io/EmojiBar/index.html" target="_blank" >Demo</a>
 </br>
 <img align="center" alt="HTML5" width="100" style="width:100%" src="https://i.ibb.co/17mkpgb/28.png" alt="project27" />
 
-<h3>28 - Fire Text</h3>
+<h3>29 - Fire Text</h3>
 <a href="https://thejavidev.github.io/EmojiBar/index.html" target="_blank" >Demo</a>
 </br>
 <img align="center" alt="HTML5" width="100" style="width:100%" src="https://i.ibb.co/kSqrt5r/29.png" alt="project28" />
 
-<h3>29 - Foldable Card</h3>
+<h3>30 - Foldable Card</h3>
 <a href="https://thejavidev.github.io/FoldableCard/index.html" target="_blank" >Demo</a>
 </br>
 <img align="center" alt="HTML5" width="100" style="width:100%" src="https://i.ibb.co/Bskr45k/30.png" alt="project29" />
 
-<h3>30 - Footbals</h3>
+<h3>31 - Footbals</h3>
 <a href="https://thejavidev.github.io/Footbals/index.html" target="_blank" >Demo</a>
 </br>
 <img align="center" alt="HTML5" width="100" style="width:100%" src="https://i.ibb.co/ZVGS2c8/31.png" alt="project30" />
 
-<h3>31 - Hexagon Images</h3>
+<h3>32 - Hexagon Images</h3>
 <a href="https://thejavidev.github.io/HexaginImages/index.html" target="_blank" >Demo</a>
 </br>
 <img align="center" alt="HTML5" width="100" style="width:100%" src="https://i.ibb.co/L0sFKwr/32.png" alt="HexaginImages" />
 
-<h3>32 - Hover Filter Image</h3>
+<h3>33 - Hover Filter Image</h3>
 <a href="https://thejavidev.github.io/HoverFilterImg/index.html" target="_blank" >Demo</a>
 </br>
 <img align="center" alt="HTML5" width="100" style="width:100%" src="https://i.ibb.co/CK3NNsT/33.png" alt="HoverFilterImg" />
                                                                                                                         
-<h3>33 - Hover Me</h3>
+<h3>34 - Hover Me</h3>
 <a href="https://thejavidev.github.io/HoverMe/index.html" target="_blank" >Demo</a>
 </br>
 <img align="center" alt="HTML5" width="100" style="width:100%" src="https://i.ibb.co/KrhFY2F/34.png" alt="HoverMe" />
 
-<h3>34 - Hover Menu</h3>
+<h3>35 - Hover Menu</h3>
 <a href="https://thejavidev.github.io/HoverMenu/index.html" target="_blank" >Demo</a>
 </br>
 <img align="center" alt="HTML5" width="100" style="width:100%" src="https://i.ibb.co/JrGn3VM/35.png" alt="HoverMenu" />
 
-<h3>35 - Hover Menu - 2</h3>
+<h3>36 - Hover Menu - 2</h3>
 <a href="https://thejavidev.github.io/HoverMenu2/index.html" target="_blank" >Demo</a>
 </br>
 <img align="center" alt="HTML5" width="100" style="width:100%" src="https://i.ibb.co/5r7k8H4/36.png" alt="HoverMenu2" />
+
+<h3>37 - Image Hover</h3>
+<a href="https://thejavidev.github.io/ImageHover/index.html" target="_blank" >Demo</a>
+</br>
+<img align="center" alt="HTML5" width="100" style="width:100%" src="https://i.ibb.co/yF3rRmZ/37.png" alt="ImageHover" />
+
+<h3>38 - Loading</h3>
+<a href="https://thejavidev.github.io/Loader/index.html" target="_blank" >Demo</a>
+</br>
+<img align="center" alt="HTML5" width="100" style="width:100%" src="https://i.ibb.co/g412XGh/38.png" alt="Loading" />
+
+<h3>39 - Loading - 2</h3>
+<a href="https://thejavidev.github.io/Loading3/index.html" target="_blank" >Demo</a>
+</br>
+<img align="center" alt="HTML5" width="100" style="width:100%" src="https://i.ibb.co/MfGDfBH/39.png" alt="Loading2" />
+
+<h3>40 - Loading - 3</h3>
+<a href="https://thejavidev.github.io/Loading4/index.html" target="_blank" >Demo</a>
+</br>
+<img align="center" alt="HTML5" width="100" style="width:100%" src="https://i.ibb.co/s9BqrXs/40.png" alt="Loading3" />
+
+<h3>41 - Loading - 4</h3>
+<a href="https://thejavidev.github.io/Loading5/index.html" target="_blank" >Demo</a>
+</br>
+<img align="center" alt="HTML5" width="100" style="width:100%" src="https://i.ibb.co/HBSR0pq/41.png" alt="Loading4" />
+
+<h3>42 - Loading - 5</h3>
+<a href="https://thejavidev.github.io/loading/index.html" target="_blank" >Demo</a>
+</br>
+<img align="center" alt="HTML5" width="100" style="width:100%" src="https://i.ibb.co/CVynvmM/42.png" alt="Loading5" />
+
+
 
                                                                                                                         
 
